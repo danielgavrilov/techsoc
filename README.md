@@ -12,7 +12,8 @@ brew install ruby node
 
 #### Windows
 
-_Someone with Windows write this up_
+You can download Node.js [here](https://nodejs.org/en/) and Ruby [here](http://rubyinstaller.org/downloads/).
+Make sure that it's working by testing whether you have command line access to ```npm``` and ```gem```.
 
 ### 2. Clone this repository
 
