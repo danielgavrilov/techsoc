@@ -1,0 +1,5 @@
+<li>
+  <a href="{{ job.url | prepend: site.baseurl }}">
+    <strong>{{ job.title }}</strong>{% if job.company %} at {{ job.company }}{% endif %}
+  </a>
+</li>

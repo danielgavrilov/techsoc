@@ -1,0 +1,80 @@
+# Site settings
+
+title: UCLU TechSoc
+email: president@uclutech.com
+description: UCL Technology Society
+baseurl: "/website-2015" # the subpath of your site, e.g. /blog/
+url: "http://uclutech.com" # the base hostname & protocol for your site
+timezone: "Europe/London"
+
+# Social media
+
+twitter_username: uclutech
+github_username: techsoc
+facebook_username: UCLUTechSoc
+linkedin_url: https://www.linkedin.com/company/uclu-techsoc
+
+# Build settings
+
+permalink: /blog/:year/:month/:day/:title/
+highlighter: pygments
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile*
+  - node_modules
+  - package.json
+  - bower.json
+  - gulpfile.js
+
+# Collections
+
+collections:
+  members:
+  sponsors:
+  partners:
+  events:
+    output: true
+    permalink: /events/:path/
+  series:
+    output: true
+    permalink: /series/:path/
+  jobs:
+    output: true
+    permalink: /jobs/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+  redirects:
+    output: true
+    permalink: /:path/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: events
+    values:
+      layout: event
+  -
+    scope:
+      path: ""
+      type: series
+    values:
+      layout: series
+  -
+    scope:
+      path: ""
+      type: jobs
+    values:
+      layout: job
+  -
+    scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from

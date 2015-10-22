@@ -1,0 +1,54 @@
+.member-overview {
+  border: 3px solid rgba(255,255,255,.1);
+  border-radius: 6px;
+  padding: 13px;
+  text-align: center;
+  flex: 1;
+
+  .name {
+    font-size: 20px;
+    margin: 0 0 .25em;
+  }
+
+  .role {
+    font-size: 16px;
+    flex: 1;
+    color: rgba(255,255,255,.5);
+    margin: 0;
+  }
+
+  .social-media-list {
+    margin-top: 8px;
+    margin-left: -1px;
+    line-height: 24px;
+
+    .icon {
+      font-size: 24px;
+      color: rgba(255,255,255,.2);
+      transition: color 200ms linear;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+
+    a:hover .icon {
+      color: white;
+    }
+  }
+}
+
+.about-content {
+  border: 3px solid rgba(255,255,255,.1);
+  border-radius: 10px;
+  padding: 2em 2em 1.5em;
+
+  .page-heading {
+    margin-top: 0;
+  }
+
+  p {
+    font-size: 17px;
+    line-height: 1.4;
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 1em;
+  }
+}

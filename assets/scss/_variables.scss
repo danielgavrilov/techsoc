@@ -1,0 +1,46 @@
+// Bootstrap
+
+$brand-primary: #000033;
+$brand-primary-lighter: #0E0E40;
+$body-bg: $brand-primary;
+$text-color: white;
+$font-family-sans-serif: Karla, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+$border-radius-base: 0px;
+$link-color: white;
+$link-hover-decoration: none;
+
+//== Navbar
+//
+//##
+
+// Basics of a navbar
+$navbar-height:                    auto;
+$navbar-padding-horizontal:        0;
+// $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
+$navbar-collapse-max-height:       600px;
+
+$navbar-default-color:             #777;
+$navbar-default-bg:                transparent;
+$navbar-default-border:            transparent;
+
+// Navbar links
+$navbar-default-link-color:                white;
+$navbar-default-link-hover-color:          white;
+$navbar-default-link-active-color:         white;
+$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
+$navbar-default-link-disabled-color:       rgba(255,255,255,.75);
+
+// Navbar brand label
+$navbar-default-brand-color:               $navbar-default-link-color !default;
+$navbar-default-brand-hover-color:         darken($navbar-default-brand-color, 10%) !default;
+$navbar-default-brand-hover-bg:            transparent !default;
+
+// Navbar toggle
+$navbar-default-toggle-hover-bg:           #ddd !default;
+$navbar-default-toggle-icon-bar-bg:        #888 !default;
+$navbar-default-toggle-border-color:       #ddd !default;
+
+// Custom
+
+$max-site-width: 1100px;

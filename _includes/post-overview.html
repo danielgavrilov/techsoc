@@ -1,0 +1,18 @@
+<li class="post-overview">
+  <div class="row">
+    <div class="col-sm-2">
+      <div class="date">{{ post.date | date: "%d %b %Y" }}</div>
+    </div>
+
+    <div class="col-sm-10">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="title">
+          {{ post.title }}
+        </h2>
+        <div class="post-content">
+          {{ post.excerpt }}
+        </div>
+      </a>
+    </div>
+  </div>
+</li>

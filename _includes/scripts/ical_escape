@@ -1,0 +1,1 @@
+{{ include.text | strip_html | strip | newline_to_br | replace: '<br />', '\n' | strip_newlines | replace: '&amp;', '&' | replace: ',', '\,' | replace: ';', '\;' | replace: '\', '\\' }}

@@ -1,0 +1,12 @@
+<a href="{{ project.url }}" style="background-color: #{{ project.color }}">
+  <img src="{{ project.logo | prepend: '/assets/images/projects/' | prepend: site.baseurl }}">
+  <h3>{{ project.name }}</h3>
+  <small>{{ project.category }}</small>
+  {% if project.leads %}
+  <ul>
+    {% for lead in project.leads %}
+      <li><a href="{{ lead.link }}">{{ lead.name }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</a>

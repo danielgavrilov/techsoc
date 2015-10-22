@@ -1,0 +1,28 @@
+---
+layout: page
+title: Events
+tagline: the things we're best at
+permalink: /events/
+navigation: true
+order: 3
+---
+
+{% include scripts/events_upcoming %}
+
+<h2 class="page-heading">Upcoming events</h2>
+
+<div class="row">
+  <div class="col-md-10 col-md-offset-1">
+    {% for event in events_upcoming_result %}
+      {% include event-overview.html event=event %}
+    {% endfor %}
+  </div>
+</div>
+
+<h2 class="page-heading">Event series</h2>
+
+<div class="responsive-boxes">
+  {% for series in site.series %}
+    {% include series-overview.html series=series %}
+  {% endfor %}
+</div>

@@ -1,0 +1,51 @@
+.site-footer {
+  padding: 40px 0;
+
+  .company {
+    font-size: 20px;
+    margin-bottom: 7px;
+  }
+
+  .copyright {
+    font-size: 14px;
+    color: rgba(255,255,255,.3);
+  }
+
+  .mailing-list {
+    text-align: right;
+    margin-top: 5px;
+
+    a {
+      color: rgba(255,255,255,.25);
+      transition: color 200ms linear;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+  .social-media-list {
+    font-size: 16px;
+    text-align: right;
+
+    .icon {
+      font-size: 34px;
+      margin-left: 10px;
+      color: rgba(255,255,255,.2);
+      transition: color 200ms linear;
+    }
+
+    a:hover .icon {
+      color: white;
+    }
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+  .site-footer,
+  .social-media-list,
+  .mailing-list {
+    text-align: center !important;
+  }
+}

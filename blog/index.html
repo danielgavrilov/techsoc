@@ -1,0 +1,18 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+navigation: true
+order: 5
+---
+
+<div class="row">
+  <div class="col-md-10 col-md-offset-1">
+    <ul class="posts-list">
+      {% for post in site.posts %}
+        {% include post-overview.html post=post %}
+      {% endfor %}
+    </ul>
+    <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
+</div>

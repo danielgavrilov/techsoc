@@ -1,0 +1,29 @@
+---
+layout: page
+title: Sponsors
+permalink: /sponsors/
+navigation: true
+order: 6
+---
+<div class="row">
+  <div class="col-md-10 col-md-offset-1">
+    {% for sponsor in site.sponsors | sort: 'order' %}
+    <div class="sponsor-overview">
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="{{ sponsor.logo | prepend: '/assets/images/sponsors/' | prepend: site.baseurl }}" alt="{{ sponsor.name }} logo" class="logo">
+        </div>
+        <div class="col-sm-8">
+          <h2 class="name">{{ sponsor.name }}</h2>
+          {% if sponsor.level %}
+            <h3 class="level level-{{ sponsor.level | downcase }}">{{ sponsor.level }} sponsor</h3>
+          {% endif %}
+          <div class="description">
+            {{ sponsor.content }}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

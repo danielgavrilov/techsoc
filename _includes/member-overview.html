@@ -1,0 +1,13 @@
+<div class="box">
+  <div class="member-overview">
+    <h3 class="name">{{ member.name }}</h3>
+    <h4 class="role">{{ member.role }}</h4>
+    {% if member.profiles %}
+    <div class="social-media-list">
+      {% for item in member.profiles %}
+        <a href="{{ item[1] }}" title="{{ item[0] }}"><i class="icon icon-{{ item[0] }}"></i></a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,63 @@
+.sponsor-overview {
+  border-bottom: 3px solid rgba(255,255,255,.1);
+  padding: 30px 0;
+
+  .logo {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .name {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: .25em 0;
+  }
+
+  .level {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(255,255,255,.4);
+    margin-top: 0;
+  }
+
+  .level-platinum {
+    color: rgba(255,255,255,.9);
+    text-shadow: 0 0 20px rgba(255,255,255,.55);
+  }
+
+  .level-crystal {
+    color: rgba(151, 151, 255, 0.8);
+  }
+
+  .level-gold {
+    color: rgba(216, 182, 0, 0.65);
+  }
+
+  .level-startup {}
+
+  .description {
+    font-size: 15px;
+    color: rgba(255,255,255,0.6);
+    margin-top: 1.5em;
+
+    p {
+      margin: .75em 0 0;
+    }
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+
+  .sponsor-overview {
+    text-align: center;
+
+    .logo {
+      width: 80%;
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+  }
+
+}

@@ -1,0 +1,12 @@
+{% include scripts/event_category %}
+{% assign category = event_category_result %}
+
+{% if category %}
+  <a href="{{ category.url | prepend: site.baseurl }}" class="category">
+    {% if category.label %}
+      {{ category.label }}
+    {% else %}
+      {{ category.title }}
+    {% endif %}
+  </a>
+{% endif %}

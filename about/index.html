@@ -1,0 +1,29 @@
+---
+layout: page
+title: About
+permalink: /about/
+navigation: true
+order: 2
+---
+
+
+<div class="row">
+  <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+    <div class="about-content">
+      <h2 class="page-heading">Who are we?</h2>
+      <p>We are one of the largest student-run societies, and the only all-encompassing technology society at University College London. Our membership is open to anyone and everyone in the UCL and IoE community.</p>
+      <p>We aim to make technology accessible, engaging and fun for our members, whilst encouraging a viral growth of interest in technology in the wider UCL community.</p>
+      <p>TechSoc creates a network that bridges the gap between students’ ambitions and potential careers; connecting them to those in the industry and to each other.</p>
+      <p>Our society is also a platform for the development of technical skills; engaging those new to technology and encouraging those that love it.</p>
+    </div>
+  </div>
+</div>
+
+<h2 class="page-heading">Team</h2>
+
+<div class="responsive-boxes">
+  {% assign sorted_members = site.members | sort: "order" %}
+  {% for member in sorted_members %}
+    {% include member-overview.html member=member %}
+  {% endfor %}
+</div>

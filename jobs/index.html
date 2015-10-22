@@ -1,0 +1,17 @@
+---
+layout: page
+title: Jobs
+permalink: /jobs/
+navigation: false
+order: 7
+---
+
+{% if site.jobs %}
+  <ul>
+    {% for job in site.jobs %}
+      {% include job-overview.html job=job %}
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No jobs available at the moment</p>
+{% endif %}

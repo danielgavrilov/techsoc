@@ -1,0 +1,20 @@
+---
+layout: page
+---
+
+<div class="row">
+  <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+    <div class="series-content">
+      {{ content }}
+    </div>
+    {% assign events = site.events | where: "series_id", page.id | sort: "start_time" %}
+    {% if events.size > 0 %}
+      <h2>Events</h2>
+      {% for event in events %}
+        {% include event-overview.html hide_category=true %}
+      {% endfor %}
+    {% else %}
+      No events. Check back later. Subscribe to calendar.
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,52 @@
+<footer class="site-footer">
+  <div class="wrapper container-fluid">
+
+    <div class="row">
+
+      <div class="col-sm-6">
+        <p class="company">UCLU TechSoc</p>
+        <p class="copyright">&copy; 2008 &ndash; {{ site.time | date: "%Y" }}</p>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="social-media-list">
+
+          {% if site.email %}
+            <a href="mailto:{{ site.email }}" title="Email us">
+              <i class="icon icon-email"></i>
+            </a>
+          {% endif %}
+
+          {% if site.twitter_username %}
+            <a href="https://twitter.com/{{ site.twitter_username }}" title="{{ site.twitter_username }} on Twitter">
+              <i class="icon icon-twitter"></i>
+            </a>
+          {% endif %}
+
+          {% if site.facebook_username %}
+            <a href="http://facebook.com/{{ site.facebook_username }}" title="{{ site.facebook_username }} on Facebook">
+              <i class="icon icon-facebook"></i>
+            </a>
+          {% endif %}
+
+          {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}" title="{{ site.github_username }} on Github">
+              <i class="icon icon-github"></i>
+            </a>
+          {% endif %}
+
+          {% if site.linkedin_url %}
+            <a href="{{ site.linkedin_url }}" title="LinkedIn">
+              <i class="icon icon-linkedin"></i>
+            </a>
+          {% endif %}
+
+        </div>
+        <p class="mailing-list">
+          <a href="{{ site.baseurl }}/mailing-list">Join our mailing list</a>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</footer>

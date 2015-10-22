@@ -1,0 +1,31 @@
+.navbar {
+  font-size: 16px;
+}
+
+.navbar-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  h1 {
+    font-size: 18px;
+    color: white;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    max-width: 80px;
+    margin-right: 10px;
+  }
+}
+
+.site-masthead {
+  margin-bottom: 30px;
+}

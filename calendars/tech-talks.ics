@@ -1,0 +1,6 @@
+---
+calendar_name: Tech Talks
+---
+{% capture _suppress_output %}
+  {% assign events = site.events | where: "series_id", "talks" %}
+{% endcapture %}{% include_relative _template.ics events=events %}
