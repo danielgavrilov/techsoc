@@ -1,5 +1,3 @@
-To rebuild `git commit -m 'Rebuild pages' --allow-empty`
-
 # Setup
 
 ### 1. Install Ruby & Node
