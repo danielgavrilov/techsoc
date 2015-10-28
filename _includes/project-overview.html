@@ -1,4 +1,4 @@
-<a href="{{ project.url }}" style="background-color: #{{ project.color }}">
+<a href="{{ project.url | prepend: site.baseurl }}" style="background-color: #{{ project.color }}">
   <img src="{{ project.logo | prepend: '/assets/images/projects/' | prepend: site.baseurl }}">
   <h3>{{ project.name }}</h3>
   <small>{{ project.category }}</small>
