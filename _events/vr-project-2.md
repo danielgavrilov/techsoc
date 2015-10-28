@@ -2,8 +2,8 @@
 title: "Session #2: CAN WE HAVE DESCRIPTIVE TITLES?"
 project_id: vr
 location: "Roberts 110"
-start_time: "2015-10-28T16:00:00+0000"
-end_time: "2015-10-28T17:00:00+0000"
+start_time: "2015-10-28 16:00"
+end_time: "2015-10-28 17:00"
 ---
 
 Hey everyone! We've changed the timings of the VR project session based on the Doodle so it's convienient for more people!

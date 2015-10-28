@@ -2,7 +2,7 @@
 title: The BlackRock Hackathon
 series_id: hackathons
 location: Location provided on successful application
-start_time: "2015-11-07T10:00:00+0000"
+start_time: "2015-11-07 10:00"
 end_time:
 actions:
   - label: Apply now

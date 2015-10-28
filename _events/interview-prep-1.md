@@ -2,8 +2,8 @@
 title: "Session #1"
 series_id: interview-prep
 location: Roberts 508
-start_time: "2015-10-12T17:00:00+0100"
-end_time: "2015-10-12T19:00:00+0100"
+start_time: "2015-10-12 17:00"
+end_time: "2015-10-12 19:00"
 ---
 
 Come and join TechSoc for our second social at Phineas, we'll be having casual drinks and heading out afterwards!

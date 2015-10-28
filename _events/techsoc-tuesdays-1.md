@@ -2,8 +2,8 @@
 title: TechSoc Tuesdays
 series_id: socials
 location: Phineas Bar, UCL
-start_time: "2015-10-20T19:30:00+0100"
-end_time: "2015-10-20T23:00:00+0100"
+start_time: "2015-10-20 19:30"
+end_time: "2015-10-20 23:00"
 ---
 
 Come and join TechSoc for our second social at Phineas, we'll be having casual drinks and heading out afterwards!

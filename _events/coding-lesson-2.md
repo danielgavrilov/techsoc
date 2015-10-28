@@ -2,8 +2,8 @@
 title: "Lesson #2: jQuery and Responsive Design"
 series_id: coding
 location: Darwin B15
-start_time: "2015-10-19T17:00:00+0100"
-end_time: "2015-10-19T19:00:00+0100"
+start_time: "2015-10-19 17:00"
+end_time: "2015-10-19 19:00"
 ---
 
 Totally new to tech but keen to get started? Join us for the first session of "Coding & Cookies", our weekly web development classes especially for beginners.
