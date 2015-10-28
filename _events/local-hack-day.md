@@ -2,8 +2,8 @@
 title: Local Hack Day
 series_id: hackathons
 location: Malet Place Engineering Building
-start_time: "2015-10-10T09:00:00+0100"
-end_time: "2015-10-10T21:00:00+0100"
+start_time: "2015-10-10 09:00"
+end_time: "2015-10-10 21:00"
 ---
 
 **REGISTRATION IS NOW CLOSED**

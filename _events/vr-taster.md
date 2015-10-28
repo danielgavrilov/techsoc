@@ -2,8 +2,8 @@
 title: VR Taster Session
 project_id: vr
 location: Foster Court 114
-start_time: "2015-10-12T16:00:00+0100"
-end_time: "2015-10-12T17:00:00+0100"
+start_time: "2015-10-12 16:00"
+end_time: "2015-10-12 17:00"
 ---
 
 Hey guys! We're starting projects with a VR taster session! You will be able to come along and get to play with the Oculus Rift and Google Cardboard so you can experience some demos on it for yourself!

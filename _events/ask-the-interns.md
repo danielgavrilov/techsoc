@@ -1,8 +1,8 @@
 ---
 title: "Ask the Interns"
-location: "Gordon Street (25) E28 Harrie Massey LT"
-start_time: "2015-10-28T14:00:00+0000"
-end_time: "2015-10-28T16:00:00+0000"
+location: "25 Gordon Street, E28 Harrie Massey LT"
+start_time: "2015-10-28 14:00"
+end_time: "2015-10-28 16:00"
 ---
 
 It's internship-hunting season once again!

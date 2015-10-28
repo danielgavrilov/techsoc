@@ -1,11 +1,9 @@
 ---
-title: "Lesson #1: [INSERT TITLE]"
+title: "Lesson #1: UI, Basic Shapes, Transformations, Lighting & Rendering"
 series_id: blender
 location: Computer Science Labs
-start_time: "2015-10-20T16:00:00+0100"
-end_time: "2015-10-20T18:00:00+0100"
+start_time: "2015-10-20 16:00"
+end_time: "2015-10-20 18:00"
 ---
 
-We want to see you ALL on Tuesday - Phineas Bar, 6th October @9pm (straight after the Scavenger Hunt). Free entry, no tickets needed, just show up and have fun with us!!
-
-(You'll need your student ID to get to Phineas, 18+ age limit)
+Lesson 1 of the 3D Workshop, covering navigating the UI, translation, rotation and scaling, primitive shapes, and the basics of lighting and rendering.

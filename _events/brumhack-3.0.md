@@ -2,8 +2,8 @@
 title: "BrumHack 3.0"
 series_id: hackathons
 location: Birmingham University
-start_time: "2015-10-24T10:30:00+0100"
-end_time: "2015-10-25T16:00:00+0000"
+start_time: "2015-10-24 10:30"
+end_time: "2015-10-25 16:00"
 actions:
   - label: Get Tickets
     url: https://brumhack.eventbrite.co.uk
