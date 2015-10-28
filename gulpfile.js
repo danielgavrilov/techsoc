@@ -49,6 +49,7 @@ gulp.task('sass', function() {
       outputStyle: "compressed",
       onError: browserSync.notify
     }))
+    .on('error', onError)
     .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], {
       cascade: true
     }))
@@ -83,3 +84,8 @@ gulp.task('watch', function() {
  * compile the jekyll site, launch BrowserSync & watch files.
  */
 gulp.task('default', ['browser-sync', 'watch']);
+
+function onError(err) {
+  console.error(err.stack);
+  this.emit('end');
+}
