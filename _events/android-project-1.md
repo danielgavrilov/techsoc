@@ -1,5 +1,5 @@
 ---
-title: "Session #1: [INSERT TITLE]"
+title: "Session #1: Introduction"
 project_id: android
 location: Malet Place Eng 1.02
 start_time: "2015-10-23 16:00"

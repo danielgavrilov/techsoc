@@ -1,5 +1,5 @@
 ---
-title: "Session #2: CAN WE HAVE DESCRIPTIVE TITLES?"
+title: "Session #2: Unity Basics"
 project_id: vr
 location: "Roberts 110"
 start_time: "2015-10-28 16:00"

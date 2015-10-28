@@ -7,8 +7,6 @@ end_time:
 actions:
   - label: Apply now
     url:  https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-3/user-59291/xf-0a2cca46564d/candidate/so/pm/1/pl/2/opp/1344-The-BlackRock-Hackathon/en-GB
-  - label: Read our blog post
-    url: /some-url
 ---
 
 This is a full-day hackathon. Apply here: <https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-3/user-59291/xf-0a2cca46564d/candidate/so/pm/1/pl/2/opp/1344-The-BlackRock-Hackathon/en-GB>

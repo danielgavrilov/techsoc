@@ -1,5 +1,5 @@
 ---
-title: "Session #1: Introduction & initial demo"
+title: "Session #1: Introduction & Initial Demo"
 project_id: vr
 location: MPEB 1.03
 start_time: "2015-10-19 17:00"
