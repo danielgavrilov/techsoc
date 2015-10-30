@@ -2,8 +2,8 @@
 title: "Session #2: Organising Teams"
 project_id: android
 location: MPEB 1.20
-start_time: "2015-10-23 16:00"
-end_time: "2015-10-23 17:30"
+start_time: "2015-10-30 16:00"
+end_time: "2015-10-30 17:30"
 ---
 
 Hey everyone! Time to roll on with development of our Android project!
