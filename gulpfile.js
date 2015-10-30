@@ -65,19 +65,24 @@ gulp.task('sass', function() {
  * Watch scss files for changes & recompile
  * Watch html/md files, run jekyll & reload BrowserSync
  */
-gulp.task('watch', function() {
-  gulp.watch('assets/scss/*.scss', ['sass']);
-  gulp.watch([
-    '**/*',
-    '!assets/css/**/*',
-    '!assets/scss/**/*',
-    '!node_modules/**/*',
-    '!_site/**/*',
-    '!*',
-    '*.html',
-    '*.yml',
-  ], ['jekyll-rebuild']);
-});
+ gulp.task('watch', ['watch-sass', 'watch-jekyll']);
+
+ gulp.task('watch-sass', function() {
+   gulp.watch('assets/scss/*.scss', ['sass']);
+ });
+
+ gulp.task('watch-jekyll', function() {
+   gulp.watch([
+     '**/*',
+     '!assets/css/**/*',
+     '!assets/scss/**/*',
+     '!node_modules/**/*',
+     '!_site/**/*',
+     '!*',
+     '*.html',
+     '*.yml',
+   ], ['jekyll-rebuild']);
+ });
 
 /**
  * Default task, running just `gulp` will compile the sass,
