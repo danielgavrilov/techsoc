@@ -5,7 +5,7 @@
     {% if member.profiles %}
     <div class="social-media-list">
       {% for item in member.profiles %}
-        <a href="{{ item[1] }}" title="{{ item[0] }}"><i class="icon icon-{{ item[0] }}"></i></a>
+        <a href="{{ item[1] }}" title="{{ item[0] }}" target="_blank"><i class="icon icon-{{ item[0] }}"></i></a>
       {% endfor %}
     </div>
     {% endif %}
