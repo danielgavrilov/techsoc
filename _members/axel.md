@@ -1,7 +1,7 @@
 ---
 name: Axel Goetz
-role: Events
-order: 4
+role: Events Team
+order: 14
 profiles:
   twitter: https://twitter.com/AGoetz1
   facebook: https://www.facebook.com/axel.goetz.9

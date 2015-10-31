@@ -1,7 +1,7 @@
 ---
 name: Diana K. Lee
-role: PR
-order: 3
+role: Client & Public Relations Director
+order: 8
 profiles:
   twitter: https://twitter.com/duhrtyd
   facebook: https://www.facebook.com/dklhy

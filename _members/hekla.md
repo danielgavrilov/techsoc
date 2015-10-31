@@ -1,5 +1,5 @@
 ---
 name: Hekla Helgadóttir
-role: Sponsorship
-order: 3
+role: Sponsorship Director
+order: 7
 ---

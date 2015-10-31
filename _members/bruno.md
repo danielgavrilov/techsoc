@@ -1,7 +1,7 @@
 ---
 name: Bruno Calogero
-role: Random Graphics & Website
-order: 5
+role: Client & Public Relations Team
+order: 12
 profiles:
   twitter: https://twitter.com/thereequiem
   github: https://github.com/brunocalogero

@@ -1,30 +1,32 @@
 <header class="site-header">
   <div class="wrapper">
-    <nav class="navigation">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a href="{{ site.baseurl }}/" class="navbar-brand">
-          <img src="{{ "/assets/images/logo-white.png" | prepend: site.baseurl }}" alt="{{ site.title }} logo">
-          <h1>{{ site.title }}</h1>
-        </a>
-      </div>
+    <nav class="navbar transparent">
+      <div class="container-fluid navbar-inner">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="{{ site.baseurl }}/" class="navbar-brand">
+            <img src="{{ "/assets/images/logo-white.png" | prepend: site.baseurl }}" alt="{{ site.title }} logo">
+            <h1>{{ site.title }}</h1>
+          </a>
+        </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          {% assign sorted_pages = site.pages | where: "navigation",true | sort: "order" %}
-          {% for node in sorted_pages %}
-            {% if node.title %}
-              <li><a class="{% if node.url == page.url %}current{% endif %}" href="{{ node.url | replace:'index.html','' | prepend: site.baseurl }}"><span>{{ node.title }}</span></a></li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </div><!-- /.navbar-collapse -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            {% assign sorted_pages = site.pages | where: "navigation",true | sort: "order" %}
+            {% for node in sorted_pages %}
+              {% if node.title %}
+                <li><a class="{% if node.url == page.url %}current{% endif %}" href="{{ node.url | replace:'index.html','' | prepend: site.baseurl }}"><span>{{ node.title }}</span></a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
     </nav>
   </div>
 </header>
