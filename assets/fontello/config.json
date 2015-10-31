@@ -25,6 +25,12 @@
       "src": "fontawesome"
     },
     {
+      "uid": "72b1277834cba5b7944b0a6cac7ddb0d",
+      "css": "rss",
+      "code": 59404,
+      "src": "fontawesome"
+    },
+    {
       "uid": "531bc468eecbb8867d822f1c11f1e039",
       "css": "calendar",
       "code": 59393,
@@ -34,6 +40,12 @@
       "uid": "598a5f2bcf3521d1615de8e1881ccd17",
       "css": "clock",
       "code": 59402,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "197375a3cea8cb90b02d06e4ddf1433d",
+      "css": "website",
+      "code": 59405,
       "src": "fontawesome"
     },
     {
