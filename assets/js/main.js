@@ -9,12 +9,6 @@ $(function(){
         loop: false,
         contentType: 'html', // or text
         // defaults to false for infinite loop
-        loopCount: false,
-        callback: function(){ call(); },
-        resetCallback: function() { newTyped(); }
-    });
-
-    $(".reset").click(function(){
-        $("#typer").typed('reset');
+        loopCount: false
     });
 });
