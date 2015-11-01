@@ -1,7 +1,7 @@
 ---
 name: Wilhelm Klopp
-role: Website?
-order: 5
+role: Client & Public Relations Team
+order: 10
 profiles:
   twitter: https://twitter.com/wilhelmklopp
   facebook: https://www.facebook.com/wilhelm.kl

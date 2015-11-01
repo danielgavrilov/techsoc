@@ -9,6 +9,7 @@
     <title>{% if page.title and page.title != "Home" %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+    <!-- stylesheets -->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic">
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
 
@@ -28,5 +29,8 @@
     </div>
   </body>
 
+  <!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="/assets/js/typed.min.js"></script>
+  <script type="text/javascript" src="/assets/js/main.js"></script>
 </html>

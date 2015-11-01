@@ -1,7 +1,7 @@
 ---
 name: Ben Ryves
-role: Events
-order: 4
+role: Events Director
+order: 5
 profiles:
   twitter: https://twitter.com/Ben_Ryves
   github: https://github.com/smeb

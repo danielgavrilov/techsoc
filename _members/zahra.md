@@ -1,7 +1,7 @@
 ---
 name: Zahra Taiba
-role: Events
-order: 3
+role: Events Director
+order: 6
 profiles:
   twitter: https://twitter.com/zahrataiba
   github: https://github.com/ZahraTee

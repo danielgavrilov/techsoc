@@ -1,7 +1,7 @@
 ---
 name: Daniel Gavrilov
-role: Website
-order: 5
+role: Webmaster
+order: 9
 profiles:
   facebook: https://www.facebook.com/danielgavrilov
   twitter: https://twitter.com/danielgavrilov
