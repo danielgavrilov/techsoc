@@ -1,31 +1,150 @@
-.navbar {
-  font-size: 16px;
-}
-
-.navbar-header {
+.site-nav {
+  font-size: 18px;
   display: flex;
-  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  padding: 10px;
 }
 
-.navbar-brand {
+.site-nav-header {
   display: flex;
   flex-direction: row;
   align-items: center;
 
   h1 {
-    font-size: 18px;
+    font-size: 19px;
     color: white;
+    margin: 0;
   }
 
-  img {
-    width: 100%;
-    height: 100%;
-    max-width: 80px;
-    margin-right: 10px;
+  $logo-size: 8vw;
+  $logo-max-size: 80px;
+  $logo-min-size: 50px;
+
+  .site-logo img {
+    width: $logo-size;
+    height: $logo-size;
+    min-width: $logo-min-size;
+    min-height: $logo-min-size;
+    max-width: $logo-max-size;
+    max-height: $logo-max-size;
   }
+
+  .toggle {
+    display: none;
+    float: right;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-right: 5px;
+
+    .icon-bar {
+      background-color: $brand-primary;
+      display: block;
+      width: 24px;
+      height: 3px;
+
+      &+.icon-bar {
+        margin-top: 4px;
+      }
+    }
+
+    &.collapsed {
+      background-color: transparent;
+    }
+
+    &.collapsed .icon-bar {
+      background-color: white;
+    }
+  }
+}
+
+.site-nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: visible;
 }
 
 .site-masthead {
   margin-bottom: 30px;
+}
+
+@media (max-width: $screen-xs-max) {
+  .site-nav {
+    font-size: 16px;
+    display: block;
+    background-color: rgba(0,0,5,.3);
+    padding: 0;
+    margin-bottom: 15px;
+  }
+
+  .site-nav-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+
+    .toggle {
+      display: block;
+    }
+  }
+
+  .site-nav-links {
+    text-align: left;
+
+    li {
+      display: block;
+    }
+
+    a {
+      font-weight: normal;
+      color: white;
+      display: block;
+      padding: 12px;
+      border-top: 1px solid rgba(255,255,255,.1);
+    }
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+  .site-logo img {
+    margin-right: 10px;
+  }
+
+  .site-nav-links {
+    display: block !important;
+    height: auto !important;
+    overflow: visible !important;
+
+    li {
+      display: inline;
+    }
+
+    a {
+      padding: 12px 12px;
+      color: white;
+
+      span {
+        border-bottom: 2px solid transparent;
+        transition: border-color 200ms linear;
+        padding-top: 2px;
+      }
+
+      &:hover span {
+        border-bottom-color: rgba(255,255,255,.25);
+      }
+
+      &.current {
+        padding: 10px 4px;
+      }
+
+      &.current span {
+        border: 2px solid rgba(255,255,255,.25);
+        border-radius: 4px;
+        padding: 2px 6px;
+      }
+    }
+  }
 }
