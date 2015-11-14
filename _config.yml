@@ -26,6 +26,7 @@ exclude:
   - package.json
   - bower.json
   - gulpfile.js
+  - assets/bower_components
 
 # Collections
 
