@@ -1,4 +1,5 @@
 console.log("Hi there fellow developer");
+$.fn.collapse.Constructor.TRANSITION_DURATION = 200;
 
 $(function(){
 
