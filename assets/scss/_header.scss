@@ -92,7 +92,7 @@
   }
 
   .site-nav-links {
-    text-align: left;
+    text-align: center;
 
     li {
       display: block;
@@ -104,6 +104,10 @@
       display: block;
       padding: 12px;
       border-top: 1px solid rgba(255,255,255,.1);
+
+      &:active, &:focus {
+        background-color: rgba(0,0,0,.25);
+      }
     }
   }
 }
