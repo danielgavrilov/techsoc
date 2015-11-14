@@ -1,4 +1,3 @@
-console.log("Hi there fellow developer");
 $.fn.collapse.Constructor.TRANSITION_DURATION = 200;
 
 $(function(){
@@ -15,3 +14,5 @@ $(function(){
     loopCount: false
   });
 });
+
+console.log("Oh, Hi there. Like looking under the hood? Us too!\n\nFind some looking-under-hoods events at {{ '/events' | prepend: site.baseurl | prepend: site.url }} and come along!")
