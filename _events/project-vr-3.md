@@ -1,5 +1,5 @@
 ---
-title: "UCLU TechSoc's VR Project - Session 3"
+title: "Session 3: Organising Teams"
 project_id: vr
 location: Gordon Square (26) B32
 start_time: "2015-11-04 16:00"

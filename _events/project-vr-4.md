@@ -1,5 +1,5 @@
 ---
-title: "UCLU TechSoc's VR Project - Session 4"
+title: "Session 4"
 project_id: vr
 location: Anatomy G29 J Z Young LT
 start_time: "2015-11-18 16:00"
