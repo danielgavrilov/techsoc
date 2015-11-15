@@ -1,5 +1,5 @@
 ---
-title: "Session #3: Naming the app"
+title: "Session 3: Naming the app"
 project_id: android
 location: MPEB 1.20
 start_time: "2015-11-06 16:00"

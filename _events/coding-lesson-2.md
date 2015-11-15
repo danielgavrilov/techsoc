@@ -1,5 +1,5 @@
 ---
-title: "Lesson #2: jQuery and Responsive Design"
+title: "Lesson 2: jQuery and Responsive Design"
 series_id: coding
 location: Darwin B15
 start_time: "2015-10-19 17:00"

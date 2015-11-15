@@ -1,5 +1,5 @@
 ---
-title: "Lesson #3: Ruby on Rails"
+title: "Lesson 3: Ruby on Rails"
 series_id: coding
 location: 25 Gordon Street, Room 105
 start_time: "2015-10-27 18:00"

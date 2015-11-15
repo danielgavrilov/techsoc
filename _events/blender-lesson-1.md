@@ -1,5 +1,5 @@
 ---
-title: "Lesson #1: UI, Basic Shapes, Transformations, Lighting & Rendering"
+title: "Lesson 1: UI, Basic Shapes, Transformations, Lighting & Rendering"
 series_id: blender
 location: MPEB 1.21
 start_time: "2015-10-20 16:00"

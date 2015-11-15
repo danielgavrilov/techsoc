@@ -1,5 +1,5 @@
 ---
-title: "Session #4: Building the front-end, creating events database & user logins"
+title: "Session 4: Building the front-end, creating events database & user logins"
 project_id: android
 location: Gordon Square (26) B32
 start_time: "2015-11-20 16:00"

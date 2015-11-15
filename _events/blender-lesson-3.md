@@ -1,5 +1,5 @@
 ---
-title: "Lesson #3"
+title: "Lesson 3"
 series_id: blender
 location: "MPEB 1.21"
 start_time: "2015-11-03 16:00"

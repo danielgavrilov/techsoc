@@ -1,5 +1,5 @@
 ---
-title: "Session #3"
+title: "Session 3"
 series_id: interview-prep
 location: MPEB 1.20
 start_time: "2015-10-26 17:00"

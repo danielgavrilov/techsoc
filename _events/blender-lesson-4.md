@@ -1,5 +1,5 @@
 ---
-title: "Lesson #4: Printing your models"
+title: "Lesson 4: Printing your models"
 series_id: blender
 location: "MPEB 1.21"
 start_time: "2015-11-17 16:00"
