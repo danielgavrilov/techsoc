@@ -82,7 +82,7 @@ Create a file with an `.md` extension in the `_events` folder. The filename will
 
 #### Fields
 
-- `title` - Make it descriptive. If the event is associated with a project (or an event series), they will appear before of the title, so do not repeat the project name. (Bad: `Android Project - Session 2`. Good: `Session 2: UI Prototyping`)
+- `title` - Make it descriptive. If the event is associated with a project (or an event series), they will appear before of the title, so do not repeat the project (or series) name. (Bad: `Android Project - Session 2!`. Good: `Session 2: UI Prototyping`). Avoid using exclamation marks.
 
 - `series_id` (optional) - It should match the `id` property of a series (series are defined in `_series` folder). Specify only if the event is part of an event series (common ids are `tech-talks`, `socials`, `hackathons`, `office-tours`)
 

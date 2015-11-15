@@ -1,5 +1,5 @@
 ---
-title: "Lesson #1: HTML, CSS & Git"
+title: "Lesson #1: HTML & CSS"
 series_id: coding
 location: Darwin B15
 start_time: "2015-10-13 18:00"

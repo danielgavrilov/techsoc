@@ -1,5 +1,5 @@
 ---
-title: "Kano Competition & Make Art Challenge!"
+title: "Kano Competition & Make Art Challenge"
 location: UCL Union, Public Cluster 105
 start_time: "2015-11-19 18:00"
 end_time: "2015-11-19 20:00"

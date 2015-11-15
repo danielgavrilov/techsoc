@@ -1,5 +1,5 @@
 ---
-title: "Social!"
+title: "TechSoc Tuesdays"
 series_id: socials
 location: Phineas Bar, UCL
 start_time: "2015-10-20 19:30"

@@ -36,6 +36,6 @@ Women in Technology @BlackRock on Wednesday 21st October: 14:00 – 16:30
 Apply: <https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-3/xf-0d787a351310/candidate/so/pm/1/pl/2/opp/1407-Women-in-Technology-BlackRock/en-GB>
 
 Discover Aladdin: Innovation @BlackRock on Tuesday 27th October: 18:30 – 21:00
-Apply: <https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-3/xf-0d787a351310/candidate/so/pm/1/pl/2/opp/1336-Discover-Aladdin-Innovation-BlackRock/en->GB
+Apply: <https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-3/xf-0d787a351310/candidate/so/pm/1/pl/2/opp/1336-Discover-Aladdin-Innovation-BlackRock/en-GB>
 
 More: <blackrockoncampus.com>

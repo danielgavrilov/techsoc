@@ -1,5 +1,5 @@
 ---
-title: "Freshers' Fair!"
+title: "Freshers' Fair"
 location: "UCL Main Quad"
 start_time: "2015-10-03 10:30"
 end_time: "2015-10-04 16:00"

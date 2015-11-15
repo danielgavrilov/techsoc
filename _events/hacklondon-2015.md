@@ -19,7 +19,7 @@ Organised and run by three of the UK's fastest-growing and award-winning societi
 We won't give you all the details at once, but we can tell you it'll be the first hackathon experience of its kind.
 Sounds awesome? What are you waiting for? 
 
-Get your ticket and sign up to the mailing list at http://hacklondon.org/
+Get your ticket and sign up to the mailing list at <http://hacklondon.org/>
 
 HackLondon on Facebook: <https://www.facebook.com/hacklondonuk>
 HackLondon on Twitter: <https://www.twitter.com/hacklondonuk>

@@ -7,7 +7,7 @@ end_time: "2015-10-23 17:00"
 facebook_id: "472741532905578"
 ---
 
-We're starting off our mobile dev projects with an Android app. Come along to find out what the project will involve, what we'll use and what you can learn from it. As this is a group project, all your input will be taken into consideration into buildng this app!
+We're starting off our mobile dev projects with an Android app. Come along to find out what the project will involve, what we'll use and what you can learn from it. As this is a group project, all your input will be taken into consideration into building this app!
 
 This project is aimed for people who have some idea of how to build an Android app already.
 

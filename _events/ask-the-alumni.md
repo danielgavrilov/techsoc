@@ -5,7 +5,7 @@ start_time: "2015-12-09 16:00"
 end_time: "2015-12-09 21:00"
 facebook_id: "1654524611491653"
 actions:
-  - label: Register now!
+  - label: Register now
     url:  www.askthealumni-compsci.eventbrite.com
 ---
 

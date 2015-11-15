@@ -1,5 +1,5 @@
 ---
-title: "mini Bar crawl edition!"
+title: "TechSoc Tuesdays: mini Bar crawl edition"
 series_id: socials
 location: The Rocket, Euston
 start_time: "2015-11-17 19:30"
