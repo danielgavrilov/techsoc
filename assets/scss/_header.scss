@@ -77,11 +77,9 @@
 
 @media (max-width: $screen-xs-max) {
   .site-nav {
-    font-size: 16px;
+    font-size: 17px;
     display: block;
-    background-color: rgba(0,0,5,.3);
     padding: 0;
-    margin-bottom: 15px;
   }
 
   .site-nav-header {
@@ -97,17 +95,22 @@
 
   .site-nav-links {
     text-align: center;
+    margin-bottom: 15px;
 
     li {
       display: block;
+      border-top: 1px solid rgba(255,255,255,.13);
+
+      &:last-of-type {
+        border-bottom: 1px solid rgba(255,255,255,.13);
+      }
     }
 
     a {
       font-weight: normal;
       color: white;
       display: block;
-      padding: 12px;
-      border-top: 1px solid rgba(255,255,255,.1);
+      padding: 11px 11px 12px;
 
       &:active, &:focus {
         background-color: rgba(0,0,0,.25);
