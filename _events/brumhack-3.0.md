@@ -16,3 +16,6 @@ Free food, drinks and fun. (And free travel* there and back)
 Update: Tickets are now sold out! However, you can sign up to the waitlist but clicking on the ticket link and selecting "Add to Waitlist". We'll also be hitting up more hackathons throughout the year, so hang on tight!
 
 \*T&Cs apply
+
+UCLUTechSoc: <https://www.facebook.com/groups/uclutech/ >
+KCLTech: <https://www.facebook.com/KCLTech>

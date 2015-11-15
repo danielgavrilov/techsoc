@@ -3,6 +3,7 @@ title: "Ask the Interns"
 location: "25 Gordon Street, E28 Harrie Massey LT"
 start_time: "2015-10-28 14:00"
 end_time: "2015-10-28 16:00"
+facebook_id: "https://www.facebook.com/events/692146807553972"
 ---
 
 It's internship-hunting season once again!

@@ -4,15 +4,11 @@ series_id: coding
 location: Darwin B15
 start_time: "2015-10-19 17:00"
 end_time: "2015-10-19 19:00"
+facebook_id: "https://www.facebook.com/events/902560639835919/"
 ---
 
-Totally new to tech but keen to get started? Join us for the first session of "Coding & Cookies", our weekly web development classes especially for beginners.
+The second edition of our popular beginners' web-dev series! Following on from our first session, we'll be creating an AirBnB clone and learning to use jQuery, a Javascript library, to make our pages more interactive and learning how to make our websites responsive and mobile-friendly.
 
-In this session, we will be building an online CV so that you can showcase your skills! This will get you started with HTML and CSS, the first ports of call for any aspiring web developer. If time provides, we'll also be moving on to looking Git, a version control system which is used for collaborating on code and backing it up, as well as Github Pages, one of the easiest channels to use to get your website up on the web.
+Missed the first session or had to dash early? Catch up with Hugo's comprehensive tutorial, with all the material we covered last week: <http://hugodf.github.io/tutorials/2015/10/10/tutorial.html>
 
-Before the session, please install Sublime Text and Sourcetree, and create an account on Github:
-Sublime Text - <http://www.sublimetext.com/2>
-Sourcetree (Git client) - <https://www.sourcetreeapp.com/>
-Github - <https://github.com/>
-
-Bring yourselves, your laptops and a desire for learning and be prepared to munch on free cookies.
+Arrive promptly to grab a seat and bring your laptops fully charged, as there are limited sockets.

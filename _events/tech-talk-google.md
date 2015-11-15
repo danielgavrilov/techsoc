@@ -4,6 +4,7 @@ series_id: tech-talks
 location: Darwin B40 LT
 start_time: "2015-11-02 18:00"
 end_time: "2015-11-02 21:00"
+facebook_id: "https://www.facebook.com/events/708376172627618/"
 ---
 
 Only open for UCLU TechSoc members.

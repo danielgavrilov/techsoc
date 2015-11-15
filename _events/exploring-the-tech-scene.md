@@ -4,6 +4,7 @@ series_id: tech-talks
 location: Roberts 422
 start_time: "2015-10-15 17:30"
 end_time: "2015-10-15 18:30"
+facebook_id: "https://www.facebook.com/events/933724646720722"
 ---
 
 London is undoubtedly THE place to be a technologist in the UK. There are opportunities around every corner, particularly for students, but it can be difficult to know where to start looking. That's where we come in.

@@ -84,9 +84,9 @@ Create a file with an `.md` extension in the `_events` folder. The filename will
 
 - `title` - Make it descriptive. If the event is associated with a project (or an event series), they will appear before of the title, so do not repeat the project name. (Bad: `Android Project - Session 2`. Good: `Session 2: UI Prototyping`)
 
-- `series_id` (optional) - It should match the `id` property of a series (series are defined in `_series` folder). Specify only if the event is part of an event series (common ids are `tech-talks`, `socials`, `hackathons`)
+- `series_id` (optional) - It should match the `id` property of a series (series are defined in `_series` folder). Specify only if the event is part of an event series (common ids are `tech-talks`, `socials`, `hackathons`, `office-tours`)
 
-- `project_id` (optional) - It should match the `id` property of a project (projects are defined in `_projects` folder). Specify only if the event is part of a project (common ids are `android` & `vr`)
+- `project_id` (optional) - It should match the `id` property of a project (projects are defined in `_projects` folder). Specify only if the event is part of a project (common ids are `android`, `vr` & `social-network`)
 
 - `location` - Set it to something people outside the department can find (Bad: `Computer Science Labs`. Good: `Malet Place Engineering Building 1.21`)
 

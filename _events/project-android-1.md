@@ -1,9 +1,10 @@
 ---
 title: "Session #1: Introduction"
 project_id: android
-location: Malet Place Eng 1.02
+location: MPEB 1.02
 start_time: "2015-10-23 16:00"
 end_time: "2015-10-23 17:00"
+facebook_id: "https://www.facebook.com/events/472741532905578"
 ---
 
 We're starting off our mobile dev projects with an Android app. Come along to find out what the project will involve, what we'll use and what you can learn from it. As this is a group project, all your input will be taken into consideration into buildng this app!
