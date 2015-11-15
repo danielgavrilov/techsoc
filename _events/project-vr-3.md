@@ -4,7 +4,7 @@ project_id: vr
 location: Gordon Square (26) B32
 start_time: "2015-11-04 16:00"
 end_time: "2015-11-04 17:30"
-facebook_id: "https://www.facebook.com/events/857167671065306"
+facebook_id: "857167671065306"
 ---
 
 Hey we're rolling on with our VR game! 

@@ -4,7 +4,7 @@ series_id: hackathons
 location: Malet Place Engineering Building
 start_time: "2015-10-10 09:00"
 end_time: "2015-10-10 21:00"
-facebook_id: "https://www.facebook.com/events/1637689663136646/"
+facebook_id: "1637689663136646"
 ---
 
 **REGISTRATION IS NOW CLOSED**

@@ -4,7 +4,7 @@ project_id: hackathons
 location: King's College London - Strand Campus
 start_time: "2015-02-28 09:00"
 end_time: "2015-03-01 18:00"
-facebook_id: "https://www.facebook.com/events/1409998305960962"
+facebook_id: "1409998305960962"
 ---
 
 TICKETS RUN OUT? SIGN UP TO THE MAILING LIST TO FIND OUT WHEN THE NEXT BATCH IS RELEASED:

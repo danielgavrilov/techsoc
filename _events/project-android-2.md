@@ -4,7 +4,7 @@ project_id: android
 location: MPEB 1.20
 start_time: "2015-10-30 16:00"
 end_time: "2015-10-30 17:30"
-facebook_id: "https://www.facebook.com/events/637500716353051"
+facebook_id: "637500716353051"
 ---
 
 Hey everyone! Time to roll on with development of our Android project!

@@ -94,7 +94,7 @@ Create a file with an `.md` extension in the `_events` folder. The filename will
 
 - `end_time` - Everything that applies to `start_time`, plus: always specify an end time if there is a start time (even try to estimate how long an event will be), because calendars are auto-generated from these events.
 
-- `facebook_id` - The ID of the Facebook event. This is easily extractable from the URL (`facebook.com/events/<facebook_id>`) of the Facebook event, and it's always an integer.
+- `facebook_id` - The ID of the Facebook event. This is easily extractable from the URL (`facebook.com/events/<facebook_id>`) of the Facebook event, and it's always an integer. Please only include the integer, not the whole URL.
 
 - `actions` - If an event requires tickets, this is where you put the link to where to get them (usually EventBrite). There can be multiple actions & each requires a `label` & `url`. See `_events/brumhack-3.0.md` for an example.
 

@@ -4,7 +4,7 @@ series_id: hackathons
 location: University of Nottingham - Jubilee Campus, Computer Science 
 start_time: "2015-11-28 09:00"
 end_time: "2015-11-29 16:00"
-facebook_id: "https://www.facebook.com/events/1024922314194519/"
+facebook_id: "1024922314194519"
 actions:
   - label: Register now!
     url:  http://hacknotts.com/#register

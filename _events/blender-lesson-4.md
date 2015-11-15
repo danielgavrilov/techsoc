@@ -4,7 +4,7 @@ series_id: blender
 location: "MPEB 1.21"
 start_time: "2015-11-17 16:00"
 end_time: "2015-11-17 18:00"
-facebook_id: "https://www.facebook.com/events/1646923928913523"
+facebook_id: "1646923928913523"
 ---
 
 Hey everyone! 

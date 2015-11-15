@@ -4,7 +4,7 @@ project_id: vr
 location: MPEB 1.03
 start_time: "2015-10-19 17:00"
 end_time: "2015-10-19 18:00"
-facebook_id: "https://www.facebook.com/events/1649500421964673"
+facebook_id: "1649500421964673"
 ---
 
 We are starting the virtual reality project! A lot of you have had the chance to experience and now we will be creating a game for the Oculus! There is no prior experience required, we will teach you from the ground up. This is a group project so everyones opinion will be considered in making the game. 

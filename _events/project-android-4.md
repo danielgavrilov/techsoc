@@ -4,7 +4,7 @@ project_id: android
 location: Gordon Square (26) B32
 start_time: "2015-11-20 16:00"
 end_time: "2015-11-20 17:00"
-facebook_id: "https://www.facebook.com/events/398026883740039"
+facebook_id: "398026883740039"
 ---
 
 Hey everyone! 

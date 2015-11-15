@@ -3,7 +3,7 @@ title: "Ask the Alumni"
 location: "UCL Roberts Building"
 start_time: "2015-12-09 16:00"
 end_time: "2015-12-09 21:00"
-facebook_id: "https://www.facebook.com/events/1654524611491653"
+facebook_id: "1654524611491653"
 actions:
   - label: Register now!
     url:  www.askthealumni-compsci.eventbrite.com

@@ -4,7 +4,7 @@ series_id: tech-talks
 location: Chandler 118
 start_time: "2015-11-17 17:00"
 end_time: "2015-11-17 19:00"
-facebook_id: "https://www.facebook.com/events/1169910869703895/"
+facebook_id: "1169910869703895"
 ---
 
 We're pleased to announce that our next tech talk will be from Bloomberg!

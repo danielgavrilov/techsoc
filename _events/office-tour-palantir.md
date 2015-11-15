@@ -4,7 +4,7 @@ series_id: office-tours
 location: Palantir London
 start_time: "2015-11-24 18:30"
 end_time: "2015-11-24 20:30"
-facebook_id: "https://www.facebook.com/events/511405442368880"
+facebook_id: "511405442368880"
 actions:
   - label: Apply now
     url:  https://docs.google.com/forms/d/1sHbi90tBpE_nq0gT5weWd9nBHNN_zBZR_CNQ80Htisw/viewform?c=0&w=1

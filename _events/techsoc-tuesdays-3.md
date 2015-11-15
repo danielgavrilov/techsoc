@@ -4,7 +4,7 @@ series_id: socials
 location: The Rocket, Euston
 start_time: "2015-11-17 19:30"
 end_time: "2015-11-17 23:00"
-facebook_id: "https://www.facebook.com/events/1036922886326087"
+facebook_id: "1036922886326087"
 ---
 
 We hope you've had a fun reading week / BathHack! Come and join us at The Rocket in Euston for drinks, starting at 7.30pm (after the Bloomberg talk). Afterwards we'll head on to the Euston Flyer which is just down the road.

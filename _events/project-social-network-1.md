@@ -4,7 +4,7 @@ project_id: social-network
 location: "Bedford Way Public Cluster 316"
 start_time: "2015-11-20 14:00"
 end_time: "2015-11-20 15:00"
-facebook_id: "https://www.facebook.com/events/855730107876066/"
+facebook_id: "855730107876066"
 ---
 
 We are starting a new web development project where we will be building a social network! 

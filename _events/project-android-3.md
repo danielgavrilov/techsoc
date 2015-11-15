@@ -4,7 +4,7 @@ project_id: android
 location: MPEB 1.20
 start_time: "2015-11-06 16:00"
 end_time: "2015-11-06 17:30"
-facebook_id: "https://www.facebook.com/events/986083851430665"
+facebook_id: "986083851430665"
 ---
 
 Come along, we'll have some Google (Android related)swag to hand out for all your hardwork! 

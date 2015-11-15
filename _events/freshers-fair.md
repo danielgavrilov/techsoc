@@ -3,7 +3,7 @@ title: "Freshers' Fair!"
 location: "UCL Main Quad"
 start_time: "2015-10-03 10:30"
 end_time: "2015-10-04 16:00"
-facebook_id: "https://www.facebook.com/events/927816197276042"
+facebook_id: "927816197276042"
 ---
 
 Invite all your friends who are coming to UCL!

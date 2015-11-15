@@ -4,7 +4,7 @@ series_id: coding
 location: Darwin B15
 start_time: "2015-10-13 18:00"
 end_time: "2015-10-13 20:00"
-facebook_id: "https://www.facebook.com/events/1642190986062109/"
+facebook_id: "1642190986062109"
 ---
 
 Totally new to tech but keen to get started? Join us for the first session of "Coding & Cookies", our weekly web development classes especially for beginners.

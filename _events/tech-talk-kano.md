@@ -4,7 +4,7 @@ series_id: tech-talks
 location: Chadwick Building, G08
 start_time: "2015-11-03 18:00"
 end_time: "2015-11-03 21:00"
-facebook_id: "https://www.facebook.com/events/1198126790203633/"
+facebook_id: "1198126790203633"
 ---
 
 We've invited one of London's most awesome & successful edtech startups for a talk on building a computer anyone can make, Kano Computing!

@@ -4,7 +4,7 @@ project_id: vr
 location: Anatomy G29 J Z Young LT
 start_time: "2015-11-18 16:00"
 end_time: "2015-11-18 17:30"
-facebook_id: "https://www.facebook.com/events/920255578022291"
+facebook_id: "920255578022291"
 ---
 
 Hey we're rolling on with our VR game! 

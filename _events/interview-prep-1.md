@@ -4,7 +4,7 @@ series_id: interview-prep
 location: Roberts 508
 start_time: "2015-10-12 17:00"
 end_time: "2015-10-12 19:00"
-facebook_id: "https://www.facebook.com/events/872548492829844/"
+facebook_id: "872548492829844"
 ---
 
 You're applying for a job in a tech company and are preparing for the dreaded coding interview. Some of these questions seem daunting, even impossible.

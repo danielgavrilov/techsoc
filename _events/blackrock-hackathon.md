@@ -4,7 +4,7 @@ series_id: hackathons
 location: Location provided on successful application
 start_time: "2015-11-07 10:00"
 end_time:
-facebook_id: "https://www.facebook.com/events/1220281794665681"
+facebook_id: "1220281794665681"
 actions:
   - label: Apply now
     url:  https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-3/user-59291/xf-0a2cca46564d/candidate/so/pm/1/pl/2/opp/1344-The-BlackRock-Hackathon/en-GB

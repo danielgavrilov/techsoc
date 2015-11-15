@@ -3,7 +3,7 @@ title: "Kano Competition & Make Art Challenge!"
 location: UCL Union, Public Cluster 105
 start_time: "2015-11-19 18:00"
 end_time: "2015-11-19 20:00"
-facebook_id: "https://www.facebook.com/events/835453976573602/"
+facebook_id: "835453976573602"
 ---
 
 Want to release your app on the Kano OS for 70k users? (And win a Kano kit?)
