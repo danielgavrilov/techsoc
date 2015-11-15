@@ -78,7 +78,25 @@ I've added some little guidance below for some common tasks, but this is definit
 
 ## Adding events
 
-Create a file with an `.md` extension in the `events` folder. The filename will be part of the URL, so please name it appropriately (and follow a pattern if there is one), e.g. a file `hacklondon.md` will create a page at `uclutech.com/events/hacklondon`.
+Create a file with an `.md` extension in the `_events` folder. The filename will be part of the URL, so please name it appropriately (and follow a pattern if there is one), e.g. a file `hacklondon.md` will create a page at `uclutech.com/events/hacklondon`.
+
+#### Fields
+
+- `title` - Make it descriptive. If the event is associated with a project (or an event series), they will appear before of the title, so do not repeat the project name. (Bad: `Android Project - Session 2`. Good: `Session 2: UI Prototyping`)
+
+- `series_id` (optional) - It should match the `id` property of a series (series are defined in `_series` folder). Specify only if the event is part of an event series (common ids are `tech-talks`, `socials`, `hackathons`)
+
+- `project_id` (optional) - It should match the `id` property of a project (projects are defined in `_projects` folder). Specify only if the event is part of a project (common ids are `android` & `vr`)
+
+- `location` - Set it to something people outside the department can find (Bad: `Computer Science Labs`. Good: `Malet Place Engineering Building 1.21`)
+
+- `start_time` - It needs to be surrounded by double quotes and in the format `"<year>-<month>-<day> <hour>:<minute>"`. Example date: `"2015-11-30 18:00"` (meaning 30 November 2015 at 6pm). If the start time is not known, set it to `"TBA"`. It's very important to follow these rules, otherwise things will break.
+
+- `end_time` - Everything that applies to `start_time`, plus: always specify an end time if there is a start time (even try to estimate how long an event will be), because calendars are auto-generated from these events.
+
+- `facebook_id` - The ID of the Facebook event. This is easily extractable from the URL (`facebook.com/events/<facebook_id>`) of the Facebook event, and it's always an integer.
+
+- `actions` - If an event requires tickets, this is where you put the link to where to get them (usually EventBrite). There can be multiple actions & each requires a `label` & `url`. See `_events/brumhack-3.0.md` for an example.
 
 ## Adding members/posts/event series/...
 
