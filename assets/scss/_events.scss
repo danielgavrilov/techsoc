@@ -36,8 +36,6 @@
     border-radius: 3px;
     padding: 1px 3px;
     margin-right: 3px;
-    transition: border-color 200ms linear,
-                color 200ms linear;
 
     &:hover {
       text-decoration: none;
@@ -94,8 +92,6 @@
       padding: 5px 5px 4px;
       border-radius: 3px;
       border: 2px solid rgba(255,255,255,.2);
-      transition: color 200ms linear,
-                  border-color 200ms linear;
 
       &:hover {
         border-color: white;
