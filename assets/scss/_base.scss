@@ -37,6 +37,11 @@ p {
   margin-bottom: 1em;
 }
 
+a {
+  transition: color 200ms linear,
+              border-color 200ms linear;
+}
+
 .wrapper {
   max-width: $max-site-width;
   margin: 0 auto;
