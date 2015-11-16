@@ -1,5 +1,5 @@
 ---
-title: "Session #2: Organising Teams"
+title: "Session 2: Organising Teams"
 project_id: android
 location: MPEB 1.20
 start_time: "2015-10-30 16:00"

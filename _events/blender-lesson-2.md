@@ -1,5 +1,5 @@
 ---
-title: "Lesson #2: Modeling, Materials & Modifiers"
+title: "Lesson 2: Modeling, Materials & Modifiers"
 series_id: blender
 location: "MPEB 1.21"
 start_time: "2015-10-27 16:00"
