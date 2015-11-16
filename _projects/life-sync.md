@@ -1,7 +1,7 @@
 ---
 id: iot
 title: LifeSync
-label: IoT Project
+event_label: IoT Project
 category: Internet of Things
 logo: life-sync.png
 leads:

@@ -3,8 +3,8 @@
 
 {% if category %}
   <a href="{{ category.url | prepend: site.baseurl }}" class="category">
-    {% if category.label %}
-      {{ category.label }}
+    {% if category.event_label %}
+      {{ category.event_label }}
     {% else %}
       {{ category.title }}
     {% endif %}

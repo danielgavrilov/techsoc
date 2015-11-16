@@ -1,7 +1,7 @@
 ---
 id: android
 title: FriendsMapper
-label: Android Project
+event_label: Android Project
 category: Android Development
 logo: friends-mapper.png
 leads:

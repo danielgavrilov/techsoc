@@ -1,7 +1,7 @@
 ---
 id: tech-talks
 title: Tech Talks
-label: Tech Talk
+event_label: Tech Talk
 calendar: tech-talks.ics
 ---
 

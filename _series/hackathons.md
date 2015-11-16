@@ -1,7 +1,7 @@
 ---
 id: hackathons
 title: Hackathons
-label: Hackathon
+event_label: Hackathon
 calendar: hackathons.ics
 ---
 

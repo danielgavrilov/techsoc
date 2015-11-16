@@ -1,7 +1,7 @@
 ---
 id: vr
 title: Motion Adrift
-label: VR Project
+event_label: VR Project
 category: Virtual Reality
 logo: motion-adrift.png
 leads:
