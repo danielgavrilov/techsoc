@@ -12,6 +12,9 @@
           {% include category-link.html event=event %}
         {% endunless %}
         <a href="{{ event.url | prepend: site.baseurl }}" class="title">{{ event.title }}</a>
+        {% if event.facebook_id %}
+          <a href="https://www.facebook.com/events/{{ event.facebook_id }}" class="facebook-link"><i class="icon-facebook"></i></a>
+        {% endif %}
       </h2>
       <div class="location">
         <i class="icon icon-location"></i>

@@ -52,6 +52,18 @@
     margin: 0;
   }
 
+  .facebook-link {
+    font-size: 1.25em;
+    margin-left: .1em;
+    color: rgba(255,255,255,.15);
+    vertical-align: text-top;
+    transition: color 200ms linear;
+
+    &:hover {
+      color: white;
+    }
+  }
+
   .location {
     font-size: 16px;
     color: rgba(255,255,255,0.5);
