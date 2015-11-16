@@ -1,13 +1,20 @@
-<div class="event-overview">
+{% assign _today = site.time             | date: "%Y-%m-%d" %}
+{% assign _event_date = event.start_time | date: "%Y-%m-%d" %}
+<div class="event-overview{% if _today > _event_date %} past-event{% endif %}">
   <div class="row">
     <div class="col-sm-2">
       <div class="date">{{ event.start_time | date: "%a, %-d %b" }}</div>
-      <div class="time">{{ event.start_time | date: "%H:%M" }}{% if event.end_time %} - {{ event.end_time | date: "%H:%M" }}{% endif %}</div>
+      <div class="time">{{ event.start_time | date: "%H:%M" }}{% if event.end_time %} &ndash; {{ event.end_time | date: "%H:%M" }}{% endif %}</div>
     </div>
     <div class="col-sm-8">
       <h2>
-        {% unless include.hide_category %}{% include category-link.html %}{% endunless %}
+        {% unless include.hide_category %}
+          {% include category-link.html event=event %}
+        {% endunless %}
         <a href="{{ event.url | prepend: site.baseurl }}" class="title">{{ event.title }}</a>
+        {% if event.facebook_id %}
+          <a href="https://www.facebook.com/events/{{ event.facebook_id }}" class="facebook-link"><i class="icon-facebook"></i></a>
+        {% endif %}
       </h2>
       <div class="location">
         <i class="icon icon-location"></i>
@@ -18,7 +25,7 @@
     {% if event.actions %}
       <div class="actions">
       {% for action in event.actions %}
-        <a href="{{ action.url }}" class="button">{{ action.label }}</a>
+        <a href="{{ action.url }}" class="action">{{ action.label }}</a>
       {% endfor %}
       </div>
     {% endif %}

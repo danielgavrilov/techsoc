@@ -1,0 +1,4 @@
+{% assign project = site.projects | where: "id", include.project_id | first %}
+<div class="project-event-notice">
+  This event is part of a project. You might need to sign up or something. Find out more about getting involved on the <a href="{{ project.url | prepend: site.baseurl }}">project page</a>.
+</div>

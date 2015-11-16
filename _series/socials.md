@@ -1,7 +1,7 @@
 ---
 id: socials
 title: Socials
-label: Social
+event_label: Social
 calendar: socials.ics
 ---
 

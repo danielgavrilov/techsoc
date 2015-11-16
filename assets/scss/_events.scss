@@ -36,8 +36,6 @@
     border-radius: 3px;
     padding: 1px 3px;
     margin-right: 3px;
-    transition: border-color 200ms linear,
-                color 200ms linear;
 
     &:hover {
       text-decoration: none;
@@ -50,6 +48,18 @@
     font-size: 18px;
     line-height: 24px;
     margin: 0;
+  }
+
+  .facebook-link {
+    font-size: 1.25em;
+    margin-left: .1em;
+    color: rgba(255,255,255,.15);
+    vertical-align: text-top;
+    transition: color 200ms linear;
+
+    &:hover {
+      color: white;
+    }
   }
 
   .location {
@@ -71,19 +81,90 @@
   }
 
   .actions {
-    .button {
+    .action {
       display: block;
       font-size: 14px;
       font-weight: 700;
       text-align: center;
       text-transform: uppercase;
-      color: rgba(255,255,255,.4);
+      color: rgba(255,255,255,.35);
       line-height: 1.1;
       padding: 5px 5px 4px;
       border-radius: 3px;
       border: 2px solid rgba(255,255,255,.2);
-      transition: color 200ms linear,
-                  border-color 200ms linear;
+
+      &:hover {
+        border-color: white;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+
+  @media (max-width: $screen-sm-min) {
+    text-align: center;
+
+    h2 {
+      margin: 2px 0;
+    }
+
+    .title {
+      display: block;
+      padding: 6px 0 2px;
+    }
+  }
+}
+
+.event-header {
+  text-align: center;
+  margin: .5em 0 1.5em;
+
+  .title {
+    font-size: 32px;
+    font-weight: 700;
+    margin: .75em 0;
+  }
+
+  .category {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 3px solid rgba(255,255,255,.25);
+    border-radius: 5px;
+    color: rgba(255,255,255,.4);
+    padding: 1px 6px;
+
+    &:hover, &:active {
+      border-color: white;
+      color: white;
+    }
+  }
+
+  .metadata {
+    font-size: 18px;
+    color: rgba(255,255,255,.6);
+
+    .icon {
+      font-size: 110%;
+      color: rgba(255,255,255,.3);
+      margin-right: .05em;
+    }
+  }
+
+  .actions {
+    margin: 20px 0 0;
+
+    .action {
+      display: inline-block;
+      font-size: 17px;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.35);
+      padding: 1px 7px;
+      border-radius: 4px;
+      border: 3px solid rgba(255,255,255,.2);
+      margin: 0 .35em;
 
       &:hover {
         border-color: white;
@@ -94,17 +175,23 @@
   }
 }
 
-@media (max-width: $screen-sm-min) {
-  .event-overview {
-    text-align: center;
+.event-content {
+  margin-top: 40px;
+  color: rgba(255,255,255,.65);
 
-    h2 {
-      margin: 2px 0;
-    }
+  .project-event-notice {
+    border: 3px solid rgba(255,255,255,.15);
+    border-radius: 8px;
+    color: rgba(255,255,255,.35);
+    padding: 15px 20px;
+    margin-bottom: 20px;
 
-    .title {
-      display: block;
-      padding: 6px 0 2px;
+    a {
+      color: rgba(255,255,255,.7);
+
+      &:hover {
+        color: white;
+      }
     }
   }
 }

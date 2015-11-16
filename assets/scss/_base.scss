@@ -3,6 +3,7 @@ html, body {
 }
 
 body {
+  font-size: 16px;
   background-color: $brand-primary;
 
   &::after {
@@ -30,6 +31,15 @@ body {
     background-size: cover;
     z-index: -1;
   }
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+a {
+  transition: color 200ms linear,
+              border-color 200ms linear;
 }
 
 .wrapper {
