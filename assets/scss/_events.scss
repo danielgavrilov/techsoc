@@ -104,10 +104,8 @@
       }
     }
   }
-}
 
-@media (max-width: $screen-sm-min) {
-  .event-overview {
+  @media (max-width: $screen-sm-min) {
     text-align: center;
 
     h2 {
