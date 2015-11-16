@@ -22,7 +22,7 @@
     {% if event.actions %}
       <div class="actions">
       {% for action in event.actions %}
-        <a href="{{ action.url }}" class="button">{{ action.label }}</a>
+        <a href="{{ action.url }}" class="action">{{ action.label }}</a>
       {% endfor %}
       </div>
     {% endif %}
