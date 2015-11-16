@@ -8,10 +8,10 @@
 
 {% assign event_category_result = null %}
 
-{% if event.series_id %}
-  {% assign event_category_result = site.series | where: "id", event.series_id | first %}
-{% elsif event.project_id %}
-  {% assign event_category_result = site.projects | where: "id", event.project_id | first %}
+{% if include.event.series_id %}
+  {% assign event_category_result = site.series | where: "id", include.event.series_id | first %}
+{% elsif include.event.project_id %}
+  {% assign event_category_result = site.projects | where: "id", include.event.project_id | first %}
 {% endif %}
 
 {% endcapture %}{% assign _suppress_output = null %}
