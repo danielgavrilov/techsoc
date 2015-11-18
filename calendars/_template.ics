@@ -29,8 +29,8 @@ END:STANDARD
 END:VTIMEZONE
 {% for event in include.events %}
 {% if event.start_time and event.start_time != "TBA" %}
-{% include scripts/event_category %}
-{% capture title %}{% if include.include_category and event_category_result %}[{% if event_category_result.label %}{{ event_category_result.label }}{% else %}{{ event_category_result.title }}{% endif %}] {% endif %}{{ event.title }}{% endcapture %}
+{% include scripts/event_category event=event %}
+{% capture title %}{% if include.include_category and event_category_label_result %}[{{ event_category_label_result }}] {% endif %}{{ event.title }}{% endcapture %}
 {% capture start_time %}{{ event.start_time | date: "%Y%m%dT%H%M%S" }}{% endcapture %}
 {% capture end_time   %}{{ event.end_time   | date: "%Y%m%dT%H%M%S" }}{% endcapture %}
 BEGIN:VEVENT
