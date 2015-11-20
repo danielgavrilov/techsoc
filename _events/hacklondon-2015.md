@@ -1,6 +1,6 @@
 ---
 title: "HackLondon 2015"
-project_id: hackathons
+series_id: hackathons
 location: King's College London - Strand Campus
 start_time: "2015-02-28 09:00"
 end_time: "2015-03-01 18:00"
