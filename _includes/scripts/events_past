@@ -1,0 +1,10 @@
+{% assign events_past_result = "," | split: "," %}
+
+{% assign _sorted_events = include.events | sort:"start_time" %}
+{% for event in _sorted_events %}
+  {% assign _today = site.time             | date: "%Y-%m-%d" %}
+  {% assign _event_date = event.start_time | date: "%Y-%m-%d" %}
+  {% if _event_date < _today and event.start_time != "TBA" %}
+    {% assign events_past_result = events_past_result | push: event %}
+  {% endif %}
+{% endfor %}

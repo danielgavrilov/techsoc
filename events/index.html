@@ -7,7 +7,7 @@ navigation: true
 order: 3
 ---
 
-{% include scripts/events_upcoming %}
+{% include scripts/events_upcoming events=site.events exclude_invalid_date=true %}
 
 <h2 class="page-heading">Upcoming events</h2>
 
