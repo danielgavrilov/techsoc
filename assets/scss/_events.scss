@@ -17,11 +17,13 @@
     font-weight: 700;
     text-transform: uppercase;
     color: rgba(255,255,255,0.9);
+    white-space: nowrap;
   }
 
   .time {
     font-size: 16px;
     color: rgba(255,255,255,0.5);
+    white-space: nowrap;
   }
 
   .category {
