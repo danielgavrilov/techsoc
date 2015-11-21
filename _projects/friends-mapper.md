@@ -6,13 +6,13 @@ category: Android Development
 logo: friends-mapper.png
 start_time: "2015-10-23"
 end_time: "2015-12-30"
-excerpt: |
-  FriendsMapper is an android app that allows the user to see where their friends are on a map in real time.
 leads:
   - Vicky Dineshchandra
 links:
   facebook:
   slack:
+excerpt: |
+  FriendsMapper is an android app that allows the user to see where their friends are on a map in real time.
 ---
 
 FriendsMapper is an android app that allows the user to see where their friends are on a map in real time.
