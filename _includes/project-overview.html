@@ -1,12 +1,16 @@
-<a href="{{ project.url | prepend: site.baseurl }}" style="background-color: #{{ project.color }}">
-  <img src="{{ project.logo | prepend: '/assets/images/projects/' | prepend: site.baseurl }}">
-  <h3>{{ project.name }}</h3>
-  <small>{{ project.category }}</small>
-  {% if project.leads %}
-  <ul>
-    {% for lead in project.leads %}
-      <li><a href="{{ lead.link }}">{{ lead.name }}</a></li>
-    {% endfor %}
-  </ul>
-  {% endif %}
+{% include scripts/event_status event=project %}
+<a class="project-overview clearfix {{ status_result }}" href="{{ project.url | prepend: site.baseurl }}">
+  <div class="row">
+    <div class="col-sm-3">
+      {% if project.logo %}<img class="logo" src="{{ project.logo | prepend: '/assets/images/projects/' | prepend: site.baseurl }}">{% endif %}
+    </div>
+    <div class="col-sm-9">
+      {% if status_result %}
+        <span class="status {{ status_result }}">{{ status_result }}</span>
+      {% endif %}
+      <h3>{{ project.title }}</h3>
+      <h4>{{ project.category }}</h4>
+      <p class="excerpt">{{ project.excerpt }}</p>
+    </div>
+  </div>
 </a>
