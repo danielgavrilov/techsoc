@@ -22,7 +22,7 @@
   }
 }
 
-@media (min-width: $screen-sm-min) {
+@media (min-width: $screen-xs-max) {
   .responsive-boxes .box {
     max-width: 33.333%;
     flex-basis: 33.333%;
