@@ -14,25 +14,30 @@ layout: page
             {% if project.logo %}<img src="{{ project.logo | prepend: '/assets/images/projects/' | prepend: site.baseurl }}" class="logo">{% endif %}
           </div>
           <div class="col-sm-9 col-sm-pull-3">
+
             {% if status_result %}
               <span class="status {{ status_result }}">{{ status_result }}</span>
             {% endif %}
+
             <h1 class="title">{{ project.title }}</h1>
             <h2 class="category">{{ project.category }}</h2>
-            <div class="actions">
-              {% if project.links.github %}
-                <a href="{{ project.links.github }}" class="action"><i class="icon-github"></i> Github</a>
-              {% endif %}
-              {% if project.links.facebook_group %}
-                <a href="{{ project.links.facebook_group }}" class="action"><i class="icon-facebook"></i> Facebook group</a>
-              {% endif %}
-              {% if project.links.slack %}
-                <a href="{{ project.links.slack }}" class="action"><i class="icon-slack"></i> Slack</a>
-              {% endif %}
-              {% if project.links.drive %}
-                <a href="{{ project.links.drive }}" class="action">Google Drive</a>
-              {% endif %}
-            </div>
+
+            {% if project.links %}
+              <div class="actions">
+                {% if project.links.github %}
+                  <a href="{{ project.links.github }}" class="action"><i class="icon-github"></i> Github</a>
+                {% endif %}
+                {% if project.links.facebook_group %}
+                  <a href="{{ project.links.facebook_group }}" class="action"><i class="icon-facebook"></i> Facebook group</a>
+                {% endif %}
+                {% if project.links.slack %}
+                  <a href="{{ project.links.slack }}" class="action"><i class="icon-slack"></i> Slack</a>
+                {% endif %}
+                {% if project.links.drive %}
+                  <a href="{{ project.links.drive }}" class="action">Google Drive</a>
+                {% endif %}
+              </div>
+            {% endif %}
 
             {% if project.leads %}
               <div class="leads">
