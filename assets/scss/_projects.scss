@@ -1,0 +1,217 @@
+.project-overview {
+  display: block;
+  padding: 30px;
+  border: 3px solid rgba(255,255,255,.2);
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+  h3, h4, .excerpt {
+    transition: color 200ms linear;
+  }
+
+  &:hover {
+    border-color: white;
+    color: white;
+
+    h3, h4, .excerpt {
+      color: white;
+    }
+  }
+
+  .status {
+    float: right;
+    font-size: 16px;
+    font-weight: 400;
+    color: $brand-primary;
+    background-color: rgba(255,255,255,.25);
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 2px 5px;
+    line-height: 1;
+    display: inline-block;
+    margin-bottom: .5em;
+    transition: background-color 200ms linear;
+  }
+
+  .status.active {
+    background-color: rgba(0,230,0,.4);
+  }
+
+  &:hover {
+    .status {
+      background-color: rgba(255,255,255,.35);
+    }
+    .status.active {
+      background-color: rgba(0,230,0,.5);
+    }
+  }
+
+  h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 0 .4em;
+  }
+
+  h4 {
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 .65em;
+    color: rgba(255,255,255,.4);
+  }
+
+  .logo {
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  .excerpt {
+    font-size: 16px;
+    line-height: 1.4;
+    color: rgba(255,255,255,.5);
+    margin: 0;
+  }
+
+  .leads {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  @media (max-width: $screen-xs-max) {
+    text-align: center;
+
+    .status {
+      float: none;
+    }
+
+    .logo {
+      max-width: 175px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.project-header {
+  text-align: left;
+  margin: .5em 0;
+
+  .logo {
+    border: 3px solid white;
+    border-radius: 8px;
+    width: 100%;
+  }
+
+  .title {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 0 .25em;
+  }
+
+  .category {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,.4);
+    margin: 0 0 .5em
+  }
+
+  .actions {
+    margin: 15px 0 0;
+
+    .action {
+      display: inline-block;
+      font-size: 17px;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.35);
+      padding: 1px 7px;
+      border-radius: 4px;
+      border: 3px solid rgba(255,255,255,.2);
+      margin: 0 .5em .5em 0;
+
+      &:hover {
+        border-color: white;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .leads {
+    margin-top: .5em;
+    color: rgba(255,255,255,.6);
+
+    span {
+      color: white;
+    }
+  }
+
+  .status {
+    font-size: 18px;
+    font-weight: 700;
+    color: $brand-primary;
+    background-color: rgba(255,255,255,.35);
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 2px 5px;
+    line-height: 1;
+    display: inline-block;
+    margin-bottom: .5em;
+    transition: background-color 200ms linear;
+  }
+
+  .status.active {
+    background-color: rgba(0,230,0,.4);
+  }
+
+  @media (max-width: $screen-xs-max) {
+    text-align: center;
+
+    .logo {
+      max-width: 175px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.project-content {
+  margin-top: 40px;
+  color: rgba(255,255,255,.65);
+
+  // TODO: Use blog styles for this
+
+  h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin: 1em 0 .5em;
+  }
+
+  h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: inherit;
+    text-transform: uppercase;
+  }
+}
+
+.project-events {
+  margin-top: 3em;
+
+  h1 {
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin: 2em 0 .75em;
+  }
+
+  @media (max-width: $screen-xs-max) {
+    h1 {
+      font-size: 22px;
+      text-align: center;
+    }
+  }
+}

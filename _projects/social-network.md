@@ -1,24 +1,18 @@
 ---
-id: vr
-title: Motion Adrift
-event_label: VR Project
-category: Virtual Reality
-logo: motion-adrift.png
-start_time: "2015-10-19"
+id: web
+title: Social Network
+event_label: Web Project
+category: Web Development
+logo:
+start_time: "2015-11-20"
 end_time: "2015-12-30"
 excerpt: |
   By combining the Oculus Rift and the Leap Motion, TechSoc brings you Motion Adrift for a new gaming experience in a virtual world.
 leads:
-  - Srikrishna Datla
-  - Diana Darie
   - Vicky Dineshchandra
 links:
-  github: http://github.com
-  facebook_group: http://facebook.com
-  slack: http://slack.com
----
 
-# Introduction
+---
 
 By combining the Oculus Rift and the Leap Motion, TechSoc brings you Motion Adrift for a new gaming experience in a virtual world.
 
@@ -26,6 +20,6 @@ By combining the Oculus Rift and the Leap Motion, TechSoc brings you Motion Adri
 
 Oculus, Leap motion, Unity SDK, Blender
 
-# Getting involved
+# How to get involved
 
 Come to our weekly project sessions to learn, build and collaborate!

@@ -1,5 +1,5 @@
 ---
-name: Vicky Dineschandra
+name: Vicky Dineshchandra
 role: VP of Projects
 order: 3
 profiles:

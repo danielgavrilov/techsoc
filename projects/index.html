@@ -6,6 +6,11 @@ navigation: true
 order: 4
 ---
 
-{% for project in site.projects %}
-  {% include project-overview.html project=project %}
-{% endfor %}
+<div class="row">
+  <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+    {% assign projects = site.projects | sort:"start_time" %}
+    {% for project in projects %}
+      {% include project-overview.html project=project %}
+    {% endfor %}
+  </div>
+</div>
