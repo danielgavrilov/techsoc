@@ -3,7 +3,7 @@ id: android
 title: UCLMeets
 event_label: Android Project
 category: Android Development
-logo: friends-mapper.png
+logo: uclmeets.png
 start_time: "2015-10-23"
 end_time: "2015-12-30"
 leads:

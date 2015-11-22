@@ -3,7 +3,7 @@ id: social-network
 title: UCLInspires
 event_label: Web Project
 category: Web development
-logo: friends-mapper.png
+logo: uclinspires.png
 start_time: "2015-10-23"
 end_time: "2015-12-30"
 leads:
