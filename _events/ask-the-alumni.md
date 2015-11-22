@@ -6,7 +6,7 @@ end_time: "2015-12-09 21:00"
 facebook_id: "1654524611491653"
 actions:
   - label: Register now
-    url:  www.askthealumni-compsci.eventbrite.com
+    url:  http://askthealumni-compsci.eventbrite.com
 ---
 
 We have joined forces with the University College London Computer Science Department to organise our first event, Ask the Alumni – a series of talks, panel discussion and Q&A to give current students the chance to hear about our alumni, what they've done since graduating and how their degree has helped them in the tech industry.
