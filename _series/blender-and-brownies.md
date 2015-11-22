@@ -2,8 +2,12 @@
 id: blender
 title: Blender & Brownies
 calendar: blender-and-brownies.ics
+start_time: "2015-10-20"
+end_time: "2015-11-25"
+leads:
+  - Jack Adler
 excerpt: |
-  Our beginner lessons on Blender.
+  Write me (short description)
 ---
 
-Our beginner lessons on Blender.
+Write me (extended description)
