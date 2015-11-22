@@ -39,7 +39,8 @@ p {
 
 a {
   transition: color 200ms linear,
-              border-color 200ms linear;
+              border-color 200ms linear,
+              background-color 200ms linear;
 }
 
 .wrapper {
