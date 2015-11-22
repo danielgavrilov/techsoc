@@ -27,6 +27,7 @@ exclude:
   - bower.json
   - gulpfile.js
   - assets/bower_components
+  - facebook-sync
 
 # Collections
 
