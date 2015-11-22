@@ -25,7 +25,7 @@
     font-weight: bold;
     color: white;
     text-transform: uppercase;
-    margin-top: 0;
+    margin: 0 0 .5em;
   }
 
   p {
@@ -58,6 +58,48 @@
       border-color: transparent;
       background-color: white;
       color: #003;
+    }
+  }
+}
+
+.series-header {
+  text-align: center;
+  margin: .5em 0 2.5em;
+
+  .title {
+    font-size: 36px;
+    font-weight: 700;
+    margin: .5em 0;
+  }
+
+  .leads {
+    color: rgba(255,255,255,.6);
+
+    span {
+      color: white;
+    }
+  }
+}
+
+.series-content {
+  color: rgba(255,255,255,.65);
+}
+
+.series-events {
+  margin-top: 3em;
+
+  h1 {
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin: 2em 0 .75em;
+  }
+
+  @media (max-width: $screen-xs-max) {
+    h1 {
+      font-size: 22px;
+      text-align: center;
     }
   }
 }

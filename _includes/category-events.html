@@ -1,0 +1,23 @@
+{% if include.events.size > 0 %}
+  {% include scripts/events_upcoming events=include.events %}
+  {% if events_upcoming_result.size > 0 %}
+    <div class="upcoming-events">
+      <h1>Upcoming events</h1>
+      {% for event in events_upcoming_result %}
+        {% include event-overview.html hide_category=true %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% include scripts/events_past events=include.events %}
+  {% if events_past_result.size > 0 %}
+    <div class="past-events">
+      <h1>Past events</h1>
+      {% for event in events_past_result %}
+        {% include event-overview.html hide_category=true %}
+      {% endfor %}
+    </div>
+  {% endif %}
+{% else %}
+  No events. Check back later.
+{% endif %}

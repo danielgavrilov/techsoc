@@ -1,20 +1,30 @@
 ---
-layout: page
+layout: page-narrow
 ---
 
-<div class="row">
-  <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-    <div class="series-content">
-      {{ content }}
-    </div>
-    {% assign events = site.events | where: "series_id", page.id | sort: "start_time" %}
-    {% if events.size > 0 %}
-      <h2>Events</h2>
-      {% for event in events %}
-        {% include event-overview.html hide_category=true %}
-      {% endfor %}
-    {% else %}
-      No events. Check back later. Subscribe to calendar.
+{% assign series = page %}
+{% include scripts/event_status event=series %}
+
+<div class="series-page">
+  <div class="series-header">
+
+    <h1 class="title">{{ series.title }}</h1>
+
+    {% if series.leads %}
+      <div class="leads">
+        With
+        {% for name in series.leads %}
+          <span>{{ name }}</span>{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      </div>
     {% endif %}
+
+  </div>
+  <div class="series-content">
+    {{ content }}
+  </div>
+  <div class="series-events">
+    {% assign events = site.events | where: "series_id", series.id %}
+    {% include category-events.html events=events %}
   </div>
 </div>

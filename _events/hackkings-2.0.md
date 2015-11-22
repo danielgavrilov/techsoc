@@ -1,5 +1,5 @@
 ---
-title: "HackKing's 2.0"
+title: "UCLU TechSoc goes to HackKing's 2.0"
 series_id: hackathons
 location: Kings College London - Strand Campus
 start_time: "2015-12-12 09:00"

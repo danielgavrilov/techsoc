@@ -1,47 +1,38 @@
 ---
-layout: page
+layout: page-narrow
 ---
 
 {% assign event = page %}
 
 <div class="event-page">
   <div class="event-header">
-    <div class="row">
-      <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-        {% include category-link.html event=event %}
-        <h1 class="title">
-          {{ event.title }}
-        </h1>
-        <div class="metadata">
-          <div class="time">
-            <i class="icon icon-clock"></i>
-            {{ event.start_time | date: "%A, %-d %B" }} {{ event.start_time | date: "%H:%M" }}&ndash;{{ event.end_time | date: "%H:%M" }}
-          </div>
-          <div class="location">
-            <i class="icon icon-location"></i>
-            {{ event.location }}
-          </div>
-        </div>
-        <div class="actions">
-          {% for action in event.actions %}
-            <a href="{{ action.url }}" class="action">{{ action.label }}</a>
-          {% endfor %}
-          {% if event.facebook_id %}
-            <a href="https://www.facebook.com/events/{{ event.facebook_id }}" class="action"><i class="icon-facebook"></i> Facebook event</a>
-          {% endif %}
-        </div>
+    {% include category-link.html event=event %}
+    <h1 class="title">
+      {{ event.title }}
+    </h1>
+    <div class="metadata">
+      <div class="time">
+        <i class="icon icon-clock"></i>
+        {{ event.start_time | date: "%A, %-d %B" }} {{ event.start_time | date: "%H:%M" }}&ndash;{{ event.end_time | date: "%H:%M" }}
       </div>
+      <div class="location">
+        <i class="icon icon-location"></i>
+        {{ event.location }}
+      </div>
+    </div>
+    <div class="actions">
+      {% for action in event.actions %}
+        <a href="{{ action.url }}" class="action">{{ action.label }}</a>
+      {% endfor %}
+      {% if event.facebook_id %}
+        <a href="https://www.facebook.com/events/{{ event.facebook_id }}" class="action"><i class="icon-facebook"></i> Facebook event</a>
+      {% endif %}
     </div>
   </div>
-
   <div class="event-content">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-        {% if event.project_id %}
-          {% include project-event-notice.html project_id=event.project_id %}
-        {% endif %}
-        {{ content }}
-      </div>
-    </div>
+    {% if event.project_id %}
+      {% include project-event-notice.html project_id=event.project_id %}
+    {% endif %}
+    {{ content }}
   </div>
 </div>

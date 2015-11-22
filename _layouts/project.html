@@ -1,85 +1,58 @@
 ---
-layout: page
+layout: page-narrow
 ---
 
 {% assign project = page %}
 {% include scripts/event_status event=project %}
 
 <div class="project-page">
-  <div class="row">
-    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-      <div class="project-header clearfix">
-        <div class="row">
-          <div class="col-sm-3 col-sm-push-9">
-            {% if project.logo %}<img src="{{ project.logo | prepend: '/assets/images/projects/' | prepend: site.baseurl }}" class="logo">{% endif %}
-          </div>
-          <div class="col-sm-9 col-sm-pull-3">
+  <div class="project-header clearfix">
+    <div class="row">
+      <div class="col-sm-3 col-sm-push-9">
+        {% if project.logo %}<img src="{{ project.logo | prepend: '/assets/images/projects/' | prepend: site.baseurl }}" class="logo">{% endif %}
+      </div>
+      <div class="col-sm-9 col-sm-pull-3">
 
-            {% if status_result %}
-              <span class="status {{ status_result }}">{{ status_result }}</span>
+        {% if status_result %}
+          <span class="status {{ status_result }}">{{ status_result }}</span>
+        {% endif %}
+
+        <h1 class="title">{{ project.title }}</h1>
+        <h2 class="category">{{ project.category }}</h2>
+
+        {% if project.links %}
+          <div class="actions">
+            {% if project.links.github %}
+              <a href="{{ project.links.github }}" class="action"><i class="icon-github"></i> Github</a>
             {% endif %}
-
-            <h1 class="title">{{ project.title }}</h1>
-            <h2 class="category">{{ project.category }}</h2>
-
-            {% if project.links %}
-              <div class="actions">
-                {% if project.links.github %}
-                  <a href="{{ project.links.github }}" class="action"><i class="icon-github"></i> Github</a>
-                {% endif %}
-                {% if project.links.facebook_group %}
-                  <a href="{{ project.links.facebook_group }}" class="action"><i class="icon-facebook"></i> Facebook group</a>
-                {% endif %}
-                {% if project.links.slack %}
-                  <a href="{{ project.links.slack }}" class="action"><i class="icon-slack"></i> Slack</a>
-                {% endif %}
-                {% if project.links.drive %}
-                  <a href="{{ project.links.drive }}" class="action">Google Drive</a>
-                {% endif %}
-              </div>
+            {% if project.links.facebook_group %}
+              <a href="{{ project.links.facebook_group }}" class="action"><i class="icon-facebook"></i> Facebook group</a>
             {% endif %}
-
-            {% if project.leads %}
-              <div class="leads">
-                With
-                {% for name in project.leads %}
-                  <span>{{ name }}</span>{% unless forloop.last %},{% endunless %}
-                {% endfor %}
-              </div>
+            {% if project.links.slack %}
+              <a href="{{ project.links.slack }}" class="action"><i class="icon-slack"></i> Slack</a>
+            {% endif %}
+            {% if project.links.drive %}
+              <a href="{{ project.links.drive }}" class="action">Google Drive</a>
             {% endif %}
           </div>
-        </div>
-      </div>
-      <div class="project-content">
-        {{ content }}
-      </div>
-      <div class="project-events">
-        {% assign events = site.events | where: "project_id", project.id | sort: "start_time" %}
-        {% if events.size > 0 %}
-          {% include scripts/events_upcoming events=events %}
-          {% if events_upcoming_result.size > 0 %}
-            <div class="upcoming-events">
-              <h1>Upcoming events</h1>
-              {% for event in events_upcoming_result %}
-                {% include event-overview.html hide_category=true %}
-              {% endfor %}
-            </div>
-          {% endif %}
+        {% endif %}
 
-          {% include scripts/events_past events=events %}
-          {% if events_past_result.size > 0 %}
-            <div class="past-events">
-              <h1>Past events</h1>
-              {% for event in events_past_result %}
-                {% include event-overview.html hide_category=true %}
-              {% endfor %}
-            </div>
-          {% endif %}
-        {% else %}
-          No events. Check back later. Subscribe to calendar.
+        {% if project.leads %}
+          <div class="leads">
+            With
+            {% for name in project.leads %}
+              <span>{{ name }}</span>{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          </div>
         {% endif %}
       </div>
     </div>
   </div>
-
+  <div class="project-content">
+    {{ content }}
+  </div>
+  <div class="project-events">
+    {% assign events = site.events | where: "project_id", project.id %}
+    {% include category-events.html events=events %}
+  </div>
 </div>
