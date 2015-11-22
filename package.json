@@ -18,9 +18,18 @@
   "homepage": "https://github.com/techsoc/website-2015#readme",
   "devDependencies": {
     "browser-sync": "^2.9.11",
+    "front-matter": "^2.0.0",
+    "glob": "^6.0.1",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-sass": "^2.0.4",
-    "gulp-sourcemaps": "^1.6.0"
-  }
+    "gulp-sourcemaps": "^1.6.0",
+    "js-yaml": "^3.4.4",
+    "lodash": "^3.10.1",
+    "moment": "^2.10.6",
+    "q": "^1.4.1",
+    "request-promise": "^1.0.2",
+    "slug": "^0.9.1"
+  },
+  "dependencies": {}
 }

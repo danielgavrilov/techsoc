@@ -78,6 +78,7 @@ gulp.task('sass', function() {
      '!assets/scss/**/*',
      '!node_modules/**/*',
      '!_site/**/*',
+     '!facebook-sync/**/*',
      '!*',
      '*.html',
      '*.yml',
