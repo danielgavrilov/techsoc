@@ -7,7 +7,7 @@ end_time: "2015-11-25"
 leads:
   - Jack Adler
 excerpt: |
-  A beginner course which teaches how to create, animate and texture 3D models in Blender, a free & popular 3D graphics software.
+  A beginner course which teaches how to create, animate and texture 3D models in Blender, a popular 3D graphics software.
 ---
 
 This course teaches [Blender](http://www.blender.org/features/) from scratch and you will have the chance to 3D print your model at the end of the course.
