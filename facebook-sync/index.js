@@ -96,7 +96,7 @@ function generateFileContent(event) {
   output += "---\n";
   output += yaml.dump(event.attributes);
   output += "---\n";
-  output += event.body;
+  output += event.body || "";
   return output;
 }
 
