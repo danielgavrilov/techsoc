@@ -77,7 +77,7 @@ function parseFacebookEvent(event) {
 function getSiteEvents() {
   return new Promise(function(resolve, reject) {
 
-    glob("_events/*.md", function(err, filenames) {
+    glob("_events/**/*.md", function(err, filenames) {
       if (err) return reject(err);
       return resolve(filenames.map(getSiteEvent));
     });
