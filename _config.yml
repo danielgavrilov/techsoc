@@ -50,6 +50,8 @@ collections:
   redirects:
     output: true
     permalink: /:path/
+  calendars:
+    output: true
 
 defaults:
   -
@@ -76,6 +78,12 @@ defaults:
       type: projects
     values:
       layout: project
+  -
+    scope:
+      path: ""
+      type: calendars
+    values:
+      layout: null
 
 gems:
   - jekyll-feed

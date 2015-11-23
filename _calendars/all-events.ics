@@ -1,0 +1,4 @@
+---
+calendar_name: All Events
+---
+{% include calendar.ics events=site.events include_category=true %}
