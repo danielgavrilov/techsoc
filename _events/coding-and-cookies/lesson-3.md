@@ -1,6 +1,6 @@
 ---
 title: "Lesson 3: Ruby on Rails"
-series_id: coding
+series_id: coding-and-cookies
 location: 25 Gordon Street, Room 105
 start_time: "2015-10-27 18:00"
 end_time: "2015-10-27 20:00"

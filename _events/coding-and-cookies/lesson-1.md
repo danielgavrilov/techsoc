@@ -1,6 +1,6 @@
 ---
 title: "Lesson 1: HTML & CSS"
-series_id: coding
+series_id: coding-and-cookies
 location: Darwin B15
 start_time: "2015-10-13 18:00"
 end_time: "2015-10-13 20:00"

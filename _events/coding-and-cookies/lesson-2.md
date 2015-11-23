@@ -1,6 +1,6 @@
 ---
 title: "Lesson 2: jQuery and Responsive Design"
-series_id: coding
+series_id: coding-and-cookies
 location: Darwin B15
 start_time: "2015-10-19 17:00"
 end_time: "2015-10-19 19:00"

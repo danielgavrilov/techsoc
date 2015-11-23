@@ -1,5 +1,5 @@
 ---
-id: coding
+id: coding-and-cookies
 title: Coding & Cookies
 tagline: Learn the basics of HTML, CSS & JavaScript.
 calendar: coding-and-cookies.ics

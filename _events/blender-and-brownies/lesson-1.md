@@ -1,6 +1,6 @@
 ---
 title: "Lesson 1: UI, Basic Shapes, Transformations, Lighting & Rendering"
-series_id: blender
+series_id: blender-and-brownies
 location: MPEB 1.21
 start_time: "2015-10-20 16:00"
 end_time: "2015-10-20 18:00"
