@@ -3,7 +3,7 @@ title: "Session 1: Introduction"
 project_id: social-network
 location: "Bedford Way Public Cluster 316"
 start_time: "2015-11-20 14:00"
-end_time: "2015-11-20 15:00"
+end_time: "2015-11-20 15:30"
 facebook_id: "855730107876066"
 ---
 

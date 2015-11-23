@@ -1,10 +1,10 @@
 ---
 title: "UCLU TechSoc goes to HackNotts"
 series_id: hackathons
-location: University of Nottingham - Jubilee Campus, Computer Science 
-start_time: "2015-11-28 09:00"
+location: University of Nottingham - Jubilee Campus, Computer Science
+start_time: "2015-11-28 10:00"
 end_time: "2015-11-29 16:00"
-facebook_id: "1024922314194519"
+facebook_id: "173266979689288"
 actions:
   - label: Register now
     url:  http://hacknotts.com/#register
