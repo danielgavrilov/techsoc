@@ -17,7 +17,7 @@ linkedin_url: https://www.linkedin.com/company/uclu-techsoc
 # Build settings
 
 permalink: /blog/:year/:month/:day/:title/
-highlighter: rougify
+highlighter: pygments
 markdown: kramdown
 exclude:
   - README.md
