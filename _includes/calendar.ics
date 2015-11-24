@@ -27,7 +27,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 
 END:VTIMEZONE
-{% for event in include.events %}
+{% assign _events = include.events | sort: "start_time" | reverse %}
+{% for event in _events %}
 {% if event.start_time and event.start_time != "TBA" %}
 {% include scripts/event_category event=event %}
 {% capture title %}{% if include.include_category and event_category_label_result %}[{{ event_category_label_result }}] {% endif %}{{ event.title }}{% endcapture %}
