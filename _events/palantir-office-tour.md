@@ -10,10 +10,10 @@ actions:
     url:  https://docs.google.com/forms/d/1sHbi90tBpE_nq0gT5weWd9nBHNN_zBZR_CNQ80Htisw/viewform?c=0&w=1
 ---
 
-Apply: <http://goo.gl/forms/6nyZAe2Iw8>
-Application deadline: 13th November 2015
-UCL STUDENTS ONLY.
-STEM degrees and Computer Science students preferred.
+Apply: <http://goo.gl/forms/6nyZAe2Iw8>  
+Application deadline: 13th November 2015  
+UCL STUDENTS ONLY.  
+STEM degrees and Computer Science students preferred.  
 
 
 ADVENTURE IS CALLING
