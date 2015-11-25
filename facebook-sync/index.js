@@ -65,7 +65,9 @@ function parseFacebookEvent(event) {
     attrs.actions = [{ label: "Get tickets", url: event.ticket_uri }];
   }
   if (event.description) {
-    output.body = "\n" + event.description;
+    // adding 2 or more spaces at the end of a line forces a newline in Markdown
+    var description = event.description.replace(/\n/g, "  \n");
+    output.body = "\n" + description;
   }
 
   return output;
