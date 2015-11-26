@@ -8,6 +8,8 @@ facebook_id: "1024922314194519"
 actions:
   - label: Get tickets
     url:  http://www.eventbrite.co.uk/e/hackkings-20-tickets-19455835929
+  - label: Visit website
+    url: http://hackkings.org/
 ---
 
 Suffering from HackLondon withdrawals?
