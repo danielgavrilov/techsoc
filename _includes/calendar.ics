@@ -41,7 +41,7 @@ DTSTART;TZID=Europe/London:{{ start_time }}
 SUMMARY:{% include scripts/ical_escape text=title %}
 {% if event.location %}LOCATION:{% include scripts/ical_escape text=event.location %}{% endif %}
 DESCRIPTION:{% include scripts/ical_escape text=event.content %}
-{% if event.facebook_id %}{% assign facebook_url = event.facebook_id | prepend: "https://www.facebook.com/" %}URL:{% include scripts/ical_escape text=facebook_url %}{% endif %}
+{% if event.facebook_id %}{% assign facebook_url = event.facebook_id | prepend: "https://www.facebook.com/events/" %}URL:{% include scripts/ical_escape text=facebook_url %}{% endif %}
 END:VEVENT
 {% endif %}
 {% endfor %}
