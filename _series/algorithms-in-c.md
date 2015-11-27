@@ -1,6 +1,6 @@
 ---
-id: c-workshop
-title: C Workshop
+id: algortihms-in-c
+title: Algorithms in C
 start_time: "2015-11-19"
 end_time: "2015-12-30"
 leads:

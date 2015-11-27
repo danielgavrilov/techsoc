@@ -1,7 +1,7 @@
 ---
 facebook_id: '942231789185042'
 title: 'Session 2: Searching & Sorting Algorithms'
-series_id: c-workshop
+series_id: algortihms-in-c
 start_time: '2015-11-26 13:00'
 end_time: '2015-11-26 15:00'
 location: Foster Court B29 - Public Cluster
