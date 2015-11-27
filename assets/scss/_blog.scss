@@ -5,42 +5,68 @@
 }
 
 .post-overview {
-  display: block;
-  border-bottom: 1px solid rgba(255,255,255,.1);
 
-  .title {
-    margin: 0;
-    padding: 0;
-    line-height: 26px;
-
-    a {
-      font-size: 20px;
+  a {
+    display: block;
+    border: 3px solid rgba(255,255,255,0.2);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 22px 25px;
+    color: white;
+    &:hover {
+      border-color: white;
       color: white;
     }
   }
 
-  .date {
-    font-size: 16px;
+  .title {
+    font-size: 22px;
     font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 .25em;
+    padding: 0;
+  }
+
+  .metadata {
+    font-size: 16px;
+    font-weight: 400;
     text-transform: uppercase;
     line-height: 26px;
+    margin-top: .35em;
     color: rgba(255,255,255,.5);
+    transition: color 200ms linear;
+  }
+
+  a:hover .metadata,
+  a:hover .excerpt {
+    color: white;
   }
 
   .excerpt {
     font-size: 16px;
-    margin-bottom: 1em;
+    color: rgba(255,255,255,.7);
+    transition: color 200ms linear;
+
+    p {
+      margin: .5em 0 0;
+    }
   }
 }
-.post-content {
-  border: 3px solid rgba(255,255,255,.1);
-  border-radius: 10px;
-  padding: 2em 2em 1.5em;
 
-  .page-heading {
-    margin-top: 0;
+.rss-subscribe {
+  text-align: center;
+  color: rgba(255,255,255,.5);
+}
+
+.post-header {
+  text-align: center;
+
+  h1 {
+    font-weight: 700;
   }
+}
 
+.post-content {
   p {
     font-size: 17px;
     line-height: 1.4;
