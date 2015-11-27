@@ -1,0 +1,16 @@
+.highlight {
+  font-size: 14px;
+  background-color: rgba(0,0,0,.35) !important;
+  border-radius: 6px;
+
+  pre {
+    margin: 1em 0;
+    padding: 15px;
+  }
+
+  .lineno {
+    padding-right: 5px;
+    color: rgba(255,255,255,.5);
+    user-select: none;
+  }
+}

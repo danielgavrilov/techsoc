@@ -1,18 +1,13 @@
 <li class="post-overview">
-  <div class="row">
-    <div class="col-sm-2">
-      <div class="date">{{ post.date | date: "%d %b %Y" }}</div>
+  <a href="{{ post.url | prepend: site.baseurl }}">
+    <h2 class="title">
+      {{ post.title }}
+    </h2>
+    <div class="metadata">
+      {{ post.date | date: "%d %B %Y" }}{% if post.author %}&ensp;•&ensp;{{ post.author }}{% endif %}
     </div>
-
-    <div class="col-sm-10">
-      <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="title">
-          {{ post.title }}
-        </h2>
-        <div class="post-content">
-          {{ post.excerpt }}
-        </div>
-      </a>
+    <div class="excerpt">
+      {{ post.excerpt }}
     </div>
-  </div>
+  </a>
 </li>
