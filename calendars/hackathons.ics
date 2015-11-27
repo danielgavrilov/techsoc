@@ -1,6 +1,0 @@
----
-calendar_name: Hackathons
----
-{% capture _suppress_output %}
-  {% assign events = site.events | where: "series_id", "hackathons" %}
-{% endcapture %}{% include_relative _template.ics events=events %}

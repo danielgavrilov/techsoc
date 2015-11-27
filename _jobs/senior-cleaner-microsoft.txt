@@ -1,8 +1,0 @@
----
-title: Senior Cleaner
-company: Microsoft
-deadline: 2015-10-10
-link: http://microsoft.com
----
-
-Microsoft is proud to offer this position.

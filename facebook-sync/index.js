@@ -65,7 +65,9 @@ function parseFacebookEvent(event) {
     attrs.actions = [{ label: "Get tickets", url: event.ticket_uri }];
   }
   if (event.description) {
-    output.body = "\n" + event.description;
+    // adding 2 or more spaces at the end of a line forces a newline in Markdown
+    var description = event.description.replace(/\n/g, "  \n");
+    output.body = "\n" + description;
   }
 
   return output;
@@ -77,7 +79,7 @@ function parseFacebookEvent(event) {
 function getSiteEvents() {
   return new Promise(function(resolve, reject) {
 
-    glob("_events/*.md", function(err, filenames) {
+    glob("_events/**/*.md", function(err, filenames) {
       if (err) return reject(err);
       return resolve(filenames.map(getSiteEvent));
     });
