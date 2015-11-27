@@ -7,7 +7,7 @@ leads:
   - Jaromir Latal
   - Horatiu Ilie
 excerpt: |
-  Write me (short description)
+  Brush up on your C programming knowledge and learn how to implement everyday algorithms.
 ---
 
-Write me (extended description)
+Brush up on your C programming knowledge and learn how to implement everyday algorithms.
