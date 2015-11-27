@@ -17,8 +17,9 @@ linkedin_url: https://www.linkedin.com/company/uclu-techsoc
 # Build settings
 
 permalink: /blog/:year/:month/:day/:title/
-highlighter: pygments
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+  extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
 exclude:
   - README.md
   - Gemfile*
