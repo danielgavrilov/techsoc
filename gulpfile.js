@@ -68,7 +68,7 @@ gulp.task('sass', function() {
  gulp.task('watch', ['watch-sass', 'watch-jekyll']);
 
  gulp.task('watch-sass', function() {
-   gulp.watch('assets/scss/*.scss', ['sass']);
+   gulp.watch('assets/scss/**/*.scss', ['sass']);
  });
 
  gulp.task('watch-jekyll', function() {
