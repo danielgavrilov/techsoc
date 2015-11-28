@@ -6,7 +6,7 @@
       <div class="date">{{ event.start_time | date: "%a, %-d %b" }}</div>
       <div class="time">{{ event.start_time | date: "%H:%M" }}{% if event.end_time %} &ndash; {{ event.end_time | date: "%H:%M" }}{% endif %}</div>
     </div>
-    <div class="col-sm-8">
+    <div class="{% if event.actions %}col-sm-8{% else %}col-sm-10{% endif %}">
       <h2>
         {% unless include.hide_category %}
           {% include category-link.html event=event %}
@@ -21,14 +21,14 @@
         {{ event.location }}
       </div>
     </div>
-    <div class="col-sm-2">
     {% if event.actions %}
+    <div class="col-sm-2">
       <div class="actions">
       {% for action in event.actions %}
         <a href="{{ action.url }}" class="action">{{ action.label }}</a>
       {% endfor %}
       </div>
-    {% endif %}
     </div>
+    {% endif %}
   </div>
 </div>
