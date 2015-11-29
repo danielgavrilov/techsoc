@@ -18,7 +18,7 @@ function eventTransform(event) {
     title: (event.label ? "[" + event.label + "] " : "") + event.title,
     start: event.start_time,
     end: event.end_time,
-    url: event.url
+    url: "{{ site.baseurl }}" + event.url
   };
 }
 
