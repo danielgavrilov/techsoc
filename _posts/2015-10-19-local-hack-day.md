@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Local Hack Day - UCL, London"
 categories: hackathon
 author: Zahra Taiba
