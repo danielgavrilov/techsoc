@@ -1,7 +1,7 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//{{ site.title }}//{{ page.calendar_name }}//EN
-X-WR-CALNAME:TechSoc: {{ page.calendar_name }}
+PRODID:-//{{ site.title }}//{{ page.title }}//EN
+X-WR-CALNAME:TechSoc: {{ page.title }}
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 
@@ -31,7 +31,7 @@ END:VTIMEZONE
 {% for event in _events %}
 {% if event.start_time and event.start_time != "TBA" %}
 {% include scripts/event_category event=event %}
-{% capture title %}{% if include.include_category and event_category_label_result %}[{{ event_category_label_result }}] {% endif %}{{ event.title }}{% endcapture %}
+{% capture title %}{% if include.include_label and event_category_label_result %}[{{ event_category_label_result }}] {% endif %}{{ event.title }}{% endcapture %}
 {% capture start_time %}{{ event.start_time | date: "%Y%m%dT%H%M%S" }}{% endcapture %}
 {% capture end_time   %}{{ event.end_time   | date: "%Y%m%dT%H%M%S" }}{% endcapture %}
 BEGIN:VEVENT

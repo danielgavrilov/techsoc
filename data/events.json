@@ -1,0 +1,15 @@
+---
+collection_name: events
+fields:
+  - title
+  - series_id
+  - project_id
+  - start_time
+  - end_time
+  - location
+  - url
+  - facebook_id
+  - actions
+  - content
+---
+{% include scripts/jsonify_collection collection_name=page.collection_name fields=page.fields %}

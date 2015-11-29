@@ -1,0 +1,39 @@
+{% capture _suppress_output %}
+
+{% assign items = "," | split: "," %}
+{% assign fields = include.fields %}
+
+{% for item in site[include.collection_name] %}
+
+  {% assign keypairs = "," | split: "," %}
+
+  {% if include.collection_name == "events" %}
+    {% include scripts/event_category event=item %}
+    {% if event_category_label_result %}
+      {% capture keypair %}
+        {{ "label" | jsonify }}: {{ event_category_label_result | jsonify }}
+      {% endcapture %}
+      {% assign keypairs = keypairs | push: keypair %}
+    {% endif %}
+  {% endif %}
+
+  {% for field in fields %}
+    {% if item[field] %}
+      {% capture keypair %}
+        {{ field | jsonify }}: {{ item[field] | jsonify }}
+      {% endcapture %}
+      {% assign keypairs = keypairs | push: keypair %}
+    {% endif %}
+  {% endfor %}
+
+  {% capture item_json %}
+    { {{ keypairs | join: "," }} }
+  {% endcapture %}
+
+  {% assign items = items | push: item_json %}
+
+{% endfor %}
+
+{% endcapture %}
+
+[{{ items | join: "," }}]

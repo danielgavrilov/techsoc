@@ -1,0 +1,113 @@
+
+.fc {
+
+  $border-color: mix($brand-primary, white, 85%);
+
+  .fc-bg .fc-axis {
+    border-color: transparent;
+  }
+
+  .fc-day-header {
+    font-size: 0.875em;
+    text-transform: uppercase;
+  }
+
+  .fc-toolbar h2 {
+    font-size: 1.25em;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.8;
+  }
+
+  .fc-minor td {
+    border-color: $border-color;
+  }
+
+  .fc-today {
+    background-color: rgba(255,255,255,.1);
+  }
+
+  .fc-event {
+    background-color: rgba(255,255,255,.2);
+    border-color: rgba(255,255,255,.1);
+
+    .fc-bg {
+      background: transparent;
+      opacity: 1;
+    }
+
+    &:hover {
+      background-color: rgba(255,255,255,.25);
+      border-color: rgba(255,255,255,.2);
+    }
+  }
+
+  .fc-time span {
+    font-size: 0.875em;
+    color: rgba(255,255,255,.6);
+    text-decoration: uppercase;
+  }
+
+  th, td, thead, tbody, .fc-divider, .fc-row, .fc-popover {
+    border-color: $border-color;
+  }
+
+  .fc-button-group .ui-button {
+    margin-left: 1px;
+  }
+
+  .ui-button {
+    font-weight: 700;
+    color: rgba(255,255,255,.4);
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    margin-left: 10px;
+    outline: none;
+    transition: color 200ms linear,
+                border-color 200ms linear,
+                opacity 200ms linear;
+
+    &.ui-corner-left {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+
+    &.ui-corner-right {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+
+    &:hover, &:active, &.ui-state-active {
+      color: white;
+      border-color: white;
+    }
+
+    &.fc-today-button {
+      opacity: 1;
+    }
+
+    &.fc-today-button.ui-state-disabled {
+      opacity: 0;
+      &:hover {
+        color: rgba(255,255,255,.4);
+        border-color: rgba(255,255,255,.2);
+        cursor: default;
+      }
+    }
+  }
+
+  .ui-icon-circle-triangle-w:after {
+  	content: "\25C4";
+  	font-size: 0.875em;
+  	top: 3%;
+  	left: -2%;
+  }
+
+  .ui-icon-circle-triangle-e:after {
+  	content: "\25BA";
+  	font-size: 0.875em;
+  	top: 3%;
+  	left: 2%;
+  }
+}
