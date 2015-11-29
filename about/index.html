@@ -30,8 +30,8 @@ order: 2
 <h2 class="page-heading">Team</h2>
 
 <div class="responsive-boxes">
-  {% assign sorted_members = site.members | sort: "order" %}
-  {% for member in sorted_members %}
+  {% assign team = site.data.people | where: "team", true %}
+  {% for member in team %}
     {% include member-overview.html member=member %}
   {% endfor %}
 </div>
