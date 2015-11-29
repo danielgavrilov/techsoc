@@ -8,18 +8,56 @@ order: 3
 
 {% include scripts/events_upcoming events=site.events exclude_invalid_date=true %}
 
-<h2 class="page-heading">Upcoming events</h2>
+<!-- Tabs -->
+<ul class="nav tabs" role="tablist">
+  <li role="presentation" class="active">
+    <a href="#list" aria-controls="list" role="tab" data-toggle="tab" class="list-view-button">
+      <i class="icon icon-list"></i>
+      List view
+    </a>
+  </li>
+  <li role="presentation">
+    <a href="#calendar" aria-controls="calendar" role="tab" data-toggle="tab" class="calendar-view-button">
+      <i class="icon icon-calendar"></i>
+      Calendar view
+    </a>
+  </li>
+</ul>
 
-<div class="row">
-  <div class="col-md-10 col-md-offset-1">
-    {% for event in events_upcoming_result %}
-      {% include event-overview.html event=event %}
-    {% endfor %}
+<!-- Tab content -->
+<div class="tab-content">
+
+  <div role="tabpanel" class="tab-pane fade in active" id="list">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        {% for event in events_upcoming_result %}
+          {% include event-overview.html event=event %}
+        {% endfor %}
+      </div>
+    </div>
   </div>
+
+  <div role="tabpanel" class="tab-pane fade" id="calendar">
+    <!-- By SpinKit - http://tobiasahlin.com/spinkit/ -->
+    <div class="sk-circle">
+      <div class="sk-circle1 sk-child"></div>
+      <div class="sk-circle2 sk-child"></div>
+      <div class="sk-circle3 sk-child"></div>
+      <div class="sk-circle4 sk-child"></div>
+      <div class="sk-circle5 sk-child"></div>
+      <div class="sk-circle6 sk-child"></div>
+      <div class="sk-circle7 sk-child"></div>
+      <div class="sk-circle8 sk-child"></div>
+      <div class="sk-circle9 sk-child"></div>
+      <div class="sk-circle10 sk-child"></div>
+      <div class="sk-circle11 sk-child"></div>
+      <div class="sk-circle12 sk-child"></div>
+    </div>
+  </div>
+
 </div>
 
 <h2 class="page-heading">Event series</h2>
-
 <div class="responsive-boxes">
   {% for series in site.series %}
     {% include series-overview.html series=series %}
