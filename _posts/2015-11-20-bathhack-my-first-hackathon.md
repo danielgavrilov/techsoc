@@ -1,0 +1,19 @@
+---
+title: "BathHack - My First Hackathon"
+categories: hackathon
+author: Sachchit Prasad
+---
+
+When I say hackathon, what does it mean to you? Do you picture a bunch of students furiously typing away at their keyboards trying to be the first one to hack into something? Well, to be totally honest I had no real idea what it really was until I had attended the UCL local hack day, where we spent eight hours trying to make an app. At a hackathon, you can create whatever you want using technology, whether it be a web app, a mobile app or maybe some virtual reality game, it really is down to your imagination and what you can do with your ideas.
+
+Last weekend, a group of us had decided to go down to Bath to represent UCL at their 24-hour hackathon, this also the first proper hackathon that many of us had been too so we weren't really sure what to expect. When we got there, having just made it in time, we found that we were working in a large lecture room where there were a good 70 others against whom we were competing. It was a bit intimidating at first, a lot of the people there seemed to have been experienced and had knowledge of a lot of different languages. However when it came down to it, the whole experience turned out to be equally fun as it was challenging.
+
+Our team of four had decided to work on a website that would cover everything a first year student would need to get through computer science. Very quickly we had realised how big the project would be and got underway with it, learning many new things along the way. Fueled by endless cans of Red Bull and energy drinks, we worked through the first few hours of the project, finally feeling like we were getting somewhere. Looking around at what other people were doing, there were a whole range of projects, people were using robotics, virtual reality headsets and all sorts of different web apps so we knew we had a lot of competition.
+
+The hackathon was a really relaxed environment, 24 hours is a long time when you get down to it so it wasn't just us working for the entire time. There were a few games Bath had arranged and mountain of pizza they had brought in for us and as the day wore on, everyone took a break and went off to explore the place. Getting through the night was a challenge, with a few people opting to go to sleep and most just downing more cans of red bull.
+
+In the morning, we were polishing off our final designs and preparing to give our final presentations. None of the presentations disappointed and a lot of them demonstrated just how far a small team could get in 24 hours. There were some projects which were aimed at the tragic events that had taken place in France, the apps were designed were for an emergency response in the event of a terrorist threat or natural disaster. A particularity great project was  a wirelessly controlled machine which would fire a Nerf gun. These were just some of the fantastic projects that had been created over the course of a day. UCL presented a total of four different projects as well. One of the UCL projects would translate any string sent from a web browser to a machine in a different location that then beeped it out in Morse code and there was another which would gauge how popular a post on social media was.
+
+When the prize giving came around, UCL had won one them for our hack and given the quality of the hacks were quite high, this was a great achievement. The whole experience was very different from what I had expected and everyone certainly did enjoy themselves- apart from the lack of sleep of course, where we regretted our choices not to sleep the night before!
+
+To anyone who has not been to a hackathon yet, I would certainly recommend you try to go to one, since you learn a lot of new skills and it's generally a lot of fun! You never know until you try.
