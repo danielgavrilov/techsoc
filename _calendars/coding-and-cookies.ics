@@ -1,6 +1,4 @@
 ---
-calendar_name: Coding & Cookies
+title: Coding & Cookies
+series_id: coding-and-cookies
 ---
-{% capture _suppress_output %}
-  {% assign events = site.events | where: "series_id", "coding" %}
-{% endcapture %}{% include calendar.ics events=events %}

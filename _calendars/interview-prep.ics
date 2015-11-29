@@ -1,6 +1,4 @@
 ---
-calendar_name: Coding Interview Prep
+title: Coding Interview Prep
+series_id: interview-prep
 ---
-{% capture _suppress_output %}
-  {% assign events = site.events | where: "series_id", "interview-prep" %}
-{% endcapture %}{% include calendar.ics events=events %}

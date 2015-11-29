@@ -90,7 +90,8 @@ defaults:
       path: ""
       type: calendars
     values:
-      layout: null
+      layout: calendar
+      include_label: true
 
 gems:
   - jekyll-feed

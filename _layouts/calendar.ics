@@ -1,0 +1,9 @@
+{% capture _suppress_output %}
+  {% if page.series_id %}
+    {% assign events = site.events | where: "series_id", page.series_id %}
+  {% elsif page.project_id %}
+    {% assign events = site.events | where: "project_id", page.project_id %}
+  {% else %}
+    {% assign events = site.events %}
+  {% endif %}
+{% endcapture %}{% include calendar.ics events=events include_label=page.include_label %}
