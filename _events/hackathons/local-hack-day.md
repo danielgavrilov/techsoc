@@ -5,6 +5,9 @@ location: Malet Place Engineering Building
 start_time: "2015-10-10 09:00"
 end_time: "2015-10-10 21:00"
 facebook_id: "1637689663136646"
+actions:
+  - label: Blog post
+    url: /blog/2015/10/19/local-hack-day/
 ---
 
 **REGISTRATION IS NOW CLOSED**
