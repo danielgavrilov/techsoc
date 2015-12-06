@@ -4,7 +4,7 @@ title: Christmas Dinner with Leading Women Society
 start_time: '2015-12-10 18:00'
 location: Number Twelve Restaurant
 actions:
-  - label: Get tickets
+  - label: Tickets
     url: 'https://uclu.org/whats-on/clubs-societies/technology-society-christmas-dinner-with-lws'
 ---
 

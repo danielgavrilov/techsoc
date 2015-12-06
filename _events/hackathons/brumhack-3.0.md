@@ -5,7 +5,7 @@ location: Birmingham University
 start_time: "2015-10-24 10:30"
 end_time: "2015-10-25 16:00"
 actions:
-  - label: Get Tickets
+  - label: Tickets
     url: https://brumhack.eventbrite.co.uk
 ---
 

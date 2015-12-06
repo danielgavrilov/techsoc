@@ -6,7 +6,7 @@ start_time: "2015-11-28 10:00"
 end_time: "2015-11-29 16:00"
 facebook_id: "173266979689288"
 actions:
-  - label: Register now
+  - label: Register
     url:  http://hacknotts.com/#register
 ---
 

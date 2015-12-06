@@ -6,7 +6,7 @@ start_time: '2015-12-05 12:30'
 end_time: '2015-12-06 15:30'
 location: Copper Box Arena Queen Elizabeth Olympic Park, E20 3HB
 actions:
-  - label: Get tickets
+  - label: Tickets
     url: 'https://www.eventbrite.co.uk/e/hackathon-at-techcrunch-disrupt-london-2015-tickets-19120571143'
 ---
 

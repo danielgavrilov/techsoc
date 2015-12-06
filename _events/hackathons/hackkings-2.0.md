@@ -6,9 +6,9 @@ start_time: "2015-12-12 10:00"
 end_time: "2015-12-13 15:00"
 facebook_id: "1024922314194519"
 actions:
-  - label: Get tickets
+  - label: Tickets
     url:  http://www.eventbrite.co.uk/e/hackkings-20-tickets-19455835929
-  - label: Visit website
+  - label: Website
     url: http://hackkings.org/
 ---
 
