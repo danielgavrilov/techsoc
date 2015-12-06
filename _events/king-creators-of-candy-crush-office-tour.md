@@ -1,7 +1,7 @@
 ---
 facebook_id: '1028407333890118'
 title: King (creators of Candy Crush) Office Tour
-start_time: '2015-12-03 18:00'
+start_time: '2015-12-03 17:30'
 end_time: '2015-12-03 20:00'
 location: '10, Central St.Giles, 1 St Giles High St, London WC2H 8AG'
 ---
