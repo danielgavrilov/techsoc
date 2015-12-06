@@ -5,13 +5,17 @@ permalink: /sponsors/
 navigation: true
 order: 6
 ---
+
 <div class="row">
   <div class="col-md-10 col-md-offset-1">
-    {% for sponsor in site.sponsors | sort: 'order' %}
+    {% assign sponsors = site.sponsors | sort: "order" %}
+    {% for sponsor in sponsors %}
     <div class="sponsor-overview">
       <div class="row">
         <div class="col-sm-4">
-          <img src="{{ sponsor.logo | prepend: '/assets/images/sponsors/' | prepend: site.baseurl }}" alt="{{ sponsor.name }} logo" class="logo">
+          <a href="{{ sponsor.link }}" target="_blank">
+            <img src="{{ sponsor.logo | prepend: site.baseurl }}" alt="{{ sponsor.name }} logo" class="logo">
+          </a>
         </div>
         <div class="col-sm-8">
           <h2 class="name">{{ sponsor.name }}</h2>
