@@ -1,17 +1,91 @@
-.join-now {
-  font-size: 22px;
-  font-weight: 700;
-  display: inline-block;
-  padding: 11px 25px;
-  margin: 25px 0 50px;
-  border-radius: 6px;
-  color: white;
-  text-decoration: none;
-  border: 3px solid rgba(255,255,255,.4);
+.homepage {
 
-  &:hover {
-    background-color: white;
-    color: $brand-primary;
-    text-decoration: none;
+  section {
+    padding: 3em 0;
+    text-align: center;
+    border-top: 1px solid rgba(white, .1);
+
+    &:last-of-type {
+      border-bottom: 1px solid rgba(white, .1);
+    }
+
+    .section-title {
+      font-size: 2em;
+      font-weight: 700;
+      line-height: 1.15;
+      text-transform: uppercase;
+      margin: 0 0 1em;
+    }
+
+    .description {
+      font-size: 1.25em;
+      line-height: 1.5;
+      color: rgba(white, .7);
+    }
+
+    .button {
+      font-size: 1.1875em;
+      font-weight: 700;
+      color: rgba(white, .4);
+      text-transform: uppercase;
+      border: 3px solid rgba(white, .2);
+      border-radius: 6px;
+      padding: 7px 13px 6px;
+      display: inline-block;
+      margin-top: .75em;
+
+      &:hover {
+        color: white;
+        border-color: white;
+      }
+    }
   }
+
+
+  .masthead {
+    text-align: center;
+    padding: 3em 0;
+
+    .intro {
+      font-size: 1.375em;
+      color: rgba(white, .7);
+    }
+
+    .join-now {
+      font-size: 1.3125em;
+      font-weight: 700;
+      text-transform: uppercase;
+      display: inline-block;
+      padding: 7px 20px;
+      margin: 10px 0 50px;
+      border-radius: 6px;
+      color: white;
+      text-decoration: none;
+      border: 3px solid rgba(255,255,255,.4);
+
+      &:hover {
+        border-color: white;
+      }
+    }
+  }
+
+
+  .sponsors {
+    text-align: center;
+
+    .sponsor {
+      margin: 0 2em;
+
+      img {
+        height: 40px;
+        opacity: .3;
+        transition: opacity 200ms linear;
+      }
+
+      &:hover img {
+        opacity: 1;
+      }
+    }
+  }
+
 }
