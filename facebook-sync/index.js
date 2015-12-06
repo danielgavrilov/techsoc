@@ -62,7 +62,7 @@ function parseFacebookEvent(event) {
     attrs.location = event.place.name;
   }
   if (event.ticket_uri) {
-    attrs.actions = [{ label: "Get tickets", url: event.ticket_uri }];
+    attrs.actions = [{ label: "Tickets", url: event.ticket_uri }];
   }
   if (event.description) {
     // adding 2 or more spaces at the end of a line forces a newline in Markdown
