@@ -35,7 +35,6 @@ exclude:
 collections:
   members:
   sponsors:
-  partners:
   events:
     output: true
     permalink: /events/:path/
