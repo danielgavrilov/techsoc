@@ -1,7 +1,7 @@
 ---
 facebook_id: '434178173440099'
 title: 'Session 1'
-series_id: algortihms-in-c
+series_id: algorithms-in-c
 start_time: '2015-11-19 13:00'
 end_time: '2015-11-19 16:00'
 location: Gordon Street (25) 105 - Public Cluster
