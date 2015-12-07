@@ -6,7 +6,7 @@ end_time: "2015-12-30"
 leads:
   - Christopher Hammond
 excerpt: |
-  Write me (short description)
+  Learn about logic gates, microprocessor design, FPGAs and assembly.
 ---
 
-Write me (extended description)
+Learn about logic gates, microprocessor design, FPGAs and assembly in a _safe_ and _stimulating_ learning environment.
