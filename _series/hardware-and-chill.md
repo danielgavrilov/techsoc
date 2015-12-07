@@ -1,7 +1,6 @@
 ---
-id: comparch-workshop
-title: Computer Architecture Workshop
-event_label: CompArch Workshop
+id: hardware-and-chill
+title: Hardware & Chill
 start_time: "2015-11-15"
 end_time: "2015-12-30"
 leads:

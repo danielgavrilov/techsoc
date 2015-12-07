@@ -1,7 +1,7 @@
 ---
 facebook_id: '1655828848037970'
 title: "Hardware and Chill: Session 1"
-series_id: comparch-workshop
+series_id: hardware-and-chill
 start_time: '2015-11-25 14:00'
 end_time: '2015-11-25 16:00'
 location: 'Roberts Building, Room 106'

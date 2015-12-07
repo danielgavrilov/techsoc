@@ -1,7 +1,7 @@
 ---
 facebook_id: '1170503649646355'
 title: "Hardware and Chill: Session 2"
-series_id: comparch-workshop
+series_id: hardware-and-chill
 start_time: '2015-12-02 14:00'
 end_time: '2015-12-02 16:00'
 location: Darwin B40 LT
