@@ -1,6 +1,6 @@
 ---
 facebook_id: '642412209195078'
-title: Coding Interview Prep Session
+title: Session 7
 series_id: interview-prep
 start_time: '2015-12-03 17:00'
 end_time: '2015-12-03 19:00'
