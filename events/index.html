@@ -31,9 +31,16 @@ order: 3
   <div role="tabpanel" class="tab-pane fade in active" id="list">
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
-        {% for event in events_upcoming_result %}
-          {% include event-overview.html event=event %}
-        {% endfor %}
+        {% if events_upcoming_result.size > 0 %}
+          {% for event in events_upcoming_result %}
+            {% include event-overview.html event=event %}
+          {% endfor %}
+        {% else %}
+          <p class="empty-notice">
+            We are busy planning more awesome events and eating leftover turkey. <br>
+            Please be patient and come back at the start of term!
+          </p>
+        {% endif %}
       </div>
     </div>
   </div>
