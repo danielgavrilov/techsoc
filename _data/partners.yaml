@@ -1,0 +1,7 @@
+- name: UCL
+  logo: /assets/images/partners/ucl.svg
+  link: http://www.cs.ucl.ac.uk
+
+- name: Microsoft
+  logo: /assets/images/partners/microsoft.svg
+  link: https://microsoft.com
