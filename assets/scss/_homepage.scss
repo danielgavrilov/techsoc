@@ -70,21 +70,34 @@
   }
 
 
-  .sponsors {
+  .partners-homepage {
     text-align: center;
 
-    .sponsor {
-      margin: 0 2em;
+    .section-title {
+      color: rgba(white, .4);
+      font-size: 1.75em;
+      font-weight: 400;
+      margin: 0 0 .5em;
+    }
+  }
 
-      img {
-        height: 40px;
-        opacity: .3;
-        transition: opacity 200ms linear;
-      }
+  .partner {
+    display: inline-block;
+    margin: 1em;
 
-      &:hover img {
-        opacity: 1;
-      }
+    img {
+      height: 3em;
+      max-width: 100%;
+      opacity: .3;
+      transition: opacity 200ms linear;
+    }
+
+    img.ucl {
+      height: 4em;
+    }
+
+    &:hover img {
+      opacity: 1;
     }
   }
 

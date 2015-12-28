@@ -136,13 +136,21 @@ order: 1
     </div>
   </section>-->
 
-  <!--<section class="sponsors">
-    {% assign sponsors = site.sponsors | sort: "order" %}
-    {% for sponsor in sponsors %}
-      <a href="{{ sponsor.link }}" class="sponsor">
-        <img src="{{ sponsor.logo | prepend: site.baseurl }}" alt="{{ sponsor.name }}">
-      </a>
-    {% endfor %}
-  </section>-->
+  <section class="partners-homepage">
+    <div class="wrapper container-fluid">
+      <h3 id="partners" class="section-title">Sponsors &amp; Partners</h3>
+      {% assign sponsors = site.sponsors | sort: "order" %}
+      {% for sponsor in sponsors %}
+        <a href="{{ sponsor.link }}" title="{{ sponsor.name }}" class="partner logo">
+          <img src="{{ sponsor.logo | prepend: site.baseurl }}" alt="{{ sponsor.name }} logo" class="{{ sponsor.name | slugify }}">
+        </a>
+      {% endfor %}
+      {% for partner in site.data.partners %}
+        <a href="{{ partner.link }}" title="{{ partner.name }}" class="partner logo">
+          <img src="{{ partner.logo | prepend: site.baseurl }}" alt="{{ partner.name }} logo" class="{{ partner.name | slugify }}">
+        </a>
+      {% endfor %}
+    </div>
+  </section>
 
 </div>

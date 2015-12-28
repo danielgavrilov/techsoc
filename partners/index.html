@@ -1,0 +1,37 @@
+---
+layout: page
+title: Partners
+permalink: /partners/
+redirect_from: /sponsors/
+navigation: true
+order: 6
+---
+
+<h2 class="page-title">Sponsors</h2>
+
+<div class="responsive-boxes">
+  {% assign sponsors = site.sponsors | sort: "order" %}
+  {% for sponsor in sponsors %}
+  <div class="box">
+    <div class="sponsor-overview">
+      <a href="{{ sponsor.link }}" target="_blank" title="{{ sponsor.name }}" class="logo">
+        <img src="{{ sponsor.logo | prepend: site.baseurl }}" alt="{{ sponsor.name }} logo" class="{{ sponsor.name | slugify }}">
+      </a>
+      <!--<h2 class="name">{{ sponsor.name }}</h2>-->
+      <div class="description">
+        {{ sponsor.content }}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<h2 class="page-title">Partners</h2>
+
+<div class="partners">
+  {% for partner in site.data.partners %}
+  <a href="{{ partner.link }}" title="{{ partner.name }}" class="logo">
+    <img src="{{ partner.logo | prepend: site.baseurl }}" alt="{{ partner.name }} logo" class="{{ partner.name | slugify }}">
+  </a>
+  {% endfor %}
+</div>
