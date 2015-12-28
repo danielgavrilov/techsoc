@@ -60,18 +60,89 @@
 
 .post-header {
   text-align: center;
+  margin-bottom: 3em;
 
   h1 {
     font-weight: 700;
+    margin: .5em 0;
   }
+
+}
+
+.post-meta {
+  font-size: 1.125em;
+  color: rgba(white, .5);
 }
 
 .post-content {
+  font-size: 1.125em;
+  line-height: 1.5;
+
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.4;
+  }
+
+  h1, h2 {
+    font-size: 1.666em;
+    font-weight: bold;
+    margin: 1.75em 0 .7em;
+  }
+
+  h3 {
+    font-size: 1.277em;
+    font-weight: bold;
+    margin: 1.75em 0 .7em;
+  }
+
+  h4 {
+    font-size: 1.055em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.055em;
+    margin: 1.5em 0 .65em;
+  }
+
+  h5 {
+    color: rgba(white, .5);
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.055em;
+    margin: 1em 0 .75em;
+  }
+
   p {
     font-size: 1em;
-    line-height: 1.45;
-    color: rgba(255,255,255,0.8);
-    margin-bottom: 1em;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 1.45em;
     word-wrap: break-word;
+  }
+
+  hr {
+    border: none;
+    padding: 2em 0;
+    margin: 1em 0;
+
+    &::before {
+      content: '';
+      width: 40%;
+      height: 1px;
+      margin: 0 auto;
+      display: block;
+      background-color: rgba(white, .2);
+    }
+  }
+
+  a {
+    color: white;
+    border-bottom: 2px solid rgba(white, .15);
+
+    &:hover, &:active {
+      border-color: white;
+    }
+  }
+
+  @media (max-width: $screen-xs-max) {
+    font-size: 1em;
   }
 }
