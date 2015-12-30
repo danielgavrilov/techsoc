@@ -186,22 +186,3 @@
     text-transform: uppercase;
   }
 }
-
-.project-events {
-  margin-top: 3em;
-
-  h1 {
-    font-size: 19px;
-    font-weight: bold;
-    color: white;
-    text-transform: uppercase;
-    margin: 2em 0 .75em;
-  }
-
-  @media (max-width: $screen-xs-max) {
-    h1 {
-      font-size: 22px;
-      text-align: center;
-    }
-  }
-}
