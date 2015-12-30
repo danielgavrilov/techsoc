@@ -16,7 +16,7 @@ links:
 excerpt: With the use of the Oculus Rift and Wii remotes, join us as we build a virtual reality game from the ground up!
 ---
 
-# Introduction
+### Introduction
 
 With the use of the Oculus Rift and Wii remotes, join us as we build a virtual reality game from the ground up!
 
@@ -26,19 +26,19 @@ The project is open to beginners as we'll be teaching how to create models, anim
 
 As with every TechSoc project, we take a team based approach to learning, there is active discussion and your opinions influence the outcome of the game. If you are up for a challenge and want to learn something new &mdash; join us!
 
-# Technologies used
+### Technologies used
 
 - Oculus
 - Unity SDK
 - Blender
 - Wii Remotes API
 
-# Getting involved
+### Getting involved
 
 Come to our weekly project sessions to learn, build and collaborate!
 
 To get reminders for events and to get the latest update, join the [Facebook group]({{ page.links.facebook_group }}) and [Slack channel]({{ page.links.slack }})!
 
-# Have any questions?
+### Have any questions?
 
 Email <projects@uclutech.com> and we would love to help <3  

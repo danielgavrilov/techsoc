@@ -15,7 +15,7 @@ links:
 excerpt: UCLMeets is an Android app that works out when you and your friends are free and suggests events around UCL for your group to attend.
 ---
 
-# Introduction
+### Introduction
 
 UCLMeets is an Android app that works out when you and your friends are free and suggests events around UCL for your group to attend.
 
@@ -23,16 +23,16 @@ Ultimately, it's the time spent with friends that makes university life memorabl
 
 You need some experience with Java to join this project, and we'll be working in teams to develop different parts and bring it all together in the end!
 
-# Technologies used
+### Technologies used
 
 - Android SDK
 - Parse
 - Google Calendar API
 
-# How to get involved
+### How to get involved
 
 Look out for the Android events on our [Facebook page](https://www.facebook.com/{{ site.facebook_username }}/events) and join the [Slack group]({{ page.links.slack }}) to get access to the project leads who will help you out.
 
-# Have questions?
+### Have questions?
 
 Email us at <projects@uclutech.com>.

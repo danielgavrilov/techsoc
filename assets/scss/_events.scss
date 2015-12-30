@@ -193,7 +193,7 @@
 
 .event-header {
   text-align: center;
-  margin: .5em 0 1.5em;
+  margin: .5em 0 2em;
 
   .title {
     font-size: 32px;
@@ -251,23 +251,23 @@
   }
 }
 
-.event-content {
-  margin-top: 40px;
-  color: rgba(255,255,255,.65);
+body .event-content p {
+  margin-bottom: 1.2em;
+}
 
-  .project-event-notice {
-    border: 3px solid rgba(255,255,255,.15);
-    border-radius: 8px;
-    color: rgba(255,255,255,.35);
-    padding: 15px 20px;
-    margin-bottom: 20px;
+body .project-event-notice {
+  text-align: center;
+  border: 3px solid rgba(255,255,255,.15);
+  border-radius: 8px;
+  color: rgba(255,255,255,.35);
+  padding: 0.6em 1em;
+  margin-bottom: 1.5em;
 
-    a {
-      color: rgba(255,255,255,.7);
+  a {
+    color: rgba(255,255,255,.7);
 
-      &:hover {
-        color: white;
-      }
+    &:hover {
+      color: white;
     }
   }
 }

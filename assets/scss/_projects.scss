@@ -89,7 +89,7 @@
 
 .project-header {
   text-align: left;
-  margin: .5em 0;
+  margin: .5em 0 2em;
 
   .logo {
     border-radius: 8px;
@@ -171,10 +171,6 @@
 }
 
 .project-content {
-  margin-top: 40px;
-  color: rgba(255,255,255,.65);
-
-  // TODO: Use blog styles for this
 
   h1 {
     font-size: 22px;
