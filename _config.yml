@@ -97,3 +97,4 @@ defaults:
 gems:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-sitemap
