@@ -35,6 +35,22 @@ $(function(){
     $calendarButton.one("shown.bs.tab", loadCalendarScript);
   }
 
+  var $subscribeButton = $(".subscribe-to-calendar");
+  var subscribeButtonText = $subscribeButton.text();
+
+  var $calendarSubscription = $(".calendar-subscription > .description");
+  var $subscriptionGuide = $("#subscription-guide");
+
+  $subscriptionGuide.on("show.bs.collapse", function() {
+    $subscribeButton.text($subscribeButton.data("expanded-text"));
+    $calendarSubscription.css("color", "transparent");
+  });
+
+  $subscriptionGuide.on("hide.bs.collapse", function() {
+    $subscribeButton.text(subscribeButtonText);
+    $calendarSubscription.css("color", "");
+  });
+
 });
 
 console.log("Oh, Hi there. Like looking under the hood? Us too!\n\nFind some looking-under-hoods events at {{ '/events' | prepend: site.baseurl | prepend: site.url }} and come along!")
