@@ -32,8 +32,24 @@ $(function(){
   if ($calendar.hasClass("active")) {
     loadCalendarScript();
   } else {
-    $calendarButton.one("shown.bs.tab", loadCalendarScript);
+    $calendarButton.one("show.bs.tab", loadCalendarScript);
   }
+
+  var $subscribeButton = $(".subscribe-to-calendar");
+  var subscribeButtonText = $subscribeButton.text();
+
+  var $calendarSubscription = $(".calendar-subscription > .description");
+  var $subscriptionGuide = $("#subscription-guide");
+
+  $subscriptionGuide.on("show.bs.collapse", function() {
+    $subscribeButton.text($subscribeButton.data("expanded-text"));
+    $calendarSubscription.css("color", "transparent");
+  });
+
+  $subscriptionGuide.on("hide.bs.collapse", function() {
+    $subscribeButton.text(subscribeButtonText);
+    $calendarSubscription.css("color", "");
+  });
 
 });
 

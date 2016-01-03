@@ -9,8 +9,8 @@ order: 3
 
 {% include scripts/events_upcoming events=site.events exclude_invalid_date=true %}
 
-<!-- Tabs -->
-<ul class="nav tabs" role="tablist">
+<!-- Events view tabs -->
+<ul class="nav tabs events-view-tabs" role="tablist">
   <li role="presentation" class="active">
     <a href="#list" aria-controls="list" role="tab" data-toggle="tab" class="list-view-button">
       <i class="icon icon-list"></i>
@@ -25,7 +25,6 @@ order: 3
   </li>
 </ul>
 
-<!-- Tab content -->
 <div class="tab-content">
 
   <div role="tabpanel" class="tab-pane fade in active" id="list">
@@ -64,6 +63,101 @@ order: 3
   </div>
 
 </div>
+
+<div class="row">
+  <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+
+    <div class="calendar-subscription">
+
+      <div class="description">
+        <p>Never miss an event.</p>
+
+        <button class="subscribe-to-calendar" type="button" data-toggle="collapse" data-target="#subscription-guide" aria-expanded="false" aria-controls="subscription-guide" data-expanded-text="Close instructions">
+          Subscribe to our calendar
+        </button>
+      </div>
+
+      <div id="subscription-guide" class="collapse">
+
+        <ul class="nav subscription-guide-tabs" role="tablist">
+          <li role="presentation" class="active">
+            <a href="#google-calendar" aria-controls="google-calendar" role="tab" data-toggle="tab" class="google-calendar-button">
+              Google Calendar
+            </a>
+          </li>
+          <li role="presentation">
+            <a href="#apple-calendar" aria-controls="apple-calendar" role="tab" data-toggle="tab" class="apple-calendar-button">
+              Apple Calendar
+            </a>
+          </li>
+          <li role="presentation">
+            <a href="#office365" aria-controls="office365" role="tab" data-toggle="tab" class="office-365-button">
+              Office 365
+            </a>
+          </li>
+        </ul>
+
+        {% assign calendar = site.calendars | where: "title", "All Events" | first %}
+        {% assign calendar_url = calendar.url | prepend: site.baseurl | prepend: site.url %}
+
+        <div class="tab-content">
+
+          <div role="tabpanel" class="tab-pane fade in active" id="google-calendar">
+
+{% capture instructions %}
+
+1. In the left sidebar, click the arrow next to *Other calendars*.
+2. Select *Add by URL*.
+3. Enter the URL `{{ calendar_url }}` and click on *Add calendar*.
+
+It might take a few minutes for the calendar to appear on Google Calendar.
+
+{% endcapture %}
+
+            <div class="guide-content">
+              {{ instructions | markdownify }}
+            </div>
+          </div>
+
+          <div role="tabpanel" class="tab-pane fade" id="apple-calendar">
+
+{% capture instructions %}
+
+1. Select *File* &rarr; *New Calendar Subscription...*
+2. Enter the URL `{{ calendar_url }}` and click *Subscribe*.
+3. Set *Auto-refresh* to *Every day*. Then click *OK*.
+
+{% endcapture %}
+
+            <div class="guide-content">
+              {{ instructions | markdownify }}
+            </div>
+          </div>
+
+          <div role="tabpanel" class="tab-pane fade" id="office365">
+
+{% capture instructions %}
+
+1. From your inbox, open My Apps from the top-left corner and select *Calendar*.
+2. From the top menu bar, select *Add calendar* &rarr; *From internet*.
+3. Under *Link to calendar*, enter the URL `{{ calendar_url }}`
+4. Click *Save* in the top menu.
+
+{% endcapture %}
+
+            <div class="guide-content">
+              {{ instructions | markdownify }}
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
 
 <h2 class="page-heading">Event series</h2>
 <div class="responsive-boxes">

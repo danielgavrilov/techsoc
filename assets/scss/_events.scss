@@ -1,4 +1,4 @@
-.tabs {
+.events-view-tabs {
   text-align: center;
   margin-bottom: 2em;
 
@@ -268,6 +268,103 @@ body .project-event-notice {
 
     &:hover {
       color: white;
+    }
+  }
+}
+
+.calendar-subscription {
+  margin: 2em 0 0;
+
+  .description {
+    text-align: center;
+    color: rgba(white, .4);
+    transition: color 200ms linear;
+
+    p {
+      font-size: 1.125em;
+      margin-bottom: .5em;
+    }
+
+    button {
+      font-size: 1em;
+      font-weight: bold;
+      color: rgba(white, .5);
+      text-transform: uppercase;
+      display: inline-block;
+      background-color: transparent;
+      border: 3px solid rgba(white, .25);
+      border-radius: 5px;
+      padding: 6px 12px;
+      transition: color 200ms linear,
+                  border-color 200ms linear;
+
+      &:hover {
+        color: white;
+        border-color: white;
+      }
+
+      .icon {
+        margin-right: .1em;
+      }
+    }
+  }
+}
+
+#subscription-guide {
+  border: 3px solid rgba(white, .25);
+  border-radius: 10px;
+  margin: 1em 0;
+
+  .subscription-guide-tabs {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0 0;
+    border-bottom: 2px solid rgba(white, .25);
+
+    li {
+      display: inline-block;
+      margin-bottom: -2px;
+
+      a {
+        color: rgba(white, .5);
+        display: inline-block;
+        border: 2px solid transparent;
+        border-bottom: none;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+
+        &:hover, &:active, &:focus {
+          background-color: transparent;
+          color: white;
+        }
+      }
+    }
+
+    .active {
+      a {
+        color: white;
+        border-color: rgba(white, .25);
+        background-color: $brand-primary !important;
+      }
+    }
+  }
+
+  .guide-content {
+    color: rgba(white, .6);
+    padding: 2em 2em 1.5em;
+
+    em, strong {
+      font-style: normal;
+      color: rgba(white, .85);
+    }
+
+    code {
+      font-size: 0.875em;
+      padding: .2em .4em;
+      margin: 0 .15em;
+      border-radius: 3px;
+      background-color: rgba(white, .1);
+      color: rgba(white, .9);
     }
   }
 }
