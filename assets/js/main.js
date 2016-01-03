@@ -32,7 +32,7 @@ $(function(){
   if ($calendar.hasClass("active")) {
     loadCalendarScript();
   } else {
-    $calendarButton.one("shown.bs.tab", loadCalendarScript);
+    $calendarButton.one("show.bs.tab", loadCalendarScript);
   }
 
   var $subscribeButton = $(".subscribe-to-calendar");
