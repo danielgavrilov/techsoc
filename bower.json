@@ -18,7 +18,7 @@
   "dependencies": {
     "fastclick": "~1.0.6",
     "jquery": "~2.1.4",
-    "bootstrap-sass": "~3.3.5",
-    "fullcalendar": "2.4.0"
+    "bootstrap-sass": "~3.3.6",
+    "fullcalendar": "~2.5.0"
   }
 }

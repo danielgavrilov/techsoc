@@ -1,4 +1,11 @@
 
+v2.5.0 (2015-11-30)
+-------------------
+
+- internal timezone refactor. fixes #2396, #2900, #2945, #2711
+- internal "grid" system refactor. improved API for plugins.
+
+
 v2.4.0 (2015-08-16)
 -------------------
 
