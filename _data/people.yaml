@@ -139,12 +139,6 @@
   profiles:
     facebook: https://www.facebook.com/emily.mears.3
 
-- name: Spencer Thellmann
-  role: Fresher's Rep
-  team: true
-  profiles:
-    facebook: https://www.facebook.com/spencer.placeholder
-
 - name: Hugo Di Francesco
   role: Coding & Cookies Lead
   team: true
