@@ -50,7 +50,7 @@ gulp.task('sass', function() {
       onError: browserSync.notify
     }))
     .on('error', onError)
-    .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], {
+    .pipe(prefix(['last 3 versions', '> 1%'], {
       cascade: true
     }))
     .pipe(sourcemaps.write('.'))
