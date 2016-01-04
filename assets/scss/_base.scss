@@ -45,6 +45,10 @@ a {
               background-color 200ms linear;
 }
 
+code {
+  font-family: "Source Code Pro", Consolas, Monaco, monospace;
+}
+
 .wrapper {
   max-width: $max-site-width;
   margin: 0 auto;
