@@ -1,9 +1,9 @@
 .project-overview {
   display: block;
-  padding: 30px;
+  padding: 2em;
   border: 3px solid rgba(255,255,255,.2);
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
 
   h3, h4, .excerpt {
     transition: color 200ms linear;
@@ -20,7 +20,7 @@
 
   .status {
     float: right;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
     color: $brand-primary;
     background-color: rgba(255,255,255,.25);
@@ -47,13 +47,13 @@
   }
 
   h3 {
-    font-size: 28px;
+    font-size: 1.75em;
     font-weight: bold;
-    margin: 0 0 .4em;
+    margin: 0 0 .35em;
   }
 
   h4 {
-    font-size: 16px;
+    font-size: 1.125em;
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -67,7 +67,7 @@
   }
 
   .excerpt {
-    font-size: 16px;
+    font-size: 1.0625em;
     line-height: 1.4;
     color: rgba(255,255,255,.5);
     margin: 0;

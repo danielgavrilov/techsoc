@@ -6,12 +6,12 @@
   flex: 1;
 
   .name {
-    font-size: 20px;
+    font-size: 1.25em;
     margin: 0 0 .25em;
   }
 
   .role {
-    font-size: 16px;
+    font-size: 1.0625;
     flex: 1;
     color: rgba(255,255,255,.5);
     margin: 0;
@@ -20,10 +20,10 @@
   .social-media-list {
     margin-top: 8px;
     margin-left: -1px;
-    line-height: 24px;
+    line-height: 1.625em;
 
     .icon {
-      font-size: 24px;
+      font-size: 1.625em;
       color: rgba(255,255,255,.2);
       transition: color 200ms linear;
       margin-right: 5px;

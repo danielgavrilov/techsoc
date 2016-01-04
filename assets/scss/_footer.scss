@@ -2,11 +2,12 @@
   padding: 40px 0;
 
   .company {
-    font-size: 20px;
-    margin-bottom: 7px;
+    font-size: 1.375em;
+    margin-bottom: .33em;
   }
 
   .copyright {
+    font-size: 1.0625em;
     color: rgba(255,255,255,.3);
   }
 
@@ -25,12 +26,12 @@
   }
 
   .social-media-list {
-    font-size: 16px;
+    font-size: 1em;
     text-align: right;
 
     .icon {
-      font-size: 34px;
-      margin-left: 10px;
+      font-size: 2.25em;
+      margin-left: .3em;
       color: rgba(255,255,255,.2);
       transition: color 200ms linear;
     }
