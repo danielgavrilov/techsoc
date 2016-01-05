@@ -17,7 +17,6 @@
 
     a {
       color: rgba(255,255,255,.25);
-      transition: color 200ms linear;
 
       &:hover {
         color: white;
@@ -33,7 +32,6 @@
       font-size: 2.25em;
       margin-left: .3em;
       color: rgba(255,255,255,.2);
-      transition: color 200ms linear;
     }
 
     a:hover .icon {
