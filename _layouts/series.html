@@ -10,12 +10,9 @@ layout: page-narrow
 
     <h1 class="title">{{ series.title }}</h1>
 
-    {% if series.leads %}
-      <div class="leads">
-        With
-        {% for name in series.leads %}
-          <span>{{ name }}</span>{% unless forloop.last %},{% endunless %}
-        {% endfor %}
+    {% if series.subtext %}
+      <div class="subtext">
+        {{ series.subtext | markdownify }}
       </div>
     {% endif %}
 

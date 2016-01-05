@@ -6,10 +6,7 @@ category: Android Development
 logo: uclmeets.png
 start_time: "2015-10-23"
 end_time: "2015-12-30"
-leads:
-  - Shubham Bakshi
-  - Varun Mathur
-  - Vicky Dineshchandra
+subtext: With *Shubham Bakshi*, *Varun Mathur* and *Vicky Dineshchandra*
 links:
   slack: https://uclutechsocprojects.slack.com/
 excerpt: UCLMeets is an Android app that works out when you and your friends are free and suggests events around UCL for your group to attend.

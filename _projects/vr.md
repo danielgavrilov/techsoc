@@ -6,10 +6,7 @@ category: Virtual Reality
 logo: motion-adrift.png
 start_time: "2015-10-19"
 end_time: "2015-12-30"
-leads:
-  - Srikrishna Datla
-  - Diana Darie
-  - Vicky Dineshchandra
+subtext: With *Srikrishna Datla*, *Diana Darie* and *Vicky Dineshchandra*
 links:
   facebook_group: https://www.facebook.com/groups/867319053344306/
   slack: https://techsocvrproject.slack.com/

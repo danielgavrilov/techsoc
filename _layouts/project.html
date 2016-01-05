@@ -37,12 +37,9 @@ layout: page-narrow
           </div>
         {% endif %}
 
-        {% if project.leads %}
-          <div class="leads">
-            With
-            {% for name in project.leads %}
-              <span>{{ name }}</span>{% unless forloop.last %},{% endunless %}
-            {% endfor %}
+        {% if project.subtext %}
+          <div class="subtext">
+            {{ project.subtext | markdownify }}
           </div>
         {% endif %}
       </div>

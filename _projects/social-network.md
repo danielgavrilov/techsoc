@@ -6,8 +6,7 @@ category: Web development
 logo: uclinspires.png
 start_time: "2015-10-23"
 end_time: "2015-12-30"
-leads:
- - Vicky Dineshchandra
+subtext: With *Vicky Dineshchandra*
 links:
   slack: https://uclutechsocprojects.slack.com/
 excerpt: UCLInspires is a social network that lets school children connect to higher education students and provides a platform for sharing resources, advice and outreach opportunities to promote engineering and computer science to the next generation.
