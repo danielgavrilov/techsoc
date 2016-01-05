@@ -1,5 +1,5 @@
 <div class="box">
-  <a href="{% if series.url_overwrite %}{{ series.url_overwrite | prepend: site.baseurl }}{% else %}{{ series.url | prepend: site.baseurl }}{% endif %}" class="series-overview">
+  <a href="{% if series.url_overwrite %}{{ series.url_overwrite | prepend: site.baseurl }}{% else %}{{ series.url | prepend: site.baseurl }}{% endif %}" class="series-overview {% if series.new %}new{% endif %}">
     <h3>{{ series.title }}</h3>
     <p>{{ series.excerpt }}</p>
     <div class="button">Find out more</div>

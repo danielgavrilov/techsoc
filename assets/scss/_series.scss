@@ -55,6 +55,31 @@
       color: #003;
     }
   }
+
+  &.new {
+    border-color: rgba(white, .5);
+    overflow: hidden;
+
+    &::before {
+      content: 'New';
+      color: $brand-primary;
+      background-color: rgba(white, .5);
+      font-size: 0.9375em;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin: -1.125em -1.125em .8em;
+      padding: .125em;
+      transition: background-color 200ms linear;
+    }
+
+    &:hover {
+      border-color: white;
+
+      &::before {
+        background-color: white;
+      }
+    }
+  }
 }
 
 .series-header {
