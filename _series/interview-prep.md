@@ -3,7 +3,7 @@ id: interview-prep
 title: Coding Interview Prep
 calendar: interview-prep.ics
 excerpt: |
-  Coding interview preparation group is an informal get-together of members who are preparing/doing coding interviews.
+  An informal get-together of members who are preparing/doing coding interviews.
 ---
 
 Coding interview preparation group is an informal get-together of members who are preparing/doing coding interviews.
