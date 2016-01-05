@@ -1,13 +1,13 @@
-{% assign status_result = null %}
+{% assign event_status_result = null %}
 
 {% assign _today = site.time                      | date: "%Y-%m-%d %H:%M" %}
 {% assign _event_start = include.event.start_time | date: "%Y-%m-%d %H:%M" %}
 {% assign _event_end = include.event.end_time     | date: "%Y-%m-%d %H:%M" %}
 
 {% if _today < _event_start %}
-  {% assign status_result = "planned" %}
+  {% assign event_status_result = "planned" %}
 {% elsif _today >= _event_start and _today <= _event_end %}
-  {% assign status_result = "active" %}
+  {% assign event_status_result = "active" %}
 {% elsif _today > _event_end %}
-  {% assign status_result = "finished" %}
+  {% assign event_status_result = "finished" %}
 {% endif %}

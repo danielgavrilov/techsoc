@@ -1,12 +1,12 @@
 {% include scripts/event_status event=project %}
-<a class="project-overview clearfix {{ status_result }}" href="{{ project.url | prepend: site.baseurl }}">
+<a class="project-overview clearfix {{ event_status_result }}" href="{{ project.url | prepend: site.baseurl }}">
   <div class="row">
     <div class="col-sm-3">
       {% if project.logo %}<img class="logo" src="{{ project.logo | prepend: '/assets/images/projects/' | prepend: site.baseurl }}">{% endif %}
     </div>
     <div class="col-sm-9">
-      {% if status_result %}
-        <span class="status {{ status_result }}">{{ status_result }}</span>
+      {% if event_status_result %}
+        <span class="status {{ event_status_result }}">{{ event_status_result }}</span>
       {% endif %}
       <h3>{{ project.title }}</h3>
       <h4>{{ project.category }}</h4>
