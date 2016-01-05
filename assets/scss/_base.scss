@@ -49,6 +49,16 @@ a {
               background-color 200ms linear;
 }
 
+p a {
+  color: white;
+  border-bottom: .125em solid rgba(white, .15);
+
+  &:hover {
+    color: white;
+    border-color: white;
+  }
+}
+
 code {
   font-family: "Source Code Pro", Consolas, Monaco, monospace;
 }
