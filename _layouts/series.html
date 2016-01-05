@@ -17,9 +17,17 @@ layout: page-narrow
     {% endif %}
 
   </div>
+
+  {% if event_status_result == "finished" %}
+    <div class="event-notice">
+      <p>This event series has now ended.</p>
+    </div>
+  {% endif %}
+
   <div class="post-content series-content">
     {{ content }}
   </div>
+
   <div class="series-events">
     {% assign events = site.events | where: "series_id", series.id %}
     {% include category-events.html events=events %}
