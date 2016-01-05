@@ -255,11 +255,12 @@ body .event-content p {
   margin-bottom: 1.2em;
 }
 
-body .project-event-notice {
+body .event-notice {
+  font-size: 1.0625em;
   text-align: center;
-  border: 3px solid rgba(255,255,255,.15);
+  border: 3px solid rgba(255,255,255,.2);
   border-radius: 8px;
-  color: rgba(255,255,255,.35);
+  color: rgba(255,255,255,.45);
   padding: 0.6em 1em;
   margin-bottom: 1.5em;
 
@@ -269,6 +270,10 @@ body .project-event-notice {
     &:hover {
       color: white;
     }
+  }
+
+  p:last-child {
+    margin-bottom: 0;
   }
 }
 

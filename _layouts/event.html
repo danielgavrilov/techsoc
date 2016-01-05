@@ -33,10 +33,12 @@ layout: page-narrow
       {% endif %}
     </div>
   </div>
+
+  {% if event.project_id %}
+    {% include project-event-notice.html project_id=event.project_id %}
+  {% endif %}
+  
   <div class="post-content event-content">
-    {% if event.project_id %}
-      {% include project-event-notice.html project_id=event.project_id %}
-    {% endif %}
     {{ content }}
   </div>
 </div>
