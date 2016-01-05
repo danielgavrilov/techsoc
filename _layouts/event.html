@@ -13,7 +13,11 @@ layout: page-narrow
     <div class="metadata">
       <div class="time">
         <i class="icon icon-clock"></i>
-        {{ event.start_time | date: "%A, %-d %B" }} {{ event.start_time | date: "%H:%M" }}&ndash;{{ event.end_time | date: "%H:%M" }}
+        {{ event.start_time | date: "%A, %-d %B" }} {{ event.start_time | date: "%H:%M" }}
+        {% if event.end_time %}
+          &ndash;
+          {{ event.end_time | date: "%H:%M" }}
+        {% endif %}
       </div>
       <div class="location">
         <i class="icon icon-location"></i>
