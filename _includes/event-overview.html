@@ -1,10 +1,12 @@
 {% assign _today = site.time             | date: "%Y-%m-%d" %}
-{% assign _event_date = event.start_time | date: "%Y-%m-%d" %}
-<div class="event-overview{% if _today > _event_date %} past-event{% endif %}">
+{% assign _event_start_date = event.start_time | date: "%Y-%m-%d" %}
+{% assign _event_end_date = event.end_time | date: "%Y-%m-%d" %}
+
+<div class="event-overview{% if _today > _event_start_date %} past-event{% endif %}">
   <div class="row">
     <div class="col-sm-2">
       <div class="date">{{ event.start_time | date: "%a, %-d %b" }}</div>
-      <div class="time">{{ event.start_time | date: "%H:%M" }}{% if event.end_time %} &ndash; {{ event.end_time | date: "%H:%M" }}{% endif %}</div>
+      <div class="time">{{ event.start_time | date: "%H:%M" }}{% if event.end_time and _event_start_date == _event_end_date %} &ndash; {{ event.end_time | date: "%H:%M" }}{% endif %}</div>
     </div>
     <div class="{% if event.actions %}col-sm-8{% else %}col-sm-10{% endif %}">
       <h2>

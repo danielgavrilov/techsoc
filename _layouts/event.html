@@ -4,6 +4,9 @@ layout: page-narrow
 
 {% assign event = page %}
 
+{% assign _event_start_date = event.start_time | date: "%Y-%m-%d" %}
+{% assign _event_end_date = event.end_time | date: "%Y-%m-%d" %}
+
 <div class="event-page">
   <div class="event-header">
     {% include category-link.html event=event %}
@@ -13,8 +16,11 @@ layout: page-narrow
     <div class="metadata">
       <div class="time">
         <i class="icon icon-clock"></i>
-        {{ event.start_time | date: "%A, %-d %B" }} {{ event.start_time | date: "%H:%M" }}
-        {% if event.end_time %}
+        {{ event.start_time | date: "%A, %-d %B %H:%M" }}
+        {% if event.end_time and _event_start_date != _event_end_date %}
+          &ndash;
+          {{ event.end_time | date: "%A, %-d %B %H:%M" }}
+        {% elsif event.end_time %}
           &ndash;
           {{ event.end_time | date: "%H:%M" }}
         {% endif %}
