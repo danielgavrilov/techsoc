@@ -4,6 +4,15 @@ layout: page-narrow
 
 {% assign event = page %}
 
+{% assign _this_year = site.time | date: "%Y" %}
+{% assign _event_year = event.start_time | date: "%Y" %}
+
+{% if _this_year != _event_year %}
+  {% assign date_formatting = "%A, %-d %B, %Y %H:%M" %}
+{% else %}
+  {% assign date_formatting = "%A, %-d %B %H:%M" %}
+{% endif %}
+
 {% assign _event_start_date = event.start_time | date: "%Y-%m-%d" %}
 {% assign _event_end_date = event.end_time | date: "%Y-%m-%d" %}
 
@@ -16,10 +25,10 @@ layout: page-narrow
     <div class="metadata">
       <div class="time">
         <i class="icon icon-clock"></i>
-        {{ event.start_time | date: "%A, %-d %B %H:%M" }}
+        {{ event.start_time | date: date_formatting }}
         {% if event.end_time and _event_start_date != _event_end_date %}
           &ndash;
-          {{ event.end_time | date: "%A, %-d %B %H:%M" }}
+          {{ event.end_time | date: date_formatting }}
         {% elsif event.end_time %}
           &ndash;
           {{ event.end_time | date: "%H:%M" }}
