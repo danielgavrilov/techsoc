@@ -9,6 +9,9 @@
     <title>{% if page.title and page.title != "Home" %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+    <!-- favicon -->
+    <link rel="shortcut icon" href="{{ "/assets/images/favicon.png" | prepend: site.baseurl }}">
+
     <!-- stylesheets -->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic">
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
