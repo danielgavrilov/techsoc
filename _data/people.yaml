@@ -187,7 +187,11 @@
 - name: Horatiu Ilie
   role: Algorithms in C Lead
   team: true
-  
+
 - name: Jaromir Latal
   role: Algorithms in C Lead
+  team: true
+
+- name: Danish Amjad Alvi
+  role: Internet of Things Project Lead
   team: true
