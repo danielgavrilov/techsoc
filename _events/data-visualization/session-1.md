@@ -1,7 +1,7 @@
 ---
 facebook_id: '195455597469137'
 series_id: data-visualization
-title: Session 1
+title: 'Session 1: Basics of HTML, CSS, SVG & JavaScript'
 start_time: '2016-01-19 18:00'
 end_time: '2016-01-19 20:00'
 location: "Medical Sciences G46 H O"
