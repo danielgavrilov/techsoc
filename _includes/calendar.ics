@@ -32,15 +32,16 @@ END:VTIMEZONE
 {% if event.start_time and event.start_time != "TBA" %}
 {% include scripts/event_category event=event %}
 {% capture title %}{% if include.include_label and event_category_label_result %}[{{ event_category_label_result }}] {% endif %}{{ event.title }}{% endcapture %}
-{% capture start_time %}{{ event.start_time | date: "%Y%m%dT%H%M%S" }}{% endcapture %}
-{% capture end_time   %}{{ event.end_time   | date: "%Y%m%dT%H%M%S" }}{% endcapture %}
+{% capture start_time  %}{{ event.start_time | date: "%Y%m%dT%H%M%S" }}{% endcapture %}
+{% capture end_time    %}{{ event.end_time   | date: "%Y%m%dT%H%M%S" }}{% endcapture %}
+{% capture description %}{{ event.content }}{% for action in event.actions %}\n{{ action.label }}: {{ action.url }}{% endfor %}{% endcapture %}
 BEGIN:VEVENT
 UID:{{ title | slugify }}-{{ start_time }}@uclutech.com
 DTSTART;TZID=Europe/London:{{ start_time }}
 {% if event.end_time %}DTEND;TZID=Europe/London:{{ end_time }}{% endif %}
 SUMMARY:{% include scripts/ical_escape text=title %}
 {% if event.location %}LOCATION:{% include scripts/ical_escape text=event.location %}{% endif %}
-DESCRIPTION:{% include scripts/ical_escape text=event.content %}
+DESCRIPTION:{% include scripts/ical_escape text=description %}
 {% if event.facebook_id %}{% assign facebook_url = event.facebook_id | prepend: "https://www.facebook.com/events/" %}URL:{% include scripts/ical_escape text=facebook_url %}{% endif %}
 END:VEVENT
 {% endif %}
