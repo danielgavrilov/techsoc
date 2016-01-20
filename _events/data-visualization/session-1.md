@@ -8,6 +8,8 @@ location: "Medical Sciences G46 H O"
 actions:
   - label: Register
     url: 'https://www.kweekweek.com/ucleconomistssociety/data-visualization-workshop'
+  - label: Slides
+    url: 'https://docs.google.com/presentation/d/1IxHIUxuNvj2OLbRUibg6YKW8LlYFF9e6mT9dCggNxT0'
 ---
 
 Join UCLU Technology Society and The Economist’s Society at our brand new event!   
@@ -15,6 +17,7 @@ Join UCLU Technology Society and The Economist’s Society at our brand new even
 During 3 workshops you will learn the basics of programming in JavaScript and create an economic data visualization! No prior knowledge needed, just bring a laptop (fully charged!).  
 
 Workshops will take place on following days:  
+
 - Tuesday, 19th January, 6-8pm – Medical Sciences G46 H O  
 - Wednesday, 27th January, 4-6pm – Galton LT, 1-19 Torrington Place  
 - Tuesday, 2nd February, 6-8pm – Medical Sciences G46 H O  
