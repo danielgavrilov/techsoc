@@ -1,6 +1,5 @@
 ---
 id: data-visualization
-new: true
 title: Data Visualization Workshop
 start_time: '2016-01-19'
 end_time: '2016-02-02'
