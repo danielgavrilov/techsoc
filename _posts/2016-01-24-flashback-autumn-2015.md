@@ -57,6 +57,10 @@ The Android project was equally successful with a strong turnout every week. We 
 
 If there’s one thing you can’t say we didn’t have enough of this term, it has to be [tech talks]({{ site.baseurl }}/series/tech-talks). We were joined by engineers from a great line up of companies to talk about lots of interesting topics.
 
+<img class="three-wide" alt="Google" src="{{ site.baseurl }}/assets/images/blog/flashback-autumn-2015/google.jpg"/>
+<img class="three-wide" alt="Blackrock" src="{{ site.baseurl }}/assets/images/blog/flashback-autumn-2015/blackrock.jpg"/>
+<img class="three-wide" alt="Bloomberg" src="{{ site.baseurl }}/assets/images/blog/flashback-autumn-2015/bloomberg.jpg"/>
+
 * Google - Building Location-based Services
 * Kano Computing - Building a Computer that Anyone Can Make
 * Bloomberg - Super-scale Mobile Applications
@@ -72,6 +76,8 @@ Phew, what a list!
 
 Term 1 is the season to start internship-hunting, so we rounded up 6 of our very own students who have interned at Google, Facebook, CERN, Bloomberg, Credit Suisse and startups to share some of their experiences and pearls of wisdom with our members who are setting off on their own journeys. We had some great questions from the audience and look forward to seeing some of them as part of the panel in years to come!
 
+![Our savvy members hearing from Aleks about his internship at CERN]({{ site.baseurl }}/assets/images/blog/flashback-autumn-2015/asktheinterns.jpg)
+
 ### Ask the Alumni
 
 We held our first alumni event in partnership with the UCL Computer Science department, two talks and a panel, with some of our distinguished alumni, including Joe Nicholson, ex-COO of ION Trading, Richard Bravery, EMEA Director in BlackRock, and Daniele Quercia.
@@ -85,14 +91,14 @@ Towards the end of November, 30 of our members were selected for a UCL visit to 
 
 King kindly opened the doors to their offices (just around the corner from UCL) to 60 TechSoc members for a night! The evening started with an insightful talk on big data from Vince Darley, their Chief Data Scientist, and we also got to chat to some of the staff. Our hosts were very generous: there was A LOT of pizza to be had and also plenty to do.
 
-This picture sums up what was a great night!
+![A group of members and King developers chatting away at their offices]({{ site.baseurl }}/assets/images/blog/flashback-autumn-2015/king.jpg)
 
 ### Volunteering
 
 Not only do we cater for our lovely TechSoc members, but we decided to give back to the wider community by starting the TechSoc Volunteering Crew. We wanted to share our passion for technology with those who may not have access to it and we’ve had great results so far. We have 100 members on the group and have volunteered at multiple events, most recently CoderDojo at UCL to inspire young girls to get into programming.
 
-<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.421875% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/_CfD6bydxc/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Made some beautiful LED sequences using @uclcs @engduino for #HourOfCode at Camden School for Girls #myUCLyear #techsoc #girlscancode</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A video posted by UCLU TechSoc (@uclutech) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-12-08T17:14:45+00:00">Dec 8, 2015 at 9:14am PST</time></p></div></blockquote>
-<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+<center><blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:400px; padding:0; width:30%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.421875% 0; text-align:center; width:30%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/_CfD6bydxc/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Made some beautiful LED sequences using @uclcs @engduino for #HourOfCode at Camden School for Girls #myUCLyear #techsoc #girlscancode</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A video posted by UCLU TechSoc (@uclutech) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-12-08T17:14:45+00:00">Dec 8, 2015 at 9:14am PST</time></p></div></blockquote>
+<script async defer src="//platform.instagram.com/en_US/embeds.js"></script></center>
 
 
 We also organised our own Hour of Code sessions for children. We visited St Michael's Primary School and Camden School for Girls, and we taught them how to code with Scratch and the Engduinos.
