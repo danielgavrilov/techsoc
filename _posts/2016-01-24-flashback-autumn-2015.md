@@ -107,15 +107,15 @@ If you want to join the Volunteering Crew, join our [Facebook group](https://www
 
 ### Socials
 
-The TechSoc social calendar has been great so far! We’ve had TechSoc Tuesdays throughout the first half of term and even a mini bar-crawl edition, where we still ended up going to a UCLU bar at the end of night in search for pitchers of tequila!
+The TechSoc [social calendar]({{ site.baseurl }}/series/socials) has been great so far! We’ve had TechSoc Tuesdays throughout the first half of term and even a [mini bar-crawl edition]({{ site.baseurl }}/events/socials/techsoc-tuesdays-3/), where we still ended up going to a UCLU bar at the end of night in search for pitchers of tequila!
 
-One of our bigger social events was the Winter Mixer, in collaboration with Imperial’s DoCSoc, where we had a great turnout and it was great to meet other students in London who were studying similar subjects!
+One of our bigger social events was the [Winter Mixer]({{ site.baseurl }}/events/socials/winter-mixer-techsoc-x-docsoc/), in collaboration with Imperial’s [DoCSoc](http://docsoc.co.uk/), where we had a great turnout and it was great to meet other students in London who were studying similar subjects!
 
-In our alternative to most student balls, we had a Winter Dinner with the Leading Women Society at Number Twelve Restaurant, with invited guests from companies we had partnered with over the term, such as Credit Suisse.
+In our alternative to most student balls, we had a [Winter Dinner]({{ site.baseurl }}/events/winter-dinner-with-leading-women/) with the Leading Women Society at Number Twelve Restaurant, with invited guests from companies we had partnered with over the term, such as Credit Suisse.
 
 <img src="https://scontent-lhr3-1.xx.fbcdn.net/hphotos-xpf1/t31.0-8/12375179_1108575582508621_6114023096946866679_o.jpg" alt="Winter Dinner">
 
-The last social of the term was the Ugly Jumper Christmas Social - definitely a highlight of the social calendar - where most students put on their wonderful christmas jumpers in aim to win the rather amusing prizes we had picked out for them.
+The last social of the term was the [Ugly Jumper Christmas Social]({{ site.baseurl }}/events/socials/ugly-jumper-christmas-social) - definitely a highlight of the social calendar - where most students put on their wonderful christmas jumpers in aim to win the rather amusing prizes we had picked out for them.
 
 ![Crowd at the Christmas Jumper Social]({{ site.baseurl }}/assets/images/blog/flashback-autumn-2015/christmassocial.jpg)
 
@@ -125,7 +125,7 @@ It was a great end to the term, and there will be many more exciting events to c
 
 ### Coming up
 
-Now that’s all done (and we are firmly past the holiday), we hope you’re just as excited as we are for what we have coming up in Term 2! There’ll be more tech talks, events, projects, workshops and not one, but two (and a half) hackathons. We also have Tech Night coming up, and the [Kano University Competition](https://technightldn.github.io/kanocompetition) - a chance for university students across the UK to impact the next generation through a Raspberry Pi powered, DIY computer for kids.
+Now that’s all done (and we are firmly past the holiday), we hope you’re just as excited as we are for what we have coming up in Term 2! There’ll be more tech talks, events, projects, workshops and not one, but two (and a half) hackathons. We also have [Tech Night](http://technightldn.github.io/) coming up, and the [Kano University Competition](https://technightldn.github.io/kanocompetition) - a chance for university students across the UK to impact the next generation through a Raspberry Pi powered, DIY computer for kids.
 
 Join us [this friday]({{ site.baseurl }}/events/socials/techsoc-tgif/) for an awesome night and let’s catch up!
 
