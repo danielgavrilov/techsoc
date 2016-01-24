@@ -6,7 +6,7 @@ author: TechSoc Committee
 
 And so, yet another year has passed... With the recent exit of 2015, we couldn’t help but reminisce, so we thought we'd jump on the bandwagon and release our own recap! So here it is, a whistle-stop tour of only some of the highlights of Autumn term 2015!
 
-### Fresher’s Fair
+### Freshers’ Fair
 
 Everyone knows the year truly begins with the Freshers’ Fair! We spent the weekend camped out in the exceedingly crowded cloisters, meeting lots of future members, playing with BB8, and of course, handing out our bags of swag.
 
