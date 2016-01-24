@@ -118,6 +118,10 @@
     word-wrap: break-word;
   }
 
+  ul, ol {
+    margin: 1.15em 0;
+  }
+
   hr {
     border: none;
     padding: 2em 0;
@@ -142,16 +146,21 @@
     }
   }
 
-  ul, ol {
-    color: rgba(white, .8);
-    margin: 0 0 1.45em;
-
-    li {
-      margin-bottom: .125em;
-    }
-  }
-
   @media (max-width: $screen-xs-max) {
     font-size: 1em;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .two-wide {
+    max-width: 40% !important;
+    display: inline;
+  }
+
+  .three-wide {
+    max-width: 32%;
+    display: inline;
   }
 }
