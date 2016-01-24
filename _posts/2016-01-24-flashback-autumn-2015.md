@@ -22,7 +22,7 @@ To celebrate the start of the year, we went on a scavenger hunt! We fought for b
 
 Next, we hosted UCL’s first ever Local Hack Day, in association with Major League Hacking! About 100 students gathered in Malet Place Engineering Building, and spent twelve hours learning new skills along with over 70 other universities and schools across the globe. Read more about it in our [dedicated blog post]({{ site.baseurl }}/blog/2015/10/19/local-hack-day/).
 
-![A happy crowd at Local Hack Day 2015]({{ site.baseurl }}/assets/images/blog/flashback-autumn-2015/lhd.JPG)
+![A happy crowd at Local Hack Day 2015]({{ site.baseurl }}/assets/images/blog/flashback-autumn-2015/lhd.jpg)
 
 ### Workshops
 
