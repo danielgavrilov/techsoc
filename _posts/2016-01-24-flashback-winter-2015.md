@@ -30,13 +30,6 @@ We’re all about the learning here at TechSoc, and we launched straight into wo
 
 We even had some really active members step up to the plate and run their own! [COMP1001: Computer Architecture]({{ site.baseurl }}/series/hardware-and-chill), the much-beloved and sorely-missed module formerly offered to first-year Computer Scientists, was revived by Chris Hammond. We also saw Horatiu and Jaromir run some very helpful sessions for [Algorithms in C]({{ site.baseurl }}/series/algorithms-in-c), everyone's favourite low-level language.
 
-<img class="three-wide" alt="Coding and Cookies" src="{{ site.baseurl }}/assets/images/blog/flashback-autumn-term-2015/hardwareandchill.jpg"/>
-
-<img class="three-wide" alt="Coding and Cookies" src="{{ site.baseurl }}/assets/images/blog/flashback-autumn-term-2015/3dblender.jpg"/>
-
-
-
-
 <img class="three-wide" alt="Coding and Cookies" src="{{ site.baseurl }}/assets/images/blog/flashback-autumn-term-2015/codingandcookies.jpg"/>
 <img class="three-wide" alt="Blender and Brownies" src="{{ site.baseurl }}/assets/images/blog/flashback-autumn-term-2015/blenderandbrownies.jpg"/>
 <img class="three-wide" alt="Hardware and Chill" src="{{ site.baseurl }}/assets/images/blog/flashback-autumn-term-2015/hardwareandchill.jpg"/>
@@ -49,20 +42,18 @@ The revival of TechSoc projects was both long-awaited and highly-welcomed by the
 
 We’ve had a great time developing the virtual reality game which is almost ready to release to the world! People from different levels were able to take part and lots of beginners were able to apply their modelling skills from [Blender and Brownies]({{ site.baseurl }}/series/blender-and-brownies) to create some really cool assets in the game.
 
-<img class="three-wide" alt="Coding and Cookies" src="{{ site.baseurl }}/assets/images/blog/flashback-autumn-term-2015/vrproject.jpg"/>
+<img class="three-wide" alt="VR Project" src="{{ site.baseurl }}/assets/images/blog/flashback-autumn-term-2015/vrproject.jpg"/>
 
 We’ll be holding a session soon where everyone can try out our VR game - keep an eye out for details!
 
 The Android project was equally successful with a strong turnout every week. We split into teams and worked on different parts of the application and whether you were designing the UI, writing API calls or setting up the cloud infrastructure, we hope everyone learned a lot. The app will be released upon completion! 
 
-<img class="three-wide" alt="Coding and Cookies" src="{{ site.baseurl }}/assets/images/blog/flashback-autumn-term-2015/android.jpg"/>
+<img class="three-wide" alt="Android Project" src="{{ site.baseurl }}/assets/images/blog/flashback-autumn-term-2015/android.jpg"/>
 
 
 #### Tech Talks
 
 If there’s one thing you can’t say we didn’t have enough of this term, it has to be [tech talks]({{ site.baseurl }}/series/tech-talks). We were joined by engineers from a great line up of companies to talk about lots of interesting topics. 
-
-<img class="two-wide" alt="Coding and Cookies" src="{{ site.baseurl }}/assets/images/blog/flashback-autumn-term-2015/codingandcookies.jpg"/>
 
 * Google - Building Location-based Services
 * Kano Computing - Building a Computer that Anyone Can Make
@@ -116,7 +107,7 @@ One of our bigger social events was the Winter Mixer, in collaboration with Impe
 
 In our alternative to most student balls, we had a Winter Dinner with the Leading Women Society at Number Twelve Restaurant, with invited guests from companies we had partnered with over the term, such as Credit Suisse. 
 
-<img src="https://scontent-lhr3-1.xx.fbcdn.net/hphotos-xpf1/t31.0-8/12375179_1108575582508621_6114023096946866679_o.jpg" alt="Winter Dinner" style="width: 50vw;">
+<img src="https://scontent-lhr3-1.xx.fbcdn.net/hphotos-xpf1/t31.0-8/12375179_1108575582508621_6114023096946866679_o.jpg" alt="Winter Dinner">
 
 The last social of the term was the Ugly Jumper Christmas Social - definitely a highlight of the social calendar - where most students put on their wonderful christmas jumpers in aim to win the rather amusing prizes we had picked out for them. 
 
