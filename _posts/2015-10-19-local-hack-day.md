@@ -4,9 +4,12 @@ categories: hackathon
 author: Zahra Taiba
 image: '/assets/images/blog/flashback-autumn-2015/lhd.jpg'
 ---
+
 Bright and early at 9AM on Saturday 10th October, around 100 attendees descended upon the Roberts Building for Local Hack Day - the world’s most global local hackathon. We were one of 87 institutions running the event across the globe in association with Major League Hacking, who hosted a total of 4000+ participants!
 
 We were delighted to welcome students from a range of subjects, from Computer Science to Fine Art and Philosophy, across all year groups and even attendees from other universities and recent graduates and alumni. We were also joined by mentors from our lovely sponsors, Bloomberg and Credit Suisse, as well as UCL alumni James and Adiba from Esri and Reuters, and hackathon regulars Manoj and Sidd from Banter Ventures.
+
+![A happy crowd at Local Hack Day 2015]({{ site.baseurl }}/assets/images/blog/flashback-autumn-2015/lhd.jpg)
 
 Approximately 10 hours of intense hacking, Coding in the Dark, Slideshow Karaoke and consumption of free fruit, snacks, caffeine and pizza, it was demo time. We ended up with 11 brilliant projects presented during our wrap-up and 10 submissions to Devpost (which accounted for 11.5% of the global entries!).
 
