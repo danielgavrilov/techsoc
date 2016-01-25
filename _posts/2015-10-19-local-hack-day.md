@@ -2,6 +2,7 @@
 title: "Local Hack Day - UCL, London"
 categories: hackathon
 author: Zahra Taiba
+image: '/assets/images/blog/flashback-autumn-2015/lhd.jpg'
 ---
 Bright and early at 9AM on Saturday 10th October, around 100 attendees descended upon the Roberts Building for Local Hack Day - the world’s most global local hackathon. We were one of 87 institutions running the event across the globe in association with Major League Hacking, who hosted a total of 4000+ participants!
 

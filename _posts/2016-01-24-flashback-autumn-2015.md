@@ -2,6 +2,7 @@
 title: "Flashback - Autumn 2015"
 categories: recap
 author: TechSoc Committee
+image: '/assets/images/blog/flashback-autumn-2015/christmassocial.jpg'
 ---
 
 And so, yet another year has passed... With the recent exit of 2015, we couldn’t help but reminisce, so we thought we'd jump on the bandwagon and release our own recap! So here it is, a whistle-stop tour of only some of the highlights of Autumn term 2015!
