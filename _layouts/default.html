@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{% if page.title and page.title != "Home" %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    {% if page.author %}<meta name="author" content="{{ page.author }}">{% endif %}
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
     <!-- favicon -->
@@ -18,6 +19,20 @@
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+    <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@{{ site.twitter_username }}">
+
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:type" content="{% if page.is_post %}article{% else %}website{% endif %}">
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    {% if page.image %}<meta property="og:image" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}">{% endif %}
+    <meta property="article:publisher" content="https://www.facebook.com/{{ site.facebook_username }}">
+
   </head>
 
   <body>
