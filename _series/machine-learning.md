@@ -5,9 +5,13 @@ title: Machine Learning Workshop
 start_time: '2016-02-04'
 end_time: '2016-02-29'
 excerpt: |
-  Learn the basics of machine learning (some familiarity with Python required).
+  An introductory workshop to Machine Learning in Python.
 ---
 
-Learn the basics of machine learning (some familiarity with Python required).
+An introductory workshop to Machine Learning in Python led by a UCL Alumni, Matteo Hessel, who is currently a Research Engineer at Google DeepMind.
 
-Save the dates. Tickets will be released soon.
+Matteo graduated from UCL with an MSc in Machine Learning, and did his Bachelors degree in Mathematical Engineering. Check him out on [GitHub](https://github.com/mtthss).
+
+Please install [Python 2.7](https://www.python.org/downloads/) and [Jupyter Notebook](http://jupyter.org/).
+
+This event is for UCLU TechSoc members only - you can [join here for only £2](http://uclu.org/clubs-societies/tech-society).
