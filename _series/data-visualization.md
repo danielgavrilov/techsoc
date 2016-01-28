@@ -1,6 +1,7 @@
 ---
 id: data-visualization
 title: Data Visualization Workshop
+event_label: Data Visualization
 start_time: '2016-01-19'
 end_time: '2016-02-02'
 subtext: With [The Economist’s Society](http://www.economistssociety.org/)

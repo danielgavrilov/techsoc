@@ -2,6 +2,7 @@
 id: machine-learning
 new: true
 title: Machine Learning Workshop
+event_label: Machine Learning
 start_time: '2016-02-04'
 end_time: '2016-02-29'
 excerpt: |
