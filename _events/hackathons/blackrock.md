@@ -3,6 +3,7 @@ title: The BlackRock Hackathon
 series_id: hackathons
 location: Location provided on successful application
 start_time: "2015-11-07 10:00"
+end_time: "2015-11-07 17:00"
 end_time:
 facebook_id: "1220281794665681"
 actions:
