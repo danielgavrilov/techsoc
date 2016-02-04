@@ -7,4 +7,6 @@ location: "Galton LT, 1-19 Torrington Place"
 actions:
   - label: Register
     url: 'https://www.kweekweek.com/ucleconomistssociety/data-visualization-workshop'
+  - label: Slides
+    url: 'https://goo.gl/I3ljMd'
 ---

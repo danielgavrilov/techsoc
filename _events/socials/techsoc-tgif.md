@@ -2,7 +2,7 @@
 facebook_id: '958985847517435'
 title: TechSoc TGIF
 series_id: socials
-start_time: '2016-01-29 20:00'
+start_time: '2016-01-29 19:00'
 end_time: '2016-01-29 23:00'
 location: Phineas Bar UCL
 subtext: Sponsored by [Sup](https://bnc.lt/KYCg/5b1DTBsGro)
