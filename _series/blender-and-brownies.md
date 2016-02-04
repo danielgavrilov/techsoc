@@ -3,7 +3,7 @@ id: blender-and-brownies
 title: Blender & Brownies
 calendar: blender-and-brownies.ics
 start_time: "2015-10-20"
-end_time: "2015-11-24"
+end_time: "2015-11-25"
 subtext: With *Jack Adler*
 excerpt: |
   A beginner course which teaches how to create, animate and texture 3D models in Blender, a popular 3D graphics software.

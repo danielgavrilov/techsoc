@@ -4,7 +4,7 @@ new: true
 title: Machine Learning Workshop
 event_label: Machine Learning
 start_time: '2016-02-04'
-end_time: '2016-02-29'
+end_time: '2016-03-01'
 excerpt: |
   An introductory workshop to Machine Learning in Python.
 ---
