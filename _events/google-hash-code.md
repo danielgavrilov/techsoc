@@ -1,7 +1,7 @@
 ---
 facebook_id: '955726494513084'
 title: Google Hash Code
-start_time: '2016-02-11 17:30'
+start_time: '2016-02-11 17:00'
 end_time: '2016-02-11 21:30'
 location: Chadwick G07
 actions:
