@@ -46,7 +46,7 @@ gulp.task('sass', function() {
     .pipe(sourcemaps.init())
     .pipe(sass({
       includePaths: ['assets/scss'],
-      outputStyle: "compressed",
+      outputStyle: "compact",
       onError: browserSync.notify
     }))
     .on('error', onError)
