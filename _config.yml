@@ -55,6 +55,7 @@ collections:
     permalink: /:path/
   calendars:
     output: true
+    permalink: /calendars/:path:output_ext
 
 defaults:
   -
