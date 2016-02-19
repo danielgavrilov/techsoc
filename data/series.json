@@ -1,0 +1,14 @@
+---
+collection_name: series
+fields:
+  - id
+  - title
+  - tagline
+  - event_label
+  - start_time
+  - end_time
+  - subtext
+  - excerpt
+  - content
+---
+{% include scripts/jsonify_collection collection_name=page.collection_name fields=page.fields %}
