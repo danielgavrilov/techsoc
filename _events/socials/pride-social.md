@@ -1,6 +1,7 @@
 ---
 facebook_id: '946684388742522'
-title: Pride Social
+title: TechSoc Pride Social
+series_id: socials
 start_time: '2016-02-24 20:00'
 end_time: '2016-02-24 23:00'
 location: Phineas Bar UCL
