@@ -1,6 +1,6 @@
 ---
 facebook_id: '235790523426063'
-title: 'Talk: Engineering at Stripe'
+title: 'Engineering at Stripe'
 series_id: tech-talks
 start_time: '2016-02-25 18:00'
 end_time: '2016-02-25 20:00'
