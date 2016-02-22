@@ -6,8 +6,8 @@ start_time: '2016-02-22 18:30'
 end_time: '2016-02-22 21:00'
 location: Christopher Ingold G21 Ramsay LT
 actions:
-  - label: Tickets
-    url: 'https://www.eventbrite.co.uk/e/machine-learning-in-python-tickets-20967397049'
+  - label: Notes
+    url: 'http://nbviewer.jupyter.org/github/techsoc/MLWorkshops/tree/master/session2/notes.ipynb'
 ---
 
 An introductory workshop to Machine Learning in Python led by a UCL Alumni, Matteo Hessel, who is currently a Research Engineer at Google DeepMind.
