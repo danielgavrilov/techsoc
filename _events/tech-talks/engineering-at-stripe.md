@@ -3,7 +3,7 @@ facebook_id: '235790523426063'
 title: 'Engineering at Stripe'
 series_id: tech-talks
 start_time: '2016-02-25 18:00'
-end_time: '2016-02-25 20:00'
+end_time: '2016-02-25 19:00'
 location: Chadwick G08
 ---
 
