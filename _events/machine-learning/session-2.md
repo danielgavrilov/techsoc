@@ -8,6 +8,8 @@ location: Christopher Ingold G21 Ramsay LT
 actions:
   - label: Notes
     url: 'http://nbviewer.jupyter.org/github/techsoc/MLWorkshops/tree/master/session2/notes.ipynb'
+  - label: Video
+    url: 'https://www.youtube.com/watch?v=GAusrpSVVPw'
 ---
 
 An introductory workshop to Machine Learning in Python led by a UCL Alumni, Matteo Hessel, who is currently a Research Engineer at Google DeepMind.
