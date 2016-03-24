@@ -78,7 +78,7 @@ I've added some little guidance below for some common tasks, but this is definit
 
 ## Adding events
 
-Create a file with an `.md` extension in the `_events` folder. The filename will be part of the URL, so please name it appropriately (and follow a pattern if there is one), e.g. a file `hacklondon.md` will create a page at `uclutech.com/events/hacklondon`.
+Create a file with an `.md` extension in the `_events` folder. The filename will be part of the URL, so please name it appropriately (and follow a pattern if there is one), e.g. a file `hacklondon.md` will create a page at `techsoc.io/events/hacklondon`.
 
 #### Fields
 
@@ -112,4 +112,4 @@ redirect_to: <URL to redirect to>
 ---
 ```
 
-This will create a redirect from `uclutech.com/<filename>` to `<URL to redirect to>`. See `_redirects/lhd.html` for an example.
+This will create a redirect from `techsoc.io/<filename>` to `<URL to redirect to>`. See `_redirects/lhd.html` for an example.
