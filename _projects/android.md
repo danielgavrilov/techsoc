@@ -32,4 +32,4 @@ Look out for the Android events on our [Facebook page](https://www.facebook.com/
 
 ### Have questions?
 
-Email us at <projects@uclutech.com>.
+Email us at <projects@techsoc.io>.

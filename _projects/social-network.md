@@ -30,4 +30,4 @@ Look out for the social network events on our [Facebook page](https://www.facebo
 
 ### Have questions?
 
-Email us at <projects@uclutech.com> and we'll be glad to help!
+Email us at <projects@techsoc.io> and we'll be glad to help!

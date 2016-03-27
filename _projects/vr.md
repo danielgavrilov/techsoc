@@ -38,4 +38,4 @@ To get reminders for events and to get the latest update, join the [Facebook gro
 
 ### Have any questions?
 
-Email <projects@uclutech.com> and we would love to help <3  
+Email <projects@techsoc.io> and we would love to help <3  

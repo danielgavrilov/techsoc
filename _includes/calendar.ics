@@ -36,7 +36,7 @@ END:VTIMEZONE
 {% capture end_time    %}{{ event.end_time   | date: "%Y%m%dT%H%M%S" }}{% endcapture %}
 {% capture description %}{{ event.content }}{% for action in event.actions %}\n{{ action.label }}: {{ action.url }}{% endfor %}{% endcapture %}
 BEGIN:VEVENT
-UID:{{ title | slugify }}-{{ start_time }}@uclutech.com
+UID:{{ title | slugify }}-{{ start_time }}@techsoc.io
 DTSTART;TZID=Europe/London:{{ start_time }}
 {% if event.end_time %}DTEND;TZID=Europe/London:{{ end_time }}{% endif %}
 SUMMARY:{% include scripts/ical_escape text=title %}
