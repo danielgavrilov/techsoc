@@ -1,10 +1,11 @@
 ---
 facebook_id: '1133322766687096'
-title: UCL API Meetup
+title: Meetup
+series_id: techsoc-x-isd
 start_time: '2016-02-24 17:00'
 end_time: '2016-02-24 19:00'
 location: "The Podium, 1 Eversholt St, King's Cross, Lonon NW1 2DN, UK"
-redirect_from: /events/techsoc-isd-meetup/
+redirect_from: /events/ucl-api-meetup
 ---
 
 Join us at our inaugural meetup in ISD to talk about the state of University APIs as well as UCL's API and how we can make it better.  
