@@ -987,7 +987,7 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .page-heading:first-child { margin-top: 0; }
 
-.homepage section { padding: 3em 0; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.1); }
+.homepage section { padding: 2.5em 0; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.1); }
 
 .homepage section:last-of-type { border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
 
@@ -999,7 +999,9 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .homepage section .button:hover { color: white; border-color: white; }
 
-.homepage .masthead { text-align: center; padding: 3em 0; }
+.homepage .masthead { text-align: center; padding: 2em 0; }
+
+.homepage .masthead h1 { font-size: 36px; font-weight: normal; margin: 0 0 .75em; }
 
 .homepage .masthead .intro { font-size: 1.375em; color: rgba(255, 255, 255, 0.7); }
 
@@ -1019,13 +1021,13 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .homepage .partner:hover img { opacity: 1; }
 
-.posts-list { list-style-type: none; margin: 0; padding: 0; }
+.posts-list { list-style-type: none; margin: 0 0 2em; padding: 0; }
 
-.post-overview a { display: block; border: 3px solid rgba(255, 255, 255, 0.2); border-radius: 10px; margin-bottom: 20px; padding: 22px 25px; color: white; }
+.post-overview a { display: block; padding: 18px 0; color: rgba(255, 255, 255, 0.9); border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
 
-.post-overview a:hover { border-color: white; color: white; }
+.post-overview a:hover { color: white; }
 
-.post-overview .title { font-size: 22px; font-weight: 700; line-height: 1.2; margin: 0 0 .25em; padding: 0; }
+.post-overview .title { font-size: 22px; font-weight: 400; line-height: 1.2; margin: 0 0 .25em; padding: 0; }
 
 .post-overview .metadata { font-size: 16px; font-weight: 400; text-transform: uppercase; line-height: 26px; margin-top: .35em; color: rgba(255, 255, 255, 0.5); -webkit-transition: color 200ms linear; transition: color 200ms linear; }
 
@@ -1344,7 +1346,7 @@ body .contact-notice h3 { font-size: 1.166em; font-weight: normal !important; }
 
 .partners .logo:hover img { opacity: 1; }
 
-img.blackrock { padding: 15px 0 8px; }
+img.blackrock { padding: 16px 0 8px; }
 
 img.bloomberg { padding: 15px 0 0px; }
 
