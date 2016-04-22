@@ -23,15 +23,19 @@ So here are a few things that we learned about:
 
 The [University of Southampton Open Data project](http://data.southampton.ac.uk/) initially started as Chris' pet project, which he worked on in his own time, but it started evolving as people realised its usefulness.
 
-The most widely spread early use cases were built on top of open Maps and open Events data, however the biggest success is the improved catering automation system (Picture below), which has even won an award!
+The earliest and most widely spread use cases were built on top of open maps and open events data, however the biggest success was the catering automation system (picture below), which consolidates daily menus from the university's cafes and restaurants. It's used campus-wide and has even won an award!
 
 ![One part of the catering automation system]({{ site.baseurl }}/assets/images/blog/southampton-2016/food_screen.jpg)
 
-Another interesting point they made is that, empirically, as a general rule the quality of the data always increases as a result of making it open. People will start to depend on the data and are motivated to maintain it by consistently providing updates (with accurate, valid data!).
+Another interesting point they made is that, empirically, as a general rule, the quality of the data increases as a result of making it open. When more people start to see and use the data, they are more likely to provide updates and corrections.
 
-Of course, in the attempt to aggregate more data from different parts of Southampton's University, there are several challenges. Not everybody wants to give up their data and make it open. The excuses to not open up some data tend to be similar and there is a really fun game called "Open Data Excuses Bingo", which highlights the most common reasons to not make data open.
+Of course, in the attempt to aggregate more data from different parts of the university, there are several challenges. Not everybody wants to give up their data and make it open. The concerns and excuses tend to be similar and are outlined in the ["Open Data Excuse Bingo"](http://data.dev8d.org/devbingo/bingo.php?n=1&w=4&h=4&title=%22Open+Data+Excuse%22+Bingo&tag=%23openDataExcuses&statements=Terrorists+will+use+it%0D%0AData+Protection%0D%0ALawyers+want+a+custom+License%0D%0APoor+Quality%0D%0AThieves+will+use+it%0D%0AWe%27ll+get+spam%0D%0AIt%27s+not+very+interesting%0D%0AIt%27s+too+complicated%0D%0AThere%27s+no+API%0D%0AWhat+if+we+want+to+sell+it+later%0D%0AI+don%27t+mind,+but+someone+else+might%0D%0AIt%27s+too+big%0D%0AThere%27s+already+a+project+to...%0D%0APeople+may+misinterpret+the+data%0D%0AWe+might+want+to+use+it+in+a+paper%0D%0AWe+will+get+too+many+enquiries&rules=%3Cp%3EFor+open+data+teams;+print+out+a+copy+and+put+it+on+your+office+wall.+Cross+out+each+excuse+people+give+you.+There+are+no+prizes,+but+you+can+tweet+%22bingo!+%23openDataExcuses%22+if+you+think+it+might+make+you+feel+better*.%3C/p%3E%0D%0A%0D%0A%3Cp+style%3D%27font-size:80%25%27%3E*+it+won%27t%3C/p%3E) card:
 
 ![Open Data Excuse Bingo]({{ site.baseurl }}/assets/images/blog/southampton-2016/open_data_excuse_bingo.png)
+
+(Also, see a [write up of responses](https://docs.google.com/document/d/1nDtHpnIDTY_G32EMJniXaOGBufjHCCk4VC9WGOf7jK4) which have proved effective.)
+
+While the concerns can be valid in certain contexts, it's often the case that people are afraid of being held responsible in case the data is misused in any way.
 
 Finally, they noted that it is good practice to consume all of the data you provide. This is useful not just to provide an example to developers in regard to how the data could be used, but it also helps with quickly discovering potential errors in the data.
 
@@ -40,6 +44,8 @@ Overall it was a great, and super interesting trip that I am glad to have been a
 
 ![Chris Explaining]({{ site.baseurl }}/assets/images/blog/southampton-2016/chris_explaining.jpg)
 
-If you are curious about what we are doing and want to get involved, join us at our next TechSoc x ISD Meetup on the 8th of June from 5pm-7pm in the Podium. (All UCL staff and students welcome)
+---
+
+If you are curious about what we are doing and want to get involved, join us at our next [TechSoc x ISD Meetup](/series/techsoc-x-isd) on the 8th of June from 5pm-7pm in the Podium. (All UCL staff and students welcome)
 
 You can also sign up to our TechSoc ISD joined Slack with your UCL email address: [techsocISD.slack.com](//techsocISD.slack.com)
