@@ -44,7 +44,13 @@
 
   .masthead {
     text-align: center;
-    padding: 3em 0;
+    padding: 2em 0;
+
+    h1 {
+      font-size: 36px;
+      font-weight: normal;
+      margin: 0 0 .75em;
+    }
 
     .intro {
       font-size: 1.375em;
