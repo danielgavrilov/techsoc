@@ -1,7 +1,7 @@
 ---
 title: "ISD Trip to University of Southampton"
 categories: isd, trip, open-data, api@ucl
-author: Wilhelm
+author: Wilhelm Klopp
 image: '/assets/images/blog/southampton-2016/group_picture.jpg'
 ---
 
