@@ -13,7 +13,7 @@ A few months ago, we (TechSoc) in conjunction with UCL's Information Services Di
 We've covered a variety of different things in the few meetups that we've had so far, but the one thing that we as students have been pushing for a lot is what we call api@ucl. We are looking to establish a platform for open data and for an open API at UCL. With this platform, any UCL student should be able to extend the digital ecosystem with their own software that can interact with some of UCL's existing systems.
 
 There are a few universities around the world which are already providing their students with open data / an open API. In the UK, the most well known one of those is the University of Southampton.
-So last Thursday (21 May 2016) we took the train down to Southampton to learn from them how they went about opening up their systems and what the challenges were they faced in the process.
+So last Thursday (21 April 2016) we took the train down to Southampton to learn from them how they went about opening up their systems and what the challenges were they faced in the process.
 
 ![TechSoc in Southampton]({{ site.baseurl }}/assets/images/blog/southampton-2016/group_picture.JPG)
 
