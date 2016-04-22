@@ -15,7 +15,7 @@ We've covered a variety of different things in the few meetups that we've had so
 There are a few universities around the world which are already providing their students with open data / an open API. In the UK, the most well known one of those is the University of Southampton.
 So last Thursday (21 May 2016) we took the train down to Southampton to learn from them how they went about opening up their systems and what the challenges were they faced in the process.
 
-![TechSoc in Southampton]({{ site.baseurl }}/assets/images/blog/southampton-2016/group_picture.jpg)
+![TechSoc in Southampton]({{ site.baseurl }}/assets/images/blog/southampton-2016/group_picture.JPG)
 
 In Southampton we were warmly welcomed by [Ash Smith](http://www.ecs.soton.ac.uk/people/ads04r), and later by [Chris Gutteridge](http://www.ecs.soton.ac.uk/people/cjg) who were more than happy to talk about their journey and the things that they have gone through while building out their open data platform over the past few years.
 
@@ -25,7 +25,7 @@ The [University of Southampton Open Data project](http://data.southampton.ac.uk/
 
 The earliest and most widely spread use cases were built on top of open maps and open events data, however the biggest success was the catering automation system (picture below), which consolidates daily menus from the university's cafes and restaurants. It's used campus-wide and has even won an award!
 
-![One part of the catering automation system]({{ site.baseurl }}/assets/images/blog/southampton-2016/food_screen.jpg)
+![One part of the catering automation system]({{ site.baseurl }}/assets/images/blog/southampton-2016/food_screen.JPG)
 
 Another interesting point they made is that, empirically, as a general rule, the quality of the data increases as a result of making it open. When more people start to see and use the data, they are more likely to provide updates and corrections.
 
