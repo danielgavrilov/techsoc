@@ -6,7 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{% if page.title and page.title != "Home" %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    {% include scripts/event_category event=page %}
+
+    <title>
+      {% if page.title and page.title != "Home" %}
+        {{ page.title }} -
+      {% endif %}
+      {% if event_category_result %}
+        {{ event_category_label_result }} -
+      {% endif %}
+      {{ site.title }}
+    </title>
+
     {% if page.author %}<meta name="author" content="{{ page.author }}">{% endif %}
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
