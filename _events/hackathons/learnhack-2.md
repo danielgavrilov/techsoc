@@ -5,6 +5,9 @@ series_id: hackathons
 start_time: '2016-06-04 10:00'
 end_time: '2016-06-04 20:00'
 location: UCL
+actions:
+  - label: Tickets
+    url: 'https://learnhack.splashthat.com/'
 ---
 
 UCL LearnHack is back!  
@@ -16,4 +19,4 @@ Stay tuned for details!
 
 Whether you're an art history student, management student, or an CS/EE student person #LearnHack is your chance to make something awesome a reality! #LearnHack is for everyone ...with a valid UCL email address.  
 
-It will be a supportive buzzy place to get inspired, meet amazing people, think big, develop things and learn without boundaries.
+It will be a supportive buzzy place to get inspired, meet amazing people, think big, experiment and develop things and learn without boundaries.
