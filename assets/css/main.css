@@ -1022,7 +1022,7 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
   .homepage .tech-talks .description, .homepage .tech-talks a, .homepage .socials .description, .homepage .socials a, .homepage .partners-homepage .description, .homepage .partners-homepage a { color: #000033; border-color: #000033; }
   .homepage .partners-homepage { background-color: rgba(255, 255, 255, 0.05); } }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) { .homepage .masthead { height: auto; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) { .homepage .masthead { height: auto; padding: 10vh 0; } }
 
 .homepage .partners-homepage { text-align: center; }
 
