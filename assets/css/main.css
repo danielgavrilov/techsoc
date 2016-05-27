@@ -1015,11 +1015,14 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 @media only screen and (min-width: 350px) and (min-height: 450px) { .homepage .masthead { padding: 3em 0; }
   .homepage .masthead .intro { font-size: 1.375em; } }
 
-@media only screen and (min-width: 992px) { .homepage section#mid { padding: 0; }
+@media only screen and (min-width: 992px) { .homepage section:not(.partners-homepage) { height: 70vh; }
+  .homepage section#mid { padding: 0; }
   .homepage section#mid .col-md-6 { border-top: 1px solid rgba(255, 255, 255, 0.1); padding: 4em 0; }
   .homepage .tech-talks, .homepage .socials, .homepage .partners-homepage { background-color: rgba(255, 255, 255, 0.6); color: #000033; }
   .homepage .tech-talks .description, .homepage .tech-talks a, .homepage .socials .description, .homepage .socials a, .homepage .partners-homepage .description, .homepage .partners-homepage a { color: #000033; border-color: #000033; }
   .homepage .partners-homepage { background-color: rgba(255, 255, 255, 0.05); } }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) { .homepage .masthead { height: auto; } }
 
 .homepage .partners-homepage { text-align: center; }
 
