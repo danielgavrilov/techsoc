@@ -14,7 +14,7 @@
     font-size: 0.9em;
 }
 
-@include bp-tab {
+@include bp-mob {
     .type-wrapper {
       display: inline-block;
     }

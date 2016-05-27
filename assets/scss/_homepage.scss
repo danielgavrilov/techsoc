@@ -76,16 +76,18 @@
     }
   }
 
-    @include bp-tab {
+    @include bp-mob {
         .masthead {
             padding: 3em 0;
-            
+
             .intro {
                 font-size: 1.375em;
             }
 
         }
+    }
 
+    @include bp-tab {
         section#mid {
             padding: 0;
             .col-md-6 {
@@ -102,11 +104,13 @@
               border-color: #000033;
             }
         }
+        .partners-homepage {
+            background-color: rgba(255,255,255,.05);
+        }
     }
 
 
   .partners-homepage {
-    background-color: rgba(255,255,255,.05);
     text-align: center;
 
     .section-title {

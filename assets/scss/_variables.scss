@@ -13,11 +13,18 @@ $link-hover-decoration: none;
 // Custom
 
 $max-site-width: 1100px;
+$breakpoint-tablet: 992px;
 $breakpoint-width: 350px;
 $breakpoint-height: 450px;
 
-@mixin bp-tab {
+@mixin bp-mob {
   @media only screen and (min-width: $breakpoint-width) and (min-height: $breakpoint-height) {
     @content;
   }
+}
+
+@mixin bp-tab {
+    @media only screen and (min-width: $breakpoint-tablet) {
+        @content;
+    }
 }
