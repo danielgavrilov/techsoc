@@ -815,7 +815,7 @@ tbody.collapse.in { display: table-row-group; }
 /* Typer styles */
 .type-wrapper { margin: auto; padding: 10px 20px 10px 20px; color: #F0F0F0; /*  background-color: rgba(204,204,204,0.2);*/ border-radius: 10px; font-size: 30px; z-index: 1; }
 
-#type-space { font-size: 35px; }
+#type-space { font-size: 1em; }
 
 .typed-cursor { opacity: 1; -webkit-animation: blink 0.7s infinite; animation: blink 0.7s infinite; }
 
@@ -987,7 +987,7 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .page-heading:first-child { margin-top: 0; }
 
-.homepage section { padding: 2.5em 0; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.1); }
+.homepage section { padding: 4em 0; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.1); }
 
 .homepage section:last-of-type { border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
 
