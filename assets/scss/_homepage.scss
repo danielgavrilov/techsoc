@@ -41,19 +41,27 @@
     }
   }
 
+  section#mid {
+      padding: 0;
+
+      .col-md-6 {
+          border-top: 1px solid rgba(white, .1);
+          padding: 4em 0;
+      }
+  }
 
   .masthead {
     text-align: center;
     padding: 2em 0;
     height: 90vh;
-    padding: 5em 0;
+    padding: 3em 0;
 
     h1 {
       font-size: 36px;
       font-weight: normal;
       margin: 0 0 .75em;
     }
-    
+
     .intro {
       font-size: 1.375em;
       color: rgba(white, .7);
@@ -77,7 +85,7 @@
     }
   }
 
-  .tech-talks, .projects, .hackathons {
+  .tech-talks, .socials, .partners-homepage {
     background-color: rgba(255,255,255,.6);
     color: #000033;
 
@@ -90,6 +98,7 @@
 
 
   .partners-homepage {
+    background-color: rgba(255,255,255,.05);
     text-align: center;
 
     .section-title {

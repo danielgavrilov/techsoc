@@ -999,7 +999,11 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .homepage section .button:hover { color: white; border-color: white; }
 
-.homepage .masthead { text-align: center; padding: 2em 0; height: 90vh; padding: 5em 0; }
+.homepage section#mid { padding: 0; }
+
+.homepage section#mid .col-md-6 { border-top: 1px solid rgba(255, 255, 255, 0.1); padding: 4em 0; }
+
+.homepage .masthead { text-align: center; padding: 2em 0; height: 90vh; padding: 3em 0; }
 
 .homepage .masthead h1 { font-size: 36px; font-weight: normal; margin: 0 0 .75em; }
 
@@ -1009,11 +1013,11 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .homepage .masthead .join-now:hover { border-color: white; }
 
-.homepage .tech-talks, .homepage .projects, .homepage .hackathons { background-color: rgba(255, 255, 255, 0.6); color: #000033; }
+.homepage .tech-talks, .homepage .socials, .homepage .partners-homepage { background-color: rgba(255, 255, 255, 0.6); color: #000033; }
 
-.homepage .tech-talks .description, .homepage .tech-talks a, .homepage .projects .description, .homepage .projects a, .homepage .hackathons .description, .homepage .hackathons a { color: #000033; border-color: #000033; }
+.homepage .tech-talks .description, .homepage .tech-talks a, .homepage .socials .description, .homepage .socials a, .homepage .partners-homepage .description, .homepage .partners-homepage a { color: #000033; border-color: #000033; }
 
-.homepage .partners-homepage { text-align: center; }
+.homepage .partners-homepage { background-color: rgba(255, 255, 255, 0.05); text-align: center; }
 
 .homepage .partners-homepage .section-title { color: rgba(255, 255, 255, 0.4); font-size: 1.75em; font-weight: 400; margin: 0 0 .5em; }
 
