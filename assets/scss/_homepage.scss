@@ -41,20 +41,11 @@
     }
   }
 
-  section#mid {
-      padding: 0;
-
-      .col-md-6 {
-          border-top: 1px solid rgba(white, .1);
-          padding: 4em 0;
-      }
-  }
-
   .masthead {
     text-align: center;
     padding: 2em 0;
     height: 90vh;
-    padding: 3em 0;
+    padding: 1.5em 0;
 
     h1 {
       font-size: 36px;
@@ -63,7 +54,7 @@
     }
 
     .intro {
-      font-size: 1.375em;
+      font-size: 1.25em;
       color: rgba(white, .7);
     }
 
@@ -85,16 +76,33 @@
     }
   }
 
-  .tech-talks, .socials, .partners-homepage {
-    background-color: rgba(255,255,255,.6);
-    color: #000033;
+    @include bp-tab {
+        .masthead {
+            padding: 3em 0;
+            
+            .intro {
+                font-size: 1.375em;
+            }
 
-    .description, a {
-      color: #000033;
-      border-color: #000033;
+        }
+
+        section#mid {
+            padding: 0;
+            .col-md-6 {
+                border-top: 1px solid rgba(white, .1);
+                padding: 4em 0;
+            }
+        }
+        .tech-talks, .socials, .partners-homepage {
+        background-color: rgba(255,255,255,.6);
+        color: #000033;
+
+            .description, a {
+              color: #000033;
+              border-color: #000033;
+            }
+        }
     }
-
-  }
 
 
   .partners-homepage {

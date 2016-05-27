@@ -7,10 +7,20 @@
   border-radius: 10px;
   font-size: 30px;
   z-index: 1;
+  display: none;
 }
 
-#type-space {
-  font-size: 1em;
+#type-space{
+    font-size: 0.9em;
+}
+
+@include bp-tab {
+    .type-wrapper {
+      display: inline-block;
+    }
+    #type-space {
+      font-size: 1em;
+    }
 }
 
 .typed-cursor{
