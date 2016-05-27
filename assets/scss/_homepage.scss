@@ -45,13 +45,15 @@
   .masthead {
     text-align: center;
     padding: 2em 0;
+    height: 90vh;
+    padding: 5em 0;
 
     h1 {
       font-size: 36px;
       font-weight: normal;
       margin: 0 0 .75em;
     }
-
+    
     .intro {
       font-size: 1.375em;
       color: rgba(white, .7);
@@ -73,6 +75,17 @@
         border-color: white;
       }
     }
+  }
+
+  .tech-talks, .projects, .hackathons {
+    background-color: rgba(255,255,255,.6);
+    color: #000033;
+
+    .description, a {
+      color: #000033;
+      border-color: #000033;
+    }
+
   }
 
 
