@@ -15,7 +15,7 @@ var ACCESS_TOKEN = "EAAK3kpvZBViIBAMj2jeG3ZBEeUaUQxHd43KwBgvRwUhkUYmgZBeJsxnDyiI
 
 function getFacebookEvents() {
   return rp({
-    uri: "https://graph.facebook.com/v2.5/UCLUTechSoc/events",
+    uri: "https://graph.facebook.com/v2.6/UCLUTechSoc/events",
     qs: {
       access_token: ACCESS_TOKEN,
       fields: [
