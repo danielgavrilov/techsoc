@@ -1,5 +1,5 @@
 ---
-id: interview-prep
+series_id: interview-prep
 title: Coding Interview Prep
 calendar: interview-prep.ics
 excerpt: |

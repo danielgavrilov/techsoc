@@ -1,5 +1,5 @@
 ---
-id: vr
+project_id: vr
 title: Motion Adrift
 event_label: VR Project
 category: Virtual Reality

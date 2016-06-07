@@ -1,5 +1,5 @@
 ---
-id: algorithms-in-c
+series_id: algorithms-in-c
 title: Algorithms in C
 start_time: "2015-11-19"
 end_time: "2015-12-18"

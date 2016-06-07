@@ -1,5 +1,5 @@
 ---
-id: internet-of-things
+project_id: internet-of-things
 title: IoT Project
 event_label: IoT Project
 category: Internet of Things

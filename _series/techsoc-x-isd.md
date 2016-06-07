@@ -1,5 +1,5 @@
 ---
-id: techsoc-x-isd
+series_id: techsoc-x-isd
 title: TechSoc x ISD
 calendar: techsoc-x-isd.ics
 excerpt: |

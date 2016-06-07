@@ -1,5 +1,5 @@
 ---
-id: social-network
+project_id: social-network
 title: UCLInspires
 event_label: Web Project
 category: Web development
