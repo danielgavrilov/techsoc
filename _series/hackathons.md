@@ -1,5 +1,5 @@
 ---
-id: hackathons
+series_id: hackathons
 title: Hackathons
 event_label: Hackathon
 calendar: hackathons.ics

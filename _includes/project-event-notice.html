@@ -1,4 +1,4 @@
-{% assign project = site.projects | where: "id", include.project_id | first %}
+{% assign project = site.projects | where: "project_id", include.project_id | first %}
 <div class="event-notice">
   <p>This event is part of a project. Find out how to get involved on the <a href="{{ project.url | prepend: site.baseurl }}">project page</a>.</p>
 </div>

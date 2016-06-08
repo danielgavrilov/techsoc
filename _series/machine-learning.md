@@ -1,5 +1,5 @@
 ---
-id: machine-learning
+series_id: machine-learning
 title: Machine Learning Workshop
 event_label: Machine Learning
 start_time: '2016-02-04'

@@ -1,5 +1,5 @@
 ---
-id: data-visualization
+series_id: data-visualization
 title: Data Visualization Workshop
 event_label: Data Visualization
 start_time: '2016-01-19'

@@ -49,7 +49,7 @@ layout: page-narrow
     {{ content }}
   </div>
   <div class="series-events">
-    {% assign events = site.events | where: "project_id", project.id %}
+    {% assign events = site.events | where: "project_id", project.project_id %}
     {% include category-events.html events=events %}
   </div>
 </div>

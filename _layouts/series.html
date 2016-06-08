@@ -29,7 +29,7 @@ layout: page-narrow
   </div>
 
   <div class="series-events">
-    {% assign events = site.events | where: "series_id", series.id %}
+    {% assign events = site.events | where: "series_id", series.series_id %}
     {% include category-events.html events=events %}
   </div>
 </div>

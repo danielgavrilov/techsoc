@@ -1,5 +1,5 @@
 ---
-id: projects
+series_id: projects
 url_overwrite: /projects
 title: Projects
 excerpt: |
