@@ -1,7 +1,7 @@
 .homepage {
 
   section {
-    padding: 2.5em 0;
+    padding: 4em 0;
     text-align: center;
     border-top: 1px solid rgba(white, .1);
 
@@ -35,16 +35,17 @@
       margin-top: .75em;
 
       &:hover {
-        color: white;
-        border-color: white;
+          color: lighten($brand-primary, 30);
+          border-color: lighten($brand-primary, 30);
       }
     }
   }
 
-
   .masthead {
     text-align: center;
     padding: 2em 0;
+    height: 90vh;
+    padding: 1.5em 0;
 
     h1 {
       font-size: 36px;
@@ -53,7 +54,7 @@
     }
 
     .intro {
-      font-size: 1.375em;
+      font-size: 1.25em;
       color: rgba(white, .7);
     }
 
@@ -75,6 +76,50 @@
     }
   }
 
+    @include bp-mob {
+        .masthead {
+            padding: 3em 0;
+
+            .intro {
+                font-size: 1.375em;
+            }
+
+        }
+    }
+
+    @include bp-tab {
+        section:not(.partners-homepage) {
+            height: 70vh;
+        }
+        section#mid {
+            padding: 0;
+            .col-md-6 {
+                border-top: 1px solid rgba(white, .1);
+                padding: 4em 0;
+            }
+        }
+        .tech-talks, .socials, .partners-homepage {
+        background-color: rgba(255,255,255,.6);
+        color: #000033;
+
+            .description, a {
+              color: #000033;
+              border-color: #000033;
+            }
+        }
+        .partners-homepage {
+            background-color: rgba(255,255,255,.05);
+        }
+    }
+    @media only screen
+      and (min-device-width: 768px)
+      and (max-device-width: 1024px)
+      and (-webkit-min-device-pixel-ratio: 1) {
+        .masthead {
+            height: auto;
+            padding: 10vh 0;
+        }
+    }
 
   .partners-homepage {
     text-align: center;

@@ -12,6 +12,11 @@ order: 1
       <div class="row">
         <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
           <h1>UCLU Technology Society</h1>
+          <div class="type-wrapper text-center">
+            <p id="type-space">
+              Are you interested in... <br><span id="typer"></span>
+            </p>
+          </div>
           <p class="intro">
             We host
             <a href="{{ '/series/tech-talks' | prepend: site.baseurl }}">tech talks</a>,
@@ -55,7 +60,7 @@ order: 1
     <div class="wrapper container-fluid">
       <h2 id="tech-talks" class="section-title">Tech talks</h2>
       <div class="row">
-        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+        <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
           <div class="description">
             <p>Find out about the latest tech trends and get some insight into the tech world from speakers throughout the industry.</p>
             <p>We’ve previously hosted companies such as Google, Shazam, Kano and Bloomberg on topic ranging from building mobile applications to being employee #1 in a highly successful tech startup.</p>
@@ -66,53 +71,52 @@ order: 1
     </div>
   </section>
 
-  <section class="workshops">
-    <div class="wrapper container-fluid">
-      <h2 id="workshops" class="section-title">Workshops and Classes</h2>
-      <div class="row">
-        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-          <div class="description">
-            <p>Learn about <a href="{{ '/series/coding-and-cookies' | prepend: site.baseurl }}">web development</a>, <a href="{{ '/series/blender-and-brownies' | prepend: site.baseurl }}">Blender</a>, brush up on your <a href="{{ '/series/algorithms-in-c' | prepend: site.baseurl }}">C programming</a> knowledge or come chill and learn about <a href="{{ '/series/hardware-and-chill' | prepend: site.baseurl }}">hardware</a>!</p>
-          </div>
+  <section id="mid">
+    <div class="wrapper container-fluid row">
+        <div class="col-md-6 workshops">
+            <h2 id="workshops" class="section-title">Workshops and Classes</h2>
+            <!-- <div class="row"> -->
+              <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+                <div class="description">
+                  <p>Learn about <a href="{{ '/series/coding-and-cookies' | prepend: site.baseurl }}">web development</a>, <a href="{{ '/series/blender-and-brownies' | prepend: site.baseurl }}">Blender</a>, brush up on your <a href="{{ '/series/algorithms-in-c' | prepend: site.baseurl }}">C programming</a> knowledge or come chill and learn about <a href="{{ '/series/hardware-and-chill' | prepend: site.baseurl }}">hardware</a>!</p>
+                </div>
+              </div>
+            <!-- </div> -->
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="projects">
-    <div class="wrapper container-fluid">
-      <h2 id="projects" class="section-title">Projects</h2>
-      <div class="row">
-        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-          <div class="description">
-            <p>Join us as we work together to build something awesome while trying out new technologies and learning new skills!</p>
-          </div>
-          <a href="{{ '/projects' | prepend: site.baseurl }}" class="button">See all our projects</a>
+        <div class="col-md-6 projects">
+          <h2 id="projects" class="section-title">Projects</h2>
+          <!-- <div class="row"> -->
+            <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+              <div class="description">
+                <p>Join us as we work together to build something awesome while trying out new technologies and learning new skills!</p>
+              </div>
+              <a href="{{ '/projects' | prepend: site.baseurl }}" class="button">See all our projects</a>
+            </div>
+          <!-- </div> -->
         </div>
-      </div>
     </div>
   </section>
 
   <section class="socials">
-    <div class="wrapper container-fluid">
-      <h2 id="socials" class="section-title">Socials</h2>
-      <div class="row">
-        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-          <div class="description">
-            <p>TechSoc socials are a great chance to hang out, meet people involved in different parts of the society and make awesome new friends!</p>
-            <p>We do a bi-weekly Tuesday social, collaborations with other societies, days out in London, and a scavenger hunt. Everyone’s welcome, whether or not you’re a member!</p>
+      <div class="wrapper container-fluid">
+        <h2 id="socials" class="section-title">Socials</h2>
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+            <div class="description">
+              <p>TechSoc socials are a great chance to hang out, meet people involved in different parts of the society and make awesome new friends!</p>
+              <p>We do a bi-weekly Tuesday social, collaborations with other societies, days out in London, and a scavenger hunt. Everyone’s welcome, whether or not you’re a member!</p>
+            </div>
+            <a href="{{ '/series/socials' | prepend: site.baseurl }}" class="button">See all socials</a>
           </div>
-          <a href="{{ '/series/socials' | prepend: site.baseurl }}" class="button">See all socials</a>
         </div>
       </div>
-    </div>
   </section>
 
   <section class="hackathons">
     <div class="wrapper container-fluid">
       <h2 id="hackathons" class="section-title">Hackathons</h2>
       <div class="row">
-        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+        <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
           <div class="description">
             <p>We love hackathons here at TechSoc! Whether we’re running our own or venturing across the UK and beyond, you’re bound to find us working on a cool new project.</p>
             <p>In the past, we’ve hosted a seriously successful Local Hack Day with our local community and we’ll be hosting <a href="http://hacklondon.org">HackLondon</a> with <a href="http://kcl.tech">KCL Tech</a> in February 2016. Until then, join us as we hit up hackathons in London and around the UK.</p>
@@ -127,7 +131,7 @@ order: 1
     <div class="wrapper container-fluid">
       <h2 id="hacklondon" class="section-title">HackLondon</h2>
       <div class="row">
-        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+        <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
           <div class="description">
             <p>Find out about the latest tech trends and get some insight into the tech world from speakers throughout the industry.</p>
             <p>We’ve previously hosted companies such as Google, Shazam, Kano and Bloomberg on topic ranging from building mobile applications to being employee #1 in a highly successful tech startup.</p>
