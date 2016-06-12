@@ -1,55 +1,52 @@
-- name: Api Hasthanasombat
+
+- name: Wilhelm Klopp
   role: President
   team: true
   profiles:
-    facebook: https://www.facebook.com/apinan.hasthanasombat
-    github: https://github.com/HappiApi
-    linkedin: https://uk.linkedin.com/in/apihasth
+    twitter: https://twitter.com/wilhelmklopp
+    facebook: https://www.facebook.com/wilhelm.kl
+    github: https://github.com/xoneco
+    linkedin: https://www.linkedin.com/in/wilhelmklopp
 
-- name: Rohan Kopparapu
+- name: Emily Mears
+  role: Vice President
+  team: true
+  profiles:
+    facebook: https://www.facebook.com/emily.mears.3
+    twitter: https://twitter.com/sunburntpotato
+    github: https://github.com/emilyruby
+    instagram: https://instagram.com/highfiveemily
+    linkedin: https://uk.linkedin.com/in/emily-mears-b145a5114
+
+- name: Reemma Muthal Puredath
   role: Treasurer
   team: true
   profiles:
-    twitter: https://twitter.com/ro_han7
-    linkedin: https://uk.linkedin.com/in/rohankopparapu
+    facebook: https://www.facebook.com/reema.menon.75
+    linkedin: https://uk.linkedin.com/in/reemma-mp-6b162851
+    instagram: https://instagram.com/reema_menon/
+    twitter: https://twitter.com/reemmapuredath
 
-- name: Vicky Dineshchandra
-  role: VP of Projects
+- name: Marco Concetto Rudilosso
+  role: Projects Director
   team: true
   profiles:
-    twitter: https://twitter.com/vickyd885
-    linkedin: https://uk.linkedin.com/pub/vicky-dineshchandra/b5/776/430
+    twitter: https://twitter.com/maaarcocr
+    instagram: https://twitter.com/maaarcocr
+    linkedin: https://uk.linkedin.com/in/marco-concetto-rudilosso-048614108
+    github: https://github.com/maaarcocr
 
-- name: Chi Kok Pin
-  role: VP of HackLondon
-  team: true
-
-- name: Zahra Taiba
-  role: Events Director
+- name: Sachchit Prasad
+  role: Hackathons Director
   team: true
   profiles:
-    twitter: https://twitter.com/zahrataiba
-    github: https://github.com/ZahraTee
-    linkedin: https://uk.linkedin.com/pub/zahra-traboulsi/9a/164/711
-    website: http://zahratee.github.io/
-
-- name: Ben Ryves
-  role: Events Director
-  team: true
-  profiles:
-    twitter: https://twitter.com/Ben_Ryves
-    github: https://github.com/smeb
-    linkedin: https://uk.linkedin.com/pub/ben-ryves/88/b96/a5
-
-- name: Hekla Helgadóttir
-  role: Sponsorship Director
-  team: true
-  profiles:
-    facebook: https://www.facebook.com/hekla.helgad
-    linkedin: https://uk.linkedin.com/pub/hekla-helgadottir/95/642/1b9
+    twitter: https://twitter.com/SachchitPrasad
+    instagram: https://instagram.com/SachchitPrasad
+    linkedin: https://uk.linkedin.com/in/sachchitp
+    github: https://github.com/SachchitP
 
 - name: Diana K. Lee
-  role: Client & Public Relations Director
+  role: Outreach Director
   team: true
   profiles:
     twitter: https://twitter.com/duhrtyd
@@ -59,139 +56,131 @@
     instagram: https://instagram.com/duhrtyd/
     website: http://diana.click/
 
-- name: Daniel Gavrilov
-  role: Webmaster
+- name: Maya Afshar
+  role: Events Director
   team: true
   profiles:
-    twitter: https://twitter.com/danielgavrilov
-    facebook: https://www.facebook.com/danielgavrilov
-    github: https://github.com/danielgavrilov
+    twitter: https://twitter.com/MayaAfshar
+    linkedin: https://uk.linkedin.com/in/afshar95
+    github: https://github.com/chilichilimo
 
-- name: Wilhelm Klopp
-  role: Client & Public Relations Team
+- name: Christopher Hammond
+  role: Clients Director
   team: true
   profiles:
-    twitter: https://twitter.com/wilhelmklopp
-    facebook: https://www.facebook.com/wilhelm.kl
-    github: https://github.com/xoneco
-    linkedin: https://www.linkedin.com/in/wilhelmklopp
+    linkedin: https://uk.linkedin.com/in/christopherhammond13
+    github: https://github.com/ChristopherHammond13
 
-- name: Bruno Calogero
-  role: Client & Public Relations Team
+- name: Matt Policane
+  role: Socials Director
   team: true
   profiles:
-    twitter: https://twitter.com/thereequiem
-    github: https://github.com/brunocalogero
-    linkedin: https://uk.linkedin.com/in/brunocalogero/en
+    twitter: https://twitter.com/MPolicane
+    instagram: https://www.instagram.com/mattpolicane/
+    linkedin: https://uk.linkedin.com/in/matt-policane-5395289b
+    github: https://github.com/officialmatt
+    website: http://policane.com
 
-- name: Minttu Alakuijala
-  role: Client & Public Relations Team
+- name: Matt Bell
+  role: Marketing Director
   team: true
   profiles:
-    facebook: https://www.facebook.com/minttu.alakuijala
-    github: https://github.com/minttusofia/
-    linkedin: https://www.linkedin.com/in/minttualakuijala
-
-- name: Axel Goetz
-  role: Events Team
-  team: true
-  profiles:
-    twitter: https://twitter.com/AGoetz1
-    facebook: https://www.facebook.com/axel.goetz.9
-    github: https://github.com/AxelGoetz
-    linkedin: https://uk.linkedin.com/pub/axel-goetz/98/275/94
+    twitter: https://twitter.com/mbell_gb
+    facebook: https://facebook.com/mbellgb
+    github: https://github.com/mbellgb
+    linkedin: https://uk.linkedin.com/in/mbellcs
+    instagram: https://instagram.com/mbell_gb
+    website: https://mbell.me
 
 - name: Henry Mortimer
-  role: Sponsorship Team
+  role: Security Team
   team: true
   profiles:
     facebook: https://www.facebook.com/henry.mortimer.5
     github: https://github.com/hennersz
     linkedin: https://uk.linkedin.com/pub/henry-mortimer/108/786/3aa
 
-- name: Reemma Muthal Puredath
-  role: Sponsorship Team
+- name: Faiz Abdul
+  role: Projects Team
   team: true
   profiles:
-    facebook: https://www.facebook.com/reema.menon.75
-    linkedin: https://uk.linkedin.com/in/reemma-mp-6b162851
-    instagram: https://instagram.com/reema_menon/
+    twitter: https://twitter.com/AbdulFaiz
+    instagram: https://instagram.com/abdulfaizp
+    linkedin: https://uk.linkedin.com/in/abdulfaizp
+    github: https://github.com/abdulfaizp
 
-- name: Jasmine Lu
-  role: Socials Team
+- name: Pranav Nashikkar
+  role: Hackathons Team
   team: true
   profiles:
-    twitter: https://www.twitter.com/jasminelu_3
-    facebook: https://www.facebook.com/jaz.wazwu
-    linkedin: https://uk.linkedin.com/in/lujasmine
-
-- name: Vika Christy
-  role: Socials Team
-  team: true
-  profiles:
-    twitter: https://twitter.com/heyitsvika
-    github: https://github.com/arvikachristy/
-    linkedin: https://uk.linkedin.com/in/arvikachristy
-
-- name: Emily Mears
-  role: Fresher's Rep
-  team: true
-  profiles:
-    facebook: https://www.facebook.com/emily.mears.3
-
-- name: Hugo Di Francesco
-  role: Coding & Cookies Lead
-  team: true
-  profiles:
-    twitter: https://twitter.com/hugo__df
-    github: https://github.com/HugoDF
-    linkedin: https://uk.linkedin.com/in/hugodifrancesco
-    website: http://hugodf.xyz
-
-- name: Jack Adler
-  role: Blender & Brownies Lead
-  team: true
-
-- name: Diana Darie
-  role: VR Project Lead
-  team: true
-  profiles:
-    facebook: https://www.facebook.com/diana.darie.7
-    github: https://github.com/DianaD96
-    linkedin: https://uk.linkedin.com/in/andreea-diana-darie-8b8b63ab
-    link: https://play.google.com/store/apps/dev?id=5578219311157737524
-
-- name: Srikrishna Datla
-  role: VR Project Lead
-  team: true
-  profiles:
-    facebook: https://www.facebook.com/srikrishna.datla
-    github: https://github.com/s-datla
-    linkedin: https://www.linkedin.com/in/srikrishna-datla-19b9a9b9
-
-- name: Shubham Bakshi
-  role: Android Project Lead
-  team: true
-  profiles:
-    facebook: https://www.facebook.com/shubham.bakshi.3975
-    github: https://github.com/bakshi41c
-
-- name: Varun Mathur
-  role: Android Project Lead
-  team: true
-
-- name: Christopher Hammond
-  role: Hardware & Chill Lead
-  team: true
-
-- name: Horatiu Ilie
-  role: Algorithms in C Lead
-  team: true
+    twitter: https://twitter.com/PranavNash
+    linkedin: https://uk.linkedin.com/in/pranav-nashikkar-56609a10a
+    github: https://github.com/PranavNashikkar
 
 - name: Jaromir Latal
-  role: Algorithms in C Lead
+  role: Hackathons Team
+  team: true
+  profiles:
+    twitter: https://twitter.com/JerMenKoO
+    linkedin: https://uk.linkedin.com/in/jlatal
+    github: https://github.com/jermenkoo
+
+- name: Shanice Ong
+  role: Outreach Team
+  team: true
+  profiles:
+    linkedin: https://uk.linkedin.com/in/sheue-nie-shanice-ong-597544110
+
+- name: Tanvi Khetan
+  role: Outreach Team
   team: true
 
-- name: Danish Amjad Alvi
-  role: Internet of Things Project Lead
+- name: Ashu Savani
+  role: Events Team
   team: true
+  profiles:
+    linkedin: https://uk.linkedin.com/in/ashu-savani-023547114
+
+- name: Martí Serra Vivancos
+  role: Events Team
+  team: true
+  profiles:
+    twitter: https://twitter.com/martiserraviva
+    instagram: https://www.instagram.com/martiserraviva/
+    linkedin: https://uk.linkedin.com/in/martiserravivancos
+    github: https://github.com/martrik
+
+- name: Matineh Akhlaghinia
+  role: Events Team
+  team: true
+  profiles:
+    linkedin: https://uk.linkedin.com/in/matineh-akhlaghinia-619761108
+
+- name: Zahra Taiba
+  role: Outreach Team
+  team: true
+  profiles:
+    twitter: https://twitter.com/zahrataiba
+    github: https://github.com/ZahraTee
+    linkedin: https://uk.linkedin.com/pub/zahra-traboulsi/9a/164/711
+    website: http://zahratee.github.io/
+
+- name: Jay Jeyaruban
+  role: Socials Team
+  team: true
+  profiles:
+    linkedin: https://uk.linkedin.com/in/jay-jeyaruban-4b7a77112
+
+- name: Andreas Zinonos
+  role: Marketing Team
+  team: true
+  profiles:
+    twitter: https://twitter.com/zin_onos
+    linkedin: https://cy.linkedin.com/in/andreas-zinonos-0382ab46
+
+- name: Vicky Dineshchandra
+  role: Marketing Team
+  team: true
+  profiles:
+    twitter: https://twitter.com/vickyd885
+    linkedin: https://uk.linkedin.com/pub/vicky-dineshchandra/b5/776/430
