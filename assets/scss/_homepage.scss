@@ -35,8 +35,8 @@
       margin-top: .75em;
 
       &:hover {
-        color: white;
-        border-color: white;
+          color: lighten($brand-primary, 30);
+          border-color: lighten($brand-primary, 30);
       }
     }
   }
