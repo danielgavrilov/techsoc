@@ -13,6 +13,10 @@
   team: true
   profiles:
     facebook: https://www.facebook.com/emily.mears.3
+    twitter: https://twitter.com/sunburntpotato
+    github: https://github.com/emilyruby
+    instagram: https://instagram.com/highfiveemily
+    linkedin: https://uk.linkedin.com/in/emily-mears-b145a5114
 
 - name: Reemma Muthal Puredath
   role: Treasurer
@@ -21,14 +25,25 @@
     facebook: https://www.facebook.com/reema.menon.75
     linkedin: https://uk.linkedin.com/in/reemma-mp-6b162851
     instagram: https://instagram.com/reema_menon/
+    twitter: https://twitter.com/reemmapuredath
 
 - name: Marco Concetto Rudilosso
   role: Projects Director
   team: true
+  profiles:
+    twitter: https://twitter.com/maaarcocr
+    instagram: https://twitter.com/maaarcocr
+    linkedin: https://uk.linkedin.com/in/marco-concetto-rudilosso-048614108
+    github: https://github.com/maaarcocr
 
 - name: Sachchit Prasad
   role: Hackathons Director
   team: true
+  profiles:
+    twitter: https://twitter.com/SachchitPrasad
+    instagram: https://instagram.com/SachchitPrasad
+    linkedin: https://uk.linkedin.com/in/sachchitp
+    github: https://github.com/SachchitP
 
 - name: Diana K. Lee
   role: Outreach Director
@@ -43,16 +58,27 @@
 
 - name: Maya Afshar
   role: Events Director
-  tema: true
+  team: true
+  profiles:
+    twitter: https://twitter.com/MayaAfshar
+    linkedin: https://uk.linkedin.com/in/afshar95
+    github: https://github.com/chilichilimo
 
-- name: Chris Hammond
+- name: Christopher Hammond
   role: Clients Director
   team: true
+  profiles:
+    linkedin: https://uk.linkedin.com/in/christopherhammond13
+    github: https://github.com/ChristopherHammond13
 
 - name: Matt Policane
   role: Socials Director
   team: true
   profiles:
+    twitter: https://twitter.com/MPolicane
+    instagram: https://www.instagram.com/mattpolicane/
+    linkedin: https://uk.linkedin.com/in/matt-policane-5395289b
+    github: https://github.com/officialmatt
     website: http://policane.com
 
 - name: Matt Bell
@@ -77,18 +103,33 @@
 - name: Faiz Abdul
   role: Projects Team
   team: true
+  profiles:
+    twitter: https://twitter.com/AbdulFaiz
+    instagram: https://instagram.com/abdulfaizp
+    linkedin: https://uk.linkedin.com/in/abdulfaizp
+    github: https://github.com/abdulfaizp
 
 - name: Pranav Nashikkar
   role: Hackathons Team
   team: true
+  profiles:
+    twitter: https://twitter.com/PranavNash
+    linkedin: https://uk.linkedin.com/in/pranav-nashikkar-56609a10a
+    github: https://github.com/PranavNashikkar
 
 - name: Jaromir Latal
   role: Hackathons Team
   team: true
+  profiles:
+    twitter: https://twitter.com/JerMenKoO
+    linkedin: https://uk.linkedin.com/in/jlatal
+    github: https://github.com/jermenkoo
 
 - name: Shanice Ong
   role: Outreach Team
   team: true
+  profiles:
+    linkedin: https://uk.linkedin.com/in/sheue-nie-shanice-ong-597544110
 
 - name: Tanvi Khetan
   role: Outreach Team
@@ -97,14 +138,23 @@
 - name: Ashu Savani
   role: Events Team
   team: true
+  profiles:
+    linkedin: https://uk.linkedin.com/in/ashu-savani-023547114
 
 - name: Martí Serra Vivancos
   role: Events Team
   team: true
+  profiles:
+    twitter: https://twitter.com/martiserraviva
+    instagram: https://www.instagram.com/martiserraviva/
+    linkedin: https://uk.linkedin.com/in/martiserravivancos
+    github: https://github.com/martrik
 
-- name: Matin Akhlaghinia
+- name: Matineh Akhlaghinia
   role: Events Team
   team: true
+  profiles:
+    linkedin: https://uk.linkedin.com/in/matineh-akhlaghinia-619761108
 
 - name: Zahra Taiba
   role: Outreach Team
@@ -118,10 +168,15 @@
 - name: Jay Jeyaruban
   role: Socials Team
   team: true
+  profiles:
+    linkedin: https://uk.linkedin.com/in/jay-jeyaruban-4b7a77112
 
 - name: Andreas Zinonos
   role: Marketing Team
   team: true
+  profiles:
+    twitter: https://twitter.com/zin_onos
+    linkedin: https://cy.linkedin.com/in/andreas-zinonos-0382ab46
 
 - name: Vicky Dineshchandra
   role: Marketing Team
