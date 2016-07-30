@@ -19,7 +19,14 @@
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <ul id="site-nav-links" class="site-nav-links collapse">
-        {% assign sorted_pages = site.pages | where: "navigation",true | sort: "order" %}
+
+        <!-- Add any redirects to the navigation -->
+        {% assign pages = site.pages %}
+        {% for redirect in site.redirects %}
+            {% assign pages = pages | push: redirect %}
+        {% endfor %}
+
+        {% assign sorted_pages = pages | where: "navigation",true | sort: "order" %}
         {% for node in sorted_pages %}
           {% if node.title %}
             <li>
