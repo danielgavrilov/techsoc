@@ -28,8 +28,8 @@ body {
     height: 100%;
     height: 63.25vw;
     max-height: 100vh;
-    background: linear-gradient(rgba(0,0,51,0), $brand-primary 75%),
-                url(../images/UCL.jpg);
+    background: linear-gradient( $brand-primary,rgba(0,0,50,0) 100%),
+                url(../images/homepage/hl4_edit.jpg);
     background-size: cover;
     z-index: -1;
   }
