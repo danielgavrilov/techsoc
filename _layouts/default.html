@@ -18,6 +18,9 @@
       {{ site.title }}
     </title>
 
+
+   
+
     {% if page.author %}<meta name="author" content="{{ page.author }}">{% endif %}
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
@@ -27,6 +30,9 @@
     <!-- stylesheets -->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic">
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+
+    <!-- BlockScroll CSS plugin -->
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/scss/blockScroll.css" | prepend: site.baseurl }}">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
@@ -47,18 +53,17 @@
   </head>
 
   <body>
+
     <div class="site-container">
 
       {% include header.html %}
-
-      {{ content }}
-
+        {{ content }}
       {% include footer.html %}
 
     </div>
+
   </body>
 
   <!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script type="text/javascript" src="{{ "/assets/all.js" | prepend: site.baseurl }}"></script>
 </html>
