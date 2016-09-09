@@ -49,10 +49,28 @@
     <meta property="article:publisher" content="https://www.facebook.com/{{ site.facebook_username }}">
 
   </head>
+{% if page.title == 'Home' %}
+  <body style="content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 100%;
+    height: 63.25vw;
+    max-height: 100vh; 
+    background: linear-gradient( #121c44,rgba(0,0,50,0) 100%),url(../assets/images/homepage/hl4_edit.jpg);background-size: cover; z-index: -1;background-repeat:no-repeat; background-color: #121c44; " >
+{% else %}
+  <body style="content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 100%;
+    height: 63.25vw;
+    max-height: 100vh;background: linear-gradient(rgba(0,0,50,0), #121c44 100%),url(../assets/images/UCL.png);background-size: cover; z-index: -1;background-repeat:no-repeat; background-color: #121c44; ">
+{% endif %}
 
-  <body>
-
-    <div class="site-container">
+    <div class="site-container" >
 
       {% include header.html %}
         {{ content }}

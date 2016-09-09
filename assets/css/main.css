@@ -902,7 +902,7 @@ body { font-size: 16px; background-color: #121C44; }
 
 body::after { content: ''; position: absolute; background: url(../images/logo-white.png) center no-repeat; background-size: contain; top: -50px; left: 0; right: 0; height: 450px; opacity: .035; z-index: -1; }
 
-body::before { content: ''; position: absolute; left: 0; top: 0; right: 0; height: 100%; height: 63.25vw; max-height: 100vh; background: -webkit-linear-gradient(#121C44, rgba(0, 0, 50, 0) 100%), url(../images/homepage/hl4_edit.jpg); background: linear-gradient(#121C44, rgba(0, 0, 50, 0) 100%), url(../images/homepage/hl4_edit.jpg); background-size: cover; z-index: -1; }
+body::before { content: ''; position: absolute; left: 0; top: 0; right: 0; height: 100%; height: 63.25vw; max-height: 100vh; /* background: linear-gradient( $brand-primary,rgba(0,0,50,0) 100%), */ /*        url(../images/homepage/hl4_edit.jpg); */ background-size: cover; z-index: -1; }
 
 h1, h2, h3, h4, h5, h6 { line-height: 1.25; }
 

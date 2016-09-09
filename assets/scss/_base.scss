@@ -10,7 +10,6 @@ body {
     content: '';
     position: absolute;
     background: url(../images/logo-white.png) center no-repeat;
-    background-attachment: fixed
     background-size: contain;
     top: -50px;
     left: 0;
@@ -29,8 +28,8 @@ body {
     height: 100%;
     height: 63.25vw;
     max-height: 100vh;
-    background: linear-gradient( $brand-primary,rgba(0,0,50,0) 100%),
-                url(../images/homepage/hl4_edit.jpg);
+    /* background: linear-gradient( $brand-primary,rgba(0,0,50,0) 100%), */
+        /*        url(../images/homepage/hl4_edit.jpg); */
     background-size: cover;
     z-index: -1;
   }
