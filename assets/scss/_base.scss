@@ -10,6 +10,7 @@ body {
     content: '';
     position: absolute;
     background: url(../images/logo-white.png) center no-repeat;
+    background-attachment: fixed
     background-size: contain;
     top: -50px;
     left: 0;

@@ -1036,7 +1036,7 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .homepage .partner:hover img { opacity: 1; }
 
-.homepage .img-container, .homepage .socials-img, .homepage .techtalks-img, .homepage .hackathons-img, .homepage .workshop-img, .homepage .projects-img { background-repeat: no-repeat; max-width: 100%; height: auto; width: auto; background-size: cover; z-index: -1; }
+.homepage .img-container, .homepage .socials-img, .homepage .techtalks-img, .homepage .hackathons-img, .homepage .workshop-img, .homepage .projects-img { background-repeat: no-repeat; max-width: 100%; height: auto; width: auto; background-size: cover; z-index: -1; background-attachment: fixed; }
 
 .homepage .socials-img { background-image: url("../images/homepage/socials3.jpg"); }
 
