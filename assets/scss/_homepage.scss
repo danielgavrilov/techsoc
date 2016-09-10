@@ -68,10 +68,12 @@
       border-radius: 6px;
       color: white;
       text-decoration: none;
-      border: 3px solid rgba(255,255,255,.4);
+      border: 3px solid rgba($brand-secondary,.5);
+      background-color: rgba($brand-secondary, 0.2);
 
       &:hover {
-        border-color: white;
+        border-color: $brand-secondary;
+        background-color: rgba($brand-secondary, 0.4);
       }
     }
   }
@@ -179,12 +181,12 @@
   }
 
   .workshop-img{
-   @extend .img-container; 
+   @extend .img-container;
    background-image:url('../images/homepage/workshops.jpg')
   }
 
   .projects-img{
-   @extend .img-container; 
+   @extend .img-container;
    background-image:url('../images/homepage/projects.jpg')
   }
 

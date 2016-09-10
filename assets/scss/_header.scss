@@ -1,3 +1,12 @@
+.site-header {
+    background-color: rgba($brand-primary, 0.2);
+    transition: background-color 0.25s ease-in-out;
+
+    &:hover {
+        background-color: $brand-primary;
+    }
+}
+
 .site-nav {
   font-size: 1.125em;
   display: flex;
@@ -147,7 +156,7 @@
       }
 
       &:hover span {
-        border-bottom-color: rgba(255,255,255,.25);
+        border-bottom-color: $brand-secondary;
       }
 
       &.current {
@@ -155,7 +164,7 @@
       }
 
       &.current span {
-        border: 2px solid rgba(255,255,255,.25);
+        border: 2px solid rgba($brand-secondary,.75);
         border-radius: 4px;
         padding: 2px 6px;
       }

@@ -9,7 +9,6 @@ body {
   &::after {
     content: '';
     position: absolute;
-    background: url(../images/logo-white.png) center no-repeat;
     background-size: contain;
     top: -50px;
     left: 0;
@@ -51,11 +50,11 @@ a {
 
 p a {
   color: white;
-  border-bottom: .125em solid rgba(white, .15);
+  border-bottom: .125em solid rgba($brand-ternary, .5);
 
   &:hover {
     color: white;
-    border-color: white;
+    border-color: $brand-ternary;
   }
 }
 
