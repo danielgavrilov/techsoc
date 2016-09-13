@@ -757,12 +757,19 @@ tbody.collapse.in { display: table-row-group; }
 
 @media print { .hidden-print { display: none !important; } }
 
-@font-face { font-family: 'fontello'; src: url("../fontello/font/fontello.eot?43277616"); src: url("../fontello/font/fontello.eot?43277616#iefix") format("embedded-opentype"), url("../fontello/font/fontello.woff?43277616") format("woff"), url("../fontello/font/fontello.ttf?43277616") format("truetype"), url("../fontello/font/fontello.svg?43277616#fontello") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'fontello'; src: url("../fontello/font/fontello.eot?27909866"); src: url("../fontello/font/fontello.eot?27909866#iefix") format("embedded-opentype"), url("../fontello/font/fontello.woff2?27909866") format("woff2"), url("../fontello/font/fontello.woff?27909866") format("woff"), url("../fontello/font/fontello.ttf?27909866") format("truetype"), url("../fontello/font/fontello.svg?27909866#fontello") format("svg"); font-weight: normal; font-style: normal; }
 
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
 /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/* @media screen and (-webkit-min-device-pixel-ratio:0) { @font-face { font-family: 'fontello'; src: url('../fontello/font/fontello.svg?43277616#fontello') format('svg'); } } */
-[class^="icon-"]:before, [class*=" icon-"]:before { font-family: "fontello"; font-style: normal; font-weight: normal; speak: none; display: inline-block; text-decoration: inherit; width: 1em; /* margin-right: .2em; */ text-align: center; /* opacity: .8; */ /* For safety - reset parent styles, that can break glyph codes*/ font-variant: normal; text-transform: none; /* fix buttons height, for twitter bootstrap */ line-height: 1em; /* Animation center compensation - margins should be symmetric */ /* remove if not needed */ /* margin-left: .2em; */ /* you can be more comfortable with increased icons size */ /* font-size: 120%; */ /* Font smoothing. That was taken from TWBS */ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; /* Uncomment for 3D effect */ /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?27909866#fontello') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before, [class*=" icon-"]:before { font-family: "fontello"; font-style: normal; font-weight: normal; speak: none; display: inline-block; text-decoration: inherit; width: 1em; margin-right: .2em; text-align: center; /* opacity: .8; */ /* For safety - reset parent styles, that can break glyph codes*/ font-variant: normal; text-transform: none; /* fix buttons height, for twitter bootstrap */ line-height: 1em; /* Animation center compensation - margins should be symmetric */ /* remove if not needed */ margin-left: .2em; /* you can be more comfortable with increased icons size */ /* font-size: 120%; */ /* Font smoothing. That was taken from TWBS */ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; /* Uncomment for 3D effect */ /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
 .icon-slack:before { content: '\e800'; }
 
@@ -812,6 +819,12 @@ tbody.collapse.in { display: table-row-group; }
 .icon-youtube:before { content: '\e80f'; }
 
 /* '' */
+.icon-medium:before { content: '\f23a'; }
+
+/* '' */
+.icon-snapchat-ghost:before { content: '\f2ac'; }
+
+/* '' */
 /* Typer styles */
 .type-wrapper { margin: auto; padding: 10px 20px 10px 20px; color: #F0F0F0; /*  background-color: rgba(204,204,204,0.2);*/ border-radius: 10px; font-size: 30px; z-index: 1; display: none; }
 
@@ -908,7 +921,7 @@ h1, h2, h3, h4, h5, h6 { line-height: 1.25; }
 
 p { margin-bottom: 1em; }
 
-a { -webkit-transition: color 200ms linear, border-color 200ms linear, background-color 200ms linear; transition: color 200ms linear, border-color 200ms linear, background-color 200ms linear; }
+a { -webkit-transition: color 200ms linear, border-color 200ms linear, background-color 200ms linear; transition: color 200ms linear, border-color 200ms linear, background-color 200ms linear; }
 
 p a { color: white; border-bottom: 0.125em solid rgba(255, 255, 255, 0.15); }
 
@@ -917,6 +930,16 @@ p a:hover { color: white; border-color: white; }
 code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .wrapper { max-width: 1100px; margin: 0 auto; }
+
+.nav-wrapper { padding-top: 70px; }
+
+.banner { position: absolute; top: 0; left: 0; background-color: rgba(255, 255, 255, 0.6); width: 100%; }
+
+.banner-content { width: 800px; margin: 0 auto; padding: 10px; text-align: center; color: #000033; }
+
+.banner-content a { text-decoration: underline; color: #000033; }
+
+@media handheld, only screen and (max-width: 400px) { .banner { display: none; } }
 
 .site-nav { font-size: 1.125em; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; padding: 10px; }
 
@@ -1206,7 +1229,7 @@ body .event-notice p:last-child { margin-bottom: 0; }
 
 .calendar-subscription .description p { font-size: 1.125em; margin-bottom: .5em; }
 
-.calendar-subscription .description button { font-size: 1em; font-weight: bold; color: rgba(255, 255, 255, 0.5); text-transform: uppercase; display: inline-block; background-color: transparent; border: 3px solid rgba(255, 255, 255, 0.25); border-radius: 5px; padding: 6px 12px; -webkit-transition: color 200ms linear, border-color 200ms linear; transition: color 200ms linear, border-color 200ms linear; }
+.calendar-subscription .description button { font-size: 1em; font-weight: bold; color: rgba(255, 255, 255, 0.5); text-transform: uppercase; display: inline-block; background-color: transparent; border: 3px solid rgba(255, 255, 255, 0.25); border-radius: 5px; padding: 6px 12px; -webkit-transition: color 200ms linear, border-color 200ms linear; transition: color 200ms linear, border-color 200ms linear; }
 
 .calendar-subscription .description button:hover { color: white; border-color: white; }
 
@@ -1244,7 +1267,7 @@ body .contact-notice h3 { font-size: 1.166em; font-weight: normal !important; }
 
 .series-overview:hover p { color: white; }
 
-.series-overview .button { font-size: 0.875em; font-weight: bold; color: rgba(255, 255, 255, 0.2); text-transform: uppercase; border-radius: 3px; border: 1px solid rgba(255, 255, 255, 0.12); width: 100%; padding: 7px; -webkit-align-self: flex-end; -ms-flex-item-align: end; align-self: flex-end; -webkit-transition: background-color 200ms linear, color 200ms linear; transition: background-color 200ms linear, color 200ms linear; }
+.series-overview .button { font-size: 0.875em; font-weight: bold; color: rgba(255, 255, 255, 0.2); text-transform: uppercase; border-radius: 3px; border: 1px solid rgba(255, 255, 255, 0.12); width: 100%; padding: 7px; -webkit-align-self: flex-end; -ms-flex-item-align: end; align-self: flex-end; -webkit-transition: background-color 200ms linear, color 200ms linear; transition: background-color 200ms linear, color 200ms linear; }
 
 .series-overview:hover .button { border-color: transparent; background-color: white; color: #003; }
 
@@ -1451,7 +1474,10 @@ NOTE: use percentage font sizes or else old IE chokes
 /* icons in buttons */
 .fc button .fc-icon { /* non-theme */ position: relative; top: -0.05em; /* seems to be a good adjustment across browsers */ margin: 0 .2em; vertical-align: middle; }
 
-/* button states borrowed from twitter bootstrap (http://twitter.github.com/bootstrap/) */
+/*
+  button states
+  borrowed from twitter bootstrap (http://twitter.github.com/bootstrap/)
+*/
 .fc-state-default { background-color: #f5f5f5; background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6)); background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6); background-image: linear-gradient(to bottom, #ffffff, #e6e6e6); background-repeat: repeat-x; border-color: #e6e6e6 #e6e6e6 #bfbfbf; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); color: #333; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); }
 
 .fc-state-hover, .fc-state-down, .fc-state-active, .fc-state-disabled { color: #333333; background-color: #e6e6e6; }
@@ -1813,7 +1839,7 @@ be a descendant of the grid when it is being dragged.
 
 .fc .fc-button-group .ui-button { margin-left: 1px; }
 
-.fc .ui-button { font-weight: 700; color: rgba(255, 255, 255, 0.4); text-transform: uppercase; background-color: transparent; border: 2px solid rgba(255, 255, 255, 0.2); margin-left: 10px; outline: none; -webkit-transition: color 200ms linear, border-color 200ms linear, opacity 200ms linear; transition: color 200ms linear, border-color 200ms linear, opacity 200ms linear; }
+.fc .ui-button { font-weight: 700; color: rgba(255, 255, 255, 0.4); text-transform: uppercase; background-color: transparent; border: 2px solid rgba(255, 255, 255, 0.2); margin-left: 10px; outline: none; -webkit-transition: color 200ms linear, border-color 200ms linear, opacity 200ms linear; transition: color 200ms linear, border-color 200ms linear, opacity 200ms linear; }
 
 .fc .ui-button.ui-corner-left { border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
 

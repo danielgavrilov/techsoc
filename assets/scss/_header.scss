@@ -1,3 +1,29 @@
+// Remove banner after freshers
+.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100%;
+}
+.banner-content {
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  color: #000033;
+  a {
+    text-decoration: underline;
+    color: #000033;
+  }
+}
+@media handheld, only screen and (max-width: 400px){
+   .banner {
+     display:none;
+   }
+}
+
+
 .site-nav {
   font-size: 1.125em;
   display: flex;
