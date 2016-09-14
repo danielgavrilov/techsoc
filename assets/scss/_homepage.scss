@@ -69,11 +69,11 @@
       color: white;
       text-decoration: none;
       border: 3px solid rgba($brand-secondary,.5);
-      background-color: rgba($brand-secondary, 0.2);
+      background-color: transparent;
 
       &:hover {
         border-color: $brand-secondary;
-        background-color: rgba($brand-secondary, 0.4);
+        background-color: $brand-secondary;
       }
     }
   }

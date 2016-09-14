@@ -910,9 +910,9 @@ p { margin-bottom: 1em; }
 
 a { -webkit-transition: color 200ms linear, border-color 200ms linear, background-color 200ms linear; transition: color 200ms linear, border-color 200ms linear, background-color 200ms linear; }
 
-p a { color: white; border-bottom: 0.125em solid rgba(15, 163, 177, 0.5); }
+p a { color: white; background-color: transparent; border-bottom: 0.125em solid rgba(15, 163, 177, 0.5); }
 
-p a:hover { color: white; border-color: #0fa3b1; }
+p a:hover { color: white; background-color: rgba(15, 163, 177, 0.5); border-color: #0fa3b1; }
 
 code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
@@ -1012,9 +1012,9 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .homepage .masthead .intro { font-size: 1.25em; color: rgba(255, 255, 255, 0.7); }
 
-.homepage .masthead .join-now { font-size: 1.3125em; font-weight: 700; text-transform: uppercase; display: inline-block; padding: 7px 20px; margin: 10px 0 50px; border-radius: 6px; color: white; text-decoration: none; border: 3px solid rgba(216, 30, 91, 0.5); background-color: rgba(216, 30, 91, 0.2); }
+.homepage .masthead .join-now { font-size: 1.3125em; font-weight: 700; text-transform: uppercase; display: inline-block; padding: 7px 20px; margin: 10px 0 50px; border-radius: 6px; color: white; text-decoration: none; border: 3px solid rgba(216, 30, 91, 0.5); background-color: transparent; }
 
-.homepage .masthead .join-now:hover { border-color: #d81e5b; background-color: rgba(216, 30, 91, 0.4); }
+.homepage .masthead .join-now:hover { border-color: #d81e5b; background-color: #d81e5b; }
 
 @media only screen and (min-width: 350px) and (min-height: 450px) { .homepage .masthead { padding: 3em 0; }
   .homepage .masthead .intro { font-size: 1.375em; } }

@@ -50,10 +50,12 @@ a {
 
 p a {
   color: white;
+  background-color: transparent;
   border-bottom: .125em solid rgba($brand-ternary, .5);
 
   &:hover {
     color: white;
+    background-color: rgba($brand-ternary, 0.5);
     border-color: $brand-ternary;
   }
 }
