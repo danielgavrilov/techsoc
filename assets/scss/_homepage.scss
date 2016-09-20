@@ -26,17 +26,18 @@
     .button {
       font-size: 1.1875em;
       font-weight: 700;
-      color: rgba(white, 1);
+      color: white;
       text-transform: uppercase;
-      border: 3px solid rgba(white, .2);
+      border: 3px solid rgba($brand-secondary, .5);
       border-radius: 6px;
       padding: 7px 13px 6px;
       display: inline-block;
       margin-top: .75em;
+      background-color: transparent;
 
       &:hover {
-          color: lighten($brand-primary, 30);
-          border-color: lighten($brand-primary, 30);
+          border-color: $brand-secondary;
+          background-color: $brand-secondary;
       }
     }
   }
@@ -159,35 +160,40 @@
     max-width: 100%;
     height: auto;
     width:auto;
-    background-size: cover;
+    background-size: cover !important;
     z-index: -1;
     background-attachment: fixed;
 
   }
 
+  $img-container-bg-color:linear-gradient(
+    rgba($brand-primary, 0.4),
+    rgba($brand-primary, 0.4)
+  );
+
   .socials-img{
     @extend .img-container;
-    background-image:url('../images/homepage/socials3.jpg');
+    background: $img-container-bg-color, url('../images/homepage/socials3.jpg');
   }
 
   .techtalks-img{
     @extend .img-container;
-    background-image:url('../images/homepage/technight.jpg');
+    background: $img-container-bg-color, url('../images/homepage/technight.jpg');
   }
 
   .hackathons-img{
     @extend .img-container;
-    background-image:url('../images/homepage/hl.jpg');
+    background:$img-container-bg-color, url('../images/homepage/hl.jpg');
   }
 
   .workshop-img{
    @extend .img-container;
-   background-image:url('../images/homepage/workshops.jpg')
+   background: $img-container-bg-color, url('../images/homepage/workshops.jpg')
   }
 
   .projects-img{
    @extend .img-container;
-   background-image:url('../images/homepage/projects.jpg')
+   background: $img-container-bg-color, url('../images/homepage/projects.jpg')
   }
 
 }
