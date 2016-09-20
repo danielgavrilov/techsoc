@@ -916,7 +916,7 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .background-image, .background-homepage, .background-normal { content: ''; position: absolute; left: 0; top: 0; right: 0; height: 100vh; max-height: 100vh; width: auto; }
 
-.background-homepage { background: -webkit-linear-gradient(45deg, rgba(18, 28, 68, 0), rgba(216, 30, 91, 0.5) 95%); background: linear-gradient(45deg, rgba(18, 28, 68, 0), rgba(216, 30, 91, 0.5) 95%); background-position: center; background-size: cover; }
+.background-homepage { background: -webkit-linear-gradient(45deg, rgba(18, 28, 68, 0.2), rgba(176, 26, 130, 0.5) 99%); background: linear-gradient(45deg, rgba(18, 28, 68, 0.2), rgba(176, 26, 130, 0.5) 99%); background-position: center; background-size: cover; }
 
 .background-normal { background: -webkit-linear-gradient(rgba(18, 28, 68, 0), #121C44 90%), -webkit-linear-gradient(45deg, rgba(18, 28, 68, 0), rgba(216, 30, 91, 0.25) 95%), url(../images/UCL.jpg); background: linear-gradient(rgba(18, 28, 68, 0), #121C44 90%), linear-gradient(45deg, rgba(18, 28, 68, 0), rgba(216, 30, 91, 0.25) 95%), url(../images/UCL.jpg); }
 
@@ -1008,13 +1008,13 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .homepage section .button:hover { border-color: #d81e5b; background-color: #d81e5b; }
 
-.homepage .masthead { text-align: center; padding: 2em 0; height: 90vh; padding: 1.5em 0; }
+.homepage .masthead { text-align: center; padding: 2em 0; min-height: 90vh; padding: 1.5em 0; }
 
 .homepage .masthead h1 { font-size: 36px; font-weight: normal; margin: 0 0 .75em; }
 
 .homepage .masthead .intro { font-size: 1.25em; color: rgba(255, 255, 255, 0.7); }
 
-.homepage .masthead .join-now { font-size: 1.3125em; font-weight: 700; text-transform: uppercase; display: inline-block; padding: 7px 20px; margin: 10px 0 50px; border-radius: 6px; color: white; text-decoration: none; border: 3px solid rgba(216, 30, 91, 0.5); background-color: transparent; }
+.homepage .masthead .join-now { font-size: 1.3125em; font-weight: 700; text-transform: uppercase; display: inline-block; padding: 7px 20px; margin: 5px 5px 0 5px; border-radius: 6px; color: white; text-decoration: none; border: 3px solid rgba(216, 30, 91, 0.5); background-color: transparent; }
 
 .homepage .masthead .join-now:hover { border-color: #d81e5b; background-color: #d81e5b; }
 

@@ -57,8 +57,8 @@ code {
     @extend .background-image;
     // background: linear-gradient( #121c44,rgba(0,0,50,0) 100%),url(../images/homepage/hl4_edit.jpg);
     background: linear-gradient(45deg,
-        rgba($brand-primary,0),
-        rgba($brand-secondary, 0.5) 95%
+        rgba($brand-primary,0.2),
+        rgba(#b01a82, 0.5) 99%
     );
     background-position: center;
     background-size: cover;
