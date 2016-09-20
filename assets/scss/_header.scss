@@ -1,9 +1,13 @@
 .site-header {
-    background-color: rgba($brand-primary, 0.2);
-    transition: background-color 0.25s ease-in-out;
+    // background: rgba($brand-primary, 0.2);
+    background: linear-gradient(
+        rgba($brand-primary, 0.5),
+        rgba($brand-primary, 0) 80%
+    );
+    transition: background 0.25s ease-in-out;
 
     &:hover {
-        background-color: $brand-primary;
+        background: $brand-primary;
     }
 }
 

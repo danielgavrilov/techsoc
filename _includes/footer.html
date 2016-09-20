@@ -47,6 +47,18 @@
             </a>
           {% endif %}
 
+          {% if site.instagram_username %}
+            <a href="https://instagram.com/{{site.instagram_username}}" title="Instagram Account">
+              <i class="icon icon-instagram"></i>
+            </a>
+          {% endif %}
+
+          {% if site.snapchat_username %}
+            <a href="https://www.snapchat.com/add/{{site.snapchat_username}}" title="Snapchat">
+              <i class="icon icon-snapchat"></i>
+            </a>
+          {% endif %}
+
         </div>
         <p class="mailing-list">
           <a href="{{ site.baseurl }}/mailing-list">Join our mailing list</a>
