@@ -900,10 +900,6 @@ html, body { height: 100%; }
 
 body { font-size: 16px; background-color: #121C44; }
 
-body::after { content: ''; position: absolute; background-size: contain; top: -50px; left: 0; right: 0; height: 450px; opacity: .035; z-index: -1; }
-
-body::before { content: ''; position: absolute; left: 0; top: 0; right: 0; height: 100%; height: 63.25vw; max-height: 100vh; /* background: linear-gradient( $brand-primary,rgba(0,0,50,0) 100%), */ /*        url(../images/homepage/hl4_edit.jpg); */ background-size: cover; z-index: -1; }
-
 h1, h2, h3, h4, h5, h6 { line-height: 1.25; }
 
 p { margin-bottom: 1em; }
@@ -917,6 +913,12 @@ p a:hover { color: white; background-color: rgba(15, 163, 177, 0.5); border-colo
 code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .wrapper { max-width: 1100px; margin: 0 auto; }
+
+.background-image, .background-homepage, .background-normal { content: ''; position: absolute; left: 0; top: 0; right: 0; height: 100vh; max-height: 100vh; width: auto; }
+
+.background-homepage { background: -webkit-linear-gradient(#121c44, rgba(0, 0, 50, 0) 100%), url(../images/homepage/hl4_edit.jpg); background: linear-gradient(#121c44, rgba(0, 0, 50, 0) 100%), url(../images/homepage/hl4_edit.jpg); background-size: cover; }
+
+.background-normal { background: -webkit-linear-gradient(rgba(0, 0, 50, 0), #121c44 75%), url(../images/UCL.jpg); background: linear-gradient(rgba(0, 0, 50, 0), #121c44 75%), url(../images/UCL.jpg); }
 
 .site-header { background-color: rgba(18, 28, 68, 0.2); -webkit-transition: background-color 0.25s ease-in-out; transition: background-color 0.25s ease-in-out; }
 
