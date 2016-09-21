@@ -196,4 +196,9 @@
    background: $img-container-bg-color, url('../images/homepage/projects.jpg')
   }
 
+  .community-img{
+   @extend .img-container;
+   background: $img-container-bg-color, url('../images/homepage/community.jpg')
+  }
+
 }
