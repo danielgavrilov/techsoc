@@ -156,15 +156,6 @@
   profiles:
     linkedin: https://uk.linkedin.com/in/matineh-akhlaghinia-619761108
 
-- name: Zahra Taiba
-  role: Outreach Team
-  team: true
-  profiles:
-    twitter: https://twitter.com/zahrataiba
-    github: https://github.com/ZahraTee
-    linkedin: https://uk.linkedin.com/pub/zahra-traboulsi/9a/164/711
-    website: http://zahratee.github.io/
-
 - name: Jay Jeyaruban
   role: Socials Team
   team: true
@@ -184,3 +175,11 @@
   profiles:
     twitter: https://twitter.com/vickyd885
     linkedin: https://uk.linkedin.com/pub/vicky-dineshchandra/b5/776/430
+
+- name: Fraser Savage
+  role: Gamejam Organiser
+  team: true
+  profiles:
+    github: https://github.com/savage-engineer
+    twitter: https://twitter.com/engineer_savage
+    linkedin: https://uk.linkedin.com/in/frasersavage
