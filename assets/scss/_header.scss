@@ -3,20 +3,32 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba($brand-secondary, 0.6);
   width: 100%;
 }
 .banner-content {
   margin: 0 auto;
   padding: 10px;
   text-align: center;
-  color: #000033;
+  color: white;
   a {
     text-decoration: underline;
-    color: #000033;
+    color: white;
   }
 }
 
+.site-header {
+    // background: rgba($brand-primary, 0.2);
+    background: linear-gradient(
+        rgba($brand-primary, 0.5),
+        rgba($brand-primary, 0) 80%
+    );
+    transition: background 0.25s ease-in-out;
+
+    &:hover {
+        background: $brand-primary;
+    }
+}
 
 .site-nav {
   font-size: 1.125em;
@@ -167,7 +179,7 @@
       }
 
       &:hover span {
-        border-bottom-color: rgba(255,255,255,.25);
+        border-bottom-color: $brand-secondary;
       }
 
       &.current {
@@ -175,7 +187,7 @@
       }
 
       &.current span {
-        border: 2px solid rgba(255,255,255,.25);
+        border: 2px solid rgba($brand-secondary,.75);
         border-radius: 4px;
         padding: 2px 6px;
       }

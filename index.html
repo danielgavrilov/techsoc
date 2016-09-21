@@ -5,13 +5,12 @@ navigation: true
 order: 1
 ---
 
-<div class="homepage">
 
-  <div class="masthead">
+<div class="homepage">
+  <div class="masthead" data-index="0">
     <div class="wrapper container-fluid">
       <div class="row">
         <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-          <h1>UCLU Technology Society</h1>
           <div class="type-wrapper text-center">
             <p id="type-space">
               Are you interested in... <br><span id="typer"></span>
@@ -27,7 +26,14 @@ order: 1
             <a href="{{ '/series/algorithms-in-c' | prepend: site.baseurl }}">workshops</a>,
             <a href="{{ '/series/coding-and-cookies' | prepend: site.baseurl }}">classes</a>,
             and
-            <a href="{{ '/projects' | prepend: site.baseurl }}">projects</a>.
+            <a href="{{ '/projects' | prepend: site.baseurl }}">projects</a> for any UCL student.
+          </p>
+          <p class="intro">And the best bit? Membership is now completely free.</p>
+          <p><a href="http://uclu.org/clubs-societies/tech-society" class="join-now">Become A Member!</a></p>
+          <p class="intro">Like our Facebook page for the latest updates and events; and join our Slack community to natter with current members.</p>
+          <p>
+              <a href="https://facebook.com/uclutechsoc" class="join-now"><i class="icon icon-facebook"></i> Learn More</a>
+              <a href="https://techsoc.slack.com" class="join-now"><i class="icon icon-slack"></i> Connect With Us</a>
           </p>
           <a href="{{ '/welcome' | prepend: site.baseurl }}" class="join-now">Join now</a>
         </div>
@@ -56,7 +62,7 @@ order: 1
     </div>
   </section>-->
 
-  <section class="tech-talks">
+  <section class="tech-talks techtalks-img" data-index="1">
     <div class="wrapper container-fluid">
       <h2 id="tech-talks" class="section-title">Tech talks</h2>
       <div class="row">
@@ -71,33 +77,34 @@ order: 1
     </div>
   </section>
 
-  <section id="mid">
+  <section class="workshops workshop-img" id="workshops" data-index="2">
     <div class="wrapper container-fluid row">
-        <div class="col-md-6 workshops">
             <h2 id="workshops" class="section-title">Workshops and Classes</h2>
-            <!-- <div class="row"> -->
+            <div class="row">
               <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
                 <div class="description">
                   <p>Learn about <a href="{{ '/series/coding-and-cookies' | prepend: site.baseurl }}">web development</a>, <a href="{{ '/series/blender-and-brownies' | prepend: site.baseurl }}">Blender</a>, brush up on your <a href="{{ '/series/algorithms-in-c' | prepend: site.baseurl }}">C programming</a> knowledge or come chill and learn about <a href="{{ '/series/hardware-and-chill' | prepend: site.baseurl }}">hardware</a>!</p>
                 </div>
               </div>
-            <!-- </div> -->
-        </div>
-        <div class="col-md-6 projects">
+            </div>
+      </div>
+    </section>
+
+    <section class="projects projects-img" data-index="3">
+      <div class="wrapper container-fluid row">
           <h2 id="projects" class="section-title">Projects</h2>
-          <!-- <div class="row"> -->
+          <div class="row">
             <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
               <div class="description">
                 <p>Join us as we work together to build something awesome while trying out new technologies and learning new skills!</p>
               </div>
               <a href="{{ '/projects' | prepend: site.baseurl }}" class="button">See all our projects</a>
             </div>
-          <!-- </div> -->
-        </div>
-    </div>
+          </div>
+      </div>
   </section>
 
-  <section class="socials">
+  <section class="socials socials-img" data-index="4">
       <div class="wrapper container-fluid">
         <h2 id="socials" class="section-title">Socials</h2>
         <div class="row">
@@ -112,16 +119,33 @@ order: 1
       </div>
   </section>
 
-  <section class="hackathons">
+  <section class="hackathons hackathons-img" data-index="5">
     <div class="wrapper container-fluid">
       <h2 id="hackathons" class="section-title">Hackathons</h2>
       <div class="row">
         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
           <div class="description">
             <p>We love hackathons here at TechSoc! Whether we’re running our own or venturing across the UK and beyond, you’re bound to find us working on a cool new project.</p>
-            <p>In the past, we’ve hosted a seriously successful Local Hack Day with our local community and we’ll be hosting <a href="http://hacklondon.org">HackLondon</a> with <a href="http://kcl.tech">KCL Tech</a> in February 2016. Until then, join us as we hit up hackathons in London and around the UK.</p>
+            <p>We co-host<a href="http://hacklondon.org"> HackLondon</a> with <a href="http://kcl.tech">KCL Tech</a>.<br> In the past, we've ran a seriously successful Local Hack Day and hosted Europe's very first <a href="https://www.youtube.com/watch?v=0aXXT3KnaUE"> Data Science Student Challenge</a> with Microsoft!</p>
           </div>
           <a href="{{ '/series/hackathons' | prepend: site.baseurl }}" class="button">See all hackathons</a>
+        </div>
+      </div>
+    </div>
+  </section>
+    <section class="community community-img">
+    <div class="wrapper container-fluid">
+      <h2 id="hackathons" class="section-title">We're a friendly bunch!</h2>
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+          <div class="description">
+            <p> We endeavour to make everyone and anyone who comes to our events feel welcome and included in the tech community regardless of background or experience. </p>
+            <p> Look out for a TechSoc mentor or talk to one of the committee members! <br> You can also join us on our Slack! Either way, we'd love to help! 
+            </p>
+          </div>
+            <p>
+              <a href="https://techsoc.slack.com" class="button"><i class="icon icon-slack "></i> Connect With Us</a>
+            </p>
         </div>
       </div>
     </div>
@@ -141,7 +165,7 @@ order: 1
     </div>
   </section>-->
 
-  <section class="partners-homepage">
+  <section class="partners-homepage" data-index="6">
     <div class="wrapper container-fluid">
       <h3 id="partners" class="section-title">Sponsors &amp; Partners</h3>
       {% assign sponsors = site.sponsors | sort: "order" %}
