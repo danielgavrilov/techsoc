@@ -17,7 +17,7 @@ $(function(){
   FastClick.attach($(".site-nav")[0]);
 
   $("#typer").typed({
-    strings: ["learning about how the world is connected?", "meeting some of the UK's best minds in tech?", "working with cool tech &amp; fun people?", "taking part?"],
+    strings: ["learning how to code?", "fun socials?", "working with cool tech &amp; fun people?", "taking part?"],
     typeSpeed: 100,
     backDelay: 1000,
     loop: false,
