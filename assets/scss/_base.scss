@@ -53,8 +53,8 @@ code {
     left: 0;
     top: 0;
     right: 0;
-    height: 150vh;
-    max-height: 150vh;
+    height: 130vh;
+    max-height: 130vh;
     width:auto;
 }
 
@@ -63,7 +63,7 @@ code {
     // background: linear-gradient( #121c44,rgba(0,0,50,0) 100%),url(../images/homepage/hl4_edit.jpg);
     background: linear-gradient(45deg,
         rgba($brand-primary,0.2),
-        rgba(#b01a82, 0.5) 99%
+        rgba(#a31795, 0.5) 99.5%
     );
     background-position: center;
     background-size: cover;
@@ -71,6 +71,7 @@ code {
 
 .background-normal{
     @extend .background-image;
+    background-size: cover;
     background: linear-gradient(
         rgba($brand-primary, 0),
         $brand-primary 90%

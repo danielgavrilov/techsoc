@@ -922,11 +922,11 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .nav-wrapper { padding-top: 70px; }
 
-.background-image, .background-homepage, .background-normal { content: ''; position: absolute; left: 0; top: 0; right: 0; height: 150vh; max-height: 150vh; width: auto; }
+.background-image, .background-homepage, .background-normal { content: ''; position: absolute; left: 0; top: 0; right: 0; height: 130vh; max-height: 130vh; width: auto; }
 
-.background-homepage { background: -webkit-linear-gradient(45deg, rgba(18, 28, 68, 0.2), rgba(176, 26, 130, 0.5) 99%); background: linear-gradient(45deg, rgba(18, 28, 68, 0.2), rgba(176, 26, 130, 0.5) 99%); background-position: center; background-size: cover; }
+.background-homepage { background: -webkit-linear-gradient(45deg, rgba(18, 28, 68, 0.2), rgba(163, 23, 149, 0.5) 99.5%); background: linear-gradient(45deg, rgba(18, 28, 68, 0.2), rgba(163, 23, 149, 0.5) 99.5%); background-position: center; background-size: cover; }
 
-.background-normal { background: -webkit-linear-gradient(rgba(18, 28, 68, 0), #121C44 90%), -webkit-linear-gradient(45deg, rgba(18, 28, 68, 0), rgba(216, 30, 91, 0.25) 95%), url(../images/UCL.jpg); background: linear-gradient(rgba(18, 28, 68, 0), #121C44 90%), linear-gradient(45deg, rgba(18, 28, 68, 0), rgba(216, 30, 91, 0.25) 95%), url(../images/UCL.jpg); }
+.background-normal { background-size: cover; background: -webkit-linear-gradient(rgba(18, 28, 68, 0), #121C44 90%), -webkit-linear-gradient(45deg, rgba(18, 28, 68, 0), rgba(216, 30, 91, 0.25) 95%), url(../images/UCL.jpg); background: linear-gradient(rgba(18, 28, 68, 0), #121C44 90%), linear-gradient(45deg, rgba(18, 28, 68, 0), rgba(216, 30, 91, 0.25) 95%), url(../images/UCL.jpg); }
 
 .banner { position: absolute; top: 0; left: 0; background-color: rgba(216, 30, 91, 0.6); width: 100%; }
 
