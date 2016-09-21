@@ -916,13 +916,13 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .background-image, .background-homepage, .background-normal { content: ''; position: absolute; left: 0; top: 0; right: 0; height: 100vh; max-height: 100vh; width: auto; }
 
-.background-homepage { background: -webkit-linear-gradient(#121c44, rgba(0, 0, 50, 0) 100%), url(../images/homepage/hl4_edit.jpg); background: linear-gradient(#121c44, rgba(0, 0, 50, 0) 100%), url(../images/homepage/hl4_edit.jpg); background-size: cover; }
+.background-homepage { background: -webkit-linear-gradient(45deg, rgba(18, 28, 68, 0.2), rgba(176, 26, 130, 0.5) 99%); background: linear-gradient(45deg, rgba(18, 28, 68, 0.2), rgba(176, 26, 130, 0.5) 99%); background-position: center; background-size: cover; }
 
-.background-normal { background: -webkit-linear-gradient(rgba(0, 0, 50, 0), #121c44 75%), url(../images/UCL.jpg); background: linear-gradient(rgba(0, 0, 50, 0), #121c44 75%), url(../images/UCL.jpg); }
+.background-normal { background: -webkit-linear-gradient(rgba(18, 28, 68, 0), #121C44 90%), -webkit-linear-gradient(45deg, rgba(18, 28, 68, 0), rgba(216, 30, 91, 0.25) 95%), url(../images/UCL.jpg); background: linear-gradient(rgba(18, 28, 68, 0), #121C44 90%), linear-gradient(45deg, rgba(18, 28, 68, 0), rgba(216, 30, 91, 0.25) 95%), url(../images/UCL.jpg); }
 
-.site-header { background-color: rgba(18, 28, 68, 0.2); -webkit-transition: background-color 0.25s ease-in-out; transition: background-color 0.25s ease-in-out; }
+.site-header { background: -webkit-linear-gradient(rgba(18, 28, 68, 0.5), rgba(18, 28, 68, 0) 80%); background: linear-gradient(rgba(18, 28, 68, 0.5), rgba(18, 28, 68, 0) 80%); -webkit-transition: background 0.25s ease-in-out; transition: background 0.25s ease-in-out; }
 
-.site-header:hover { background-color: #121C44; }
+.site-header:hover { background: #121C44; }
 
 .site-nav { font-size: 1.125em; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; padding: 10px; }
 
@@ -1008,13 +1008,13 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .homepage section .button:hover { border-color: #d81e5b; background-color: #d81e5b; }
 
-.homepage .masthead { text-align: center; padding: 2em 0; height: 90vh; padding: 1.5em 0; }
+.homepage .masthead { text-align: center; padding: 2em 0; min-height: 90vh; padding: 1.5em 0; }
 
 .homepage .masthead h1 { font-size: 36px; font-weight: normal; margin: 0 0 .75em; }
 
 .homepage .masthead .intro { font-size: 1.25em; color: rgba(255, 255, 255, 0.7); }
 
-.homepage .masthead .join-now { font-size: 1.3125em; font-weight: 700; text-transform: uppercase; display: inline-block; padding: 7px 20px; margin: 10px 0 50px; border-radius: 6px; color: white; text-decoration: none; border: 3px solid rgba(216, 30, 91, 0.5); background-color: transparent; }
+.homepage .masthead .join-now { font-size: 1.3125em; font-weight: 700; text-transform: uppercase; display: inline-block; padding: 7px 20px; margin: 5px 5px 0 5px; border-radius: 6px; color: white; text-decoration: none; border: 3px solid rgba(216, 30, 91, 0.5); background-color: transparent; }
 
 .homepage .masthead .join-now:hover { border-color: #d81e5b; background-color: #d81e5b; }
 
@@ -1042,7 +1042,7 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .homepage .partner:hover img { opacity: 1; }
 
-.homepage .img-container, .homepage .socials-img, .homepage .techtalks-img, .homepage .hackathons-img, .homepage .workshop-img, .homepage .projects-img { background-repeat: no-repeat; max-width: 100%; height: auto; width: auto; background-size: cover !important; z-index: -1; background-attachment: fixed; }
+.homepage .img-container, .homepage .socials-img, .homepage .techtalks-img, .homepage .hackathons-img, .homepage .workshop-img, .homepage .projects-img, .homepage .community-img { background-repeat: no-repeat; max-width: 100%; height: auto; width: auto; background-size: cover !important; z-index: -1; background-attachment: fixed !important; }
 
 .homepage .socials-img { background: -webkit-linear-gradient(rgba(18, 28, 68, 0.4), rgba(18, 28, 68, 0.4)), url("../images/homepage/socials3.jpg"); background: linear-gradient(rgba(18, 28, 68, 0.4), rgba(18, 28, 68, 0.4)), url("../images/homepage/socials3.jpg"); }
 
@@ -1053,6 +1053,8 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 .homepage .workshop-img { background: -webkit-linear-gradient(rgba(18, 28, 68, 0.4), rgba(18, 28, 68, 0.4)), url("../images/homepage/workshops.jpg"); background: linear-gradient(rgba(18, 28, 68, 0.4), rgba(18, 28, 68, 0.4)), url("../images/homepage/workshops.jpg"); }
 
 .homepage .projects-img { background: -webkit-linear-gradient(rgba(18, 28, 68, 0.4), rgba(18, 28, 68, 0.4)), url("../images/homepage/projects.jpg"); background: linear-gradient(rgba(18, 28, 68, 0.4), rgba(18, 28, 68, 0.4)), url("../images/homepage/projects.jpg"); }
+
+.homepage .community-img { background: -webkit-linear-gradient(rgba(18, 28, 68, 0.4), rgba(18, 28, 68, 0.4)), url("../images/homepage/community.jpg"); background: linear-gradient(rgba(18, 28, 68, 0.4), rgba(18, 28, 68, 0.4)), url("../images/homepage/community.jpg"); }
 
 .posts-list { list-style-type: none; margin: 0 0 2em; padding: 0; }
 
@@ -1262,9 +1264,9 @@ body .contact-notice h3 { font-size: 1.166em; font-weight: normal !important; }
 
 .series-overview:hover p { color: white; }
 
-.series-overview .button { font-size: 0.875em; font-weight: bold; color: rgba(255, 255, 255, 0.2); text-transform: uppercase; border-radius: 3px; border: 1px solid rgba(255, 255, 255, 0.12); width: 100%; padding: 7px; -webkit-align-self: flex-end; -ms-flex-item-align: end; align-self: flex-end; -webkit-transition: background-color 200ms linear, color 200ms linear; transition: background-color 200ms linear, color 200ms linear; }
+.series-overview .button { font-size: 0.875em; font-weight: bold; color: rgba(216, 30, 91, 0.5); text-transform: uppercase; border-radius: 3px; border: 1px solid rgba(216, 30, 91, 0.5); width: 100%; padding: 7px; -webkit-align-self: flex-end; -ms-flex-item-align: end; align-self: flex-end; -webkit-transition: background-color 200ms linear, color 200ms linear; transition: background-color 200ms linear, color 200ms linear; }
 
-.series-overview:hover .button { border-color: transparent; background-color: white; color: #003; }
+.series-overview:hover .button { border-color: transparent; background-color: #d81e5b; color: white; }
 
 .series-overview.new { border-color: rgba(255, 255, 255, 0.5); overflow: hidden; }
 

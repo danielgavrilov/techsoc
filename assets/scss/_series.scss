@@ -3,7 +3,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  border: 3px solid rgba(255,255,255,.12);
+  border: 3px solid rgba(white,.12);
   border-radius: 6px;
   padding: 1em;
   text-align: center;
@@ -37,10 +37,10 @@
   .button {
     font-size: 0.875em;
     font-weight: bold;
-    color: rgba(255,255,255,.2);
+    color: rgba($brand-secondary,.5);
     text-transform: uppercase;
     border-radius: 3px;
-    border: 1px solid rgba(255,255,255,.12);
+    border: 1px solid rgba($brand-secondary,.5);
     width: 100%;
     padding: 7px;
     align-self: flex-end;
@@ -51,8 +51,8 @@
   &:hover {
     .button {
       border-color: transparent;
-      background-color: white;
-      color: #003;
+      background-color: $brand-secondary;
+      color: white;
     }
   }
 

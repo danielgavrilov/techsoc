@@ -55,11 +55,24 @@ code {
 
 .background-homepage{
     @extend .background-image;
-    background: linear-gradient( #121c44,rgba(0,0,50,0) 100%),url(../images/homepage/hl4_edit.jpg);
+    // background: linear-gradient( #121c44,rgba(0,0,50,0) 100%),url(../images/homepage/hl4_edit.jpg);
+    background: linear-gradient(45deg,
+        rgba($brand-primary,0.2),
+        rgba(#b01a82, 0.5) 99%
+    );
+    background-position: center;
     background-size: cover;
 }
 
 .background-normal{
     @extend .background-image;
-    background: linear-gradient(rgba(0,0,50,0), #121c44 75%),url(../images/UCL.jpg);
+    background: linear-gradient(
+        rgba($brand-primary, 0),
+        $brand-primary 90%
+    ),
+    linear-gradient(45deg,
+        rgba($brand-primary,0),
+        rgba($brand-secondary, 0.25) 95%
+    ),
+    url(../images/UCL.jpg);
 }
