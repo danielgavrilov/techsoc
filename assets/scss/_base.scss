@@ -61,9 +61,9 @@ code {
 .background-homepage{
     @extend .background-image;
     // background: linear-gradient( #121c44,rgba(0,0,50,0) 100%),url(../images/homepage/hl4_edit.jpg);
-    background: linear-gradient(45deg,
-        rgba($brand-primary,0.2),
-        rgba(#a31795, 0.5) 99.5%
+    background: linear-gradient(to right top,
+        rgba($brand-primary,1) 60%,
+        rgba($brand-secondary, 0.6)
     );
     background-position: center;
     background-size: cover;
