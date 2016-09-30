@@ -11,7 +11,7 @@ var Q = require("q");
 
 // Facebook API
 
-var ACCESS_TOKEN = "EAAK3kpvZBViIBAMj2jeG3ZBEeUaUQxHd43KwBgvRwUhkUYmgZBeJsxnDyiIY8SReZA47UEXFMQf2YIogXkZAahEAbb3nmgTSVMRDuCBvPMf6mOxkTKe0pUrxKadsZB9Lpcmb403fy32RpL2ROO0qBmQ2p6zdBsjXoZD";
+var ACCESS_TOKEN = "EAAK3kpvZBViIBAMxJJu8mMPFgzLXtCT0rRy2oxxWTqPEB0sW6PKNAZCduqkR4J7huDkWwKqKhOC3mkftP2sAL4Lc1Wk2Y0U35T4ulQAcBn8abHv6HNJMBagBJfrMKecYrhXofbfIohZB5MPZCefpipYZB4dVvEQMZD";
 
 function getFacebookEvents() {
   return rp({
