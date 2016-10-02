@@ -8,7 +8,7 @@ start_time: "2016-10-12"
 end_time:
 subtext: We will soon announce the team!
 links:
-  slack: https://uclutechsocprojects.slack.com/
+  slack: https://techsochq.slack.com/
 excerpt: We will make a VR game together!
 ---
 We will make a VR game together!
