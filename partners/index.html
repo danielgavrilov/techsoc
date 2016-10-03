@@ -13,7 +13,7 @@ order: 7
     {% for sponsor in sponsors %}
     <div class="box">
         <div class="sponsor-overview">
-            <a href="{{ sponsor.slug }}" target="_blank" title="{{ sponsor.name }}" class="logo">
+            <a  target="_blank" title="{{ sponsor.name }}" class="logo">
                 <img src="{{ sponsor.logo | prepend: site.baseurl }}" alt="{{ sponsor.name }} logo" class="{{ sponsor.name | slugify }}">
             </a>
             <!--<h2 class="name">{{ sponsor.name }}</h2>-->
@@ -32,7 +32,7 @@ order: 7
         {% for sponsor in sponsors %}
         <div class="box">
             <div class="sponsor-overview">
-                <a href="{{sponsor.link }}" target="_blank" title="{{ sponsor.name }}" class="logo">
+                <a  target="_blank" title="{{ sponsor.name }}" class="logo">
                     <img src="{{ sponsor.logo | prepend:site.baseurl }}" alt="{{ sponsor.name }} logo" class="{{ sponsor.name | slugify }}">
                 </a>
 <!--             <div class="description">
@@ -47,7 +47,7 @@ order: 7
     <div class="partners">
         {% assign sponsors = site.sponsors | where:"tier","bronze" %}
         {% for sponsor in sponsors %}
-        <a href="{{ sponsor.link }}" title="{{ sponsor.name }}" class="logo">
+        <a title="{{ sponsor.name }}" class="logo">
             <img src="{{ sponsor.logo | prepend: site.baseurl }}" alt="{{ sponsor.name }} logo" class="{{ sponsor.name | slugify }}">
         </a>
         {% endfor %}
@@ -57,7 +57,7 @@ order: 7
     <div class="partners">
         {% assign sponsors = site.sponsors | where:"tier","event" %}
         {% for sponsor in sponsors %}
-        <a href="{{ sponsor.link }}" title="{{ sponsor.name }}" class="logo">
+        <a  title="{{ sponsor.name }}" class="logo">
             <img src="{{ sponsor.logo | prepend: site.baseurl }}" alt="{{ sponsor.name }} logo" class="{{ sponsor.name | slugify }}">
         </a>
         {% endfor %}
