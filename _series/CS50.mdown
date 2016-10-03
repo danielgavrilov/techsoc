@@ -1,0 +1,13 @@
+---
+series_id: cs50
+title: CS50
+tagline: 
+calendar: cs50.ics
+start_time: "2015-10-13"
+end_time: "2017-10-28"
+subtext: With *Shanice Ong*
+excerpt: |
+  Harvard's famous and ever popular beginners programming course, right here at UCL.
+---
+
+Harvard's famous and ever popular beginners programming course, right here at UCL.
