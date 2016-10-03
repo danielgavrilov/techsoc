@@ -4,6 +4,7 @@
   padding: 13px;
   text-align: center;
   flex: 1;
+  margin-top: 32px;
 
   .name {
     font-size: 1.25em;
@@ -50,4 +51,12 @@
   p {
     margin-bottom: 1em;
   }
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-top: -59px;
+  border: 7px solid #121C44;
 }

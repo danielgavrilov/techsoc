@@ -1126,7 +1126,7 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .post-content .three-wide { max-width: 32%; display: inline; }
 
-.member-overview { border: 3px solid rgba(255, 255, 255, 0.1); border-radius: 6px; padding: 13px; text-align: center; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; }
+.member-overview { border: 3px solid rgba(255, 255, 255, 0.1); border-radius: 6px; padding: 13px; text-align: center; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; margin-top: 32px; }
 
 .member-overview .name { font-size: 1.25em; margin: 0 0 .25em; }
 
@@ -1143,6 +1143,8 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 .about-content .page-heading { margin-top: 0; margin-bottom: 1em; font-size: 1.333em; }
 
 .about-content p { margin-bottom: 1em; }
+
+.profile-pic { border-radius: 50%; height: 100px; width: 100px; margin-top: -59px; border: 7px solid #121C44; }
 
 .events-view-tabs { text-align: center; margin-bottom: 2em; }
 
