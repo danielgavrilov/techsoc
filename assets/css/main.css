@@ -1278,7 +1278,7 @@ body .contact-notice h3 { font-size: 1.166em; font-weight: normal !important; }
 
 .series-overview:hover p { color: white; }
 
-.series-overview .button { font-size: 0.875em; font-weight: bold; color: rgba(216, 30, 91, 0.5); text-transform: uppercase; border-radius: 3px; border: 1px solid rgba(216, 30, 91, 0.5); width: 100%; padding: 7px; -webkit-align-self: flex-end; -ms-flex-item-align: end; align-self: flex-end; -webkit-transition: background-color 200ms linear, color 200ms linear; transition: background-color 200ms linear, color 200ms linear; }
+.series-overview .button { font-size: 0.875em; font-weight: bold; color: rgba(216, 30, 91, 0.5); text-transform: uppercase; border-radius: 3px; border: 4px solid rgba(216, 30, 91, 0.5); width: 100%; padding: 7px; -webkit-align-self: flex-end; -ms-flex-item-align: end; align-self: flex-end; -webkit-transition: background-color 200ms linear, color 200ms linear; transition: background-color 200ms linear, color 200ms linear; }
 
 .series-overview:hover .button { border-color: transparent; background-color: #d81e5b; color: white; }
 
