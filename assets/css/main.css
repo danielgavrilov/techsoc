@@ -1126,7 +1126,7 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .post-content .three-wide { max-width: 32%; display: inline; }
 
-.member-overview { border: 3px solid rgba(255, 255, 255, 0.1); border-radius: 6px; padding: 13px; text-align: center; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; }
+.member-overview { border: 3px solid rgba(255, 255, 255, 0.1); border-radius: 6px; padding: 13px; text-align: center; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; margin-top: 32px; }
 
 .member-overview .name { font-size: 1.25em; margin: 0 0 .25em; }
 
@@ -1143,6 +1143,8 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 .about-content .page-heading { margin-top: 0; margin-bottom: 1em; font-size: 1.333em; }
 
 .about-content p { margin-bottom: 1em; }
+
+.profile-pic { border-radius: 50%; height: 120px; width: 120px; margin-top: -59px; border: 7px solid #121C44; }
 
 .events-view-tabs { text-align: center; margin-bottom: 2em; }
 
@@ -1367,9 +1369,9 @@ body .contact-notice h3 { font-size: 1.166em; font-weight: normal !important; }
 
 .sponsor-overview { padding: 30px 10px; }
 
-.sponsor-overview .logo { display: block; text-align: center; height: 4em; }
+.sponsor-overview .logo { display: block; text-align: center; width: 300px; }
 
-.sponsor-overview .logo img { height: 3.5em; max-width: 90%; }
+.sponsor-overview .logo img { max-width: 90%; }
 
 .sponsor-overview .name { font-size: 28px; font-weight: bold; text-transform: uppercase; margin: .25em 0; }
 
@@ -1395,9 +1397,9 @@ body .contact-notice h3 { font-size: 1.166em; font-weight: normal !important; }
 
 .partners .logo:hover img { opacity: 1; }
 
-img.blackrock { padding: 16px 0 8px; }
+img.blackrock { height: 300px; padding: 16px 0 8px; }
 
-img.bloomberg { padding: 15px 0 0px; }
+img.bloomberg { height: 300px; padding: 15px 0 0px; }
 
 img.credit-suisse { padding: 0px 0 8px; }
 

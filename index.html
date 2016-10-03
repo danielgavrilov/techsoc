@@ -140,7 +140,7 @@ order: 1
         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
           <div class="description">
             <p> We endeavour to make everyone and anyone who comes to our events feel welcome and included in the tech community regardless of background or experience. </p>
-            <p> Look out for a TechSoc mentor or talk to one of the committee members! <br> You can also join us on our Slack! Either way, we'd love to help! 
+            <p> Look out for a TechSoc mentor or talk to one of the committee members! <br> You can also join us on our Slack! Either way, we'd love to help!
             </p>
           </div>
             <p>
@@ -168,18 +168,20 @@ order: 1
   <section class="partners-homepage" data-index="6">
     <div class="wrapper container-fluid">
       <h3 id="partners" class="section-title">Sponsors &amp; Partners</h3>
+      <p class="intro">TechSoc would not exist without the support of our sponsors and partners.</p>
       {% assign sponsors = site.sponsors | sort: "order" %}
       {% for sponsor in sponsors %}
-        <a href="{{ sponsor.link }}" title="{{ sponsor.name }}" class="partner logo">
+        <a title="{{ sponsor.name }}" class="partner logo">
           <img src="{{ sponsor.logo | prepend: site.baseurl }}" alt="{{ sponsor.name }} logo" class="{{ sponsor.name | slugify }}">
         </a>
       {% endfor %}
       {% for partner in site.data.partners %}
-        <a href="{{ partner.link }}" title="{{ partner.name }}" class="partner logo">
+        <a title="{{ partner.name }}" class="partner logo">
           <img src="{{ partner.logo | prepend: site.baseurl }}" alt="{{ partner.name }} logo" class="{{ partner.name | slugify }}">
         </a>
       {% endfor %}
     </div>
+    <a class="button" href="/partners">Learn more...</a>
   </section>
 
 </div>

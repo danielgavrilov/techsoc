@@ -1,6 +1,7 @@
 
 - name: Wilhelm Klopp
   role: President
+  img-link: '../assets/images/people/wil.jpg'
   team: true
   profiles:
     twitter: https://twitter.com/wilhelmklopp
@@ -10,6 +11,7 @@
 
 - name: Emily Mears
   role: Vice President
+  img-link: '../assets/images/people/emily.jpg'
   team: true
   profiles:
     facebook: https://www.facebook.com/emily.mears.3
@@ -19,7 +21,9 @@
     linkedin: https://uk.linkedin.com/in/emily-mears-b145a5114
 
 - name: Reemma Muthal Puredath
+  img-link: '../assets/images/people/rema.jpg'
   role: Treasurer
+  img-link: '../assets/images/people/rema.jpg'
   team: true
   profiles:
     facebook: https://www.facebook.com/reema.menon.75
@@ -30,6 +34,7 @@
 
 - name: Marco Concetto Rudilosso
   role: Projects Director
+  img-link: '../assets/images/people/marco.jpg'
   team: true
   profiles:
     twitter: https://twitter.com/maaarcocr
@@ -39,6 +44,7 @@
 
 - name: Sachchit Prasad
   role: Hackathons Director
+  img-link: '../assets/images/people/sach.jpg'
   team: true
   profiles:
     twitter: https://twitter.com/SachchitPrasad
@@ -48,6 +54,7 @@
 
 - name: Diana K. Lee
   role: Outreach Director
+  img-link: '../assets/images/people/dianaklee.jpg'
   team: true
   profiles:
     twitter: https://twitter.com/duhrtyd
@@ -59,6 +66,7 @@
 
 - name: Maya Afshar
   role: Events Director
+  img-link: '../assets/images/people/maya.jpg'
   team: true
   profiles:
     twitter: https://twitter.com/MayaAfshar
@@ -67,6 +75,7 @@
 
 - name: Christopher Hammond
   role: Clients Director
+  img-link: '../assets/images/people/chris.jpg'
   team: true
   profiles:
     linkedin: https://uk.linkedin.com/in/christopherhammond13
@@ -74,6 +83,7 @@
 
 - name: Matt Policane
   role: Socials Director
+  img-link: '../assets/images/people/matt.jpg'
   team: true
   profiles:
     twitter: https://twitter.com/MPolicane
@@ -84,6 +94,7 @@
 
 - name: Matt Bell
   role: Marketing Director
+  img-link: '../assets/images/people/mattbell.jpg'
   team: true
   profiles:
     twitter: https://twitter.com/mbell_gb
@@ -95,6 +106,7 @@
 
 - name: Henry Mortimer
   role: Security Team
+  img-link: '../assets/images/people/henry.jpg'
   team: true
   profiles:
     facebook: https://www.facebook.com/henry.mortimer.5
@@ -103,6 +115,7 @@
 
 - name: Faiz Abdul
   role: Projects Team
+  img-link: '../assets/images/people/faiz.jpg'
   team: true
   profiles:
     twitter: https://twitter.com/AbdulFaiz
@@ -112,6 +125,7 @@
 
 - name: Pranav Nashikkar
   role: Hackathons Team
+  img-link: '../assets/images/people/pranav.jpg'
   team: true
   profiles:
     twitter: https://twitter.com/PranavNash
@@ -120,6 +134,7 @@
 
 - name: Jaromir Latal
   role: Hackathons Team
+  img-link: '../assets/images/people/jaro.jpg'
   team: true
   profiles:
     twitter: https://twitter.com/JerMenKoO
@@ -128,21 +143,25 @@
 
 - name: Shanice Ong
   role: Outreach Team
+  img-link: '../assets/images/people/shanice.jpg'
   team: true
   profiles:
     linkedin: https://uk.linkedin.com/in/sheue-nie-shanice-ong-597544110
 
 - name: Tanvi Khetan
   role: Outreach Team
+  img-link: '../assets/images/people/tanvi.jpg'
   team: true
 
 - name: Ashu Savani
   role: Events Team
+  img-link: '../assets/images/people/ashu.jpg'
   team: true
   profiles:
     linkedin: https://uk.linkedin.com/in/ashu-savani-023547114
 
 - name: Martí Serra Vivancos
+  img-link: '../assets/images/people/marti.jpg'
   role: Events Team
   team: true
   profiles:
@@ -153,18 +172,21 @@
 
 - name: Matineh Akhlaghinia
   role: Events Team
+  img-link: '../assets/images/people/matin.jpg'
   team: true
   profiles:
     linkedin: https://uk.linkedin.com/in/matineh-akhlaghinia-619761108
 
 - name: Jay Jeyaruban
   role: Socials Team
+  img-link: '../assets/images/people/jay.jpg'
   team: true
   profiles:
     linkedin: https://uk.linkedin.com/in/jay-jeyaruban-4b7a77112
 
 - name: Andreas Zinonos
   role: Marketing Team
+  img-link: '../assets/images/people/anreas.jpg'
   team: true
   profiles:
     twitter: https://twitter.com/zin_onos
@@ -172,6 +194,7 @@
 
 - name: Vicky Dineshchandra
   role: Marketing Team
+  img-link: '../assets/images/people/vicky.jpg'
   team: true
   profiles:
     twitter: https://twitter.com/vickyd885
@@ -179,6 +202,7 @@
 
 - name: Fraser Savage
   role: Gamejam Organiser
+  img-link: '../assets/images/people/fraser.jpg'
   team: true
   profiles:
     github: https://github.com/savage-engineer
