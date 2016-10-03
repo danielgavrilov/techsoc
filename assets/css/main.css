@@ -1144,7 +1144,7 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .about-content p { margin-bottom: 1em; }
 
-.profile-pic { border-radius: 50%; height: 100px; width: 100px; margin-top: -59px; border: 7px solid #121C44; }
+.profile-pic { border-radius: 50%; height: 120px; width: 120px; margin-top: -59px; border: 7px solid #121C44; }
 
 .events-view-tabs { text-align: center; margin-bottom: 2em; }
 
