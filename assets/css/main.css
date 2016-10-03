@@ -1367,9 +1367,9 @@ body .contact-notice h3 { font-size: 1.166em; font-weight: normal !important; }
 
 .sponsor-overview { padding: 30px 10px; }
 
-.sponsor-overview .logo { display: block; text-align: center; height: 4em; }
+.sponsor-overview .logo { display: block; text-align: center; width: 300px; }
 
-.sponsor-overview .logo img { height: 3.5em; max-width: 90%; }
+.sponsor-overview .logo img { max-width: 90%; }
 
 .sponsor-overview .name { font-size: 28px; font-weight: bold; text-transform: uppercase; margin: .25em 0; }
 
@@ -1395,9 +1395,9 @@ body .contact-notice h3 { font-size: 1.166em; font-weight: normal !important; }
 
 .partners .logo:hover img { opacity: 1; }
 
-img.blackrock { padding: 16px 0 8px; }
+img.blackrock { height: 300px; padding: 16px 0 8px; }
 
-img.bloomberg { padding: 15px 0 0px; }
+img.bloomberg { height: 300px; padding: 15px 0 0px; }
 
 img.credit-suisse { padding: 0px 0 8px; }
 

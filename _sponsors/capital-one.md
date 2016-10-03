@@ -1,8 +1,8 @@
 ---
-name: BlackRock
-slug: blackrock
+name: Capital One
+slug: capital-one
 link: http://www.blackrockoncampus.com/?locale=uk
-logo: /assets/images/sponsors/blackrock.svg
+logo: /assets/images/sponsors/capital-one.png
 tier: gold
 ---
 
