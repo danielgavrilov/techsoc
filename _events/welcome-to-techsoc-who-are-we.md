@@ -1,9 +1,9 @@
 ---
 facebook_id: '976242132504297'
 title: Welcome To TechSoc - Who Are We?
-start_time: '2016-10-04 17:30'
-end_time: '2016-10-04 19:30'
-location: TBA
+start_time: '2016-10-04 18:00'
+end_time: '2016-10-04 18:45'
+location: Torrington (1-19) B17 Basement LT
 ---
 
 What is TechSoc? What do we do? What events are we running this year? These questions and more will be answered during this talk!  
