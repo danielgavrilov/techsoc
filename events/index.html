@@ -158,10 +158,23 @@ It might take a few minutes for the calendar to appear on Google Calendar.
 </div>
 
 
-<h2 class="page-heading">Event series</h2>
+<h2 class="page-heading">Active series</h2>
 <div class="responsive-boxes">
   {% for series in site.series %}
-    {% include series-overview.html series=series %}
+    {% include scripts/event_status event=series %}
+    {% if event_status_result != "finished" %}
+      {% include series-overview.html series=series %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+<h2 class="page-heading">Past series</h2>
+<div class="responsive-boxes">
+  {% for series in site.series %}
+    {% include scripts/event_status event=series %}
+    {% if event_status_result == "finished" %}
+      {% include series-overview.html series=series %}
+    {% endif %}
   {% endfor %}
 </div>
 
