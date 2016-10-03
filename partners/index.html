@@ -7,31 +7,65 @@ navigation: true
 order: 7
 ---
 
-<h2 class="page-title">Sponsors</h2>
-
+<h2 class="page-title">Gold Sponsors</h2>
 <div class="responsive-boxes">
-  {% assign sponsors = site.sponsors | sort: "order" %}
-  {% for sponsor in sponsors %}
-  <div class="box">
-    <div class="sponsor-overview">
-      <a href="{{ sponsor.link }}" target="_blank" title="{{ sponsor.name }}" class="logo">
-        <img src="{{ sponsor.logo | prepend: site.baseurl }}" alt="{{ sponsor.name }} logo" class="{{ sponsor.name | slugify }}">
-      </a>
-      <!--<h2 class="name">{{ sponsor.name }}</h2>-->
-      <div class="description">
-        {{ sponsor.content }}
-      </div>
+    {% assign sponsors = site.sponsors | where:"tier","gold" %}
+    {% for sponsor in sponsors %}
+    <div class="box">
+        <div class="sponsor-overview">
+            <a  target="_blank" title="{{ sponsor.name }}" class="logo">
+                <img src="{{ sponsor.logo | prepend: site.baseurl }}" alt="{{ sponsor.name }} logo" class="{{ sponsor.name | slugify }}">
+            </a>
+            <!--<h2 class="name">{{ sponsor.name }}</h2>-->
+<!--             <div class="description">
+                {{ sponsor.content | split: '</p>' | first | append: '<p>' }}
+                </div> -->
+<!--                 <p><a href="{{ sponsor.slug }}">Learn More</a> &#8226; <a href="{{ sponsor.link }}">Visit Site</a></p> -->
+            </div>
+        </div>
+        {% endfor %}
     </div>
-  </div>
-  {% endfor %}
-</div>
 
-<h2 class="page-title">Partners</h2>
+<h2 class="page-title">Silver Sponsors</h2>
+    <div class="responsive-boxes">
+        {% assign sponsors = site.sponsors | where:"tier","silver" %}
+        {% for sponsor in sponsors %}
+        <div class="box">
+            <div class="sponsor-overview">
+                <a  target="_blank" title="{{ sponsor.name }}" class="logo">
+                    <img src="{{ sponsor.logo | prepend:site.baseurl }}" alt="{{ sponsor.name }} logo" class="{{ sponsor.name | slugify }}">
+                </a>
+<!--             <div class="description">
+                {{ sponsor.content }}
+            </div> -->
+        </div>
+        </div>
+        {% endfor %}
+    </div>
 
-<div class="partners">
-  {% for partner in site.data.partners %}
-  <a href="{{ partner.link }}" title="{{ partner.name }}" class="logo">
-    <img src="{{ partner.logo | prepend: site.baseurl }}" alt="{{ partner.name }} logo" class="{{ partner.name | slugify }}">
-  </a>
-  {% endfor %}
-</div>
+<h2 class="page-title">Bronze Sponsors</h2>
+    <div class="partners">
+        {% assign sponsors = site.sponsors | where:"tier","bronze" %}
+        {% for sponsor in sponsors %}
+        <a title="{{ sponsor.name }}" class="logo">
+            <img src="{{ sponsor.logo | prepend: site.baseurl }}" alt="{{ sponsor.name }} logo" class="{{ sponsor.name | slugify }}">
+        </a>
+        {% endfor %}
+    </div>
+
+<h2 class="page-title">Other Sponsors And Partners</h2>
+    <div class="partners">
+        {% assign sponsors = site.sponsors | where:"tier","event" %}
+        {% for sponsor in sponsors %}
+        <a  title="{{ sponsor.name }}" class="logo">
+            <img src="{{ sponsor.logo | prepend: site.baseurl }}" alt="{{ sponsor.name }} logo" class="{{ sponsor.name | slugify }}">
+        </a>
+        {% endfor %}
+    </div>
+    <div class="partners">
+        {% for partner in site.data.partners %}
+        <a href="{{ partner.link }}" title="{{ partner.name }}" class="logo">
+            <img src="{{ partner.logo | prepend: site.baseurl }}" alt="{{ partner.name }} logo" class="{{ partner.name | slugify }}">
+        </a>
+        {% endfor %}
+    </div>

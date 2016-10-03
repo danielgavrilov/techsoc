@@ -4,11 +4,11 @@
   .logo {
     display: block;
     text-align: center;
-    height: 4em;
+    width:300px;
   }
 
   .logo img {
-    height: 3.5em;
+
     max-width: 90%;
   }
 
@@ -79,10 +79,12 @@
 }
 
 img.blackrock {
+  height: 300px;
   padding: 16px 0 8px;
 }
 
 img.bloomberg {
+  height: 300px;
   padding: 15px 0 0px;
 }
 
