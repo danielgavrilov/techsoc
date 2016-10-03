@@ -17,10 +17,10 @@ order: 7
                 <img src="{{ sponsor.logo | prepend: site.baseurl }}" alt="{{ sponsor.name }} logo" class="{{ sponsor.name | slugify }}">
             </a>
             <!--<h2 class="name">{{ sponsor.name }}</h2>-->
-            <div class="description">
+<!--             <div class="description">
                 {{ sponsor.content | split: '</p>' | first | append: '<p>' }}
-                </div>
-                <p><a href="{{ sponsor.slug }}">Learn More</a> &#8226; <a href="{{ sponsor.link }}">Visit Site</a></p>
+                </div> -->
+<!--                 <p><a href="{{ sponsor.slug }}">Learn More</a> &#8226; <a href="{{ sponsor.link }}">Visit Site</a></p> -->
             </div>
         </div>
         {% endfor %}
@@ -35,9 +35,9 @@ order: 7
                 <a href="{{sponsor.link }}" target="_blank" title="{{ sponsor.name }}" class="logo">
                     <img src="{{ sponsor.logo | prepend:site.baseurl }}" alt="{{ sponsor.name }} logo" class="{{ sponsor.name | slugify }}">
                 </a>
-            <div class="description">
+<!--             <div class="description">
                 {{ sponsor.content }}
-            </div>
+            </div> -->
         </div>
         </div>
         {% endfor %}
