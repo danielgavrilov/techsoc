@@ -47,9 +47,6 @@ collections:
   jobs:
     output: true
     permalink: /jobs/:path/
-  sponsors:
-      output: true
-      permalink: /partners/:path/
   projects:
     output: true
     permalink: /projects/:path/
@@ -99,12 +96,6 @@ defaults:
     values:
       layout: calendar
       include_label: true
-  -
-    scope:
-      path: ""
-      type: sponsors
-    values:
-      layout: partner
 
 gems:
   - jekyll-feed
