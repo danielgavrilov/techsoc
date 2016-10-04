@@ -843,7 +843,9 @@ tbody.collapse.in { display: table-row-group; }
 
 @media (min-width: 480px) { .responsive-boxes .box { max-width: 50%; -webkit-flex-basis: 50%; -ms-flex-preferred-size: 50%; flex-basis: 50%; } }
 
-@media (min-width: 767px) { .responsive-boxes .box { max-width: 33.333%; -webkit-flex-basis: 33.333%; -ms-flex-preferred-size: 33.333%; flex-basis: 33.333%; } }
+@media (min-width: 767px) { .responsive-boxes .box { -webkit-flex-basis: 33.333%; -ms-flex-preferred-size: 33.333%; flex-basis: 33.333%; } }
+
+@media (min-width: 767px) { .responsive-boxes .box { -webkit-flex-basis: 33.333%; -ms-flex-preferred-size: 33.333%; flex-basis: 33.333%; } }
 
 /* SpinKit spinning animation - http://tobiasahlin.com/spinkit/ */
 .sk-circle { margin: 100px auto; width: 60px; height: 60px; position: relative; }

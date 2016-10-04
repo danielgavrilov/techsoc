@@ -55,6 +55,7 @@ code {
     right: 0;
     height: 130vh;
     max-height: 130vh;
+
     width:auto;
 }
 
@@ -80,5 +81,7 @@ code {
         rgba($brand-primary,0),
         rgba($brand-secondary, 0.25) 95%
     ),
+
     url(../images/UCL.jpg);
+
 }
