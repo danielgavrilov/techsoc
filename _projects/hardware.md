@@ -11,6 +11,10 @@ links:
   slack: https://techsochq.slack.com/
 excerpt: We will work on some cool raspberry pi powered robots together!
 ---
-We will work on some cool raspberry pi powered robots together!!
 
-More information soon.
+##Introduction
+
+For the VR Project we will use Unity together with the Oculus VR in order to build the game and Blender to design the 3D models.
+The game will be divided in different levels and people participating to the project will plan, design and build the different levels in small sub-teams. 
+We will have small intros to Unity and Blender in order to help people that have never used them. We will also spend some sessions brain-storming the different levels, it will be a funny creative exercise. 
+
