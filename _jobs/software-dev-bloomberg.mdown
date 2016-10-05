@@ -1,0 +1,10 @@
+---
+title: Software Dev
+company: Bloomberg
+url: www.techsoc.io
+tagline: CODE ALL THE SHIZ
+deadline: 2016-06-06
+---
+
+
+YES WE CODE
