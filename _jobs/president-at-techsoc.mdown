@@ -1,6 +1,0 @@
----
-title: Web designer
-company: TechSoc
-url: www.techsoc.io
-tagline: TechSoc is recruiting a web designer
----
