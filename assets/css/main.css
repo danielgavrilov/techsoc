@@ -843,7 +843,9 @@ tbody.collapse.in { display: table-row-group; }
 
 @media (min-width: 480px) { .responsive-boxes .box { max-width: 50%; -webkit-flex-basis: 50%; -ms-flex-preferred-size: 50%; flex-basis: 50%; } }
 
-@media (min-width: 767px) { .responsive-boxes .box { max-width: 33.333%; -webkit-flex-basis: 33.333%; -ms-flex-preferred-size: 33.333%; flex-basis: 33.333%; } }
+@media (min-width: 767px) { .responsive-boxes .box { -webkit-flex-basis: 33.333%; -ms-flex-preferred-size: 33.333%; flex-basis: 33.333%; } }
+
+@media (min-width: 767px) { .responsive-boxes .box { -webkit-flex-basis: 33.333%; -ms-flex-preferred-size: 33.333%; flex-basis: 33.333%; } }
 
 /* SpinKit spinning animation - http://tobiasahlin.com/spinkit/ */
 .sk-circle { margin: 100px auto; width: 60px; height: 60px; position: relative; }
@@ -927,6 +929,24 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 .background-homepage { background: -webkit-linear-gradient(left bottom, #121c44 60%, rgba(216, 30, 91, 0.6)); background: linear-gradient(to right top, #121c44 60%, rgba(216, 30, 91, 0.6)); background-position: center; background-size: cover; }
 
 .background-normal { background-size: cover; background: -webkit-linear-gradient(rgba(18, 28, 68, 0), #121C44 90%), -webkit-linear-gradient(45deg, rgba(18, 28, 68, 0), rgba(216, 30, 91, 0.25) 95%), url(../images/UCL.jpg); background: linear-gradient(rgba(18, 28, 68, 0), #121C44 90%), linear-gradient(45deg, rgba(18, 28, 68, 0), rgba(216, 30, 91, 0.25) 95%), url(../images/UCL.jpg); }
+
+.job-container { text-align: center; max-width: 1100px; margin: 0 auto; }
+
+.job-text { margin-left: 16.66667%; margin-right: 16.66667%; }
+
+.company-highlight, .apply-now { display: inline-block; font-size: 19px; font-weight: bold; line-height: 1.1; color: rgba(255, 255, 255, 0.5); border: 2px solid rgba(255, 255, 255, 0.3); border-radius: 3px; padding: 1px 3px; margin-right: 3px; }
+
+.company-highlight:hover, .apply-now:hover { text-decoration: none; border-color: white; color: white; }
+
+.job-title { margin-top: 10px; }
+
+.deadline { color: rgba(255, 255, 255, 0.6); }
+
+.deadline .icon { font-size: 110%; color: rgba(255, 255, 255, 0.3); margin-right: .05em; }
+
+.apply-now { color: #fff; border: 4px solid #fff; border-radius: 15px; padding: 10px 10px; margin-right: 3px; margin-top: 20px; }
+
+.apply-now:hover { text-decoration: none; border-color: #d81e5b; color: #d81e5b; }
 
 .banner { position: absolute; top: 0; left: 0; background-color: rgba(216, 30, 91, 0.6); width: 100%; }
 
@@ -1126,7 +1146,7 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .post-content .three-wide { max-width: 32%; display: inline; }
 
-.member-overview { border: 3px solid rgba(255, 255, 255, 0.1); border-radius: 6px; padding: 13px; text-align: center; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; }
+.member-overview { border: 3px solid rgba(255, 255, 255, 0.1); border-radius: 6px; padding: 13px; text-align: center; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; margin-top: 32px; }
 
 .member-overview .name { font-size: 1.25em; margin: 0 0 .25em; }
 
@@ -1143,6 +1163,8 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 .about-content .page-heading { margin-top: 0; margin-bottom: 1em; font-size: 1.333em; }
 
 .about-content p { margin-bottom: 1em; }
+
+.profile-pic { border-radius: 50%; height: 120px; width: 120px; margin-top: -59px; border: 7px solid #121C44; }
 
 .events-view-tabs { text-align: center; margin-bottom: 2em; }
 
@@ -1278,7 +1300,7 @@ body .contact-notice h3 { font-size: 1.166em; font-weight: normal !important; }
 
 .series-overview:hover p { color: white; }
 
-.series-overview .button { font-size: 0.875em; font-weight: bold; color: rgba(216, 30, 91, 0.5); text-transform: uppercase; border-radius: 3px; border: 1px solid rgba(216, 30, 91, 0.5); width: 100%; padding: 7px; -webkit-align-self: flex-end; -ms-flex-item-align: end; align-self: flex-end; -webkit-transition: background-color 200ms linear, color 200ms linear; transition: background-color 200ms linear, color 200ms linear; }
+.series-overview .button { font-size: 0.875em; font-weight: bold; color: #b4b7c2; text-transform: uppercase; border-radius: 3px; border: 4px solid #b4b7c2; width: 100%; padding: 7px; -webkit-align-self: flex-end; -ms-flex-item-align: end; align-self: flex-end; -webkit-transition: background-color 200ms linear, color 200ms linear; transition: background-color 200ms linear, color 200ms linear; }
 
 .series-overview:hover .button { border-color: transparent; background-color: #d81e5b; color: white; }
 
@@ -1367,9 +1389,9 @@ body .contact-notice h3 { font-size: 1.166em; font-weight: normal !important; }
 
 .sponsor-overview { padding: 30px 10px; }
 
-.sponsor-overview .logo { display: block; text-align: center; height: 4em; }
+.sponsor-overview .logo { display: block; text-align: center; width: 300px; }
 
-.sponsor-overview .logo img { height: 3.5em; max-width: 90%; }
+.sponsor-overview .logo img { max-width: 90%; }
 
 .sponsor-overview .name { font-size: 28px; font-weight: bold; text-transform: uppercase; margin: .25em 0; }
 
@@ -1395,9 +1417,9 @@ body .contact-notice h3 { font-size: 1.166em; font-weight: normal !important; }
 
 .partners .logo:hover img { opacity: 1; }
 
-img.blackrock { padding: 16px 0 8px; }
+img.blackrock { height: 300px; padding: 16px 0 8px; }
 
-img.bloomberg { padding: 15px 0 0px; }
+img.bloomberg { height: 300px; padding: 15px 0 0px; }
 
 img.credit-suisse { padding: 0px 0 8px; }
 
@@ -1414,6 +1436,26 @@ a:hover img.microsoft .green { fill: #80cc28; }
 a:hover img.microsoft .blue { fill: #00adef; }
 
 a:hover img.microsoft .yellow { fill: #fbbc09; }
+
+.job-container { text-align: center; max-width: 1100px; margin: 0 auto; }
+
+.job-text { margin-left: 16.66667%; margin-right: 16.66667%; }
+
+.company-highlight, .apply-now { display: inline-block; font-size: 19px; font-weight: bold; line-height: 1.1; color: rgba(255, 255, 255, 0.5); border: 2px solid rgba(255, 255, 255, 0.3); border-radius: 3px; padding: 1px 3px; margin-right: 3px; }
+
+.company-highlight:hover, .apply-now:hover { text-decoration: none; border-color: white; color: white; }
+
+.job-title { margin-top: 10px; }
+
+.deadline { color: rgba(255, 255, 255, 0.6); }
+
+.deadline .icon { font-size: 110%; color: rgba(255, 255, 255, 0.3); margin-right: .05em; }
+
+.apply-now { color: #fff; border: 4px solid #fff; border-radius: 15px; padding: 10px 10px; margin-right: 3px; margin-top: 20px; }
+
+.apply-now:hover { text-decoration: none; border-color: #d81e5b; color: #d81e5b; background-color: rgba(255, 255, 255, 0.9); }
+
+.redirect-to-jobs { padding: 20px; text-decoration: underline; }
 
 /*! FullCalendar v2.4.0 Stylesheet Docs & License: http://fullcalendar.io/ (c) 2015 Adam Shaw */
 .fc { direction: ltr; text-align: left; }

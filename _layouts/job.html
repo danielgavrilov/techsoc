@@ -1,19 +1,19 @@
 ---
 layout: default
 ---
-<div class="job">
-
-  <header class="job-header">
-    <h1 class="job-title">{{ page.title }}</h1>
-  </header>
-
-  <div class="job-content">
+<div class="job-container ">
+  <div class="company-highlight"> {{page.company}} </div>
+  <h1 class="title job-title" >{{ page.title }}</h1>
+  {% if job.deadline %}
+    <h4 class="deadline"> <i class="deadline icon icon-clock"></i> Deadline: <i> {{page.deadline}} </i> </h4>
+  {% endif %}
+ 
+  <article class="post-content job-text">
     {{ content }}
-  </div>
+  </article>
+   <a href="{{page.apply-link}}" class="apply-now ">Apply Now</a>
 
-  <div class="actions">
-    Deadline: {{ page.deadline }}
-    <a href="{{ page.link }}">Apply</a>
-  </div>
-
+   <div class="redirect-to-jobs">
+   <a href="../"> <b> View all jobs </b></a>
+   </div>
 </div>

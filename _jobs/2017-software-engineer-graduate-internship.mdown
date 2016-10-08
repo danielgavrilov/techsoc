@@ -1,0 +1,27 @@
+---
+title: Software Engineer - Graduate Internship
+company: Bloomberg
+apply-link:  https://careers.bloomberg.com/job/detail/53883
+---
+
+Bloomberg software engineers develop impactful solutions to complex, real-world problems. This is no different for our interns. Engineering interns take ownership of their projects under the mentorship of full-time software engineers. We are looking for top computer science students who are passionate about technology and eager to learn in our high energy, fast-paced environment.
+As an intern, you’ll become an expert on the Bloomberg Terminal and gain a deeper understanding of technology and finance. In addition to your projects, you’ll participate in coding challenges, attend tech talks and network with other interns.
+<br>
+<br>
+We’ll trust you to:
+<br>
+<br>
+ Take ownership of projects under the guidance of your mentor
+ Be a collaborative member of your team
+ Have a deep understanding of data structures and algorithms
+ Be an excellent problem solver
+<br>
+<br>
+You’ll need to:
+<br>
+<br>
+ Have programming experience in C, C++, Java or Python
+ Be working towards a degree in Computer Science.
+<br>
+<br>
+We are extremely proud of our diverse and open culture, and value diversity of thought and perspective in every form. We're looking for engineers with a passion for writing reusable, efficient solutions to complex problems, who can keep an open mind and adapt to an ever-changing market landscape, collaborate and work effectively on small teams, and want to develop software that impacts thousands of power users around the world. If this sounds like you, please apply below!

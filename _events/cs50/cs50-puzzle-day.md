@@ -1,9 +1,10 @@
 ---
 facebook_id: '183051782124510'
 title: CS50 Puzzle Day
+series_id: cs50
 start_time: '2016-10-05 14:00'
 end_time: '2016-10-05 17:00'
-location: UCL
+location: Gordon Street (25) E28 Harrie Massey LT
 actions:
   - label: Tickets
     url: 'https://www.eventbrite.co.uk/e/uclu-tech-society-cs50-puzzle-day-tickets-27700351497'

@@ -26,7 +26,12 @@
 
 @media (min-width: $screen-xs-max) {
   .responsive-boxes .box {
-    max-width: 33.333%;
+    flex-basis: 33.333%;
+  }
+}
+
+@media (min-width: 767px) {
+  .responsive-boxes .box {
     flex-basis: 33.333%;
   }
 }

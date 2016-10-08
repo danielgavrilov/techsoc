@@ -1,8 +1,9 @@
 ---
 name: BlackRock
+slug: blackrock
 link: http://www.blackrockoncampus.com/?locale=uk
 logo: /assets/images/sponsors/blackrock.svg
-order: 1
+tier: gold
 ---
 
 We bring together financial leadership and state-of-the-art technology to deliver investment strategies that make a difference for our clients.

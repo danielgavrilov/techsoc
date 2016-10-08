@@ -1,0 +1,27 @@
+---
+layout: page-narrow
+---
+
+{% assign sponsor = page %}
+
+<div class="post">
+    <header class="post-header">
+        <img width="75%" src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
+    </header>
+    <article class="post-content">
+        {{ sponsor.content }}
+    </article>
+    <h3 style="text-align: center;"> Opportunities </h3>
+    <div class="responsive-boxes ">
+		{% if site.jobs %}
+		    {% for job in site.jobs %}
+		    	{% if job.company == sponsor.name %}
+			      {% include job-overview.html job=job %}
+			    {% endif %}
+
+		    {% endfor %}
+		{% else %}
+		  <p>No jobs available at the moment</p>
+		{% endif %}
+	</div>
+</div>
