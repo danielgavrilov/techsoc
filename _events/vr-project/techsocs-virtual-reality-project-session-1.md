@@ -4,6 +4,7 @@ title: TechSoc's Virtual Reality Project - Session 1
 start_time: '2016-10-12 14:00'
 end_time: '2016-10-12 15:00'
 location: Roberts Building G08
+project_id: vr-project
 ---
 
 For the first session, we will explain the structure of the VR Project and begin to brainstorm the initial ideas for our game!  

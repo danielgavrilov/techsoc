@@ -4,6 +4,7 @@ title: TechSoc's Hardware Project - Introduction
 start_time: '2016-10-10 16:30'
 end_time: '2016-10-10 17:30'
 location: Roberts Building 422
+project_id: hardware-project
 ---
 
 During this first session we will explain the structure of the Hardware Project and we will start exploring the possibilities that we have with our robots!  
