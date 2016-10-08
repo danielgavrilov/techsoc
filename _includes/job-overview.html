@@ -1,5 +1,9 @@
-<li>
-  <a href="{{ job.url | prepend: site.baseurl }}">
-    <strong>{{ job.title }}</strong>{% if job.company %} at {{ job.company }}{% endif %}
-  </a>
-</li>
+<div class="box ">
+	<a class="series-overview" href="{{ job.url | prepend: site.baseurl }}">
+		{{ job.company }} 
+		<h3>{{ job.title }}</h3>
+		 
+		<p> {{ job.tagline }} </p>
+		<div class="button"> <b> Find out more </b> </div>
+	</a>
+</div>

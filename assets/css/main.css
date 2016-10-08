@@ -930,6 +930,24 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .background-normal { background-size: cover; background: -webkit-linear-gradient(rgba(18, 28, 68, 0), #121C44 90%), -webkit-linear-gradient(45deg, rgba(18, 28, 68, 0), rgba(216, 30, 91, 0.25) 95%), url(../images/UCL.jpg); background: linear-gradient(rgba(18, 28, 68, 0), #121C44 90%), linear-gradient(45deg, rgba(18, 28, 68, 0), rgba(216, 30, 91, 0.25) 95%), url(../images/UCL.jpg); }
 
+.job-container { text-align: center; max-width: 1100px; margin: 0 auto; }
+
+.job-text { margin-left: 16.66667%; margin-right: 16.66667%; }
+
+.company-highlight, .apply-now { display: inline-block; font-size: 19px; font-weight: bold; line-height: 1.1; color: rgba(255, 255, 255, 0.5); border: 2px solid rgba(255, 255, 255, 0.3); border-radius: 3px; padding: 1px 3px; margin-right: 3px; }
+
+.company-highlight:hover, .apply-now:hover { text-decoration: none; border-color: white; color: white; }
+
+.job-title { margin-top: 10px; }
+
+.deadline { color: rgba(255, 255, 255, 0.6); }
+
+.deadline .icon { font-size: 110%; color: rgba(255, 255, 255, 0.3); margin-right: .05em; }
+
+.apply-now { color: #fff; border: 4px solid #fff; border-radius: 15px; padding: 10px 10px; margin-right: 3px; margin-top: 20px; }
+
+.apply-now:hover { text-decoration: none; border-color: #d81e5b; color: #d81e5b; }
+
 .banner { position: absolute; top: 0; left: 0; background-color: rgba(216, 30, 91, 0.6); width: 100%; }
 
 .banner-content { margin: 0 auto; padding: 10px; text-align: center; color: white; }
@@ -1418,6 +1436,26 @@ a:hover img.microsoft .green { fill: #80cc28; }
 a:hover img.microsoft .blue { fill: #00adef; }
 
 a:hover img.microsoft .yellow { fill: #fbbc09; }
+
+.job-container { text-align: center; max-width: 1100px; margin: 0 auto; }
+
+.job-text { margin-left: 16.66667%; margin-right: 16.66667%; }
+
+.company-highlight, .apply-now { display: inline-block; font-size: 19px; font-weight: bold; line-height: 1.1; color: rgba(255, 255, 255, 0.5); border: 2px solid rgba(255, 255, 255, 0.3); border-radius: 3px; padding: 1px 3px; margin-right: 3px; }
+
+.company-highlight:hover, .apply-now:hover { text-decoration: none; border-color: white; color: white; }
+
+.job-title { margin-top: 10px; }
+
+.deadline { color: rgba(255, 255, 255, 0.6); }
+
+.deadline .icon { font-size: 110%; color: rgba(255, 255, 255, 0.3); margin-right: .05em; }
+
+.apply-now { color: #fff; border: 4px solid #fff; border-radius: 15px; padding: 10px 10px; margin-right: 3px; margin-top: 20px; }
+
+.apply-now:hover { text-decoration: none; border-color: #d81e5b; color: #d81e5b; background-color: rgba(255, 255, 255, 0.9); }
+
+.redirect-to-jobs { padding: 20px; text-decoration: underline; }
 
 /*! FullCalendar v2.4.0 Stylesheet Docs & License: http://fullcalendar.io/ (c) 2015 Adam Shaw */
 .fc { direction: ltr; text-align: left; }

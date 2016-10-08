@@ -1,0 +1,17 @@
+---
+layout: page-with-title
+title: Jobs
+permalink: /jobs/
+redirect_from: /jobs.html
+navigation: false
+order: 7
+---
+<div class="responsive-boxes ">
+	{% if site.jobs %}
+	    {% for job in site.jobs %}
+		      {% include job-overview.html job=job %}
+	    {% endfor %}
+	{% else %}
+	  <p>No jobs available at the moment</p>
+	{% endif %}
+</div>
