@@ -1,7 +1,7 @@
 ---
 project_id: vr-project
 title: VR Project 2016
-event_label: VR Project 2016
+event_label: VR Project 
 category: Virtual Reality
 logo: vrprojectlogo.png
 start_time: "2016-10-12"

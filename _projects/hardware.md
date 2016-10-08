@@ -1,7 +1,7 @@
 ---
 project_id: hardware-project
 title: Hardware Project 2016
-event_label: Hardware Project 2016
+event_label: Hardware Project 
 category: hardware
 logo: hardwarelogo.png
 start_time: "2016-10-10"
