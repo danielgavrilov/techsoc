@@ -837,15 +837,15 @@ tbody.collapse.in { display: table-row-group; }
   100% { opacity: 1; } }
 
 /* Responsive boxes using flexbox */
-.responsive-boxes { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; margin: 0 -10px; }
+.responsive-boxes { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; margin: 0 -10px; }
 
-.responsive-boxes .box { -webkit-box-flex: 0; -ms-flex: 0; flex: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; padding: 10px; margin: 0 auto; -ms-flex-preferred-size: 100%; flex-basis: 100%; max-width: 100%; }
+.responsive-boxes .box { -webkit-box-flex: 0; -webkit-flex: 0; -ms-flex: 0; flex: 0; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; padding: 10px; margin: 0 auto; -webkit-flex-basis: 100%; -ms-flex-preferred-size: 100%; flex-basis: 100%; max-width: 100%; }
 
-@media (min-width: 480px) { .responsive-boxes .box { max-width: 50%; -ms-flex-preferred-size: 50%; flex-basis: 50%; } }
+@media (min-width: 480px) { .responsive-boxes .box { max-width: 50%; -webkit-flex-basis: 50%; -ms-flex-preferred-size: 50%; flex-basis: 50%; } }
 
-@media (min-width: 767px) { .responsive-boxes .box { -ms-flex-preferred-size: 33.333%; flex-basis: 33.333%; } }
+@media (min-width: 767px) { .responsive-boxes .box { -webkit-flex-basis: 33.333%; -ms-flex-preferred-size: 33.333%; flex-basis: 33.333%; } }
 
-@media (min-width: 767px) { .responsive-boxes .box { -ms-flex-preferred-size: 33.333%; flex-basis: 33.333%; } }
+@media (min-width: 767px) { .responsive-boxes .box { -webkit-flex-basis: 33.333%; -ms-flex-preferred-size: 33.333%; flex-basis: 33.333%; } }
 
 /* SpinKit spinning animation - http://tobiasahlin.com/spinkit/ */
 .sk-circle { margin: 100px auto; width: 60px; height: 60px; position: relative; }
@@ -958,9 +958,9 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .site-header:hover { background: #121C44; }
 
-.site-nav { font-size: 1.125em; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding: 10px; }
+.site-nav { font-size: 1.125em; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; padding: 10px; }
 
-.site-nav-header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.site-nav-header { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
 
 .site-nav-header h1 { font-size: 1.166em; color: white; margin: 0; }
 
@@ -985,7 +985,7 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 .site-masthead { margin-bottom: 30px; }
 
 @media (max-width: 767px) { .site-nav { font-size: 17px; display: block; padding: 0; }
-  .site-nav-header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 100%; padding: 10px; }
+  .site-nav-header { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; width: 100%; padding: 10px; }
   .site-nav-header .toggle { display: block; }
   .site-nav-links { text-align: center; }
   .site-nav-links li { display: block; border-top: 1px solid rgba(255, 255, 255, 0.13); }
@@ -1146,11 +1146,11 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .post-content .three-wide { max-width: 32%; display: inline; }
 
-.member-overview { border: 3px solid rgba(255, 255, 255, 0.1); border-radius: 6px; padding: 13px; text-align: center; -webkit-box-flex: 1; -ms-flex: 1; flex: 1; margin-top: 32px; }
+.member-overview { border: 3px solid rgba(255, 255, 255, 0.1); border-radius: 6px; padding: 13px; text-align: center; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; margin-top: 32px; }
 
 .member-overview .name { font-size: 1.25em; margin: 0 0 .25em; }
 
-.member-overview .role { font-size: 1.0625; -webkit-box-flex: 1; -ms-flex: 1; flex: 1; color: rgba(255, 255, 255, 0.5); margin: 0; }
+.member-overview .role { font-size: 1.0625; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; color: rgba(255, 255, 255, 0.5); margin: 0; }
 
 .member-overview .social-media-list { margin-top: 8px; margin-left: -1px; line-height: 1.625em; }
 
@@ -1290,17 +1290,17 @@ body .contact-notice { margin-top: 3em; text-align: center; }
 
 body .contact-notice h3 { font-size: 1.166em; font-weight: normal !important; }
 
-.series-overview { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; border: 3px solid rgba(255, 255, 255, 0.12); border-radius: 6px; padding: 1em; text-align: center; -webkit-transition: border-color 200ms linear; transition: border-color 200ms linear; }
+.series-overview { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; border: 3px solid rgba(255, 255, 255, 0.12); border-radius: 6px; padding: 1em; text-align: center; -webkit-transition: border-color 200ms linear; transition: border-color 200ms linear; }
 
 .series-overview:hover { border-color: white; text-decoration: none; }
 
 .series-overview h3 { font-size: 1.125em; font-weight: bold; line-height: 1.3; color: white; text-transform: uppercase; margin: 0 0 .35em; }
 
-.series-overview p { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; font-size: 1em; color: rgba(255, 255, 255, 0.45); -webkit-transition: color 200ms linear; transition: color 200ms linear; }
+.series-overview p { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; font-size: 1em; color: rgba(255, 255, 255, 0.45); -webkit-transition: color 200ms linear; transition: color 200ms linear; }
 
 .series-overview:hover p { color: white; }
 
-.series-overview .button { font-size: 0.875em; font-weight: bold; color: #b4b7c2; text-transform: uppercase; border-radius: 3px; border: 4px solid #b4b7c2; width: 100%; padding: 7px; -ms-flex-item-align: end; align-self: flex-end; -webkit-transition: background-color 200ms linear, color 200ms linear; transition: background-color 200ms linear, color 200ms linear; }
+.series-overview .button { font-size: 0.875em; font-weight: bold; color: #b4b7c2; text-transform: uppercase; border-radius: 3px; border: 4px solid #b4b7c2; width: 100%; padding: 7px; -webkit-align-self: flex-end; -ms-flex-item-align: end; align-self: flex-end; -webkit-transition: background-color 200ms linear, color 200ms linear; transition: background-color 200ms linear, color 200ms linear; }
 
 .series-overview:hover .button { border-color: transparent; background-color: #d81e5b; color: white; }
 
