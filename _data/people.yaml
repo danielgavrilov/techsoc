@@ -8,6 +8,7 @@
     facebook: https://www.facebook.com/wilhelm.kl
     github: https://github.com/xoneco
     linkedin: https://www.linkedin.com/in/wilhelmklopp
+    slack: slack://user?team=T0UGQ82Q4&id=U0UGZJ4J1
 
 - name: Emily Mears
   role: Vice President
@@ -19,6 +20,7 @@
     github: https://github.com/emilyruby
     instagram: https://instagram.com/highfiveemily
     linkedin: https://uk.linkedin.com/in/emily-mears-b145a5114
+    slack: slack://user?team=T0UGQ82Q4&id=U0UJ898HY
 
 - name: Reemma Muthal Puredath
   img-link: '../assets/images/people/rema.jpg'
@@ -31,6 +33,7 @@
     instagram: https://instagram.com/reema_menon/
     twitter: https://twitter.com/reemmapuredath
     github: https://github.com/ReemmaMP
+    slack: slack://user?team=T0UGQ82Q4&id=U1XRJLLR1
 
 - name: Marco Concetto Rudilosso
   role: Projects Director
@@ -41,6 +44,7 @@
     instagram: https://twitter.com/maaarcocr
     linkedin: https://uk.linkedin.com/in/marco-concetto-rudilosso-048614108
     github: https://github.com/maaarcocr
+    slack: slack://user?team=T0UGQ82Q4&id=U0UHD8B8D
 
 - name: Sachchit Prasad
   role: Hackathons Director
@@ -51,6 +55,7 @@
     instagram: https://instagram.com/SachchitPrasad
     linkedin: https://uk.linkedin.com/in/sachchitp
     github: https://github.com/SachchitP
+    slack: slack://user?team=T0UGQ82Q4&id=U0VC7MZFF
 
 - name: Diana K. Lee
   role: Outreach Director
@@ -63,6 +68,7 @@
     linkedin: https://uk.linkedin.com/in/dianaklee
     instagram: https://instagram.com/duhrtyd/
     website: http://diana.click/
+    slack: slack://user?team=T0UGQ82Q4&id=U0UMD6J2H
 
 - name: Maya Afshar
   role: Events Director
@@ -72,6 +78,7 @@
     twitter: https://twitter.com/MayaAfshar
     linkedin: https://uk.linkedin.com/in/afshar95
     github: https://github.com/chilichilimo
+    slack: slack://user?team=T0UGQ82Q4&id=U0UJKJXK7
 
 - name: Christopher Hammond
   role: Clients Director
@@ -80,6 +87,7 @@
   profiles:
     linkedin: https://uk.linkedin.com/in/christopherhammond13
     github: https://github.com/ChristopherHammond13
+    slack: slack://user?team=T0UGQ82Q4&id=U2EJ278E9
 
 - name: Matt Policane
   role: Socials Director
@@ -91,6 +99,7 @@
     linkedin: https://uk.linkedin.com/in/matt-policane-5395289b
     github: https://github.com/officialmatt
     website: http://policane.com
+    slack: slack://user?team=T0UGQ82Q4&id=U0UH70FJA
 
 - name: Matt Bell
   role: Marketing Director
@@ -103,6 +112,7 @@
     linkedin: https://uk.linkedin.com/in/mbellcs
     instagram: https://instagram.com/mbell_gb
     website: https://mbell.me
+    slack: slack://user?team=T0UGQ82Q4&id=U0UH15GPN
 
 - name: Henry Mortimer
   role: Security Team
@@ -112,6 +122,7 @@
     facebook: https://www.facebook.com/henry.mortimer.5
     github: https://github.com/hennersz
     linkedin: https://uk.linkedin.com/pub/henry-mortimer/108/786/3aa
+    slack: slack://user?team=T0UGQ82Q4&id=U0VALSX45
 
 - name: Faiz Abdul
   role: Projects Team
@@ -122,6 +133,7 @@
     instagram: https://instagram.com/abdulfaizp
     linkedin: https://uk.linkedin.com/in/abdulfaizp
     github: https://github.com/abdulfaizp
+    slack: slack://user?team=T0UGQ82Q4&id=U0UL3E22Y
 
 - name: Pranav Nashikkar
   role: Hackathons Team
@@ -131,6 +143,7 @@
     twitter: https://twitter.com/PranavNash
     linkedin: https://uk.linkedin.com/in/pranav-nashikkar-56609a10a
     github: https://github.com/PranavNashikkar
+    slack: slack://user?team=T0UGQ82Q4&id=U2K647WQK
 
 - name: Jaromir Latal
   role: Hackathons Team
@@ -140,6 +153,7 @@
     twitter: https://twitter.com/JerMenKoO
     linkedin: https://uk.linkedin.com/in/jlatal
     github: https://github.com/jermenkoo
+    slack: slack://user?team=T0UGQ82Q4&id=U2BRTVC5B
 
 - name: Shanice Ong
   role: Outreach Team
@@ -147,6 +161,7 @@
   team: true
   profiles:
     linkedin: https://uk.linkedin.com/in/sheue-nie-shanice-ong-597544110
+    slack: slack://user?team=T0UGQ82Q4&id=U2NA1JU79
 
 - name: Tanvi Khetan
   role: Outreach Team
@@ -159,6 +174,7 @@
   team: true
   profiles:
     linkedin: https://uk.linkedin.com/in/ashu-savani-023547114
+    slack: slack://user?team=T0UGQ82Q4&id=U0UG302HH
 
 - name: Martí Serra Vivancos
   img-link: '../assets/images/people/marti.jpg'
@@ -176,6 +192,7 @@
   team: true
   profiles:
     linkedin: https://uk.linkedin.com/in/matineh-akhlaghinia-619761108
+    slack: slack://user?team=T0UGQ82Q4&id=U2JJC14D6
 
 - name: Jay Jeyaruban
   role: Socials Team
@@ -199,6 +216,7 @@
   profiles:
     twitter: https://twitter.com/vickyd885
     linkedin: https://uk.linkedin.com/pub/vicky-dineshchandra/b5/776/430
+    slack: slack://user?team=T0UGQ82Q4&id=U0V517214
 
 - name: Fraser Savage
   role: Gamejam Organiser
@@ -208,3 +226,4 @@
     github: https://github.com/savage-engineer
     twitter: https://twitter.com/engineer_savage
     linkedin: https://uk.linkedin.com/in/frasersavage
+    slack: slack://user?team=T0UGQ82Q4&id=U0USMDT7T
