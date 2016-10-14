@@ -2,6 +2,14 @@
   logo: /assets/images/partners/ucl.svg
   link: http://www.cs.ucl.ac.uk
 
+- name: Netcraft
+  logo: /assets/images/sponsors/netcraft.png
+  link: https://www.netcraft.com
+
+- name: Stroz Friedberg
+  logo: /assets/images/sponsors/strozfriedberg.png
+  link: https://www.strozfriedberg.com
+
 # - name: Microsoft
 #   logo: /assets/images/partners/microsoft.svg
 #   link: https://microsoft.com
