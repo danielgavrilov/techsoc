@@ -45,15 +45,16 @@ order: 7
 <!--             <div class="description">
                 {{ sponsor.content }}
             </div> -->
-        </div>
+            </div>
         </div>
         {% endfor %}
     </div>
 
 <h2 class="page-title">Bronze Sponsors</h2>
-    <div class="partners">
+    <div class="responsive-boxes">
         {% assign sponsors = site.sponsors | where:"tier","bronze" %}
         {% for sponsor in sponsors %}
+        <div class="box sponsor-overview">
             {% if sponsor.info %}
                 <a  href="{{ sponsor.slug }}" target="_blank" title="{{ sponsor.name }}" class="logo">
                     <img src="{{ sponsor.logo | prepend: site.baseurl }}" alt="{{ sponsor.name }} logo" class="{{ sponsor.name | slugify }}">
@@ -62,7 +63,8 @@ order: 7
                 <a href="{{ sponsor.link }}" target="_blank" title="{{ sponsor.name }}" class="logo">
                     <img src="{{ sponsor.logo | prepend: site.baseurl }}" alt="{{ sponsor.name }} logo" class="{{ sponsor.name | slugify }}">
                 </a>
-            {% endif %}       
+            {% endif %}
+        </div>       
         {% endfor %}
     </div>
 
