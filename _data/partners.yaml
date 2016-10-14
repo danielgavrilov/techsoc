@@ -6,9 +6,9 @@
   logo: /assets/images/sponsors/netcraft.png
   link: https://www.netcraft.com
 
-- name: Stroz Friedberg
-  logo: /assets/images/sponsors/strozfriedberg.png
-  link: https://www.strozfriedberg.com
+# - name: Stroz Friedberg
+#   logo: /assets/images/sponsors/strozfriedberg.png
+#   link: https://www.strozfriedberg.com
 
 # - name: Microsoft
 #   logo: /assets/images/partners/microsoft.svg
