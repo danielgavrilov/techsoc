@@ -79,7 +79,7 @@ order: 7
     </div>
     <div class="partners">
         {% for partner in site.data.partners %}
-        <a href="{{ partner.link }}" title="{{ partner.name }}" class="logo">
+        <a href="{{ partner.link }}" target="_blank" title="{{ partner.name }}" class="logo">
             <img src="{{ partner.logo | prepend: site.baseurl }}" alt="{{ partner.name }} logo" class="{{ partner.name | slugify }}">
         </a>
         {% endfor %}
