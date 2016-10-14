@@ -5,6 +5,7 @@ link: https://www.credit-suisse.com/uk/en/careers/campus-recruiting.html
 logo: /assets/images/sponsors/credit-suisse.svg
 order: 3
 tier: silver
+info: on
 ---
 
 If you’re interested in the innovative technologies that are shaping the financial industry, apply to our Technology division. Our group has more than 10,000 highly skilled Technology professionals using every available area of technology, from complex programming to systems architecture.

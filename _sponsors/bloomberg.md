@@ -4,6 +4,7 @@ slug: bloomberg
 link: http://www.bloomberg.com/careers/
 logo: /assets/images/sponsors/bloomberg.svg
 tier: gold
+info: on
 ---
 
 Our team thrives on challenges—to be the most customer-focused, to be the fastest to market, to be the most agile to adapt in an evolutionary, dynamic marketplace.
