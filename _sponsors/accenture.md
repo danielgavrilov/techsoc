@@ -1,7 +1,7 @@
 ---
 name: Accenture
 slug: accenture
-link: http://www.blackrockoncampus.com/?locale=uk
+link: http://www.accenture.com
 logo: /assets/images/sponsors/accenture.png
 tier: bronze
 ---

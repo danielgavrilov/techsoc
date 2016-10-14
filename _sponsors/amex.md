@@ -1,7 +1,7 @@
 ---
 name: American Express
 slug: amex
-link: http://www.blackrockoncampus.com/?locale=uk
+link: http://www.americanexpress.com
 logo: /assets/images/sponsors/american-express.svg
 tier: gold
 ---

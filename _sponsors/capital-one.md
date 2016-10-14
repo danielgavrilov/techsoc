@@ -1,7 +1,7 @@
 ---
 name: Capital One
 slug: capital-one
-link: http://www.blackrockoncampus.com/?locale=uk
+link: http://www.capitalone.com
 logo: /assets/images/sponsors/capital-one.png
 tier: gold
 ---
