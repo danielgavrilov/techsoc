@@ -175,7 +175,7 @@ order: 1
           <img src="{{ sponsor.logo | prepend: site.baseurl }}" alt="{{ sponsor.name }} logo" class="{{ sponsor.name | slugify }}">
         </a>
       {% endfor %}
-      {% for partner in site.data.partners %}
+      {% for partner in site.data.partners limit: 1 %}
         <a title="{{ partner.name }}" class="partner logo">
           <img src="{{ partner.logo | prepend: site.baseurl }}" alt="{{ partner.name }} logo" class="{{ partner.name | slugify }}">
         </a>
