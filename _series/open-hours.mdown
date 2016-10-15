@@ -1,0 +1,10 @@
+---
+series_id: open-hour
+title: Open Hour
+start_time: "2016-10-15"
+end_time: "2017-10-15"
+excerpt: |
+  If you have any questions, come and chat to committee about anything tech or non tech related.
+---
+
+If you have any questions, come and chat to committee about anything tech or non tech related.
