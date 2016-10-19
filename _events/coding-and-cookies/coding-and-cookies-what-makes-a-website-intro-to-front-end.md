@@ -1,7 +1,7 @@
 ---
 facebook_id: '1793239157620054'
 title: 'Coding & Cookies: What makes a website? [Intro to Front-End]'
-location: TBC
+location: Chadwick G07
 series_id: coding-and-cookies
 start_time: '2016-10-14 18:00'
 end_time: '2016-10-14 20:30'
