@@ -7,6 +7,7 @@ var yaml = require("js-yaml");
 var moment = require("moment");
 var _ = require("lodash");
 var Q = require("q");
+var chalk = require("chalk");
 
 
 // Facebook API
@@ -113,7 +114,6 @@ function saveEventFile(event) {
     filename = "_events/import-" + slug(title, {lower: true}) + ".md";
   }
 
-  console.log("Adding " + title + "...")
   fs.writeFileSync(filename, content);
 }
 
@@ -124,24 +124,19 @@ function findEvent(events, facebookEventId) {
   return _.find(events, { attributes: { facebook_id: facebookEventId } });
 }
 
-function compareEvents(facebookEvent, siteEvent) {
-  var title = siteEvent.attributes.title;
-  var filename = siteEvent.filename;
+function diffEventAttrs(facebookEventAttrs, siteEventAttrs) {
 
-  var fb = facebookEvent.attributes;
-  var site = siteEvent.attributes;
+  var diff = {};
 
-  if (fb.start_time != site.start_time) {
-    console.log("\n" + title + " (" + filename + ") has mismatching start time:");
-    console.log("  Facebook start time: " + fb.start_time);
-    console.log("      Site start time: " + site.start_time);
-  }
+  ["start_time", "end_time", "location"].forEach(function(attr) {
+    var fbAttrs = facebookEventAttrs[attr];
+    var siteAttrs = siteEventAttrs[attr];
+    if (fbAttrs && fbAttrs !== siteAttrs) {
+      diff[attr] = fbAttrs;
+    }
+  });
 
-  if (fb.end_time && fb.end_time != site.end_time) {
-    console.log("\n" + title + " (" + filename + ") has mismatching end time:");
-    console.log("  Facebook end time: " + fb.end_time);
-    console.log("      Site end time: " + site.end_time);
-  }
+  return diff;
 }
 
 
@@ -157,22 +152,38 @@ Q.all([
 
   // Compare times for existing events
 
-  console.log("\nComparing start/end times for existing events...");
-
   var existingFacebookIds = _.intersection(
     facebookEventsIds,
     siteEventsIds
   );
 
   existingFacebookIds.forEach(function(facebookEventId) {
+
     var facebookEvent = findEvent(facebookEvents, facebookEventId);
     var siteEvent     = findEvent(siteEvents,     facebookEventId);
-    compareEvents(facebookEvent, siteEvent);
+
+    var diffAttrs = diffEventAttrs(facebookEvent.attributes, siteEvent.attributes);
+
+    if (!_.isEmpty(diffAttrs)) {
+
+      var attrs = siteEvent.attributes;
+      var title = attrs.title;
+      var filename = siteEvent.filename;
+
+      console.log("Updating " + chalk.bold(title) + " (" + filename + ")");
+
+      for (attr in diffAttrs) {
+        console.log(attr + ": " + chalk.red(attrs[attr]) + " → " + chalk.green(diffAttrs[attr]));
+      }
+
+      console.log("");
+
+      siteEvent.attributes = _.extend(siteEvent.attributes, diffAttrs);
+      saveEventFile(siteEvent);
+    }
   })
 
   // Add missing events
-
-  console.log("\nAdding missing events...");
 
   var missingFacebookIds = _.difference(
     facebookEventsIds,
@@ -183,11 +194,14 @@ Q.all([
     return _.contains(missingFacebookIds, event.attributes.facebook_id);
   });
 
-  missingEvents.forEach(saveEventFile);
+  missingEvents.forEach(function(event) {
+    console.log("Adding " + chalk.bold(event.attributes.title));
+    saveEventFile(event);
+  });
 
   if (missingEvents.length > 0) {
-    console.log("\nPlease don't forget to rename the files!");
-    console.log("Add series_ids and project_ids where necessary, and review content before committing.");
+    console.log("\nPlease don't forget to " + chalk.bold("rename the files!"));
+    console.log("Add " + chalk.bold("series_ids") + " and " + chalk.bold("project_ids") + " where necessary, and review content before committing.");
     console.log("\nThanks. TechSoc loves you <3");
   } else {
     console.log("No events to add, they are all synced up!");
