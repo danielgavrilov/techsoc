@@ -1166,6 +1166,8 @@ code { font-family: "Source Code Pro", Consolas, Monaco, monospace; }
 
 .profile-pic { border-radius: 50%; height: 120px; width: 120px; margin-top: -59px; border: 7px solid #121C44; }
 
+.end-credits { border-top-color: #d81e5b; border-top-style: ridge; padding-top: 3%; text-align: center; }
+
 .events-view-tabs { text-align: center; margin-bottom: 2em; }
 
 .events-view-tabs li { display: inline-block; }
