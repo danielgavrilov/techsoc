@@ -101,19 +101,6 @@
     website: http://policane.com
     slack: slack://user?team=T0UGQ82Q4&id=U0UH70FJA
 
-- name: Matt Bell
-  role: Marketing Director
-  img-link: '../assets/images/people/mattbell.jpg'
-  team: true
-  profiles:
-    twitter: https://twitter.com/mbell_gb
-    facebook: https://facebook.com/mbellgb
-    github: https://github.com/mbellgb
-    linkedin: https://uk.linkedin.com/in/mbellcs
-    instagram: https://instagram.com/mbell_gb
-    website: https://mbell.me
-    slack: slack://user?team=T0UGQ82Q4&id=U0UH15GPN
-
 - name: Henry Mortimer
   role: Security Team
   img-link: '../assets/images/people/henry.jpg'
