@@ -73,7 +73,7 @@ function loadSlackGraph(){
 	var myChart = new Chart(ctx, {
 	    type: 'bar',
 	    data: {
-	        labels: labels,
+	        labels: labels.reverse(),
 	        datasets: [
 	        {
 	            label: 'Slack Messages p/ Week ',
