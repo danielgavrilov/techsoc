@@ -3,7 +3,7 @@ facebook_id: '1781394282116441'
 title: Hackathon Ready
 start_time: '2016-10-26 14:00'
 end_time: '2016-10-26 15:00'
-location: MBEP 1.02
+location: MPEB 1.02
 series_id: hackathons
 ---
 
