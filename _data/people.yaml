@@ -46,19 +46,6 @@
     github: https://github.com/maaarcocr
     slack: slack://user?team=T0UGQ82Q4&id=U0UHD8B8D
 
-- name: Sachchit Prasad
-  role: Hackathons Director
-  img-link: '../assets/images/people/sach.jpg'
-  team: true
-  profiles:
-    twitter: https://twitter.com/SachchitPrasad
-    instagram: https://instagram.com/SachchitPrasad
-    linkedin: https://uk.linkedin.com/in/sachchitp
-    github: https://github.com/SachchitP
-    slack: slack://user?team=T0UGQ82Q4&id=U0VC7MZFF
-
-
-
 - name: Diana K. Lee
   role: Outreach Director
   img-link: '../assets/images/people/dianaklee.jpg'
@@ -151,6 +138,17 @@
     github: https://github.com/jermenkoo
     slack: slack://user?team=T0UGQ82Q4&id=U2BRTVC5B
 
+- name: Sachchit Prasad
+  role: Hackathons Team
+  img-link: '../assets/images/people/sach.jpg'
+  team: true
+  profiles:
+    twitter: https://twitter.com/SachchitPrasad
+    instagram: https://instagram.com/SachchitPrasad
+    linkedin: https://uk.linkedin.com/in/sachchitp
+    github: https://github.com/SachchitP
+    slack: slack://user?team=T0UGQ82Q4&id=U0VC7MZFF
+
 - name: Shanice Ong
   role: Outreach Team
   img-link: '../assets/images/people/shanice.jpg'
@@ -223,3 +221,4 @@
     twitter: https://twitter.com/engineer_savage
     linkedin: https://uk.linkedin.com/in/frasersavage
     slack: slack://user?team=T0UGQ82Q4&id=U0USMDT7T
+
