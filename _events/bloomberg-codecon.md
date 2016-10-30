@@ -3,7 +3,7 @@ facebook_id: '629543983892421'
 title: Bloomberg CodeCon
 start_time: '2016-11-09 16:30'
 end_time: '2016-11-09 21:00'
-location: London
+location: Gordon Street (25) D103
 actions:
   - label: Tickets
     url: 'http://tinyurl.com/za84kmp'
