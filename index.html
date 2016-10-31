@@ -26,16 +26,13 @@ order: 1
             <a href="{{ '/series/algorithms-in-c' | prepend: site.baseurl }}">workshops</a>,
             <a href="{{ '/series/coding-and-cookies' | prepend: site.baseurl }}">classes</a>,
             and
-            <a href="{{ '/projects' | prepend: site.baseurl }}">projects</a> for any UCL student.
+            <a href="{{ '/projects' | prepend: site.baseurl }}">projects</a>.
           </p>
           <p class="intro">And the best bit? Membership is now completely free.</p>
-          <p><a href="http://uclu.org/clubs-societies/tech-society" class="join-now">Become A Member!</a></p>
-          <p class="intro">Like our Facebook page for the latest updates and events; and join our Slack community to natter with current members.</p>
-          <p>
-              <a href="https://facebook.com/uclutechsoc" class="join-now"><i class="icon icon-facebook"></i> Learn More</a>
-              <a href="https://techsochq.slack.com" class="join-now"><i class="icon icon-slack"></i> Connect With Us</a>
-          </p>
-          <a href="{{ '/welcome' | prepend: site.baseurl }}" class="join-now">Join now</a>
+          <p><a href="http://uclu.org/clubs-societies/tech-society" class="join-now">Become A Member</a></p>
+          <br />
+          <p class="intro">Like our <a href="https://facebook.com/{{ site.facebook_username }}"><i class="icon icon-facebook"></i>Facebook page</a> for the latest updates and events, and join our <a href="{{ site.slack_url }}"><i class="icon icon-slack"></i>Slack community</a> to natter with current members.</p>
+          <a href="{{ '/welcome' | prepend: site.baseurl }}" class="join-now">Read our welcome guide</a>
         </div>
       </div>
     </div>
@@ -144,7 +141,7 @@ order: 1
             </p>
           </div>
             <p>
-              <a href="https://techsochq.slack.com" class="button"><i class="icon icon-slack "></i> Connect With Us</a>
+              <a href="{{ site.slack_url }}" class="button"><i class="icon icon-slack "></i> Connect With Us</a>
             </p>
         </div>
       </div>

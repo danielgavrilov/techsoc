@@ -26,7 +26,7 @@
   p {
     flex: 1;
     font-size: 1em;
-    color: rgba(255,255,255,0.45);
+    color: rgba(white,0.45);
     transition: color 200ms linear;
   }
 
@@ -37,10 +37,10 @@
   .button {
     font-size: 0.875em;
     font-weight: bold;
-    color: #b4b7c2;
+    color: rgba(white,.6);
     text-transform: uppercase;
     border-radius: 3px;
-    border: 4px solid #b4b7c2;
+    border: 3px solid rgba(white,0.12);
     width: 100%;
     padding: 7px;
     align-self: flex-end;
@@ -94,7 +94,7 @@
 
   .subtext {
     font-size: 1.125em;
-    color: rgba(255,255,255,.6);
+    color: rgba(white,.6);
 
     em {
       font-style: normal;
