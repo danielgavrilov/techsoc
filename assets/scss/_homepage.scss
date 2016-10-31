@@ -21,6 +21,7 @@
       font-size: 1.25em;
       line-height: 1.5;
       color: rgba(white, .8);
+      text-shadow: 0 1px 5px $brand-primary;
     }
 
     .button {
@@ -56,6 +57,7 @@
 
     .intro {
       font-size: 1.25em;
+      line-height: 1.6;
       color: rgba(white, .7);
     }
 
@@ -159,16 +161,15 @@
     background-repeat: no-repeat;
     max-width: 100%;
     height: auto;
-    width:auto;
+    width: auto;
     background-size: cover !important;
     z-index: -1;
     background-attachment: fixed !important;
-
   }
 
   $img-container-bg-color:linear-gradient(
-    rgba($brand-primary, 0.4),
-    rgba($brand-primary, 0.4)
+    rgba($brand-primary, 0.55),
+    rgba($brand-primary, 0.55)
   );
 
   .socials-img{

@@ -3,7 +3,7 @@ facebook_id: '1382258405132682'
 title: TechSoc Open Hour
 start_time: '2016-10-27 19:00'
 end_time: '2016-10-27 21:00'
-location: TBC
+location: South Wing 9 Garwood LT
 series_id: open-hour
 ---
 
