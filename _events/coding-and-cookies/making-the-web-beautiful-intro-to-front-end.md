@@ -2,8 +2,8 @@
 facebook_id: '1685433611772181'
 series_id: coding-and-cookies
 title: 'Making the Web Beautiful [Intro to Front-End]'
-start_time: '2016-11-01 18:00'
-end_time: '2016-11-01 20:00'
+start_time: '2016-11-01 18:30'
+end_time: '2016-11-01 20:30'
 location: 'Foster Court B29 - Public Cluster, UCL'
 ---
 
