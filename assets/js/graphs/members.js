@@ -16,7 +16,7 @@ var date_sort_asc = function (date1, date2) {
 
 
 function loadGraph(){
-    loadJSON('members.json',function(dataset){
+    loadJSON('../members.json',function(dataset){
 	var ctx = document.getElementById("membersChart");
 	dataset = JSON.parse(dataset);
 	var labels = [];
@@ -110,8 +110,7 @@ function loadGraph(){
 	});
    });
  }
-
-
+ 
 function loadJSON(file,callback) {   
     var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");

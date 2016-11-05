@@ -60,6 +60,9 @@ collections:
   calendars:
     output: true
     permalink: /calendars/:path:output_ext
+  graphs:
+    output: true
+    permalink: /graphs/:path/
 
 defaults:
   -
