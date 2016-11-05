@@ -1,5 +1,5 @@
 function loadFreshersGraph(files,labels){
-	loadJSON('freshers.json',function(dataset){
+	loadJSON('../freshers.json',function(dataset){
 
 		dataset = JSON.parse(dataset);
 		var labels = [];
@@ -10,6 +10,7 @@ function loadFreshersGraph(files,labels){
 		}
 
 		var ctx = document.getElementById("freshersGraph");
+		Chart.defaults.global.defaultFontColor = '#fff';
 		var myChart = new Chart(ctx, {
 		    type: 'pie',
 		    data: {
@@ -54,5 +55,17 @@ function loadFreshersGraph(files,labels){
 	});
 }
 
+function loadJSON(file,callback) {   
+    var xobj = new XMLHttpRequest();
+        xobj.overrideMimeType("application/json");
+    xobj.open('GET', file, true); // Replace 'my_data' with the path to your file
+    xobj.onreadystatechange = function () {
+          if (xobj.readyState == 4 && xobj.status == "200") {
+            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+            callback(xobj.responseText);
+          }
+    };
+    xobj.send(null);  
+ }
 loadFreshersGraph();
 
