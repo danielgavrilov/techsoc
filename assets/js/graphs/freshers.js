@@ -10,6 +10,7 @@ function loadFreshersGraph(files,labels){
 		}
 
 		var ctx = document.getElementById("freshersGraph");
+		Chart.defaults.global.defaultFontColor = '#fff';
 		var myChart = new Chart(ctx, {
 		    type: 'pie',
 		    data: {
