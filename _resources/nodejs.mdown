@@ -5,6 +5,7 @@ resource-url: https://nodejs.org/en/
 blurb: Django is better.
 layout: resource
 suggester: vicky
+audience: medium
 ---
 
 NodeJS is actually pretty good, ngl.

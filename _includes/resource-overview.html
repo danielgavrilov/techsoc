@@ -1,8 +1,13 @@
 <div class="box ">
 	<a target="_blank" class="series-overview" href="{{ resource.resource-url }}">
 		<div class="align-with-level">
-		<h3>{{ resource.title }} <img class="resource-level"></h3>
-		
+			<h3>{{ resource.title }} 
+				{% if resource.audience %}
+					<img class="resource-level level-{{resource.audience}}">
+				{% else %}
+					<img class="resource-level level-beginner">
+				{% endif %}
+			</h3>
 		</div>
 		<p> {{ resource.blurb }} <br>Suggested by: <i>  {{resource.suggester }} </i> </p>
 
