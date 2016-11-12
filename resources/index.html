@@ -1,0 +1,43 @@
+---
+layout: page-with-title
+title: Resources
+permalink: /resources/
+redirect_from: /resources.html
+---
+
+
+
+<div style="text-align: center;">
+	<div class="page-tagline">
+		<p> 
+		Getting into technology can be difficult: you don't know where to look or what to look at, so we thought we'd put together a collection of our favourite resources! 
+		</p>
+
+		<p>
+		If you know a really good learning resource, feel free to let us know about it!
+		</p>
+	</div>
+	<h2> Web development </h2> 
+
+	<div class="responsive-boxes ">
+		{% if site.resources %}
+		    {% for resource in site.resources  %}
+		    	{% if resource.category == "web-development" %}
+			      {% include resource-overview.html resource=resource %}
+		    	{% endif %}
+		    {% endfor %}
+		{% endif %}
+	</div>
+
+	<h2> Bots </h2>
+
+	<div class="responsive-boxes ">
+		{% if site.resources %}
+		    {% for resource in site.resources %}
+		    	{% if resource.category == "bots" %}
+			      {% include resource-overview.html resource=resource %}
+			    {% endif %}
+		    {% endfor %}
+		{% endif %}
+	</div>
+</div>

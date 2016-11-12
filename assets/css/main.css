@@ -1461,6 +1461,8 @@ a:hover img.microsoft .yellow { fill: #fbbc09; }
 
 .redirect-to-jobs { padding: 20px; text-decoration: underline; }
 
+.resource-level { background-color: rgba(0, 211, 63, 0.79); width: 25px; height: 25px; float: right; padding-right: 2px; border-radius: 100%; }
+
 /*! FullCalendar v2.4.0 Stylesheet Docs & License: http://fullcalendar.io/ (c) 2015 Adam Shaw */
 .fc { direction: ltr; text-align: left; }
 

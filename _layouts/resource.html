@@ -1,0 +1,17 @@
+---
+layout: default
+---
+{% assign resource = page %}
+
+<div class="job-container ">
+  <h1 class="title job-title" >{{ resource.title }}</h1>
+  <h2> Suggested by: <br> <i> {{ resource.suggester }} </i> </h2>
+  <article class="post-content job-text">
+    {{ content }}
+  </article>
+   <a href="{{ resource.resource-url }}" class="apply-now">View Resource</a>
+
+   <div class="redirect-to-jobs">
+   <a href="../"> <b> View all resources </b></a>
+   </div>
+</div>

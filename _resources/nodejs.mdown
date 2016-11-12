@@ -1,0 +1,10 @@
+---
+title: NodeJS
+category: web-development
+resource-url: https://nodejs.org/en/
+blurb: Django is better.
+layout: resource
+suggester: vicky
+---
+
+NodeJS is actually pretty good, ngl.

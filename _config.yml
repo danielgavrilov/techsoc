@@ -63,6 +63,9 @@ collections:
   graphs:
     output: true
     permalink: /graphs/:path/
+  resources:
+    output: true
+    permalink: /resources/:path/
 
 defaults:
   -
