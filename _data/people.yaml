@@ -11,7 +11,7 @@
     slack: slack://user?team=T0UGQ82Q4&id=U0UGZJ4J1
 
 - name: Emily Mears
-  role: Vice President
+  role: First Lady
   img-link: '../assets/images/people/emily.jpg'
   team: true
   profiles:
