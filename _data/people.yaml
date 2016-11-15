@@ -79,7 +79,7 @@
   role: Clients Director
   img-link: '../assets/images/people/chris.jpg'
   team: true
-  dept: special
+  dept: workers
   profiles:
     linkedin: https://uk.linkedin.com/in/christopherhammond13
     github: https://github.com/ChristopherHammond13
@@ -94,7 +94,7 @@
   role: Socials Director
   img-link: '../assets/images/people/matt.jpg'
   team: true
-  dept: special
+  dept: socials
   profiles:
     twitter: https://twitter.com/MPolicane
     instagram: https://www.instagram.com/mattpolicane/
@@ -198,7 +198,7 @@
   role: Socials Team
   img-link: '../assets/images/people/jay.jpg'
   team: true
-  dept: special
+  dept: socials
   profiles:
     linkedin: https://uk.linkedin.com/in/jay-jeyaruban-4b7a77112
 
@@ -252,7 +252,7 @@
   role: Freshers Rep
   img-link: '../assets/images/people/dragos.jpg'
   team: true
-  dept: special
+  dept: reps
   profiles:
     facebook: https://www.facebook.com/xdrygo
 
@@ -266,7 +266,7 @@
   role: Honestly I don't even know
   img-link: '../assets/images/people/slaviana.jpg'
   team: true
-  dept: special
+  dept: reps
   profiles:
     facebook: https://www.facebook.com/slaviana.p 
     instagram: https://www.instagram.com/slaviana.p/
@@ -291,7 +291,7 @@
   role: Freshers Rep
   img-link: '../assets/images/people/elvin.jpg'
   team: true
-  dept: special
+  dept: reps
   profiles:
     facebook: https://www.facebook.com/elvin.shoyfer 
     twitter: https://twitter.com/elvinshoyfer

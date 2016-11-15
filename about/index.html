@@ -37,7 +37,7 @@ order: 2
 
   <div class="responsive-boxes">
     {% for member in team %}
-      {% if member.dept == dept.name %}
+      {% if member.dept == dept.name %} 
         {% include member-overview.html member=member %}
       {% endif %}
     {% endfor %}

@@ -10,11 +10,20 @@
 - name: events
   heading: Events Team
 
-- name: outreach
-  heading: Outreach Team
-
 - name: hackathons
   heading: Hackathons Team
 
+- name: outreach
+  heading: Outreach Team
+
+- name: reps
+  heading: Representatives
+
+- name: workers
+  heading: These guys get shit done
+
+- name: socials
+  heading: Shitty socials train choo choo
+  
 - name: special
   heading: Everyone else (these guys are special, not really though)
