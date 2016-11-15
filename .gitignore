@@ -1,0 +1,7 @@
+node_modules
+_site
+.sass-cache
+Thumbs.db
+.DS_Store
+.jekyll-metadata
+_events/import-*.md
