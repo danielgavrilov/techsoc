@@ -109,7 +109,7 @@
 
 - name: Faiz Abdul
   role: Terrible Projects Team
-  img-link: '../assets/images/people/faiz.jpg'
+  img-link: '../assets/images/people/faiz.png'
   team: true
   profiles:
     twitter: https://twitter.com/AbdulFaiz
@@ -210,4 +210,85 @@
     twitter: https://twitter.com/engineer_savage
     linkedin: https://uk.linkedin.com/in/frasersavage
     slack: slack://user?team=T0UGQ82Q4&id=U0USMDT7T
+
+- name: Denisa Bencze
+  role: Marketing Team
+  img-link: '../assets/images/people/denisa.jpg'
+  team: true
+  profiles:
+    linkedin: https://hu.linkedin.com/in/denisa-bencze-325207b1
+
+- name: Alfie Duffen
+  role: Marketing Team
+  img-link: '../assets/images/people/alfie.jpg'
+  team: true
+  profiles:
+    facebook: https://www.facebook.com/alfie.duffen
+
+- name: Dragos Popa
+  role: Freshers Rep
+  img-link: '../assets/images/people/dragos.jpg'
+  team: true
+  profiles:
+    facebook: https://www.facebook.com/xdrygo
+
+- name: Kathy Jang
+  role: Marketing Team
+  img-link: '../assets/images/people/kathy.jpg'
+  team: true
+
+- name: Slaviana Pavlovich
+  role: Honestly I don't even know
+  img-link: '../assets/images/people/slaviana.jpg'
+  team: true
+  profiles:
+    facebook: https://www.facebook.com/slaviana.p 
+    instagram: https://www.instagram.com/slaviana.p/
+    linkedin: https://www.linkedin.com/in/slaviana-pavlovich-039a38100
+
+- name: Arjun Khurana
+  role: Events Team
+  img-link: '../assets/images/people/arjun.jpg'
+  team: true
+  profiles:
+    github: https://github.com/robobot97
+    facebook: https://facebook.com/arjun.khurana26
+
+- name: Tom Sigler
+  role: Postgrad Rep
+  img-link: '../assets/images/people/tom.jpg'
+  team: true
+
+- name: Elvin Shoyfer
+  role: Freshers Rep
+  img-link: '../assets/images/people/elvin.jpg'
+  team: true
+  profiles:
+    facebook: https://www.facebook.com/elvin.shoyfer 
+    twitter: https://twitter.com/elvinshoyfer
+    linkedin: https://www.linkedin.com/in/eshoyfer
+    github: https://github.com/eshoyfer
+
+- name: Mary Cheng
+  role: Outreach Team
+  img-link: '../assets/images/people/mary.jpg'
+  team: true
+ 
+- name: Stars 
+  role: Outreach Team
+  img-link: '../assets/images/people/stars.jpg'
+  team: true
+  profiles:
+    facebook: https://www.facebook.com/pekanm
+
+- name: Ben Hadfield
+  role: Outreach Team
+  img-link: '../assets/images/people/ben.jpg'
+  team: true
+  profiles:
+    github: https://github.com/benjaminhadfield
+    facebook: https://www.facebook.com/ben.m.hadfield
+    linkedin: https://uk.linkedin.com/in/benhadfield
+    instagram: https://www.instagram.com/benjaminhadfield/ 
+    snapchat: https://www.snapchat.com/add/ben-moose
 
