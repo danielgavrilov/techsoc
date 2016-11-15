@@ -42,7 +42,7 @@
   role: Projects Director
   img-link: '../assets/images/people/marco.jpg'
   team: true
-  dept: events
+  dept: projects
   profiles:
     twitter: https://twitter.com/maaarcocr
     instagram: https://twitter.com/maaarcocr
@@ -285,7 +285,7 @@
   role: Postgrad Rep
   img-link: '../assets/images/people/tom.jpg'
   team: true
-  dept: special
+  dept: reps
 
 - name: Elvin Shoyfer
   role: Freshers Rep
