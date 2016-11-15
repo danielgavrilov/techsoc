@@ -30,9 +30,16 @@ order: 2
 
 <h2 class="page-heading">Team</h2>
 
-<div class="responsive-boxes">
-  {% assign team = site.data.people | where: "team", true %}
-  {% for member in team %}
-    {% include member-overview.html member=member %}
-  {% endfor %}
-</div>
+{% assign team = site.data.people | where: "team", true %}
+{% assign depts = site.data.departments %}
+{% for dept in depts %}
+  <h2 class="page-heading">{{dept.heading}}</h2>
+
+  <div class="responsive-boxes">
+    {% for member in team %}
+      {% if member.dept == dept.name %} 
+        {% include member-overview.html member=member %}
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endfor %}

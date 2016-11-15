@@ -1,0 +1,29 @@
+- name: lead
+  heading: Rulers of the Land
+
+- name: projects
+  heading: Projects Team
+
+- name: marketing
+  heading: Marketing Team
+
+- name: hackathons
+  heading: Hackathons Team
+
+- name: events
+  heading: Events Team
+
+- name: workers
+  heading: These guys get shit done
+
+- name: outreach
+  heading: Outreach Team
+
+- name: socials
+  heading: Shitty socials train choo choo
+
+- name: reps
+  heading: Representatives
+  
+- name: special
+  heading: Everyone else (these guys are special, not really though)
