@@ -3,7 +3,7 @@
   role: Abbu
   img-link: '../assets/images/people/wil.jpg'
   team: true
-  dept: Lead
+  dept: lead
   profiles:
     twitter: https://twitter.com/wilhelmklopp
     facebook: https://www.facebook.com/wilhelm.kl
@@ -42,7 +42,7 @@
   role: Projects Director
   img-link: '../assets/images/people/marco.jpg'
   team: true
-  dept: none
+  dept: events
   profiles:
     twitter: https://twitter.com/maaarcocr
     instagram: https://twitter.com/maaarcocr
@@ -54,6 +54,7 @@
   role: Outreach Director
   img-link: '../assets/images/people/dianaklee.jpg'
   team: true
+  dept: outreach
   profiles:
     twitter: https://twitter.com/duhrtyd
     facebook: https://www.facebook.com/dklhy
@@ -67,6 +68,7 @@
   role: Events Director
   img-link: '../assets/images/people/maya.jpg'
   team: true
+  dept: events
   profiles:
     twitter: https://twitter.com/MayaAfshar
     linkedin: https://uk.linkedin.com/in/afshar95
@@ -77,6 +79,7 @@
   role: Clients Director
   img-link: '../assets/images/people/chris.jpg'
   team: true
+  dept: special
   profiles:
     linkedin: https://uk.linkedin.com/in/christopherhammond13
     github: https://github.com/ChristopherHammond13
@@ -91,6 +94,7 @@
   role: Socials Director
   img-link: '../assets/images/people/matt.jpg'
   team: true
+  dept: special
   profiles:
     twitter: https://twitter.com/MPolicane
     instagram: https://www.instagram.com/mattpolicane/
@@ -105,6 +109,7 @@
   role: Security Team
   img-link: '../assets/images/people/henry.jpg'
   team: true
+  dept: special
   profiles:
     facebook: https://www.facebook.com/henry.mortimer.5
     github: https://github.com/hennersz
@@ -115,6 +120,7 @@
   role: Terrible Projects Team
   img-link: '../assets/images/people/faiz.png'
   team: true
+  dept: projects
   profiles:
     twitter: https://twitter.com/AbdulFaiz
     instagram: https://instagram.com/abdulfaizp
@@ -126,6 +132,7 @@
   role: Hackathons Team
   img-link: '../assets/images/people/pranav.jpg'
   team: true
+  dept: hackathons
   profiles:
     twitter: https://twitter.com/PranavNash
     linkedin: https://uk.linkedin.com/in/pranav-nashikkar-56609a10a
@@ -136,6 +143,7 @@
   role: Hackathons Team
   img-link: '../assets/images/people/jaro.jpg'
   team: true
+  dept: hackathons
   profiles:
     twitter: https://twitter.com/JerMenKoO
     linkedin: https://uk.linkedin.com/in/jlatal
@@ -146,6 +154,7 @@
   role: Outreach Team
   img-link: '../assets/images/people/shanice.jpg'
   team: true
+  dept: outreach
   profiles:
     linkedin: https://uk.linkedin.com/in/sheue-nie-shanice-ong-597544110
     slack: slack://user?team=T0UGQ82Q4&id=U2NA1JU79
@@ -154,11 +163,13 @@
   role: Outreach Team
   img-link: '../assets/images/people/tanvi.jpg'
   team: true
+  dept: outreach
 
 - name: Ashu Savani
   role: Events Team
   img-link: '../assets/images/people/ashu.jpg'
   team: true
+  dept: events
   profiles:
     linkedin: https://uk.linkedin.com/in/ashu-savani-023547114
     slack: slack://user?team=T0UGQ82Q4&id=U0UG302HH
@@ -167,6 +178,7 @@
   img-link: '../assets/images/people/marti.jpg'
   role: Events Team
   team: true
+  dept: events
   profiles:
     twitter: https://twitter.com/martiserraviva
     instagram: https://www.instagram.com/martiserraviva/
@@ -177,6 +189,7 @@
   role: Events Team
   img-link: '../assets/images/people/matin.jpg'
   team: true
+  dept: events
   profiles:
     linkedin: https://uk.linkedin.com/in/matineh-akhlaghinia-619761108
     slack: slack://user?team=T0UGQ82Q4&id=U2JJC14D6
@@ -185,6 +198,7 @@
   role: Socials Team
   img-link: '../assets/images/people/jay.jpg'
   team: true
+  dept: special
   profiles:
     linkedin: https://uk.linkedin.com/in/jay-jeyaruban-4b7a77112
 
@@ -192,6 +206,7 @@
   role: Marketing Team
   img-link: '../assets/images/people/anreas.jpg'
   team: true
+  dept: marketing
   profiles:
     twitter: https://twitter.com/zin_onos
     linkedin: https://cy.linkedin.com/in/andreas-zinonos-0382ab46
@@ -200,6 +215,7 @@
   role: Marketing Team
   img-link: '../assets/images/people/vicky.jpg'
   team: true
+  dept: marketing
   profiles:
     twitter: https://twitter.com/vickyd885
     linkedin: https://uk.linkedin.com/pub/vicky-dineshchandra/b5/776/430
@@ -209,6 +225,7 @@
   role: Gamejam Organiser
   img-link: '../assets/images/people/fraser.jpg'
   team: true
+  dept: special
   profiles:
     github: https://github.com/savage-engineer
     twitter: https://twitter.com/engineer_savage
@@ -219,6 +236,7 @@
   role: Marketing Team
   img-link: '../assets/images/people/denisa.jpg'
   team: true
+  dept: marketing
   profiles:
     linkedin: https://hu.linkedin.com/in/denisa-bencze-325207b1
 
@@ -226,6 +244,7 @@
   role: Marketing Team
   img-link: '../assets/images/people/alfie.jpg'
   team: true
+  dept: marketing
   profiles:
     facebook: https://www.facebook.com/alfie.duffen
 
@@ -233,6 +252,7 @@
   role: Freshers Rep
   img-link: '../assets/images/people/dragos.jpg'
   team: true
+  dept: special
   profiles:
     facebook: https://www.facebook.com/xdrygo
 
@@ -240,11 +260,13 @@
   role: Marketing Team
   img-link: '../assets/images/people/kathy.jpg'
   team: true
+  dept: marketing
 
 - name: Slaviana Pavlovich
   role: Honestly I don't even know
   img-link: '../assets/images/people/slaviana.jpg'
   team: true
+  dept: special
   profiles:
     facebook: https://www.facebook.com/slaviana.p 
     instagram: https://www.instagram.com/slaviana.p/
@@ -254,6 +276,7 @@
   role: Events Team
   img-link: '../assets/images/people/arjun.jpg'
   team: true
+  dept: events
   profiles:
     github: https://github.com/robobot97
     facebook: https://facebook.com/arjun.khurana26
@@ -262,11 +285,13 @@
   role: Postgrad Rep
   img-link: '../assets/images/people/tom.jpg'
   team: true
+  dept: special
 
 - name: Elvin Shoyfer
   role: Freshers Rep
   img-link: '../assets/images/people/elvin.jpg'
   team: true
+  dept: special
   profiles:
     facebook: https://www.facebook.com/elvin.shoyfer 
     twitter: https://twitter.com/elvinshoyfer
@@ -277,11 +302,13 @@
   role: Outreach Team
   img-link: '../assets/images/people/mary.jpg'
   team: true
+  dept: outreach
  
 - name: Stars 
   role: Outreach Team
   img-link: '../assets/images/people/stars.jpg'
   team: true
+  dept: outreach
   profiles:
     facebook: https://www.facebook.com/pekanm
 
@@ -289,6 +316,7 @@
   role: Outreach Team
   img-link: '../assets/images/people/ben.jpg'
   team: true
+  dept: outreach
   profiles:
     github: https://github.com/benjaminhadfield
     facebook: https://www.facebook.com/ben.m.hadfield

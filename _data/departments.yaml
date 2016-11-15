@@ -1,0 +1,20 @@
+- name: lead
+  heading: Rulers of the Land
+
+- name: marketing
+  heading: Marketing Team
+
+- name: projects
+  heading: Projects Team
+
+- name: events
+  heading: Events Team
+
+- name: outreach
+  heading: Outreach Team
+
+- name: hackathons
+  heading: Hackathons Team
+
+- name: special
+  heading: Everyone else (these guys are special, not really though)
