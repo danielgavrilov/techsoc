@@ -30,7 +30,7 @@ order: 2
 
 <h2 class="page-heading">Team</h2>
 
-{% assign team = site.data.people | where: "team", true %}
+{% assign team = site.data.people | where: "team", true | sort: 'name' %}
 {% assign depts = site.data.departments %}
 {% for dept in depts %}
   <h2 class="page-heading">{{dept.heading}}</h2>
