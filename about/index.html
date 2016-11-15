@@ -30,9 +30,11 @@ order: 2
 
 <h2 class="page-heading">Team</h2>
 
+<h2 class="page-heading">The Rulers of the Land</h2>
+
 <div class="responsive-boxes">
   {% assign team = site.data.people | where: "team", true %}
-  {% for member in team %}
+  {% for member in team | where: "dept", "lead" %}
     {% include member-overview.html member=member %}
   {% endfor %}
 </div>
