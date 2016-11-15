@@ -35,6 +35,7 @@ order: 2
 <div class="responsive-boxes">
   {% assign team = site.data.people | where: "team", true | where: "dept", "lead"%}
   {% for member in team %}
+    <h2 class="page-heading">{{member.dept}}</h2>
     {% include member-overview.html member=member %}
   {% endfor %}
 </div>
