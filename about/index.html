@@ -34,6 +34,9 @@ order: 2
 {% assign depts = site.data.departments %}
 {% for dept in depts %}
   <h2 class="page-heading">{{dept.heading}}</h2>
+  {% if dept.subheading  %}
+    <p style="text-align: center; color:rgba(255,255,255,0.55); "> <i> {{dept.subheading}} </i> </p>
+  {% endif %}
 
   <div class="responsive-boxes">
     {% for member in team %}

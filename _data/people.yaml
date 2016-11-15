@@ -1,6 +1,6 @@
 
 - name: Wilhelm Klopp
-  role: Abbu
+  role: President
   img-link: '../assets/images/people/wil.jpg'
   team: true
   dept: lead
@@ -12,7 +12,7 @@
     slack: slack://user?team=T0UGQ82Q4&id=U0UGZJ4J1
 
 - name: Emily Mears
-  role: Baaji
+  role: Vice-President
   img-link: '../assets/images/people/emily.jpg'
   team: true
   dept: lead
@@ -26,7 +26,7 @@
 
 - name: Reemma Muthal Puredath
   img-link: '../assets/images/people/rema.jpg'
-  role: Amma
+  role: Treasurer
   img-link: '../assets/images/people/rema.jpg'
   team: true
   dept: lead
@@ -106,10 +106,10 @@
     snapchat-ghost: https://www.snapchat.com/add/policane96
 
 - name: Henry Mortimer
-  role: Security Team
+  role: Security
   img-link: '../assets/images/people/henry.jpg'
   team: true
-  dept: special
+  dept: projects
   profiles:
     facebook: https://www.facebook.com/henry.mortimer.5
     github: https://github.com/hennersz
@@ -117,7 +117,7 @@
     slack: slack://user?team=T0UGQ82Q4&id=U0VALSX45
 
 - name: Faiz Abdul
-  role: Terrible Projects Team
+  role: Projects Team
   img-link: '../assets/images/people/faiz.png'
   team: true
   dept: projects
@@ -151,10 +151,10 @@
     slack: slack://user?team=T0UGQ82Q4&id=U2BRTVC5B
 
 - name: Shanice Ong
-  role: Outreach Team
+  role: CS50 Director
   img-link: '../assets/images/people/shanice.jpg'
   team: true
-  dept: outreach
+  dept: CS50
   profiles:
     linkedin: https://uk.linkedin.com/in/sheue-nie-shanice-ong-597544110
     slack: slack://user?team=T0UGQ82Q4&id=U2NA1JU79
@@ -202,17 +202,52 @@
   profiles:
     linkedin: https://uk.linkedin.com/in/jay-jeyaruban-4b7a77112
 
-- name: Andreas Zinonos
-  role: Marketing Team
-  img-link: '../assets/images/people/anreas.jpg'
+
+- name: Mohsin Ahmed
+  role: Meme department
+  img-link: '../assets/images/people/mohsin.jpg'
   team: true
   dept: marketing
   profiles:
-    twitter: https://twitter.com/zin_onos
-    linkedin: https://cy.linkedin.com/in/andreas-zinonos-0382ab46
+
+
+
+
+- name: Fraser Savage
+  role: Gamejam Organiser
+  img-link: '../assets/images/people/fraser.jpg'
+  team: true
+  dept: hackathons
+  profiles:
+    github: https://github.com/savage-engineer
+    twitter: https://twitter.com/engineer_savage
+    linkedin: https://uk.linkedin.com/in/frasersavage
+    slack: slack://user?team=T0UGQ82Q4&id=U0USMDT7T
+
+- name: Alfie Duffen
+  role: Speaks words of gold
+  img-link: '../assets/images/people/alfie.jpg'
+  team: true
+  dept: marketing
+  profiles:
+    facebook: https://www.facebook.com/alfie.duffen
+
+- name: Dragos Popa
+  role: Fresher's Rep
+  img-link: '../assets/images/people/dragos.jpg'
+  team: true
+  dept: reps
+  profiles:
+    facebook: https://www.facebook.com/xdrygo
+
+- name: Kathy Jang
+  role: Edgy Teen
+  img-link: '../assets/images/people/kathy.jpg'
+  team: true
+  dept: marketing
 
 - name: Vicky Dineshchandra
-  role: Marketing Team
+  role: Old Man
   img-link: '../assets/images/people/vicky.jpg'
   team: true
   dept: marketing
@@ -221,49 +256,16 @@
     linkedin: https://uk.linkedin.com/pub/vicky-dineshchandra/b5/776/430
     slack: slack://user?team=T0UGQ82Q4&id=U0V517214
 
-- name: Fraser Savage
-  role: Gamejam Organiser
-  img-link: '../assets/images/people/fraser.jpg'
-  team: true
-  dept: special
-  profiles:
-    github: https://github.com/savage-engineer
-    twitter: https://twitter.com/engineer_savage
-    linkedin: https://uk.linkedin.com/in/frasersavage
-    slack: slack://user?team=T0UGQ82Q4&id=U0USMDT7T
-
 - name: Denisa Bencze
-  role: Marketing Team
+  role: The cool one
   img-link: '../assets/images/people/denisa.jpg'
   team: true
   dept: marketing
   profiles:
     linkedin: https://hu.linkedin.com/in/denisa-bencze-325207b1
 
-- name: Alfie Duffen
-  role: Marketing Team
-  img-link: '../assets/images/people/alfie.jpg'
-  team: true
-  dept: marketing
-  profiles:
-    facebook: https://www.facebook.com/alfie.duffen
-
-- name: Dragos Popa
-  role: Freshers Rep
-  img-link: '../assets/images/people/dragos.jpg'
-  team: true
-  dept: reps
-  profiles:
-    facebook: https://www.facebook.com/xdrygo
-
-- name: Kathy Jang
-  role: Marketing Team
-  img-link: '../assets/images/people/kathy.jpg'
-  team: true
-  dept: marketing
-
 - name: Slaviana Pavlovich
-  role: Honestly I don't even know
+  role: Fresher's Rep
   img-link: '../assets/images/people/slaviana.jpg'
   team: true
   dept: reps
@@ -288,7 +290,7 @@
   dept: reps
 
 - name: Elvin Shoyfer
-  role: Freshers Rep
+  role: Fresher's Rep
   img-link: '../assets/images/people/elvin.jpg'
   team: true
   dept: reps
@@ -323,4 +325,13 @@
     linkedin: https://uk.linkedin.com/in/benhadfield
     instagram: https://www.instagram.com/benjaminhadfield/ 
     snapchat: https://www.snapchat.com/add/ben-moose
+
+- name: Andreas Zinonos
+  role: CGI Pro
+  img-link: '../assets/images/people/anreas.jpg'
+  team: true
+  dept: marketing
+  profiles:
+    twitter: https://twitter.com/zin_onos
+    linkedin: https://cy.linkedin.com/in/andreas-zinonos-0382ab46
 
