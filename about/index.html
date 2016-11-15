@@ -33,9 +33,8 @@ order: 2
 <h2 class="page-heading">The Rulers of the Land</h2>
 
 <div class="responsive-boxes">
-  {% assign team = site.data.people | where: "team", true %}
-  {% assign dept = team | where: "dept", "lead" %}
-  {% for member in dept %}
+  {% assign team = site.data.people | where: "team", true | where: "dept", "lead"%}
+  {% for member in team %}
     {% include member-overview.html member=member %}
   {% endfor %}
 </div>
