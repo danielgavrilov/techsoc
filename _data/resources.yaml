@@ -15,12 +15,15 @@
 - name: Game development
   category: game-dev
 
-
 - name: Bots
   category: bots
+
+- name: Text Editors 
+  category: text-editor
 
 - name: Virtualisation 
   category: virtualization
 
 - name: Compilers 
   category: compilers
+
