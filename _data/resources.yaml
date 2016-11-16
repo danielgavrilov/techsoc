@@ -1,0 +1,23 @@
+- name: Web development
+  category: web-dev
+
+- name: Mobile development
+  category: mobile-dev
+
+- name: Compilers 
+  category: Compilers
+
+- name: Git
+  category: git
+
+- name: Game development
+  category: game-dev
+
+- name: Virtualisation 
+  category: virtualization
+
+- name: Programming Languages 
+  category: language
+
+- name: Bots
+  category: bots

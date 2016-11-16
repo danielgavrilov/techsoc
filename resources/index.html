@@ -33,27 +33,21 @@ redirect_from: /resources.html
 
 
 	</div>
-	<h2> Web development </h2> 
 
+	{% assign categories = site.data.resources %}
+
+	{% for category in categories %}
+	<h2> {{ category.name }} </h2>
 	<div class="responsive-boxes ">
 		{% if site.resources %}
 		    {% for resource in site.resources  %}
-		    	{% if resource.category == "web-development" %}
+		    	{% if resource.category == category.category %}
 			      {% include resource-overview.html resource=resource %}
 		    	{% endif %}
 		    {% endfor %}
 		{% endif %}
 	</div>
 
-	<h2> Bots </h2>
+	{% endfor %}
 
-	<div class="responsive-boxes ">
-		{% if site.resources %}
-		    {% for resource in site.resources %}
-		    	{% if resource.category == "bots" %}
-			      {% include resource-overview.html resource=resource %}
-			    {% endif %}
-		    {% endfor %}
-		{% endif %}
-	</div>
 </div>
