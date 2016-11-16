@@ -1,0 +1,45 @@
+---
+layout: page-with-title
+title: Resources
+permalink: /resources/
+redirect_from: /resources.html
+---
+
+
+
+<div style="text-align: center;">
+	<div class="page-tagline">
+		<p> 
+		Getting into technology can be difficult: you don't know where to look or what to look at, so we thought we'd put together a collection of our favourite resources that we, as members of UCLU TechSoc, have used to learn in the past! 
+		</p>
+
+		<p>
+		If you know a really good learning resource, feel free to let us know about it!
+		</p>
+
+		<p> 
+		We've colour coded the resources depending on the audience:
+		</p>
+
+		<img class="resource-level level-beginner level-key"> Beginner <tb>
+		<img class="resource-level level-medium level-key"> Medium 
+		<img class="resource-level level-pro level-key"> Advanced
+
+	</div>
+
+	{% assign categories = site.data.resources %}
+
+	{% for category in categories %}
+	<h2> {{ category.name }} </h2>
+	<div class="responsive-boxes ">
+		{% if site.resources %}
+		    {% for resource in site.resources  %}
+		    	{% if resource.category == category.category %}
+			      {% include resource-overview.html resource=resource %}
+		    	{% endif %}
+		    {% endfor %}
+		{% endif %}
+	</div>
+	{% endfor %}
+
+</div>

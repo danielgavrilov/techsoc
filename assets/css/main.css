@@ -1461,6 +1461,22 @@ a:hover img.microsoft .yellow { fill: #fbbc09; }
 
 .redirect-to-jobs { padding: 20px; text-decoration: underline; }
 
+.resource-level { width: 25px; height: 25px; float: right; padding-right: 27px; border-radius: 100%; border-color: #fff; }
+
+.level-beginner { background-color: rgba(0, 211, 63, 0.79); }
+
+.level-medium { background-color: rgba(79, 221, 237, 0.79); }
+
+.level-pro { background-color: #d81e5b; }
+
+.align-with-level { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+
+.level-key { float: none; }
+
+.resource-title { width: 100%; }
+
+.key { padding: 10px; }
+
 /*! FullCalendar v2.4.0 Stylesheet Docs & License: http://fullcalendar.io/ (c) 2015 Adam Shaw */
 .fc { direction: ltr; text-align: left; }
 
