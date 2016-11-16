@@ -118,7 +118,7 @@
 
 - name: Faiz Abdul
   role: Projects Team
-  img-link: '../assets/images/people/faiz.png'
+  img-link: '../assets/images/people/faiz.jpg'
   team: true
   dept: projects
   profiles:
@@ -209,9 +209,9 @@
   team: true
   dept: marketing
   profiles:
-
-
-
+    twitter: https://twitter.com/realDonaldTrump
+    instagram: https://www.instagram.com/danbilzerian
+    linkedin: https://www.linkedin.com/in/donald-trump-jr-4454b862
 
 - name: Fraser Savage
   role: Gamejam Organiser
@@ -270,7 +270,7 @@
   team: true
   dept: reps
   profiles:
-    facebook: https://www.facebook.com/slaviana.p 
+    facebook: https://www.facebook.com/slaviana.p
     instagram: https://www.instagram.com/slaviana.p/
     linkedin: https://www.linkedin.com/in/slaviana-pavlovich-039a38100
 
@@ -295,7 +295,7 @@
   team: true
   dept: reps
   profiles:
-    facebook: https://www.facebook.com/elvin.shoyfer 
+    facebook: https://www.facebook.com/elvin.shoyfer
     twitter: https://twitter.com/elvinshoyfer
     linkedin: https://www.linkedin.com/in/eshoyfer
     github: https://github.com/eshoyfer
@@ -305,8 +305,8 @@
   img-link: '../assets/images/people/mary.jpg'
   team: true
   dept: outreach
- 
-- name: Stars 
+
+- name: Stars
   role: Outreach Team
   img-link: '../assets/images/people/stars.jpg'
   team: true
@@ -323,7 +323,7 @@
     github: https://github.com/benjaminhadfield
     facebook: https://www.facebook.com/ben.m.hadfield
     linkedin: https://uk.linkedin.com/in/benhadfield
-    instagram: https://www.instagram.com/benjaminhadfield/ 
+    instagram: https://www.instagram.com/benjaminhadfield/
     snapchat: https://www.snapchat.com/add/ben-moose
 
 - name: Andreas Zinonos
@@ -334,4 +334,3 @@
   profiles:
     twitter: https://twitter.com/zin_onos
     linkedin: https://cy.linkedin.com/in/andreas-zinonos-0382ab46
-
