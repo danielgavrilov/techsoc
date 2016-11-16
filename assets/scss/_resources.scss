@@ -20,8 +20,14 @@
 }
 
 .align-with-level{
+	display: flex;
+
 }
 
 .level-key{
 	float:none;
+}
+
+.resource-title{
+	width:100%;
 }
