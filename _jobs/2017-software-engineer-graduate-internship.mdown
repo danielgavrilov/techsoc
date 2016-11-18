@@ -8,18 +8,14 @@ Bloomberg software engineers develop impactful solutions to complex, real-world 
 As an intern, you’ll become an expert on the Bloomberg Terminal and gain a deeper understanding of technology and finance. In addition to your projects, you’ll participate in coding challenges, attend tech talks and network with other interns.
 <br>
 <br>
-We’ll trust you to:
-<br>
-<br>
+<h4>We’ll trust you to:</h4>
  Take ownership of projects under the guidance of your mentor
  Be a collaborative member of your team
  Have a deep understanding of data structures and algorithms
  Be an excellent problem solver
 <br>
 <br>
-You’ll need to:
-<br>
-<br>
+<h4>You’ll need to:</h4>
  Have programming experience in C, C++, Java or Python
  Be working towards a degree in Computer Science.
 <br>
