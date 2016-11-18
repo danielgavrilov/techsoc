@@ -4,16 +4,14 @@ company: King
 apply-link: https://apply.king.com/
 ---
  
-<p> 
-Your role within our Kingdom
-</p>
+<h4>Your role within our Kingdom</h4>
+
 <p>
 If you want to improve the experience of King’s 300 million+ players across our network of games and help us to further understand, model, predict, segment, monetise and retain those customers, then this may be the right opportunity for you. You will be part of the community of 80+ business intelligence & analytics experts at King, while working on a daily basis in smaller teams of 5-8 people within the studio.
 </p>
-<p>
-Specifically, as a data scientist intern, you will:
-</p>
-<p>
+
+<h4>Specifically, as a data scientist intern, you will: </h4>
+
 Use your quantitative and data mining skills to monitor and report on the performance of the studio’s games
 Work with business performance managers to solve performance and data problems and identify new opportunities and trends
 Translate business needs to technical requirements and experiments
@@ -22,9 +20,9 @@ Proactively develop new analyses, models and data-driven tools to better underst
 Skills to create thrills
 With a passion for games, you will be strong in quantitative analysis, statistics or mathematics, have programming skills and an interest in drawing business insights from data. You will need to demonstrate the ability to learn quickly and work in a fast pace and collaborative environment whilst communicating your findings effectively..
 </p>
-<p>
-Other requirements include:
-</p>
+
+<h4>Other requirements include:</h4>
+
 <p>
 Pursuing a degree in computer science, statistics, math, analytics or equivalent
 Preferred experience dealing with large, real-world datasets (SQL)
@@ -33,9 +31,9 @@ Experience with data mining, clustering, segmentation
 Some programming skills in languages such as Java, R, Python, etc.
 Able to use Excel for analytical purposes.
 </p>
-<p>
-Our Kingdom
-</p>
+
+<h4>Our Kingdom</h4>
+
 <p>
 King is a worldwide leader in cross-platform, bite-sized games on mobile, Facebook and the web. King created Candy Crush Saga, one of the most popular and highest grossing mobile apps across the globe and Facebook’s #1 app. King currently has over 225 million monthly players generating over 30 billion gameplays per month across mobile, Facebook and the website www.king.com. Across all platforms, King now has more than 100 million daily players. The company offers more than 160 exclusive games in 14 languages through www.king.com, on mobile and tablets, and on Facebook.
 </p>

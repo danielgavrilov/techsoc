@@ -5,18 +5,16 @@ apply-link:
 ---
 
 
-<p>
-Your role within our Kingdom
-</p>
+<h4>Your role within our Kingdom</h4>
 <p>
 We are looking for a talented Game Designer Intern to help us shape and develop a range of new social games.
 </p>
 <p>
 Your duties will include competitor analysis, game systems design & balancing, level design & testing.
 </p>
-<p>
-Skills to create thrills
-</p>
+
+<h4>Skills to create thrills</h4>
+
 <p>
 You need to be an avid gamer. You think like the players, and you understand the very fine distinction of what is fun and what is amazingly fun in games.
 You have outstanding people skills, you are a team player and a good communicator with critical thinking and analytical skills, and you don’t mind changing directions while looking for unique experiences. 
@@ -29,18 +27,14 @@ You know how to script and are able to integrate content into the game
 You know about Usability, Interaction Design and UX
 You have designed UI and camera controls
 </p>
-<p>
-Tasty bonus skills
-</p>
+<h4>Tasty bonus skills</h4>
 
 <p>
 You have experience designing for both a casual and competitive audience
 You have some experience with user tests
 You have some experience in Agile environments
 </p>
-<p>
-Want to join our Kingdom?
-</p>
+<h4>Want to join our Kingdom?</h4>>
 <p>
 This internship is due to start in June 2017, apply now! Deadline to apply for this role is December 7th.
 </p>
