@@ -15,7 +15,7 @@ Your task? Work in a team of 4 to develop an idea to address a real-world challe
     <h5>What We Offer</h5>
     <ul>
         <li>Business and technology roles</li>
-        <li>&pound;A salary of £15,000 (pro rata)</li>
+        <li>A salary of &pound;15,000 (pro rata)</li>
         <li>Free accommodation with the other Extreme Blue students near to IBM Hursley in Hampshire</li>
         <li>A beautiful campus setting at IBM Hursley (one of the largest software laboratories in Europe) filled with brilliant people to inspire you</li>
         <li>Loads of facilities such as a gym, tennis courts, playing fields and a Club House to relax</li>
