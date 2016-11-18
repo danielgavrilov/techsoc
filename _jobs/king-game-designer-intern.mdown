@@ -34,7 +34,7 @@ You have experience designing for both a casual and competitive audience
 You have some experience with user tests
 You have some experience in Agile environments
 </p>
-<h4>Want to join our Kingdom?</h4>>
+<h4>Want to join our Kingdom?</h4>
 <p>
 This internship is due to start in June 2017, apply now! Deadline to apply for this role is December 7th.
 </p>
@@ -42,9 +42,9 @@ This internship is due to start in June 2017, apply now! Deadline to apply for t
 Your application must be in English. 
 Please include your obtained/predicted grades on your CV.
 </p>
-<p>
+<h4>
 Our Kingdom
- </p>
+ </h4>
 
 <p>
 King Digital Entertainment is a leading interactive entertainment company for the mobile world. King is an independent unit of Activision Blizzard Inc. (Nasdaq: ATVI), which acquired the company in February 2016. We make games for millions of players worldwide, which can be played on our king.com　and royalgames.com websites, Facebook, and mobile platforms such as the Apple App Store, the Google Play Store and the Amazon Appstore. King has game studios in Barcelona, Berlin, London, Malmö, Singapore, Seattle and Stockholm along with offices in Malta, San Francisco, Seoul and Tokyo. 
