@@ -1,4 +1,4 @@
-    ---
+---
 title: Software Engineer - Industrial Placement
 company: Bloomberg
 apply-link: https://careers.bloomberg.com/job/detail/53881
