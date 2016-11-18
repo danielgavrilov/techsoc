@@ -1,10 +1,8 @@
 ---
-title: TEchnical Solutions Specialist (Graduates)
+title: Technical Solutions Specialist – Graduate Scheme
 company: IBM
 apply-link: http://www-05.ibm.com/employment/uk-en/technology.html?=uppermenu
 ---
-
-<h4>Technical Solutions Specialist – Graduate Scheme</h4>
 <p>
 The term 'Technology Solutions Specialist' is fairly all encompassing. Our Specialists develop proof of concepts, design, develop, build, test and implement systems to solve our clients' business and IT problems.
 As a hands-on professional you’ll develop an in-depth understanding of our products, offerings and services. This could involve any aspect of IT including Business Analysis, Database Design, Package Customisation and Implementation, Testing, Support, Networking and Junior Project management. You may also find yourself working alongside our sales teams, providing technical project knowledge and guidance to support the work that they do with our clients.

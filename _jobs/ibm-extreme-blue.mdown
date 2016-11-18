@@ -1,10 +1,10 @@
 ---
-title: Extreme Blue Internship
+title: Technical Role - Extreme Blue Summer Internship
 company: IBM
 apply-link: http://www-05.ibm.com/employment/uk-en/undergraduates.html?=uppermenu
 ---
 
-<h4>Technical Role - Extreme Blue Summer Internship</h4>
+
 <p>
 Think of it as the opportunity to unleash your technical ingenuity and business acumen in the professional world - with the support, expertise and backing of one of the world's leading technology companies. Extreme Blue at IBM isn’t your average internship. It’s a race against time - with the 12-week timeline compelling you to prove your creativity, passion and knowledge to deliver some of the most innovative solutions to real business challenges.
 </p>
