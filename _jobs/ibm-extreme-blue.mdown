@@ -1,0 +1,25 @@
+---
+title: Technical Role - Extreme Blue Summer Internship
+company: IBM
+apply-link: http://www-05.ibm.com/employment/uk-en/undergraduates.html?=uppermenu
+---
+
+<br>
+<p>
+Think of it as the opportunity to unleash your technical ingenuity and business acumen in the professional world - with the support, expertise and backing of one of the world's leading technology companies. Extreme Blue at IBM isn’t your average internship. It’s a race against time - with the 12-week timeline compelling you to prove your creativity, passion and knowledge to deliver some of the most innovative solutions to real business challenges.
+</p>
+<p>
+Your task? Work in a team of 4 to develop an idea to address a real-world challenge confronting part of IBM's business – and then turn that idea into a real product. When the 12 weeks are up, you’ll showcase it to our executives, business partners and clients. Expectations will be high and the results will be scrutinised closely. So, it’s not an easy ride – but we guarantee it’ll be an incredible experience.
+</p>
+<p>
+    <h5>What We Offer</h5>
+    <ul>
+        <li>Business and technology roles</li>
+        <li>A salary of &pound;15,000 (pro rata)</li>
+        <li>Free accommodation with the other Extreme Blue students near to IBM Hursley in Hampshire</li>
+        <li>A beautiful campus setting at IBM Hursley (one of the largest software laboratories in Europe) filled with brilliant people to inspire you</li>
+        <li>Loads of facilities such as a gym, tennis courts, playing fields and a Club House to relax</li>
+        <li>The potential to have a patent submission on your CV (pretty impressive)</li>
+        <li>An expenses paid trip to showcase your ideas at the Extreme Blue Expo in one of 7 countries around Europe</li>
+    </ul>
+</p>
