@@ -19,6 +19,9 @@
 - name: Text Editors 
   category: text-editor
 
+- name: Machine Learning
+  category: ml
+
 - name: Operating Systems 
   category: os
 
