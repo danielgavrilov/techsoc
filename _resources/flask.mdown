@@ -1,0 +1,8 @@
+---
+title: Basics of Flask
+category: web-dev
+resource-url: http://flask.pocoo.org/docs/0.11/tutorial/
+blurb: Really, really easy to use web framework!
+suggester: Vicky
+audience: beginner
+---

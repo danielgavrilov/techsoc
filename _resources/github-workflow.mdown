@@ -1,0 +1,8 @@
+---
+title: Understanding the GitHub workflow
+category: git
+resource-url: https://guides.github.com/introduction/flow/
+blurb: A high level overview of how Git should be used
+suggester: Vicky
+audience: beginner
+---

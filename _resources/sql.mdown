@@ -1,0 +1,8 @@
+---
+title: Learn basic SQL 
+category: web-dev
+resource-url: https://www.codecademy.com/learn/learn-sql
+blurb: Very basic intro to SQL languages
+suggester: Vicky
+audience: beginner
+---

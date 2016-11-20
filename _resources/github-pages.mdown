@@ -1,0 +1,8 @@
+---
+title: Hosting websites on GitHub
+category: web-dev
+resource-url: https://pages.github.com/
+blurb: You can host your static websites for free on GitHub Pages!
+suggester: Vicky
+audience: beginner
+---

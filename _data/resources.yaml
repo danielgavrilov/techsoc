@@ -7,10 +7,8 @@
 - name: Git
   category: git
 
-
 - name: Mobile development
   category: mobile-dev
-
 
 - name: Game development
   category: game-dev
@@ -20,6 +18,9 @@
 
 - name: Text Editors 
   category: text-editor
+
+- name: Operating Systems 
+  category: os
 
 - name: Virtualisation 
   category: virtualization

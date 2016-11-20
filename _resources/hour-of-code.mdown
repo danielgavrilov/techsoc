@@ -1,0 +1,8 @@
+---
+title: Hour of Code
+category: language
+resource-url: https://uk.code.org/learn
+blurb: Made for kids in mind, great intro to programming concepts
+suggester: Vicky
+audience: beginner
+---

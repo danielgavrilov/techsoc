@@ -1,0 +1,8 @@
+---
+title: Intro to the Command Line 
+category: os
+resource-url: http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything
+blurb: The Command Line tool is super useful! A must learn!
+suggester: Vicky
+audience: beginner
+---
