@@ -1,9 +1,9 @@
 ---
 facebook_id: '1113531188739274'
 title: 'Coding & Cookies: All About JavaScript'
-start_time: '2016-11-22 18:00'
-end_time: '2016-11-22 20:30'
-location: 'Malet Place Engineering Building, Room 1.20'
+start_time: '2016-11-25 17:00'
+end_time: '2016-11-25 19:00'
+location: UCL Gordon Street (25) Maths 500
 series_id: coding-and-cookies
 ---
 
