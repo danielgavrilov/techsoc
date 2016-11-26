@@ -114,9 +114,16 @@ function saveEventFile(event) {
   if (event.filename) {
     filename = event.filename;
   } else if (category) {
-    filename = path.join(
+    var dir = path.join(
       "_events",
-      category,
+      category
+    )
+    if (!fs.existsSync(dir)) {
+      // create directory if it doesn't exist
+      fs.mkdirSync(dir);
+    }
+    filename = path.join(
+      dir,
       slug(title, {lower: true}) + ".md"
     );
   } else {
