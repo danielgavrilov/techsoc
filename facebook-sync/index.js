@@ -1,5 +1,6 @@
 var fs = require("fs");
 var rp = require("request-promise");
+var path = require("path");
 var glob = require("glob");
 var slug = require("slug");
 var frontMatter = require("front-matter");
@@ -9,6 +10,7 @@ var _ = require("lodash");
 var Q = require("q");
 var chalk = require("chalk");
 
+var categorise = require("./categorise");
 
 // Facebook API
 
@@ -105,13 +107,23 @@ function generateFileContent(event) {
 
 function saveEventFile(event) {
   var title = event.attributes.title;
+  var category = event.attributes.project_id || event.attributes.series_id;
   var content = generateFileContent(event);
   var filename;
 
   if (event.filename) {
     filename = event.filename;
+  } else if (category) {
+    filename = path.join(
+      "_events",
+      category,
+      slug(title, {lower: true}) + ".md"
+    );
   } else {
-    filename = "_events/import-" + slug(title, {lower: true}) + ".md";
+    filename = path.join(
+      "_events",
+      "import-" + slug(title, {lower: true}) + ".md"
+    );
   }
 
   fs.writeFileSync(filename, content);
@@ -196,6 +208,7 @@ Q.all([
 
   missingEvents.forEach(function(event) {
     console.log("Adding " + chalk.bold(event.attributes.title));
+    categorise(event);
     saveEventFile(event);
   });
 
