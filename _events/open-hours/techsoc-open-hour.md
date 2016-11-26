@@ -4,7 +4,7 @@ title: TechSoc Open Hour
 start_time: '2016-10-27 19:00'
 end_time: '2016-10-27 21:00'
 location: South Wing 9 Garwood LT
-series_id: open-hour
+series_id: open-hours
 ---
 
 Join us for an evening of chilling with the mentors and TechSoc committee. We will have a few activities lined up...free pizza as well!  
