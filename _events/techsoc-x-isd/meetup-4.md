@@ -2,7 +2,7 @@
 facebook_id: '1602151626747519'
 title: TechSoc ISD Meetup
 series_id: techsoc-x-isd
-start_time: '2016-11-23 18:00'
+start_time: '2016-11-23 17:00'
 end_time: '2016-11-23 19:00'
 location: 'The Podium 1 Eversholt St Kings Cross, London NW1 2DN UK'
 ---
