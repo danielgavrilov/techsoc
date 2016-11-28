@@ -1431,6 +1431,8 @@ img.microsoft { padding: 8px 0 1px; }
 
 img.ucl { padding: 7px 0 0px; }
 
+img.deutsche-bank { height: 135px; }
+
 a:hover img.microsoft .text { fill: #706d6e; }
 
 a:hover img.microsoft .orange { fill: #f1511b; }
