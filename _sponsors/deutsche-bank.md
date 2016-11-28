@@ -2,12 +2,12 @@
 name: Deutsche Bank
 slug: deutsche-bank
 link: http://www.db.com/careers
-logo: /assets/images/sponsors/deutsche-bank.png
+logo: /assets/images/sponsors/deutsche-bank.svg
 tier: silver
 info: on
 ---
 
-<strong>Shape the future of banking.</strong>
+#### Shape the future of banking.
 
 Intelligence. Insight. Innovation. If you’re driven by new ideas, there’s a lot to look forward to as a Technology graduate at Deutsche Bank. We develop, manage and build the tools that link our business and our clients together. Now, we’re pioneering the next generation of systems that will take our Bank – and our industry – forward. This is your chance to lead that change.  
  
@@ -17,4 +17,4 @@ Although we have many roles requiring programming skills, you don’t need to be
  
 You can shape the future of one of the world’s leading banks.  
  
-Discover a career to look forward to at <a href="http://db.com/careers/technology">http://db.com/careers/technology</a>
+Discover a career to look forward to at <http://db.com/careers/technology>.
