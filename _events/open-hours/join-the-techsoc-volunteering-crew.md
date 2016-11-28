@@ -4,7 +4,7 @@ title: Join the TechSoc Volunteering Crew
 start_time: '2016-10-31 16:30'
 end_time: '2016-10-31 18:30'
 location: 'UCLU CSC Conference Room, 2nd Floor, Bloomsbury Theatre Building'
-series_id: open-hour
+series_id: open-hours
 ---
 
 At TechSoc, we believe that technology can be put to good use improving the lives of people all around the world.  

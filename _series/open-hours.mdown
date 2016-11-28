@@ -1,5 +1,5 @@
 ---
-series_id: open-hour
+series_id: open-hours
 title: Open Hour
 start_time: "2016-10-15"
 end_time: "2017-10-15"
