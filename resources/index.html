@@ -33,6 +33,7 @@ order: 4
 
 	{% for category in categories %}
 	<h2> {{ category.name }} </h2>
+	{% if category.caption %} {{category.caption}} {% endif %}
 	<div class="responsive-boxes ">
 		{% if site.resources %}
 		    {% for resource in site.resources  %}

@@ -1,0 +1,7 @@
+---
+title: Monzo
+category: api
+resource-url: https://monzo.com/docs/
+blurb: A bank with an open API!
+audience: beginner
+---
