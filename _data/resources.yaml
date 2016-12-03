@@ -1,3 +1,7 @@
+- name: APIs
+  category: api
+  caption: To get started on your hacks, try out these APIs! Perfect for Local Hack day!
+
 - name: Web development
   category: web-dev
 

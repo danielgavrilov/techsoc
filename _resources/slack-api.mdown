@@ -1,0 +1,7 @@
+---
+title: Slack API
+category: api
+resource-url: https://api.slack.com/
+blurb: Read Slack's API for awesome bot integrations
+audience: beginner
+---

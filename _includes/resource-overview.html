@@ -8,7 +8,7 @@
 					<img class="resource-level level-beginner">
 				{% endif %}
 		</div>
-		<p> {{ resource.blurb }} <br>Suggested by: <i>  {{resource.suggester }} </i> </p>
+		<p> {{ resource.blurb }} {% if resource.suggester %} <br>Suggested by: <i>  {{resource.suggester }} </i>  {% endif %}</p>
 
 		<div class="button"> <b> Learn more! </b> </div>
 	</a>
