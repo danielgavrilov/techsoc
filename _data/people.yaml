@@ -245,16 +245,6 @@
   team: true
   dept: marketing
 
-- name: Vicky Dineshchandra
-  role: Old Man
-  img-link: '../assets/images/people/vicky.jpg'
-  team: true
-  dept: marketing
-  profiles:
-    twitter: https://twitter.com/vickyd885
-    linkedin: https://uk.linkedin.com/pub/vicky-dineshchandra/b5/776/430
-    slack: slack://user?team=T0UGQ82Q4&id=U0V517214
-
 - name: Denisa Bencze
   role: The cool one
   img-link: '../assets/images/people/denisa.jpg'
