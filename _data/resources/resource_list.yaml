@@ -1,0 +1,42 @@
+# WEB DEV
+
+- title: First API with amazon lambda
+  category: web-dev
+  resource-url: http://docs.aws.amazon.com/lambda/latest/dg/getting-started.html
+  blurb: Create your own API using amazon lambda and a popular  web language
+  suggester: Faiz
+  audience: beginner
+
+- title: Bootstrap Documentation and Getting Started
+  category: web-dev
+  resource-url: https://getbootstrap.com/getting-started/
+  blurb: Get started with Bootstrap to make great looking web apps easily
+  suggester: Chris
+  audience: beginner
+
+
+# BOTS
+
+- title: Create twitter bot in xx minutes
+  category: bots
+  resource-url: http://docs.tweepy.org/en/v3.5.0/getting_started.html#introduction
+  blurb: Create a twitter bot to do some fun stuff
+  suggester: Faiz
+  audience: beginner
+
+# API
+
+- title: Clarifai
+  category: api
+  resource-url: https://www.clarifai.com/api
+  blurb: Image recognition goodness!
+  audience: beginner
+
+
+# Compilers
+- title: Building a compiler
+  category: compilers
+  resource-url: https://www.amazon.com/dp/0321486811
+  blurb: The “Dragon Book” is the quintessential reference for constructing a compiler
+  suggester: Elvin
+  audience: pro
