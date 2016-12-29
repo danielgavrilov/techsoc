@@ -33,10 +33,10 @@ order: 4
 	{% assign resource_list = site.data.resources.resource_list %}
 
 	{% for category in categories %}
-	<h2> {{ category.name }} </h2>
-	{% if category.caption %} {{category.caption}} {% endif %}
-	<div class="responsive-boxes ">
-
+	<div class="responsive-boxes">
+		{% include resource-category.html category=category %}
+	</div>
+	<!-- <div class="responsive-boxes ">
 		{% if resource_list %}
 		    {% for resource in resource_list  %}
 					{{ resource_list.title }}
@@ -45,7 +45,7 @@ order: 4
 		    	{% endif %}
 		    {% endfor %}
 		{% endif %}
-	</div>
+	</div> -->
 	{% endfor %}
 
 </div>
