@@ -67,6 +67,9 @@ collections:
   resources:
     output: true
     permalink: /resources/:path/
+  resource-type:
+    output: true
+    permalink: /resources/:path/
 
 defaults:
   -
@@ -113,6 +116,12 @@ defaults:
       type: sponsors
     values:
       layout: partner
+  -
+    scope:
+      path: ""
+      type: resource-type
+    values:
+      layout: resource-type
 
 gems:
   - jekyll-feed
