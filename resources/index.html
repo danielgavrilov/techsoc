@@ -7,8 +7,6 @@ navigation: true
 order: 4
 ---
 
-
-
 <div style="text-align: center;">
 	<div class="page-tagline">
 		<p>
@@ -32,20 +30,12 @@ order: 4
 	{% assign categories = site.resource-type %}
 	{% assign resource_list = site.data.resources.resource_list %}
 
-	{% for category in categories %}
 	<div class="responsive-boxes">
+	{% for category in categories %}
 		{% include resource-category.html category=category %}
-	</div>
-	<!-- <div class="responsive-boxes ">
-		{% if resource_list %}
-		    {% for resource in resource_list  %}
-					{{ resource_list.title }}
-		    	{% if resource.category == category.category %}
-			      {% include resource-overview.html resource=resource %}
-		    	{% endif %}
-		    {% endfor %}
-		{% endif %}
-	</div> -->
 	{% endfor %}
+	</div>
+
+
 
 </div>

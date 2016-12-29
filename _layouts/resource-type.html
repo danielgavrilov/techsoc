@@ -20,23 +20,14 @@ layout: page-with-title
 
 	{% assign resource_list = site.data.resources.resource_list %}
 
-	{% for resource in resource_list %}
 	<div class="responsive-boxes">
-    {{ resource.name}}
+	{% for resource in resource_list %}
     {% if resource.category == page.category %}
       {% include resource-overview.html resource=resource %}
     {% endif %}
-	</div>
-	<!-- <div class="responsive-boxes ">
-		{% if resource_list %}
-		    {% for resource in resource_list  %}
-					{{ resource_list.title }}
-		    	{% if resource.category == category.category %}
-			      {% include resource-overview.html resource=resource %}
-		    	{% endif %}
-		    {% endfor %}
-		{% endif %}
-	</div> -->
 	{% endfor %}
+	</div>
+
+
 
 </div>
