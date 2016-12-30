@@ -17,18 +17,11 @@ order: 4
 		If you know a really good learning resource, feel free to let us know about it!
 		</p>
 
-		<p>
-		We've colour coded the resources depending on the audience:
-		</p>
 
-		<img class="resource-level level-beginner level-key"> Beginner <tb>
-		<img class="resource-level level-medium level-key"> Medium
-		<img class="resource-level level-pro level-key"> Advanced
 
 	</div>
 
-	{% assign categories = site.resource-type %}
-	{% assign resource_list = site.data.resources.resource_list %}
+	{% assign categories = site.resource-type | sort: "order"  %}
 
 	<div class="responsive-boxes">
 	{% for category in categories %}
