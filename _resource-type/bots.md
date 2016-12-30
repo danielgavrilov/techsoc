@@ -1,5 +1,5 @@
 ---
 title: Bots & Integrations
-category: Bot
+category: bots
 
 ---
