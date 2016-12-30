@@ -1,42 +1,158 @@
-# WEB DEV
-
-- title: First API with amazon lambda
-  category: web-dev
-  resource-url: http://docs.aws.amazon.com/lambda/latest/dg/getting-started.html
-  blurb: Create your own API using amazon lambda and a popular  web language
-  suggester: Faiz
-  audience: beginner
-
-- title: Bootstrap Documentation and Getting Started
-  category: web-dev
-  resource-url: https://getbootstrap.com/getting-started/
-  blurb: Get started with Bootstrap to make great looking web apps easily
-  suggester: Chris
-  audience: beginner
-
-
-# BOTS
-
-- title: Create twitter bot in xx minutes
-  category: bots
-  resource-url: http://docs.tweepy.org/en/v3.5.0/getting_started.html#introduction
-  blurb: Create a twitter bot to do some fun stuff
-  suggester: Faiz
-  audience: beginner
-
-# API
-
-- title: Clarifai
-  category: api
-  resource-url: https://www.clarifai.com/api
-  blurb: Image recognition goodness!
-  audience: beginner
-
-
-# Compilers
-- title: Building a compiler
-  category: compilers
-  resource-url: https://www.amazon.com/dp/0321486811
-  blurb: The “Dragon Book” is the quintessential reference for constructing a compiler
-  suggester: Elvin
-  audience: pro
+# # WEB DEV -
+#
+# - title: First API with amazon lambda
+#   category: web-dev
+#   resource-url: http://docs.aws.amazon.com/lambda/latest/dg/getting-started.html
+#   blurb: Create your own API using amazon lambda and a popular  web language
+#   suggester: Faiz
+#   audience: beginner
+#
+# - title: Bootstrap Documentation and Getting Started
+#   category: web-dev
+#   resource-url: https://getbootstrap.com/getting-started/
+#   blurb: Get started with Bootstrap to make great looking web apps easily
+#   suggester: Chris
+#   audience: beginner
+#
+#
+# # BOTS
+#
+# - title: Create twitter bot in xx minutes
+#   category: bots
+#   resource-url: http://docs.tweepy.org/en/v3.5.0/getting_started.html#introduction
+#   blurb: Create a twitter bot to do some fun stuff
+#   suggester: Faiz
+#   audience: beginner
+#
+# # API
+#
+# - title: Clarifai
+#   category: api
+#   resource-url: https://www.clarifai.com/api
+#   blurb: Image recognition goodness!
+#   audience: beginner
+#
+#
+# # Compilers
+# - title: Building a compiler
+#   category: compilers
+#   resource-url: https://www.amazon.com/dp/0321486811
+#   blurb: The “Dragon Book” is the quintessential reference for constructing a compiler
+#   suggester: Elvin
+#   audience: pro
+#
+#
+# - title: Code the next real dev language
+#   category: compilers
+#   resource-url: https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours
+#   blurb: Why using a programming language when you can make your own?
+#   suggester: Marco
+#   audience: medium
+#
+# # OS
+#
+# - title: Intro to the Command Line
+#   category: os
+#   resource-url: http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything
+#   blurb: The Command Line tool is super useful! A must learn!
+#   suggester: Vicky
+#   audience: beginner
+#
+# - title: Networking with Contiki
+#   category: os
+#   resource-url: http://www.contiki-os.org/start.html
+#   blurb: An open source OS for the Internet of Things
+#   suggester: Vicky
+#   audience: medium
+#
+# - title: Django Girls
+#   category: web-dev
+#   resource-url: https://tutorial.djangogirls.org/en/
+#   blurb: Learn to make a website using django framework.
+#   suggester: Reemma
+#   audience: beginner
+#
+# - title: Docker & containers
+# category: virtualization
+# resource-url: https://www.pluralsight.com/courses/docker-containers-big-picture
+# blurb: Learn about what’s often called a lightweight VM and how you can use it
+# suggester: Kathy
+# audience: beginner
+#
+# - title: Basics of Flask
+# category: web-dev
+# resource-url: http://flask.pocoo.org/docs/0.11/tutorial/
+# blurb: Really, really easy to use web framework!
+# suggester: Vicky
+# audience: beginner
+#
+# title: Build full-stack web applications
+# category: web-dev
+# resource-url: http://upskillcourses.com/p/essential-web-developer-course
+# blurb: Learn how to create your own web apps using html, css, javascript and ruby on rails
+# suggester: Stanley
+# audience: beginner
+#
+# title: 3D Game Dev
+# category: game-dev
+# resource-url: https://unity3d.com/learn/tutorials/projects/roll-ball-tutorial
+# blurb: Start your adventure in the land of game development
+# suggester: Marco
+# audience: beginner
+#
+# title: Control that version
+# category: git
+# resource-url: https://try.github.io/
+# blurb: learn basic git in 15 minutes
+# suggester: Emily
+# audience: beginner
+#
+# title: Hosting websites on GitHub
+# category: web-dev
+# resource-url: https://pages.github.com/
+# blurb: You can host your static websites for free on GitHub Pages!
+# suggester: Vicky
+# audience: beginner
+#
+# title: Blow your mind with Haskell
+# category: language
+# resource-url: http://learnyouahaskell.com/
+# blurb: Learn something different today, learn Haskell
+# suggester: Marco
+# audience: beginner
+#
+# title: Hour of Code
+# category: language
+# resource-url: https://uk.code.org/learn
+# blurb: Made for kids in mind, great intro to programming concepts
+# suggester: Vicky
+# audience: beginner
+#
+#
+# title: Start Developing iOS Apps (Swift)
+# category: mobile-dev
+# resource-url: https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/
+# blurb: The perfect starting point for creating apps that run on iPhone and iPad learning the tools, major concepts, and best practices that will ease your path.
+# suggester: Matt
+# audience: Beginner
+#
+#
+# title: Monzo
+# category: api
+# resource-url: https://monzo.com/docs/
+# blurb: A bank with an open API!
+# audience: beginner
+#
+# title: Mozilla Developer Network (MDN)
+# category: web-dev
+# resource-url: https://developer.mozilla.org/en-US/
+# blurb: Fantastic reference for web technologies HTML5/CSS, client-side scripting & graphics
+# suggester: Elvin
+# audience: medium
+#
+# title: Python Cheatsheet
+# category: language
+# resource-url: https://www.pythonsheets.com/
+# blurb: Act like you know python by looking this up.
+# suggester: Faiz
+# audience: beginner

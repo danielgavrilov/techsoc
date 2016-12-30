@@ -4,8 +4,9 @@
 
 - name: Web development
   category: web-dev
+  caption: Whether you're learning how to build your own website or learn about a new webframework, there's something for everyone!
 
-- name: Programming Languages 
+- name: Programming Languages
   category: language
 
 - name: Git
@@ -20,18 +21,17 @@
 - name: Bots & Integrations
   category: bots
 
-- name: Text Editors 
+- name: Text Editors
   category: text-editor
 
 - name: Machine Learning
   category: ml
 
-- name: Operating Systems 
+- name: Operating Systems
   category: os
 
-- name: Virtualisation 
+- name: Virtualisation
   category: virtualization
 
-- name: Compilers 
+- name: Compilers
   category: compilers
-

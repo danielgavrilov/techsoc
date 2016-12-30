@@ -18,7 +18,7 @@ layout: page-with-title
 
 	</div>
 
-	{% assign resource_list = site.data.resources.resource_list %}
+	{% assign resource_list = site.resources %}
 
 	<div class="responsive-boxes">
 	{% for resource in resource_list %}
@@ -27,7 +27,6 @@ layout: page-with-title
     {% endif %}
 	{% endfor %}
 	</div>
-
 
 
 </div>
