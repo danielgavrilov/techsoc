@@ -1,0 +1,30 @@
+---
+layout: page-with-title
+---
+
+<div style="text-align: center;">
+	<div class="page-tagline">
+		<p>
+		{{page.caption}}
+		</p>
+
+    <p>
+    We've colour coded the resources depending on the audience:
+    </p>
+
+		<img class="resource-level level-beginner level-key"> Beginner <tb>
+		<img class="resource-level level-medium level-key"> Medium
+		<img class="resource-level level-pro level-key"> Advanced
+
+	</div>
+
+	{% assign resource_list = site.resources %}
+
+	<div class="responsive-boxes">
+	{% for resource in resource_list %}
+    {% if resource.category == page.category %}
+      {% include resource-overview.html resource=resource %}
+    {% endif %}
+	{% endfor %}
+	</div>
+</div>
