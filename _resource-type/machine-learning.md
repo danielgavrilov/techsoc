@@ -1,5 +1,5 @@
 ---
 title: Machine Learning
-category: os
-
+category: ml
+caption: As we amass more data, we need a way to help us gather more insight into these datasets. Machine Learning lets us infer and predict. 
 ---
