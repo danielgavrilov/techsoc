@@ -215,7 +215,7 @@
 - name: Fraser Savage
   role: Gamejam Organiser
   img-link: '../assets/images/people/fraser.jpg'
-  team: true
+  team: false
   dept: hackathons
   profiles:
     github: https://github.com/savage-engineer
