@@ -2,8 +2,8 @@
 facebook_id: '1615486518782160'
 title: Porticode
 series_id: hackathons
-start_time: '2016-12-10 08:00'
-end_time: '2016-12-11 11:00'
+start_time: '2016-12-10 09:00'
+end_time: '2016-12-11 15:00'
 location: University College London
 actions:
   - label: Tickets
