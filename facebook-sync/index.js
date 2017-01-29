@@ -14,7 +14,7 @@ var categorise = require("./categorise");
 
 // Facebook API
 
-var ACCESS_TOKEN = "EAAK3kpvZBViIBAKZBRnqwBEkoN07Oi6sUJ0ZBXAQZCYHP9ZATFgvZBHgNzu3EEaG3ZA65GZC0UuYYEuvZAcajsZCZA80zT3xOku30T6f7PltjNtBnry2VEZAA9WVCFV9XMcaletjXTVn6h718XQb2QVSydwTe9VvcZBJvmn4ZD";
+var ACCESS_TOKEN = "EAAK3kpvZBViIBALfU2MNTMtWbFVXRVJASHVtITVYlwyufGuXKiZCBPpZBujUL3gKz5ZCQoovHjZB54jAvmnyjgVGRK6EsM5IF6iu8gzB0sn6YHBTGZAnK0oIJOzomF1CGdWUX9fa31SGAZAU3vSaTm6rOSi1cJdYe0ZD";
 
 function getFacebookEvents() {
   return rp({
@@ -34,6 +34,13 @@ function getFacebookEvents() {
     json: true
   }).then(function(response) {
     return response.data.map(parseFacebookEvent);
+  }).catch(function(error) {
+    if (error && error.statusCode == 400) {
+      console.error("\nERROR: Fetching Facebook events failed because the access token is probably out of date.\n\nThe access token has to be renewed every 60 days, because Facebook does not allow for longer-lasting access tokens.\n\nThe process of renewing sucks and is described here: https://stackoverflow.com/questions/10467272/get-long-live-access-token-from-facebook");
+      process.exit();
+    } else {
+      throw error;
+    }
   });
 }
 
