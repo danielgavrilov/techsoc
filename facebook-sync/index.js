@@ -34,6 +34,13 @@ function getFacebookEvents() {
     json: true
   }).then(function(response) {
     return response.data.map(parseFacebookEvent);
+  }).catch(function(error) {
+    if (error && error.statusCode == 400) {
+      console.error("\nERROR: Fetching Facebook events failed because the access token is probably out of date.\n\nThe access token has to be renewed every 60 days, because Facebook does not allow for longer-lasting access tokens.\n\nThe process of renewing sucks and is described here: https://stackoverflow.com/questions/10467272/get-long-live-access-token-from-facebook");
+      process.exit();
+    } else {
+      throw error;
+    }
   });
 }
 
