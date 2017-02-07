@@ -3,7 +3,7 @@ facebook_id: '211716812566201'
 title: TechSoc and Chill
 start_time: '2017-02-02 18:00'
 end_time: '2017-02-02 21:00'
-location: Malet Place Engineering Building 1.02
+location: Chadwick Building 2.23 Public Cluster
 series_id: socials
 ---
 
