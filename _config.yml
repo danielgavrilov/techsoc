@@ -3,7 +3,7 @@
 title: UCLU TechSoc
 email: contact@techsoc.io
 description: UCL Technology Society
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/techsoc" # the subpath of your site, e.g. /blog/
 url: "http://techsoc.io" # the base hostname & protocol for your site
 timezone: "Europe/London"
 
